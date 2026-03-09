@@ -14,15 +14,24 @@ $LogDir = "C:\Users\Administrator\logs\openclaw-backup"
 $GitRepoUrl = "git@github.com:boringim/penclaw-backup-clean.git"
 $GitBranch = "master"
 
-# Create log dir
-New-Item -ItemType Directory -Force -Path $LogDir | Out-Null
+# Create log dir (best effort)
+try {
+    New-Item -ItemType Directory -Force -Path $LogDir -ErrorAction Stop | Out-Null
+} catch {
+    # If cannot create, fallback to workspace
+    $LogDir = $OpenclawWorkspace
+}
 $LogFile = Join-Path $LogDir "git.log"
 
 function Log($msg) {
     $ts = Get-Date -Format "yyyy-MM-ddTHH:mm:ss"
     $line = "[$ts] $msg"
     Write-Host $line
-    Add-Content -Path $LogFile -Value $line -Encoding UTF8
+    try {
+        Add-Content -Path $LogFile -Value $line -Encoding UTF8 -ErrorAction Stop
+    } catch {
+        # If logging fails, still continue (don't let logging failures stop backup)
+    }
 }
 
 Log "=== Git backup start ==="
