@@ -1,90 +1,122 @@
-# =============================================================================
-# Backup Health Check & Report
-# =chedules: Daily 08:00, 12:00, 20:00
-# =============================================================================
+# Backup Health Check
+# Runs: 08:00, 12:00, 20:00 daily
 
 $ErrorActionPreference = "Stop"
 
-# Paths
 $LogDir = "C:\Users\Administrator\logs\openclaw-backup"
 $GitLog = Join-Path $LogDir "git.log"
 $RoboLog = Join-Path $LogDir "robocopy.log"
 $SnapshotDir = "C:\Users\Administrator\backups\openclaw\snapshots"
+$HealthLog = Join-Path $LogDir "backup-health.log"
 
-function Get-LastRun {
-    param([string]$LogFile, [string]$Pattern)
-    if (Test-Path $LogFile) {
-        $lines = Get-Content $LogFile | Where-Object { $_ -match $Pattern }
-        if ($lines) { return $lines[-1] }
+function Get-LastLine($LogFile, $Pattern) {
+    if (-not (Test-Path $LogFile)) { return $null }
+    $lines = Get-Content $LogFile
+    for ($i = $lines.Count - 1; $i -ge 0; $i--) {
+        if ($lines[$i] -match $Pattern) { return $lines[$i] }
     }
     return $null
 }
 
-function Get-LatestSnapshot {
-    if (Test-Path $SnapshotDir) {
-        $snap = Get-ChildItem $SnapshotDir -Filter "openclaw-*.zip" | Sort-Object LastWriteTime -Descending | Select-Object -First 1
-        if ($snap) {
-            return "$($snap.Name) ($([math]::Round($snap.Length/1MB,1)) MB at $($snap.LastWriteTime))"
+function Get-CompletedRuns($LogFile, $StartPattern, $EndPattern) {
+    if (-not (Test-Path $LogFile)) { return 0 }
+    $lines = Get-Content $LogFile
+    $count = 0
+    $inRun = $false
+    foreach ($line in $lines) {
+        if ($line -match $StartPattern) { $inRun = $true }
+        if ($inRun -and $line -match $EndPattern) { $count++; $inRun = $false }
+    }
+    return $count
+}
+
+function Parse-Time($Line) {
+    if ($Line -notmatch '\[(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})\]') { return $null }
+    $ts = $matches[1]
+    return [DateTime]::ParseExact($ts, "yyyy-MM-ddTHH:mm:ss", [System.Globalization.CultureInfo]::InvariantCulture)
+}
+
+# Git backup check
+$gitLastStart = Get-LastLine $GitLog "=== Git backup start ==="
+$gitLastEnd = Get-LastLine $GitLog "=== Git backup end ==="
+$gitRuns = Get-CompletedRuns $GitLog "=== Git backup start ===" "=== Git backup end ==="
+
+$gitStatus = "❓ Unknown"
+if ($gitLastEnd -and $gitLastStart) {
+    $startTime = Parse-Time $gitLastStart
+    $endTime = Parse-Time $gitLastEnd
+    if ($endTime -gt $startTime) {
+        $gitStatus = "✅ Git backup completed at $($endTime.ToString('HH:mm'))"
+    }
+} elseif ($gitLastStart) {
+    $startTime = Parse-Time $gitLastStart
+    $age = (Get-Date) - $startTime
+    if ($age.TotalMinutes -lt 15) {
+        $gitStatus = "⏳ Git backup running"
+    } else {
+        $gitStatus = "❌ Git backup stalled (started $($startTime.ToString('HH:mm')))"
+    }
+} else {
+    $gitStatus = "❓ No Git backup activity"
+}
+
+# Tier 2 check
+$tier2LastStart = Get-LastLine $RoboLog "=== Robocopy backup start ==="
+$tier2LastEnd = Get-LastLine $RoboLog "=== Robocopy backup end ==="
+$tier2Runs = Get-CompletedRuns $RoboLog "=== Robocopy backup start ===" "=== Robocopy backup end ==="
+
+$tier2Status = "❓ Unknown"
+$snapshotInfo = "None"
+if (Test-Path $SnapshotDir) {
+    $latest = Get-ChildItem $SnapshotDir -Filter "openclaw-*.zip" | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+    if ($latest) {
+        $snapshotInfo = "$($latest.Name) ($([math]::Round($latest.Length/1MB,1)) MB)"
+    }
+}
+
+if ($tier2LastEnd -and $tier2LastStart) {
+    $startTime = Parse-Time $tier2LastStart
+    $endTime = Parse-Time $tier2LastEnd
+    if ($endTime -gt $startTime) {
+        $wsOk = (Get-LastLine $RoboLog "SUCCESS: Workspace backed up") -like "*SUCCESS*"
+        $snapOk = (Get-LastLine $RoboLog "SUCCESS: Snapshot created") -like "*SUCCESS*"
+        if ($wsOk -and $snapOk) {
+            $tier2Status = "✅ Tier 2 OK at $($endTime.ToString('HH:mm')) | Snapshot: $snapshotInfo"
+        } else {
+            $tier2Status = "⚠️ Tier 2 completed with issues"
         }
     }
-    return "None found"
-}
-
-function Check-GitBackup {
-    $lastSuccess = Get-LastRun -LogFile $GitLog -Pattern "SUCCESS: Pushed commit"
-    $lastError = Get-LastRun -LogFile $GitLog -Pattern "ERROR:|WARNING:"
-    $lastRun = Get-LastRun -LogFile $GitLog -Pattern "=== Git backup start ==="
-
-    if ($lastSuccess -and ($lastSuccess -gt (Get-Date).AddHours(-2))) {
-        return "✅ Git backup OK. Latest: $($lastSuccess.Substring(0,19))"
-    } elseif ($lastError) {
-        return "❌ Git backup error: $lastError"
-    } elseif ($lastRun) {
-        return "⚠️ Git backup running or stale (last: $($lastRun.Substring(0,19)))"
+} elseif ($tier2LastStart) {
+    $startTime = Parse-Time $tier2LastStart
+    $age = (Get-Date) - $startTime
+    if ($age.TotalMinutes -lt 20) {
+        $tier2Status = "⏳ Tier 2 possibly running"
     } else {
-        return "❓ No Git backup activity detected"
+        $tier2Status = "❌ Tier 2 stalled (started $($startTime.ToString('HH:mm')))"
     }
+} else {
+    $tier2Status = "❓ No Tier 2 activity"
 }
 
-function Check-Tier2Backup {
-    $lastSuccess = Get-LastRun -LogFile $RoboLog -Pattern "SUCCESS: Workspace backed up"
-    $lastError = Get-LastRun -LogFile $RoboLog -Pattern "ERROR:|Failed"
-    $lastRun = Get-LastRun -LogFile $RoboLog -Pattern "=== Robocopy backup start ==="
-    $snapshot = Get-LatestSnapshot
-
-    if ($lastSuccess -and ($lastSuccess -gt (Get-Date).AddHours(-4))) {
-        return "✅ Tier 2 OK. Latest: $($lastSuccess.Substring(0,19)) | Snapshot: $snapshot"
-    } elseif ($lastError) {
-        return "❌ Tier 2 error: $lastError"
-    } elseif ($lastRun) {
-        return "⚠️ Tier 2 running or stale (last: $($lastRun.Substring(0,19)))"
-    } else {
-        return "❓ No Tier 2 activity detected"
-    }
-}
-
-# Generate report
+# Build report
 $time = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 $report = @"
 === Backup Health Check ===
 Time: $time
 
-$(Check-GitBackup)
+$gitStatus
 
-$(Check-Tier2Backup)
+$tier2Status
 
 "@
 
-# Write to console and log
-$LogFile = Join-Path $LogDir "backup-health.log"
-Add-Content -Path $LogFile -Value $report -Encoding UTF8
+# Log
+Add-Content -Path $HealthLog -Value $report -Encoding UTF8
 Write-Host $report
 
-# Send to OpenClaw main session (if available)
+# Try to send to main session (non-fatal)
 try {
-    $sessions = sessions_send -message $report -label "backup-monitor" -timeoutSeconds 5 2>$null
-} catch {
-    # No active session or messaging not available - just log
-}
+    $null = sessions_send -message $report -label "backup-monitor" -timeoutSeconds 3 -ErrorAction SilentlyContinue
+} catch { }
 
 exit 0
