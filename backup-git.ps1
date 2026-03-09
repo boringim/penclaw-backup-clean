@@ -113,7 +113,8 @@ if ($status) {
     Log "Committing changes..."
     git commit -m "$commitMsg" | Out-Null
     Log "Pushing to origin..."
-    git push origin "$GitBranch" 2>&1 | ForEach-Object { Log "[PUSH] $_" }
+    $pushOutput = git push origin "$GitBranch" 2>&1
+    foreach ($line in $pushOutput) { Log "[PUSH] $line" }
     if ($LASTEXITCODE -eq 0) {
         Log "SUCCESS: Pushed commit"
     } else {
