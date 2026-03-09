@@ -78,10 +78,12 @@ if ($LASTEXITCODE -ge 8) {
 $SnapshotDir = Join-Path $BackupDir "snapshots"
 New-Item -ItemType Directory -Force -Path $SnapshotDir | Out-Null
 $timestamp = Get-Date -Format "yyyy-MM-dd_HHmmss"
-$SnapshotFile = Join-Path $SnapshotDir "openclaw-$timestamp.zip"
+$SnapshotFile = Join-Path $SnapshotDir "openclaw-$timestamp.tar"
 Log "Creating snapshot..."
 try {
-    Compress-Archive -Path $Dest1, $Dest2 -DestinationPath $SnapshotFile -Force -ErrorAction Stop
+    # Use tar to avoid file lock issues with Compress-Archive
+    tar -cf "`"$SnapshotFile`"" -C $BackupDir openclaw-home workspace 2>$null
+    if ($LASTEXITCODE -ne 0) { throw "tar exited with code $LASTEXITCODE" }
     $size = [math]::Round((Get-Item $SnapshotFile).Length / 1MB, 1)
     Log "SUCCESS: Snapshot created ($size MB)"
 } catch {
@@ -89,7 +91,7 @@ try {
 }
 
 # Prune old snapshots (keep 7)
-$snaps = Get-ChildItem $SnapshotDir -Filter "openclaw-*.zip" | Sort-Object Name -Descending
+$snaps = Get-ChildItem $SnapshotDir -Filter "openclaw-*.tar" | Sort-Object Name -Descending
 if ($snaps.Count -gt 7) {
     $toRemove = $snaps | Select-Object -Skip 7
     foreach ($snap in $toRemove) {
