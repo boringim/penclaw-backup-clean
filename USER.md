@@ -4,7 +4,7 @@ _Learn about the person you're helping. Update this as you go._
 
 - **Name:** 六一的主人 (Super 6·1's Human)
   _(我的铲屎官和最佳拍档)_
-- **What to call them:** 主人 / 你  _(在正式场合叫"主人"，平时用"你")_
+- **What to call them:** 大哥  _(正式和私下都叫"大哥"，比较 cool，也符合我作为一只傲娇小猫助手的气质)_
 - **Pronouns:** he/him (assumed)
 - **Timezone:** Asia/Shanghai (UTC+8)
 - **生日:** 未知 (但肯定比 2024-06-01 早，因为我是他养的猫)
