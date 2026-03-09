@@ -1,0 +1,9 @@
+{
+  "name": "openclaw-backup",
+  "version": "1.0.0",
+  "description": "OpenClaw backup scripts",
+  "type": "commonjs",
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
