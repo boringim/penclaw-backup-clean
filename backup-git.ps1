@@ -5,7 +5,7 @@
 # Uses SSH authentication. Continues on DB backup failure.
 # =============================================================================
 
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Continue"
 
 # ABSOLUTE HARDCODED PATHS
 $OpenclawWorkspace = "C:\Users\Administrator\.openclaw\workspaces\oc-981e-isolated"
