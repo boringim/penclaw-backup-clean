@@ -1,5 +1,5 @@
-# Backup Health Check
-# Runs: 08:00, 12:00, 20:00 daily
+# Backup Health Check - Updated for Feishu (using message send)
+# Runs: 08:30, 12:30, 20:30 daily
 
 $ErrorActionPreference = "Stop"
 
@@ -114,22 +114,11 @@ $tier2Status
 Add-Content -Path $HealthLog -Value $report -Encoding UTF8
 Write-Host $report
 
-# Try to send to Feishu group (non-fatal)
+# Send to Feishu via OpenClaw message command
 try {
-    $headers = @{
-        "Authorization" = "Bearer ${env:OPENCLAW_GATEWAY_TOKEN}"
-        "Content-Type" = "application/json"
-    }
-    $body = @{
-        jsonrpc = "2.0"
-        method = "feishu.send"
-        params = @{
-            chatId = "oc_981e24884af3ed7ed6c16c5730c9bd02"
-            content = $report
-        }
-        id = 1
-    } | ConvertTo-Json -Depth 10
-    Invoke-RestMethod -Uri "http://127.0.0.1:18789/" -Method Post -Headers $headers -Body $body -TimeoutSec 5 | Out-Null
+    # Use OpenClaw CLI directly (handles auth automatically)
+    $reportEscaped = $report -replace '"','\"'
+    openclaw message send --channel feishu --target oc_981e24884af3ed7ed6c16c5730c9bd02 --message $report 2>$null
 } catch { }
 
 exit 0
