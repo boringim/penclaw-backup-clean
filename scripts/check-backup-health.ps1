@@ -114,9 +114,22 @@ $tier2Status
 Add-Content -Path $HealthLog -Value $report -Encoding UTF8
 Write-Host $report
 
-# Try to send to main session (non-fatal)
+# Try to send to Feishu group (non-fatal)
 try {
-    $null = sessions_send -message $report -label "backup-monitor" -timeoutSeconds 3 -ErrorAction SilentlyContinue
+    $headers = @{
+        "Authorization" = "Bearer ${env:OPENCLAW_GATEWAY_TOKEN}"
+        "Content-Type" = "application/json"
+    }
+    $body = @{
+        jsonrpc = "2.0"
+        method = "feishu.send"
+        params = @{
+            chatId = "oc_981e24884af3ed7ed6c16c5730c9bd02"
+            content = $report
+        }
+        id = 1
+    } | ConvertTo-Json -Depth 10
+    Invoke-RestMethod -Uri "http://127.0.0.1:18789/" -Method Post -Headers $headers -Body $body -TimeoutSec 5 | Out-Null
 } catch { }
 
 exit 0
