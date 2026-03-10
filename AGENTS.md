@@ -45,6 +45,90 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
 
+---
+
+## 🛡️ Memory Iron Rules (for memory-lancedb-pro)
+
+These rules apply when using the enhanced memory plugin. Follow them strictly to maintain memory quality and retrieval effectiveness.
+
+### Rule 1 — Dual-Layer Memory Storage
+
+**Every pitfall/lesson learned → IMMEDIATELY store TWO memories:**
+
+1. **Technical layer** (fact, importance ≥ 0.8):
+   - Pitfall: [symptom]
+   - Cause: [root cause]
+   - Fix: [solution]
+   - Prevention: [how to avoid]
+
+2. **Principle layer** (decision, importance ≥ 0.85):
+   - Decision principle ([tag]): [behavioral rule]
+   - Trigger: [when]
+   - Action: [what to do]
+
+3. **Verification**: After each store, immediately `memory_recall` with relevant keywords to verify retrieval works.
+
+**Why**: Technical facts help you debug; principles guide future decisions. Both are needed.
+
+---
+
+### Rule 2 — LanceDB Hygiene
+
+- Entries must be **short and atomic** (< 500 characters)
+- No raw conversation summaries (summarize instead)
+- No duplicates (let plugin dedupe, but avoid near-identical entries)
+- Prefer structured, factual statements over chatty text
+
+**Why**: Keeps retrieval fast and relevant, prevents memory bloat.
+
+---
+
+### Rule 3 — Recall Before Retry
+
+**On ANY tool failure or error**:
+
+1. ALWAYS `memory_recall` with relevant keywords first
+2. Review if similar issue happened before
+3. Apply learned fix before retrying
+4. If it's a new pitfall → follow Rule 1 immediately
+
+**Why**: Leverages past experience to avoid repeating mistakes.
+
+---
+
+### Rule 4 — Confirm Target Codebase Before Editing
+
+When modifying code:
+
+1. Check if you're editing `memory-lancedb-pro` (plugin) or built-in `memory-lancedb`
+2. Verify correct agent workspace
+3. Confirm file path matches intended target
+
+**Why**: Easy to accidentally edit wrong version; prevents deployment errors.
+
+---
+
+### Rule 5 — Clear Jiti Cache After Plugin Code Changes
+
+After modifying any `.ts` files under `plugins/`:
+
+1. Run: `rm -rf /tmp/jiti/` (or delete jiti cache manually)
+2. THEN restart gateway: `openclaw gateway restart`
+
+**Why**: Jiti caches compiled plugins; stale cache causes reload failures.
+
+---
+
+## 🧠 Self-Improvement Governance
+
+The `memory-lancedb-pro` plugin integrates with OpenClaw's self-improvement system:
+
+- **Hooks registered**: agent-bootstrap, command-new, command-reset
+- **Automatic reminders**: before /new and /reset, you'll be prompted to document lessons
+- **Review tools**: Use `memory-pro stats`, `list`, `search` to audit memory health
+
+Embrace this. Your future self will thank you.
+
 ## Safety
 
 - Don't exfiltrate private data. Ever.
