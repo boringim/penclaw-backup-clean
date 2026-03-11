@@ -2,6 +2,7 @@
  * Backup SQLite databases found in the OpenClaw directory.
  * Uses the 'sqlite3' Node.js module (no external CLI).
  * Outputs log lines prefixed with ISO timestamps.
+ * Enhanced with retry logic for busy databases.
  */
 
 const fs = require('fs');
@@ -12,6 +13,8 @@ const sqlite3 = require('sqlite3');
 const openclawDir = process.env.OPENCLAW_HOME || 'C:\\Users\\Administrator\\.openclaw';
 const backupDir = path.join(openclawDir, 'backup', 'db');
 const logPrefix = () => new Date().toISOString();
+const MAX_RETRIES = 3;
+const RETRY_DELAY_MS = 2000;
 
 // Ensure backup directory exists
 try {
@@ -30,7 +33,12 @@ function findDatabases(dir, list = []) {
         }
         const fullPath = path.join(dir, entry.name);
         if (entry.isDirectory()) {
-            findDatabases(fullPath, list);
+            try {
+                findDatabases(fullPath, list);
+            } catch (e) {
+                // Skip directories we can't read
+                console.warn(`[${logPrefix()}] SKIP DIR (unreadable): ${fullPath}`);
+            }
         } else if (/\.(sqlite|db)$/i.test(entry.name)) {
             list.push(fullPath);
         }
@@ -38,29 +46,57 @@ function findDatabases(dir, list = []) {
     return list;
 }
 
-// Backup a single database with callback
+// Backup a single database with retry logic
 function backupDatabase(dbPath, callback) {
     const dbName = path.basename(dbPath);
     const backupPath = path.join(backupDir, dbName);
 
-    try {
-        const sourceDb = new sqlite3.Database(dbPath, sqlite3.OPEN_READONLY, (err) => {
-            if (err) return callback(err);
+    let attempt = 0;
 
-            // Use .backup() to create a consistent backup
-            sourceDb.backup(backupPath, (backupErr) => {
-                sourceDb.close((closeErr) => {
-                    if (backupErr || closeErr) {
-                        callback(backupErr || closeErr);
-                    } else {
-                        callback(null, dbName, backupPath);
+    function attemptBackup() {
+        attempt++;
+        try {
+            console.log(`[${logPrefix()}] Attempting backup of ${dbName} (try ${attempt}/${MAX_RETRIES})...`);
+
+            const sourceDb = new sqlite3.Database(dbPath, sqlite3.OPEN_READONLY, (openErr) => {
+                if (openErr) {
+                    if (openErr.message && openErr.message.includes('SQLITE_BUSY') && attempt < MAX_RETRIES) {
+                        console.log(`[${logPrefix()}] Database busy, retrying in ${RETRY_DELAY_MS}ms...`);
+                        setTimeout(attemptBackup, RETRY_DELAY_MS);
+                        return;
                     }
+                    return callback(openErr);
+                }
+
+                // Use .backup() to create a consistent backup
+                sourceDb.backup(backupPath, (backupErr) => {
+                    sourceDb.close((closeErr) => {
+                        if (backupErr) {
+                            if (backupErr.message && backupErr.message.includes('SQLITE_BUSY') && attempt < MAX_RETRIES) {
+                                console.log(`[${logPrefix()}] Backup busy, retrying in ${RETRY_DELAY_MS}ms...`);
+                                setTimeout(attemptBackup, RETRY_DELAY_MS);
+                                return;
+                            }
+                            callback(backupErr);
+                        } else if (closeErr) {
+                            callback(closeErr);
+                        } else {
+                            callback(null, dbName, backupPath);
+                        }
+                    });
                 });
             });
-        });
-    } catch (err) {
-        callback(err);
+        } catch (err) {
+            if (err.message && err.message.includes('SQLITE_BUSY') && attempt < MAX_RETRIES) {
+                console.log(`[${logPrefix()}] Caught busy error, retrying in ${RETRY_DELAY_MS}ms...`);
+                setTimeout(attemptBackup, RETRY_DELAY_MS);
+                return;
+            }
+            callback(err);
+        }
     }
+
+    attemptBackup();
 }
 
 // Main execution
