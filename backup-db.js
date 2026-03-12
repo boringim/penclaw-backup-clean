@@ -1,8 +1,8 @@
 /**
  * Backup SQLite databases found in the OpenClaw directory.
- * Uses the 'sqlite3' Node.js module (no external CLI).
+ * Uses file copy as primary method (handles busy dbs gracefully).
+ * Also attempts SQLite .backup() with retry logic for completeness.
  * Outputs log lines prefixed with ISO timestamps.
- * Enhanced with retry logic for busy databases.
  */
 
 const fs = require('fs');
@@ -14,7 +14,7 @@ const openclawDir = process.env.OPENCLAW_HOME || 'C:\\Users\\Administrator\\.ope
 const backupDir = path.join(openclawDir, 'backup', 'db');
 const logPrefix = () => new Date().toISOString();
 const MAX_RETRIES = 3;
-const RETRY_DELAY_MS = 2000;
+const RETRY_DELAY_MS = 3000;
 
 // Ensure backup directory exists
 try {
@@ -46,21 +46,49 @@ function findDatabases(dir, list = []) {
     return list;
 }
 
-// Backup a single database with retry logic
-function backupDatabase(dbPath, callback) {
+// Backup a single database using file copy (handles busy files by retrying)
+function backupDatabaseCopy(dbPath, backupPath) {
     const dbName = path.basename(dbPath);
-    const backupPath = path.join(backupDir, dbName);
+    return new Promise((resolve, reject) => {
+        let attempt = 0;
 
+        function attemptCopy() {
+            attempt++;
+            try {
+                console.log(`[${logPrefix()}] Copying ${dbName} (try ${attempt}/${MAX_RETRIES})...`);
+                fs.copyFileSync(dbPath, backupPath, fs.constants.COPYFILE_FICLONE);
+                console.log(`[${logPrefix()}] SUCCESS: ${dbName} -> ${backupPath}`);
+                resolve();
+            } catch (err) {
+                if (err.code === 'EBUSY' || err.code === 'EACCES' || (err.message && err.message.includes('permission'))) {
+                    if (attempt < MAX_RETRIES) {
+                        console.log(`[${logPrefix()}] File busy/access denied, retrying in ${RETRY_DELAY_MS}ms...`);
+                        setTimeout(attemptCopy, RETRY_DELAY_MS);
+                    } else {
+                        reject(new Error(`Copy failed after ${MAX_RETRIES} attempts: ${err.message}`));
+                    }
+                } else {
+                    reject(err);
+                }
+            }
+        }
+
+        attemptCopy();
+    });
+}
+
+// Optional: SQLite backup with retry (more robust but may still fail on busy dbs)
+function backupDatabaseSQLite(dbPath, backupPath, callback) {
+    const dbName = path.basename(dbPath);
     let attempt = 0;
 
     function attemptBackup() {
         attempt++;
         try {
-            console.log(`[${logPrefix()}] Attempting backup of ${dbName} (try ${attempt}/${MAX_RETRIES})...`);
-
+            console.log(`[${logPrefix()}] SQLite backup ${dbName} (try ${attempt}/${MAX_RETRIES})...`);
             const sourceDb = new sqlite3.Database(dbPath, sqlite3.OPEN_READONLY, (openErr) => {
                 if (openErr) {
-                    if (openErr.message && openErr.message.includes('SQLITE_BUSY') && attempt < MAX_RETRIES) {
+                    if ((openErr.message && openErr.message.includes('SQLITE_BUSY')) && attempt < MAX_RETRIES) {
                         console.log(`[${logPrefix()}] Database busy, retrying in ${RETRY_DELAY_MS}ms...`);
                         setTimeout(attemptBackup, RETRY_DELAY_MS);
                         return;
@@ -68,11 +96,10 @@ function backupDatabase(dbPath, callback) {
                     return callback(openErr);
                 }
 
-                // Use .backup() to create a consistent backup
                 sourceDb.backup(backupPath, (backupErr) => {
                     sourceDb.close((closeErr) => {
                         if (backupErr) {
-                            if (backupErr.message && backupErr.message.includes('SQLITE_BUSY') && attempt < MAX_RETRIES) {
+                            if ((backupErr.message && backupErr.message.includes('SQLITE_BUSY')) && attempt < MAX_RETRIES) {
                                 console.log(`[${logPrefix()}] Backup busy, retrying in ${RETRY_DELAY_MS}ms...`);
                                 setTimeout(attemptBackup, RETRY_DELAY_MS);
                                 return;
@@ -117,15 +144,27 @@ try {
         }
         const dbPath = dbs[index++];
         const dbName = path.basename(dbPath);
-        backupDatabase(dbPath, (err, name, backupPath) => {
-            if (err) {
-                console.error(`[${logPrefix()}] FAILED: ${dbName} - ${err.message}`);
-            } else {
-                console.log(`[${logPrefix()}] SUCCESS: ${dbName} -> ${backupPath}`);
+        const backupPath = path.join(backupDir, dbName);
+
+        // Try file copy first (handles busy files better)
+        backupDatabaseCopy(dbPath, backupPath)
+            .then(() => {
                 successCount++;
-            }
-            setTimeout(next, 10); // slight delay between operations
-        });
+                setTimeout(next, 10);
+            })
+            .catch(copyErr => {
+                console.warn(`[${logPrefix()}] Copy backup failed for ${dbName}: ${copyErr.message}`);
+                // Fallback to SQLite backup API
+                backupDatabaseSQLite(dbPath, backupPath, (sqliteErr, name, path) => {
+                    if (sqliteErr) {
+                        console.error(`[${logPrefix()}] FAILED: ${dbName} - ${sqliteErr.message}`);
+                    } else {
+                        console.log(`[${logPrefix()}] SUCCESS (SQLite API): ${name} -> ${path}`);
+                        successCount++;
+                    }
+                    setTimeout(next, 10);
+                });
+            });
     }
 
     next();
