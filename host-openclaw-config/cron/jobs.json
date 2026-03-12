@@ -8,7 +8,7 @@
       "name": "Email_Cleanup_Weekly",
       "enabled": true,
       "createdAtMs": 1771345366707,
-      "updatedAtMs": 1772751646593,
+      "updatedAtMs": 1773356626759,
       "schedule": {
         "expr": "0 7 * * 5",
         "kind": "cron",
@@ -27,13 +27,12 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1773356400000,
-        "lastRunAtMs": 1772751600023,
-        "lastStatus": "error",
-        "lastDurationMs": 46570,
-        "consecutiveErrors": 3,
-        "lastRunStatus": "error",
-        "lastError": "Connection error.",
+        "nextRunAtMs": 1773961200000,
+        "lastRunAtMs": 1773356400027,
+        "lastStatus": "ok",
+        "lastDurationMs": 226732,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered"
       }
