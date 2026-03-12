@@ -89,15 +89,9 @@ $whitelist = @(
     "package.json",
     "scripts",
 
-    # OpenClaw core (subset)
-    ".openclaw/config",
-    ".openclaw/credentials",
-    ".openclaw/cron",
-    ".openclaw/identity",
-    ".openclaw/logs",
-    ".openclaw/memory",
-    ".openclaw/security_logs",
-    ".openclaw/security_reports"
+    # Host OpenClaw core config (absolute paths via symlinks or direct access)
+    # These directories are backed up via additional git operations below
+    "host-openclaw-config"  # placeholder, handled specially
 )
 
 # Clean previous index
@@ -112,6 +106,49 @@ foreach ($item in $whitelist) {
     } else {
         Log "SKIP (not found): $item"
     }
+}
+
+# Additional backup: host OpenClaw core configuration
+$HostOpenclawDir = "C:\Users\Administrator\.openclaw"
+$HostBackupDir = Join-Path $OpenclawWorkspace "host-openclaw-config"
+if (Test-Path $HostOpenclawDir) {
+    Log "Backing up host OpenClaw config to $HostBackupDir"
+    # Clean previous host backup
+    if (Test-Path $HostBackupDir) {
+        Remove-Item $HostBackupDir -Recurse -Force -ErrorAction SilentlyContinue
+    }
+    # Copy selected host config directories/files
+    $hostItems = @(
+        "config",
+        "credentials", 
+        "cron",
+        "identity",
+        "logs",
+        "memory",
+        "security_logs",
+        "security_reports"
+    )
+    foreach ($item in $hostItems) {
+        $src = Join-Path $HostOpenclawDir $item
+        $dst = Join-Path $HostBackupDir $item
+        if (Test-Path $src) {
+            try {
+                Copy-Item $src $dst -Recurse -Force -ErrorAction Stop
+                Log "Copied host: $item"
+            } catch {
+                Log "WARNING: Failed to copy host item $item : $_"
+            }
+        } else {
+            Log "SKIP host (not found): $item"
+        }
+    }
+    # Add the host backup directory
+    if (Test-Path $HostBackupDir) {
+        git add "host-openclaw-config" | Out-Null
+        Log "Added host-openclaw-config to git"
+    }
+} else {
+    Log "WARNING: Host OpenClaw directory not found: $HostOpenclawDir"
 }
 
 # Commit if there are changes

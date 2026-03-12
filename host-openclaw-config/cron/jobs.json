@@ -1,0 +1,319 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "f1c3f8b7-b309-497f-8d0c-741cebc0372a",
+      "agentId": "group-oc-981e",
+      "sessionKey": "agent:group-oc-981e:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02",
+      "name": "Email_Cleanup_Weekly",
+      "enabled": true,
+      "createdAtMs": 1771345366707,
+      "updatedAtMs": 1772751646593,
+      "schedule": {
+        "expr": "0 7 * * 5",
+        "kind": "cron",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "model": "qwen-max",
+        "message": "执行每周邮件清理任务：自动清理垃圾邮件或归档旧邮件。完成后在群组汇报。"
+      },
+      "delivery": {
+        "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "mode": "announce",
+        "channel": "feishu"
+      },
+      "state": {
+        "nextRunAtMs": 1773356400000,
+        "lastRunAtMs": 1772751600023,
+        "lastStatus": "error",
+        "lastDurationMs": 46570,
+        "consecutiveErrors": 3,
+        "lastRunStatus": "error",
+        "lastError": "Connection error.",
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered"
+      }
+    },
+    {
+      "id": "4686e9a0-56cf-4459-8bd7-356773442399",
+      "agentId": "group-oc-981e",
+      "sessionKey": "agent:group-oc-981e:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02",
+      "name": "Email_Label_Management_Weekly",
+      "enabled": true,
+      "createdAtMs": 1771345366763,
+      "updatedAtMs": 1772755246368,
+      "schedule": {
+        "expr": "0 8 * * 5",
+        "tz": "Asia/Shanghai",
+        "kind": "cron"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "model": "qwen-max",
+        "message": "执行每周邮件标签管理任务：根据邮件内容自动打标签（Label）或移动到指定文件夹。完成后在群组汇报。",
+        "kind": "agentTurn"
+      },
+      "delivery": {
+        "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "mode": "announce",
+        "channel": "feishu"
+      },
+      "state": {
+        "nextRunAtMs": 1773360000000,
+        "lastRunAtMs": 1772755200023,
+        "lastStatus": "error",
+        "lastDurationMs": 46345,
+        "consecutiveErrors": 3,
+        "lastRunStatus": "error",
+        "lastError": "Connection error.",
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered"
+      }
+    },
+    {
+      "id": "0d4541a0-2d0f-498b-945d-ae14c7071409",
+      "agentId": "group-oc-981e",
+      "sessionKey": "agent:group-oc-981e:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02",
+      "name": "Email_Summary_Daily",
+      "enabled": true,
+      "createdAtMs": 1771345366799,
+      "updatedAtMs": 1773190804011,
+      "schedule": {
+        "expr": "0 9 * * *",
+        "tz": "Asia/Shanghai",
+        "kind": "cron"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "使用 C:\\Users\\Administrator\\.openclaw\\workspaces\\independent-group-bot\\scripts\\fetch_qq_final.js 脚本读取 1123436838@qq.com 的最新 3 封邮件。注意：执行前必须运行 `$env:HTTP_PROXY=''; $env:HTTPS_PROXY=''; $env:all_proxy='';` 以绕过代理限制。拿到结果后，对邮件进行简明总结发送到群组。",
+        "model": "qwen-max"
+      },
+      "delivery": {
+        "channel": "feishu",
+        "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1773277200000,
+        "lastRunAtMs": 1773190800030,
+        "lastStatus": "error",
+        "lastDurationMs": 3981,
+        "consecutiveErrors": 7,
+        "lastRunStatus": "error",
+        "lastDeliveryStatus": "unknown",
+        "lastError": "Channel is required (no configured channels detected). Set delivery.channel explicitly or use a main session with a previous channel."
+      }
+    },
+    {
+      "id": "7ba0d0d4-9451-4427-83a9-6e2f135300f6",
+      "agentId": "group-oc-981e",
+      "sessionKey": "agent:group-oc-981e:main",
+      "name": "Daily_Self_Backup_Midnight",
+      "enabled": true,
+      "createdAtMs": 1771408491288,
+      "updatedAtMs": 1773245429905,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 0 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "请执行以下备份任务：\n1. **健康检查**：检查 OpenClaw 核心工具（如 gateway, read）是否响应正常。\n2. **执行备份**：运行 PowerShell 命令进行全量备份：\n   `$backupDir = 'C:\\Users\\Administrator\\openclaw-backups'; $timestamp = Get-Date -Format 'yyyy-MM-dd_HHmm'; $backupFile = \\\"$backupDir\\openclaw-$timestamp.tar.gz\\\"; New-Item -ItemType Directory -Force -Path $backupDir; tar -czf $backupFile --exclude='completions' --exclude='*.log' -C 'C:\\Users\\Administrator' .openclaw`\n3. **状态更新**：读取 `memory/backup-state.json`，将 `backup_count` 加 1 并保存。\n4. **清理提醒**：如果 `backup_count` 是 7 的倍数，请在汇报中特别提醒用户手动删除旧备份（注意：你无权删除备份文件）。\n5. **任务汇报**：总结备份状态、文件路径及大小。",
+        "model": "qwen-plus"
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "feishu",
+        "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02"
+      },
+      "state": {
+        "nextRunAtMs": 1773331200000,
+        "lastRunAtMs": 1773245419271,
+        "lastStatus": "error",
+        "lastDurationMs": 10634,
+        "consecutiveErrors": 6,
+        "lastRunStatus": "error",
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "lastDeliveryError": "400 openrouter/qwen-plus is not a valid model ID",
+        "lastError": "400 openrouter/qwen-plus is not a valid model ID"
+      }
+    },
+    {
+      "id": "463668e5-54b7-407b-8f00-1b2bb24e7380",
+      "agentId": "group-oc-981e",
+      "sessionKey": "agent:group-oc-981e:main",
+      "name": "Weekly_Memory_Review",
+      "enabled": true,
+      "createdAtMs": 1771478717933,
+      "updatedAtMs": 1772931608818,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 0",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "请执行每周记忆回顾任务：\n\n1. **读取过去 7 天的记忆文件**：遍历 `memory/YYYY-MM-DD.md` 文件（最近 7 天）\n\n2. **提炼关键内容**：\n   - 用户偏好和习惯变化\n   - 重要决定和结论\n   - 新的技术发现/问题\n   - 未完成待办事项\n   - 值得长期记录的模式\n\n3. **更新 MEMORY.md**：\n   - 添加新的洞察到相应章节\n   - 更新进行中项目状态\n   - 标记已完成的任务\n   - 更新最后更新时间\n\n4. **生成周报**：输出本周记忆提炼摘要，包括：\n   - 本周关键洞察\n   - 新增/更新的长期记忆\n   - 需要关注的事项\n\n注意：保持 MEMORY.md 简洁，只记录值得永久保存的内容。",
+        "model": "siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "timeoutSeconds": 300
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "feishu"
+      },
+      "state": {
+        "nextRunAtMs": 1773536400000,
+        "lastRunAtMs": 1772931602300,
+        "lastStatus": "ok",
+        "lastDurationMs": 6518,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered"
+      }
+    },
+    {
+      "id": "c4cc1ad6-25a8-4c64-9c0a-9a0041f49301",
+      "agentId": "group-oc-981e",
+      "sessionKey": "agent:group-oc-981e:main",
+      "name": "Daily_Memory_Create",
+      "enabled": true,
+      "createdAtMs": 1771478726019,
+      "updatedAtMs": 1773273611928,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "请执行每日记忆创建任务：\n\n1. **检查今日记忆文件**：检查 `memory/YYYY-MM-DD.md` 是否存在\n\n2. **如不存在则创建**：使用标准模板创建今日记忆文件，包含：\n   - 日期信息（年月日、星期）\n   - 对话摘要章节\n   - 技术问题章节\n   - 今日待办章节\n   - 洞察与发现章节\n\n3. **回顾昨日记忆**：\n   - 读取昨天的记忆文件\n   - 检查是否有未完成待办\n   - 如有，提醒用户\n\n4. **汇报状态**：输出今日记忆文件创建状态和昨日待办提醒（如有）\n\n注意：如果今日记忆文件已存在，只需检查并汇报即可。",
+        "model": "siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "feishu"
+      },
+      "state": {
+        "nextRunAtMs": 1773360000000,
+        "lastRunAtMs": 1773273600019,
+        "lastStatus": "ok",
+        "lastDurationMs": 11909,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered"
+      }
+    },
+    {
+      "id": "994029b0-9ab5-4147-9a23-47c31d1db98d",
+      "agentId": "group-oc-981e",
+      "sessionKey": "agent:group-oc-981e:main",
+      "name": "qmb_integration_research",
+      "enabled": true,
+      "createdAtMs": 1772049923757,
+      "updatedAtMs": 1773196667676,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * 1,3,5",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "## QMB 集成调研任务\n\n### 目标\n调研 `qmb` 本地语义搜索引擎的可行性，评估其安装、配置与与 OpenClaw 的集成方案。\n\n### 任务列表\n1. 详细调研 `qmb` 项目 (GitHub: https://github.com/qmb-search/qmb)。\n2. 检查 `qmb` 是否支持 Windows 环境且有 .exe 或可执行二进制文件。\n3. 评估 `qmb` 与 OpenClaw 的数据交互方式（API、文件、gRPC）。\n4. 生成一份集成方案草案，包含：\n   - 安装与运行指令\n   - 打印 `qmb` 的 Usage/Help 信息\n   - 建议的 OpenClaw MCP 配置\n   - 可能的陷阱与依赖问题\n5. 将方案草案写入 `workflows/qmb-integration-scheme.md`。\n\n### 模式\n- **模型**: qwen-portal/coder-model\n- **执行时长**: 600 秒\n- **思辨模式**: off",
+        "model": "siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "thinking": "off",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu"
+      },
+      "state": {
+        "nextRunAtMs": 1773367200000,
+        "lastRunAtMs": 1773196646029,
+        "lastStatus": "ok",
+        "lastDurationMs": 21647,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered"
+      }
+    },
+    {
+      "id": "gateway-autoheal-monitor",
+      "agentId": "group-oc-981e",
+      "name": "Gateway Auto-Heal Monitor",
+      "enabled": false,
+      "createdAtMs": 1772755200000,
+      "updatedAtMs": 1772756404953,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/5 * * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "model": "siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "message": "执行Gateway自动健康检查：\n\n1. 检查Gateway状态：`openclaw gateway status`\n2. 如果Gateway不健康，运行：`openclaw doctor --fix --non-interactive`\n3. 重启Gateway：`openclaw gateway restart`\n4. 验证恢复：等待5秒后再次检查状态\n\n使用PowerShell执行，捕获输出，报告结果。如果修复成功输出✅，失败输出❌。"
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "feishu"
+      },
+      "state": {
+        "lastRunAtMs": 1772756400016,
+        "lastStatus": "ok",
+        "lastDurationMs": 4937,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered"
+      }
+    },
+    {
+      "id": "b17b55fe-b532-4aa0-b389-1894ee05a908",
+      "name": "Security_Audit_Monthly",
+      "enabled": true,
+      "createdAtMs": 1773199983907,
+      "updatedAtMs": 1773199983907,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 2 */15 * *"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run security audit"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1773597600000
+      }
+    }
+  ]
+}
