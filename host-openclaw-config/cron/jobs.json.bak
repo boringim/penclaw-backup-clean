@@ -108,7 +108,7 @@
         "consecutiveErrors": 7,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "unknown",
-        "lastError": "Channel is required (no configured channels detected). Set delivery.channel explicitly or use a main session with a previous channel."
+        "runningAtMs": 1773277200043
       }
     },
     {
@@ -192,7 +192,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1773187219791,
+      "updatedAtMs": 1773273611928,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -211,15 +211,14 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1773273600000,
-        "lastRunAtMs": 1773187200024,
+        "nextRunAtMs": 1773360000000,
+        "lastRunAtMs": 1773273600019,
         "lastStatus": "ok",
-        "lastDurationMs": 19767,
+        "lastDurationMs": 11909,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "runningAtMs": 1773273600013
+        "lastDeliveryStatus": "not-delivered"
       }
     },
     {
