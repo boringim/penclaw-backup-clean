@@ -82,7 +82,7 @@
       "name": "Email_Summary_Daily",
       "enabled": true,
       "createdAtMs": 1771345366799,
-      "updatedAtMs": 1773190804011,
+      "updatedAtMs": 1773277210494,
       "schedule": {
         "expr": "0 9 * * *",
         "tz": "Asia/Shanghai",
@@ -101,14 +101,15 @@
         "mode": "announce"
       },
       "state": {
-        "nextRunAtMs": 1773277200000,
-        "lastRunAtMs": 1773190800030,
+        "nextRunAtMs": 1773363600000,
+        "lastRunAtMs": 1773277200081,
         "lastStatus": "error",
-        "lastDurationMs": 3981,
-        "consecutiveErrors": 7,
+        "lastDurationMs": 10413,
+        "consecutiveErrors": 8,
         "lastRunStatus": "error",
-        "lastDeliveryStatus": "unknown",
-        "runningAtMs": 1773277200043
+        "lastDeliveryStatus": "delivered",
+        "lastError": "400 openrouter/qwen-max is not a valid model ID",
+        "lastDelivered": true
       }
     },
     {
@@ -146,7 +147,7 @@
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
         "lastDeliveryError": "400 openrouter/qwen-plus is not a valid model ID",
-        "lastError": "400 openrouter/qwen-plus is not a valid model ID"
+        "runningAtMs": 1773331200023
       }
     },
     {

@@ -119,7 +119,7 @@
       "name": "Daily_Self_Backup_Midnight",
       "enabled": true,
       "createdAtMs": 1771408491288,
-      "updatedAtMs": 1773245429905,
+      "updatedAtMs": 1773331392790,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -138,16 +138,14 @@
         "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02"
       },
       "state": {
-        "nextRunAtMs": 1773331200000,
-        "lastRunAtMs": 1773245419271,
-        "lastStatus": "error",
-        "lastDurationMs": 10634,
-        "consecutiveErrors": 6,
-        "lastRunStatus": "error",
+        "nextRunAtMs": 1773417600000,
+        "lastRunAtMs": 1773331200065,
+        "lastStatus": "ok",
+        "lastDurationMs": 192725,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "lastDeliveryError": "400 openrouter/qwen-plus is not a valid model ID",
-        "lastError": "400 openrouter/qwen-plus is not a valid model ID"
+        "lastDeliveryStatus": "not-delivered"
       }
     },
     {
