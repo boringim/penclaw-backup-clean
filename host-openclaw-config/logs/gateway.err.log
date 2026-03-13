@@ -126,3 +126,119 @@
 2026-03-13T10:28:03.838Z [agent/embedded] embedded run agent end: runId=37d62cf3-e049-4e2a-b79d-6ef39be22f37 isError=true error=⚠️ API rate limit reached. Please try again later.
 2026-03-13T10:28:09.972Z [agent/embedded] embedded run agent end: runId=37d62cf3-e049-4e2a-b79d-6ef39be22f37 isError=true error=⚠️ API rate limit reached. Please try again later.
 2026-03-13T10:28:19.434Z [agent/embedded] embedded run agent end: runId=37d62cf3-e049-4e2a-b79d-6ef39be22f37 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T11:25:58.719Z [ws] unauthorized conn=c0b2f240-b5c5-4149-a445-3f13ed79ba07 remote=127.0.0.1 client=ACP cli vacp reason=token_mismatch
+2026-03-13T11:25:58.750Z [ws] closed before connect conn=c0b2f240-b5c5-4149-a445-3f13ed79ba07 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
+2026-03-13T11:26:05.051Z [agent/embedded] embedded run agent end: runId=f3fc4f05-fcea-4349-b4f8-c99b461858b4 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T11:26:10.928Z [agent/embedded] embedded run agent end: runId=f3fc4f05-fcea-4349-b4f8-c99b461858b4 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T11:26:37.640Z [ws] unauthorized conn=230b32c1-5776-4d20-a28e-8c3202ddbcd6 remote=127.0.0.1 client=ACP cli vacp reason=token_mismatch
+2026-03-13T11:26:37.671Z [ws] closed before connect conn=230b32c1-5776-4d20-a28e-8c3202ddbcd6 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
+2026-03-13T11:39:44.134Z [ws] unauthorized conn=83fcc097-fa83-4699-8682-1497086dfdc0 remote=127.0.0.1 client=cli probe vdev reason=token_mismatch
+2026-03-13T11:39:44.147Z [ws] closed before connect conn=83fcc097-fa83-4699-8682-1497086dfdc0 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
+2026-03-13T11:39:45.185Z [ws] unauthorized conn=62ee3d70-e0de-4b84-9bfd-ae995a6b439b remote=127.0.0.1 client=cli probe vdev reason=token_mismatch
+2026-03-13T11:39:45.204Z [ws] closed before connect conn=62ee3d70-e0de-4b84-9bfd-ae995a6b439b remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
+2026-03-13T11:40:11.778Z [ws] unauthorized conn=5d94e37b-681b-4656-9f6d-e821188cf210 remote=127.0.0.1 client=ACP cli vacp reason=token_mismatch
+2026-03-13T11:40:11.817Z [ws] closed before connect conn=5d94e37b-681b-4656-9f6d-e821188cf210 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
+2026-03-13T11:40:22.137Z [agent/embedded] embedded run agent end: runId=408916da-0bc9-4d4d-810b-332b830b435f isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T11:40:27.488Z [agent/embedded] embedded run agent end: runId=408916da-0bc9-4d4d-810b-332b830b435f isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T11:40:36.399Z [agent/embedded] embedded run agent end: runId=408916da-0bc9-4d4d-810b-332b830b435f isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T11:40:49.211Z [agent/embedded] embedded run agent end: runId=408916da-0bc9-4d4d-810b-332b830b435f isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T11:40:49.292Z [diagnostic] lane task error: lane=main durationMs=101591 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-13T11:40:49.308Z [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=101603 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-13T11:40:52.066Z [agent/embedded] embedded run agent end: runId=408916da-0bc9-4d4d-810b-332b830b435f isError=true error=HTTP 401: User not found.
+2026-03-13T11:40:52.083Z [diagnostic] lane task error: lane=main durationMs=2752 error="FailoverError: HTTP 401: User not found."
+2026-03-13T11:40:52.086Z [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=2761 error="FailoverError: HTTP 401: User not found."
+2026-03-13T19:40:52.088+08:00 Embedded agent failed before reply: All models failed (2): siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507: ⚠️ API rate limit reached. Please try again later. (rate_limit) | openrouter/stepfun/step-3.5-flash:free: HTTP 401: User not found. (auth)
+2026-03-13T11:43:20.295Z [agent/embedded] embedded run agent end: runId=acc5c062-4357-4a8d-9365-d21a3dd3e48e isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T11:43:25.799Z [agent/embedded] embedded run agent end: runId=acc5c062-4357-4a8d-9365-d21a3dd3e48e isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T11:43:35.075Z [agent/embedded] embedded run agent end: runId=acc5c062-4357-4a8d-9365-d21a3dd3e48e isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T12:08:40.575Z [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\9277170e-d451-492e-89de-9a1c5d57c92b.jsonl.lock (dead-pid)
+2026-03-13T12:09:29.098Z [ws] unauthorized conn=36de8cd5-d769-40cd-9e13-99fcb72a1da1 remote=127.0.0.1 client=cli probe vdev reason=token_mismatch
+2026-03-13T12:09:29.113Z [ws] closed before connect conn=36de8cd5-d769-40cd-9e13-99fcb72a1da1 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
+2026-03-13T12:09:30.187Z [ws] unauthorized conn=ba429221-42f5-4040-81f0-c05812f63d4c remote=127.0.0.1 client=cli probe vdev reason=token_mismatch
+2026-03-13T12:09:30.200Z [ws] closed before connect conn=ba429221-42f5-4040-81f0-c05812f63d4c remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
+2026-03-13T12:11:14.225Z [ws] unauthorized conn=f282fc35-d1bb-48f5-a672-cb45ff70b67f remote=127.0.0.1 client=gateway-client backend vdev reason=token_mismatch
+2026-03-13T20:11:14.229+08:00 gateway connect failed: Error: unauthorized: gateway token mismatch (provide gateway auth token)
+2026-03-13T12:11:14.240Z [ws] closed before connect conn=f282fc35-d1bb-48f5-a672-cb45ff70b67f remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=unauthorized: gateway token mismatch (provide gateway auth token)
+2026-03-13T20:11:14.247+08:00 [tools] sessions_list failed: gateway closed (1008): unauthorized: gateway token mismatch (provide gateway auth token)
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: C:\Users\Administrator\.openclaw\openclaw.json
+Bind: loopback
+2026-03-13T12:13:23.768Z [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\9277170e-d451-492e-89de-9a1c5d57c92b.jsonl.lock (dead-pid)
+2026-03-13T12:14:10.199Z [ws] unauthorized conn=dd75e5f3-30e0-4f68-98a7-00d7815d33a8 remote=127.0.0.1 client=gateway-client backend vdev reason=token_mismatch
+2026-03-13T20:14:10.203+08:00 gateway connect failed: Error: unauthorized: gateway token mismatch (provide gateway auth token)
+2026-03-13T12:14:10.213Z [ws] closed before connect conn=dd75e5f3-30e0-4f68-98a7-00d7815d33a8 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=unauthorized: gateway token mismatch (provide gateway auth token)
+2026-03-13T20:14:10.219+08:00 [tools] sessions_list failed: gateway closed (1008): unauthorized: gateway token mismatch (provide gateway auth token)
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: C:\Users\Administrator\.openclaw\openclaw.json
+Bind: loopback
+2026-03-13T12:14:53.798Z [config/schema] possibly sensitive key found: (secrets)
+2026-03-13T12:14:53.803Z [config/schema] possibly sensitive key found: (secrets.providers)
+2026-03-13T12:14:53.806Z [config/schema] possibly sensitive key found: (secrets.providers.*)
+2026-03-13T12:14:53.810Z [config/schema] possibly sensitive key found: (secrets.providers.*)
+2026-03-13T12:14:53.814Z [config/schema] possibly sensitive key found: (secrets.providers.*.source)
+2026-03-13T12:14:53.817Z [config/schema] possibly sensitive key found: (secrets.providers.*.allowlist)
+2026-03-13T12:14:53.820Z [config/schema] possibly sensitive key found: (secrets.providers.*.allowlist[])
+2026-03-13T12:14:53.822Z [config/schema] possibly sensitive key found: (secrets.providers.*)
+2026-03-13T12:14:53.824Z [config/schema] possibly sensitive key found: (secrets.providers.*.source)
+2026-03-13T12:14:53.827Z [config/schema] possibly sensitive key found: (secrets.providers.*.path)
+2026-03-13T12:14:53.830Z [config/schema] possibly sensitive key found: (secrets.providers.*.mode)
+2026-03-13T12:14:53.832Z [config/schema] possibly sensitive key found: (secrets.providers.*.mode)
+2026-03-13T12:14:53.835Z [config/schema] possibly sensitive key found: (secrets.providers.*.mode)
+2026-03-13T12:14:53.837Z [config/schema] possibly sensitive key found: (secrets.providers.*.timeoutMs)
+2026-03-13T12:14:53.839Z [config/schema] possibly sensitive key found: (secrets.providers.*.maxBytes)
+2026-03-13T12:14:53.841Z [config/schema] possibly sensitive key found: (secrets.providers.*)
+2026-03-13T12:14:53.845Z [config/schema] possibly sensitive key found: (secrets.providers.*.source)
+2026-03-13T12:14:53.848Z [config/schema] possibly sensitive key found: (secrets.providers.*.command)
+2026-03-13T12:14:53.852Z [config/schema] possibly sensitive key found: (secrets.providers.*.args)
+2026-03-13T12:14:53.855Z [config/schema] possibly sensitive key found: (secrets.providers.*.args[])
+2026-03-13T12:14:53.858Z [config/schema] possibly sensitive key found: (secrets.providers.*.timeoutMs)
+2026-03-13T12:14:53.861Z [config/schema] possibly sensitive key found: (secrets.providers.*.noOutputTimeoutMs)
+2026-03-13T12:14:53.864Z [config/schema] possibly sensitive key found: (secrets.providers.*.maxOutputBytes)
+2026-03-13T12:14:53.866Z [config/schema] possibly sensitive key found: (secrets.providers.*.jsonOnly)
+2026-03-13T12:14:53.870Z [config/schema] possibly sensitive key found: (secrets.providers.*.env)
+2026-03-13T12:14:53.873Z [config/schema] possibly sensitive key found: (secrets.providers.*.env.*)
+2026-03-13T12:14:53.878Z [config/schema] possibly sensitive key found: (secrets.providers.*.passEnv)
+2026-03-13T12:14:53.881Z [config/schema] possibly sensitive key found: (secrets.providers.*.passEnv[])
+2026-03-13T12:14:53.883Z [config/schema] possibly sensitive key found: (secrets.providers.*.trustedDirs)
+2026-03-13T12:14:53.887Z [config/schema] possibly sensitive key found: (secrets.providers.*.trustedDirs[])
+2026-03-13T12:14:53.892Z [config/schema] possibly sensitive key found: (secrets.providers.*.allowInsecurePath)
+2026-03-13T12:14:53.896Z [config/schema] possibly sensitive key found: (secrets.providers.*.allowSymlinkCommand)
+2026-03-13T12:14:53.898Z [config/schema] possibly sensitive key found: (secrets.defaults)
+2026-03-13T12:14:53.900Z [config/schema] possibly sensitive key found: (secrets.defaults.env)
+2026-03-13T12:14:53.902Z [config/schema] possibly sensitive key found: (secrets.defaults.file)
+2026-03-13T12:14:53.905Z [config/schema] possibly sensitive key found: (secrets.defaults.exec)
+2026-03-13T12:14:53.908Z [config/schema] possibly sensitive key found: (secrets.resolution)
+2026-03-13T12:14:53.910Z [config/schema] possibly sensitive key found: (secrets.resolution.maxProviderConcurrency)
+2026-03-13T12:14:53.912Z [config/schema] possibly sensitive key found: (secrets.resolution.maxRefsPerProvider)
+2026-03-13T12:14:53.914Z [config/schema] possibly sensitive key found: (secrets.resolution.maxBatchBytes)
+2026-03-13T12:14:53.917Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.source)
+2026-03-13T12:14:53.922Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.provider)
+2026-03-13T12:14:53.926Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.id)
+2026-03-13T12:14:53.932Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.source)
+2026-03-13T12:14:53.934Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.provider)
+2026-03-13T12:14:53.937Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.id)
+2026-03-13T12:14:53.941Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.source)
+2026-03-13T12:14:53.944Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.provider)
+2026-03-13T12:14:53.947Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.id)
+2026-03-13T12:14:55.113Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.source)
+2026-03-13T12:14:55.117Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.provider)
+2026-03-13T12:14:55.120Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.id)
+2026-03-13T12:14:55.123Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.source)
+2026-03-13T12:14:55.126Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.provider)
+2026-03-13T12:14:55.130Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.id)
+2026-03-13T12:14:55.134Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.source)
+2026-03-13T12:14:55.136Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.provider)
+2026-03-13T12:14:55.139Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.id)
+2026-03-13T12:15:01.611Z [ws] unauthorized conn=75f60eaf-040d-46da-8657-94ebabbaf373 remote=127.0.0.1 client=gateway-client backend vdev reason=token_mismatch
+2026-03-13T20:15:01.615+08:00 gateway connect failed: Error: unauthorized: gateway token mismatch (provide gateway auth token)
+2026-03-13T12:15:01.623Z [ws] closed before connect conn=75f60eaf-040d-46da-8657-94ebabbaf373 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=unauthorized: gateway token mismatch (provide gateway auth token)
+2026-03-13T20:15:01.628+08:00 [tools] sessions_list failed: gateway closed (1008): unauthorized: gateway token mismatch (provide gateway auth token)
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: C:\Users\Administrator\.openclaw\openclaw.json
+Bind: loopback
+2026-03-13T20:16:44.043+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\gateway.cmd'
+2026-03-13T12:17:37.954Z [reload] config change requires gateway restart (gateway.auth.token) — deferring until 2 operation(s), 1 reply(ies), 1 embedded run(s) complete
+2026-03-13T12:18:21.355Z [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\9277170e-d451-492e-89de-9a1c5d57c92b.jsonl.lock (dead-pid)
