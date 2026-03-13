@@ -44,7 +44,7 @@
       "name": "Email_Label_Management_Weekly",
       "enabled": true,
       "createdAtMs": 1771345366763,
-      "updatedAtMs": 1772755246368,
+      "updatedAtMs": 1773360127033,
       "schedule": {
         "expr": "0 8 * * 5",
         "tz": "Asia/Shanghai",
@@ -63,15 +63,14 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1773360000000,
-        "lastRunAtMs": 1772755200023,
-        "lastStatus": "error",
-        "lastDurationMs": 46345,
-        "consecutiveErrors": 3,
-        "lastRunStatus": "error",
+        "nextRunAtMs": 1773964800000,
+        "lastRunAtMs": 1773360000037,
+        "lastStatus": "ok",
+        "lastDurationMs": 126996,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
         "lastDelivered": true,
-        "lastDeliveryStatus": "delivered",
-        "runningAtMs": 1773360000029
+        "lastDeliveryStatus": "delivered"
       }
     },
     {
@@ -107,8 +106,8 @@
         "consecutiveErrors": 8,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "delivered",
-        "lastError": "400 openrouter/qwen-max is not a valid model ID",
-        "lastDelivered": true
+        "lastDelivered": true,
+        "runningAtMs": 1773363600023
       }
     },
     {
@@ -190,7 +189,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1773273611928,
+      "updatedAtMs": 1773360146551,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -209,15 +208,14 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1773360000000,
-        "lastRunAtMs": 1773273600019,
+        "nextRunAtMs": 1773446400000,
+        "lastRunAtMs": 1773360127033,
         "lastStatus": "ok",
-        "lastDurationMs": 11909,
+        "lastDurationMs": 19518,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "runningAtMs": 1773360000029
+        "lastDeliveryStatus": "not-delivered"
       }
     },
     {
