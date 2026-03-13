@@ -98,3 +98,31 @@
 2026-03-13T10:18:05.581Z [ws] closed before connect conn=908ee29c-5021-4c62-a963-3a021df17fbe remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
 2026-03-13T10:21:17.129Z [ws] unauthorized conn=932c3b8d-4f5e-47b7-92d3-b44eab45b0b1 remote=127.0.0.1 client=ACP cli vacp reason=token_mismatch
 2026-03-13T10:21:17.165Z [ws] closed before connect conn=932c3b8d-4f5e-47b7-92d3-b44eab45b0b1 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
+2026-03-13T10:21:30.948Z [ws] unauthorized conn=579263a4-29ba-4dd2-8df5-76500dee498e remote=127.0.0.1 client=cli cli vdev reason=token_mismatch
+2026-03-13T10:21:30.979Z [ws] closed before connect conn=579263a4-29ba-4dd2-8df5-76500dee498e remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
+2026-03-13T10:21:36.555Z [agent/embedded] embedded run agent end: runId=e62f5f77-21ee-442c-b81a-c1adbb9c90a1 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:21:42.081Z [agent/embedded] embedded run agent end: runId=e62f5f77-21ee-442c-b81a-c1adbb9c90a1 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:21:51.474Z [agent/embedded] embedded run agent end: runId=e62f5f77-21ee-442c-b81a-c1adbb9c90a1 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:22:04.665Z [agent/embedded] embedded run agent end: runId=e62f5f77-21ee-442c-b81a-c1adbb9c90a1 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:22:04.684Z [diagnostic] lane task error: lane=main durationMs=67934 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-13T10:22:04.687Z [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=67946 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-13T10:22:07.410Z [agent/embedded] embedded run agent end: runId=e62f5f77-21ee-442c-b81a-c1adbb9c90a1 isError=true error=HTTP 401: User not found.
+2026-03-13T10:22:07.436Z [diagnostic] lane task error: lane=main durationMs=2731 error="FailoverError: HTTP 401: User not found."
+2026-03-13T10:22:07.440Z [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=2740 error="FailoverError: HTTP 401: User not found."
+2026-03-13T18:22:07.444+08:00 Embedded agent failed before reply: All models failed (2): siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507: ⚠️ API rate limit reached. Please try again later. (rate_limit) | openrouter/stepfun/step-3.5-flash:free: HTTP 401: User not found. (auth)
+2026-03-13T10:26:54.877Z [ws] unauthorized conn=270591d3-567c-4f89-a8fc-65aef6976296 remote=127.0.0.1 client=cli cli vdev reason=token_mismatch
+2026-03-13T10:26:54.909Z [ws] closed before connect conn=270591d3-567c-4f89-a8fc-65aef6976296 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
+2026-03-13T18:27:06.382+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-13T10:27:27.915Z [agent/embedded] embedded run agent end: runId=a152d05c-caa1-4bb3-be86-274b64a85a56 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:27:33.689Z [agent/embedded] embedded run agent end: runId=a152d05c-caa1-4bb3-be86-274b64a85a56 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:27:42.865Z [agent/embedded] embedded run agent end: runId=a152d05c-caa1-4bb3-be86-274b64a85a56 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:27:56.114Z [agent/embedded] embedded run agent end: runId=a152d05c-caa1-4bb3-be86-274b64a85a56 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:27:56.156Z [diagnostic] lane task error: lane=main durationMs=90944 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-13T10:27:56.158Z [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=90956 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-13T10:27:57.933Z [agent/embedded] embedded run agent end: runId=a152d05c-caa1-4bb3-be86-274b64a85a56 isError=true error=HTTP 401: User not found.
+2026-03-13T10:27:57.955Z [diagnostic] lane task error: lane=main durationMs=1773 error="FailoverError: HTTP 401: User not found."
+2026-03-13T10:27:57.957Z [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=1784 error="FailoverError: HTTP 401: User not found."
+2026-03-13T18:27:57.960+08:00 Embedded agent failed before reply: All models failed (2): siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507: ⚠️ API rate limit reached. Please try again later. (rate_limit) | openrouter/stepfun/step-3.5-flash:free: HTTP 401: User not found. (auth)
+2026-03-13T10:28:03.838Z [agent/embedded] embedded run agent end: runId=37d62cf3-e049-4e2a-b79d-6ef39be22f37 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:28:09.972Z [agent/embedded] embedded run agent end: runId=37d62cf3-e049-4e2a-b79d-6ef39be22f37 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:28:19.434Z [agent/embedded] embedded run agent end: runId=37d62cf3-e049-4e2a-b79d-6ef39be22f37 isError=true error=⚠️ API rate limit reached. Please try again later.

@@ -326,3 +326,83 @@
 2026-03-13T10:19:27.243Z [feishu] feishu[default]: WebSocket client started
 2026-03-13T18:19:29.155+08:00 [info]: [ '[ws]', 'ws client ready' ]
 2026-03-13T10:20:57.893Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T10:22:05.519Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T10:23:22.442Z [ws] ⇄ res ✓ chat.history 110ms conn=ea90ec0b…4674 id=12686120…79c9
+2026-03-13T10:23:22.594Z [ws] ⇄ res ✓ sessions.list 147ms conn=ea90ec0b…4674 id=55114097…6c66
+2026-03-13T10:24:37.770Z [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary, agents.defaults.models.openrouter/stepfun/step-3.5-flash:free, agents.defaults.compaction)
+2026-03-13T10:24:37.800Z [reload] config change applied (dynamic reads: meta.lastTouchedAt, agents.defaults.model.primary, agents.defaults.models.openrouter/stepfun/step-3.5-flash:free, agents.defaults.compaction)
+2026-03-13T10:25:07.950Z [gateway] memory-lancedb-pro@1.1.0-beta.6: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small)
+2026-03-13T10:25:07.954Z [gateway] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-03-13T10:25:07.959Z [gateway] self-improvement: integrated hooks registered (agent:bootstrap, command:new, command:reset)
+2026-03-13T10:25:07.963Z [gateway] session-strategy: using systemSessionMemory (plugin memory-reflection hooks disabled)
+2026-03-13T10:25:12.940Z [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-03-13T10:25:12.953Z [gateway] feishu_chat: Registered feishu_chat tool
+2026-03-13T10:25:12.960Z [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-03-13T10:25:12.969Z [gateway] feishu_drive: Registered feishu_drive tool
+2026-03-13T10:25:12.998Z [gateway] feishu_bitable: Registered bitable tools
+2026-03-13T10:25:13.383Z [plugins] hook runner initialized with 3 registered hooks
+2026-03-13T10:25:13.674Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\Administrator\.openclaw\canvas)
+2026-03-13T10:25:14.192Z [heartbeat] started
+2026-03-13T10:25:14.203Z [health-monitor] started (interval: 300s, grace: 60s)
+2026-03-13T10:25:14.209Z [gateway] agent model: openrouter/stepfun/step-3.5-flash:free
+2026-03-13T10:25:14.214Z [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 27816)
+2026-03-13T10:25:14.218Z [gateway] log file: \tmp\openclaw\openclaw-2026-03-13.log
+2026-03-13T18:25:14.243+08:00 [info]: [ 'client ready' ]
+2026-03-13T10:25:14.451Z [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-13T10:25:15.540Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-03-13T10:25:15.608Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-03-13T10:25:15.616Z [hooks:loader] Registered hook: command-logger -> command
+2026-03-13T10:25:15.641Z [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-03-13T10:25:15.650Z [hooks] loaded 4 internal hook handlers
+2026-03-13T10:25:15.685Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-13T10:25:15.702Z [gateway] self-improvement: command hooks refreshed after gateway_start
+2026-03-13T10:25:16.054Z [gateway] update available (latest): v2026.3.12 (current v2026.3.1). Run: openclaw update
+2026-03-13T10:25:16.737Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-13T18:25:16.744+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-13T10:25:16.749Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-13T18:25:16.752+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-13T10:25:16.761Z [feishu] feishu[default]: WebSocket client started
+2026-03-13T10:25:18.572Z [gateway] memory-lancedb-pro: initialized successfully (embedding: OK, retrieval: OK, mode: hybrid, FTS: support=yes, index=yes)
+2026-03-13T18:25:18.873+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-13T10:25:24.867Z [ws] webchat connected conn=6ace8b23-08c9-4b13-867e-1c42e1f9502c remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-03-13T10:25:24.907Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T10:26:12.935Z [ws] ⇄ res ✓ logs.tail 77ms conn=6ace8b23…502c id=6841f801…a679
+2026-03-13T10:26:15.779Z [gateway] memory-lancedb-pro: backup completed (21 entries → C:\Users\Administrator\.openclaw\memory\backups\memory-backup-2026-03-13.jsonl)
+2026-03-13T10:26:21.334Z [ws] ⇄ res ✓ chat.history 680ms conn=6ace8b23…502c id=3453ab1d…c43d
+2026-03-13T10:26:25.460Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T10:27:15.639Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-03-13T10:27:15.649Z [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 根据https://github.com/lancelot3777-svg/openclaw-backup-guide官方规则，恢复3月13日今天早上8点的文件级备份
+2026-03-13T10:27:15.657Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-03-13T10:27:15.814Z [feishu] feishu[default]: dispatch complete (queuedFinal=false, replies=0)
+2026-03-13T10:27:56.274Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T10:27:59.223Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=9277170e-d451-492e-89de-9a1c5d57c92b
+2026-03-13T10:27:59.278Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T11:00:14.596Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-13T11:00:14.601Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-13T11:00:14.635Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-13T11:00:14.638Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-13T19:00:14.641+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-13T11:00:14.646Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-13T19:00:14.649+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-13T11:00:14.659Z [feishu] feishu[default]: WebSocket client started
+2026-03-13T19:00:16.971+08:00 [info]: [ '[ws]', 'ws client ready' ]
