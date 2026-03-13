@@ -1,0 +1,19 @@
+﻿{
+    "DurationSeconds":  0,
+    "Timestamp":  "2026-03-13 08:01:45",
+    "Task":  "Weekly Email Cleanup",
+    "Details":  [
+
+                ],
+    "SpamCleanup":  {
+                        "SpamDeleted":  0,
+                        "Errors":  0,
+                        "SpamFound":  0
+                    },
+    "Status":  "SUCCESS",
+    "ClientsScanned":  0,
+    "ArchiveCleanup":  {
+                           "ArchiveMoved":  0,
+                           "ArchiveFound":  0
+                       }
+}

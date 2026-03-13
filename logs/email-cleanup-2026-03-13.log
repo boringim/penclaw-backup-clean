@@ -1,0 +1,13 @@
+﻿=== Email Cleanup Task Started ===
+Time: 2026-03-13 08:01:45
+Config: SpamDays=30, ArchiveDays=90
+08:01:45 [INFO] Starting email cleanup...
+08:01:45 [WARNING] No email clients detected (Thunderbird/Outlook)
+08:01:45 [INFO] Please configure email accounts or manually set paths in script
+08:01:46 [INFO] === Cleanup Completed ===
+08:01:46 [INFO] Clients: 0
+08:01:46 [INFO] Spam: 0 found, 0 deleted
+08:01:46 [INFO] Archive: 0 found, 0 moved
+08:01:46 [INFO] Duration: 0 seconds
+08:01:46 [INFO] Report saved: C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\scripts\..\reports\email-cleanup-2026-03-13.json
+08:01:46 [INFO] Status: SUCCESS
