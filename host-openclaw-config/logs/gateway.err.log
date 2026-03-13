@@ -87,3 +87,14 @@
 2026-03-13T06:09:38.055Z [diagnostic] lane task error: lane=main durationMs=2057 error="FailoverError: HTTP 401: User not found."
 2026-03-13T06:09:38.058Z [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=2064 error="FailoverError: HTTP 401: User not found."
 2026-03-13T14:09:38.062+08:00 Followup agent failed before reply: All models failed (2): siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507: HTTP 401: User not found. (auth) | openrouter/stepfun/step-3.5-flash:free: HTTP 401: User not found. (auth)
+2026-03-13T09:37:08.934Z [agent/embedded] embedded run agent end: runId=21018348-ee91-48fd-9474-9426e7670afa isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:12:43.212Z [agent/embedded] embedded run agent end: runId=a4722409-3158-493d-b449-58d868f85965 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:12:48.841Z [agent/embedded] embedded run agent end: runId=a4722409-3158-493d-b449-58d868f85965 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:12:57.785Z [agent/embedded] embedded run agent end: runId=a4722409-3158-493d-b449-58d868f85965 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:17:22.627Z [agent/embedded] embedded run agent end: runId=e0900b45-11e2-4251-8a46-934ead2a5838 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:17:28.147Z [agent/embedded] embedded run agent end: runId=e0900b45-11e2-4251-8a46-934ead2a5838 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:17:37.531Z [agent/embedded] embedded run agent end: runId=e0900b45-11e2-4251-8a46-934ead2a5838 isError=true error=⚠️ API rate limit reached. Please try again later.
+2026-03-13T10:18:05.536Z [ws] unauthorized conn=908ee29c-5021-4c62-a963-3a021df17fbe remote=127.0.0.1 client=ACP cli vacp reason=token_mismatch
+2026-03-13T10:18:05.581Z [ws] closed before connect conn=908ee29c-5021-4c62-a963-3a021df17fbe remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
+2026-03-13T10:21:17.129Z [ws] unauthorized conn=932c3b8d-4f5e-47b7-92d3-b44eab45b0b1 remote=127.0.0.1 client=ACP cli vacp reason=token_mismatch
+2026-03-13T10:21:17.165Z [ws] closed before connect conn=932c3b8d-4f5e-47b7-92d3-b44eab45b0b1 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
