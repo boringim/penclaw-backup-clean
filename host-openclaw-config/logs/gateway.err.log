@@ -376,3 +376,4 @@ Bind: loopback
 2026-03-13T21:02:49.559+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-03-13T21:03:27.742+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-03-13T22:18:34.242+08:00 [warn]: [ 'no im.message.recalled_v1 handle' ]
+2026-03-13T22:36:04.442+08:00 [warn]: [ 'no im.message.recalled_v1 handle' ]

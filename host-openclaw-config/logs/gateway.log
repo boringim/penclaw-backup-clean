@@ -1135,3 +1135,203 @@
 ]
 2026-03-13T14:18:57.405Z [feishu] feishu[default]: WebSocket client started
 2026-03-13T22:19:00.002+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-13T14:21:17.368Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T14:21:17.380Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T14:21:17.384Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 已经撤回了，怎么保存 ![image]
+2026-03-13T14:21:17.387Z [feishu] post message contains 1 embedded image(s)
+2026-03-13T14:21:19.308Z [feishu] downloaded embedded image img_v3_02vo_da10b990-4211-4f2f-a971-ad19724ad3cg, saved to C:\Users\Administrator\.openclaw\media\inbound\4b9d1ea6-102f-41d9-99ad-f424f7799296.jpg
+2026-03-13T14:21:19.312Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T14:21:22.090Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T14:21:22.137Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T14:21:22.256Z [agents/tool-images] Image resized to fit limits: 1536x177px 13.4KB -> 10.2KB (-23.5%)
+2026-03-13T14:21:32.411Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T14:24:16.637Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T14:24:16.641Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T14:24:16.644Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 已经完成了步骤1.2.3.，下一步做什么
+2026-03-13T14:24:16.657Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T14:24:18.304Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T14:24:18.876Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T14:24:37.985Z [feishu] feishu[default] Started streaming: cardId=7616746008869981142, messageId=om_x100b5475ac958134b2b251b9ce7bbeb
+2026-03-13T14:24:40.290Z [feishu] feishu[default] Closed streaming: cardId=7616746008869981142
+2026-03-13T14:24:40.302Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T14:25:16.557Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T14:25:16.560Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T14:25:16.564Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: admin@iZ5tsbj9fm2mtb9esq9wdsZ:~$ docker compose up --abort-on-container-exit yaml: while scanning a simple key at line 6: line 7: could not find expected ':'
+2026-03-13T14:25:16.568Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T14:25:18.985Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T14:25:19.054Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T14:25:38.292Z [feishu] feishu[default] Started streaming: cardId=7616746268140489681, messageId=om_x100b5475a8d118a0b294d9d2151cb4d
+2026-03-13T14:25:40.534Z [feishu] feishu[default] Closed streaming: cardId=7616746268140489681
+2026-03-13T14:25:40.538Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T14:27:38.211Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T14:27:38.214Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T14:27:38.217Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: admin@iZ5tsbj9fm2mtb9esq9wdsZ:~$ cat docker-compose.yml services: proxy-test: image: curlimages/curl:latest container_name: proxy-test env_file: - .env command:
+2026-03-13T14:27:38.223Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T14:27:39.898Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T14:27:39.944Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T14:27:59.252Z [feishu] feishu[default] Started streaming: cardId=7616746870908865500, messageId=om_x100b5475a0252cacb4941bdbd85871b
+2026-03-13T14:28:02.129Z [feishu] feishu[default] Closed streaming: cardId=7616746870908865500
+2026-03-13T14:28:02.132Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T14:29:40.646Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T14:29:40.649Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T14:29:40.652Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: admin@iZ5tsbj9fm2mtb9esq9wdsZ:~$ docker compose up --abort-on-container-exit yaml: while scanning a simple key at line 11: line 12: could not find expected ':'
+2026-03-13T14:29:40.702Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T14:29:42.778Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T14:29:42.831Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T14:30:01.806Z [feishu] feishu[default] Started streaming: cardId=7616747399675595737, messageId=om_x100b5475b85e44acb2199bdda0ce886
+2026-03-13T14:30:04.646Z [feishu] feishu[default] Closed streaming: cardId=7616747399675595737
+2026-03-13T14:30:04.654Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T14:32:15.453Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T14:32:15.481Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T14:32:15.484Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: admin@iZ5tsbj9fm2mtb9esq9wdsZ:~$ cat docker-compose.yml services: proxy-test: image: curlimages/curl:latest container_name: proxy-test env_file: - .env command:
+2026-03-13T14:32:15.489Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T14:32:17.052Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T14:32:17.117Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T14:32:43.320Z [feishu] feishu[default] Started streaming: cardId=7616748093924527043, messageId=om_x100b54764e61f0a4b38a80cc839e1d4
+2026-03-13T14:32:46.054Z [feishu] feishu[default] Closed streaming: cardId=7616748093924527043
+2026-03-13T14:32:46.093Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T14:34:12.541Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T14:34:12.545Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T14:34:12.549Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: admin@iZ5tsbj9fm2mtb9esq9wdsZ:~$ cat -n docker-compose.yml cat .env 1 services: 2 proxy-test: 3 image: curlimages/curl:latest 4 container_name: proxy-test 5 env
+2026-03-13T14:34:12.553Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T14:34:13.898Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T14:34:13.970Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T14:34:31.279Z [feishu] feishu[default] Started streaming: cardId=7616748557378390983, messageId=om_x100b547649a608a0b491a16c09aeb9b
+2026-03-13T14:34:34.182Z [feishu] feishu[default] Closed streaming: cardId=7616748557378390983
+2026-03-13T14:34:34.185Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T14:36:29.008Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T14:36:29.036Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T14:36:29.042Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: admin@iZ5tsbj9fm2mtb9esq9wdsZ:~$ curl --socks5-hostname static1.glorycloud.cn:40016 -U b9ba4b900e:ca63a30dfb https://api.ipify.org echo 154.82.162.84
+2026-03-13T14:36:29.057Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T14:36:31.008Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T14:36:31.059Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T14:36:54.870Z [feishu] feishu[default] Started streaming: cardId=7616749172297206748, messageId=om_x100b54765ea8fca4b389c6357fda456
+2026-03-13T14:36:57.803Z [feishu] feishu[default] Closed streaming: cardId=7616749172297206748
+2026-03-13T14:36:57.807Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T14:38:22.782Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T14:38:22.786Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T14:38:22.789Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 我要把我的菲律宾IP部署进来呀，你又忘了
+2026-03-13T14:38:22.795Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T14:38:24.292Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T14:38:24.331Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T14:38:53.009Z [feishu] feishu[default] Started streaming: cardId=7616749683393743811, messageId=om_x100b5476590544a4b3537497d23e481
+2026-03-13T14:38:55.413Z [feishu] feishu[default] Closed streaming: cardId=7616749683393743811
+2026-03-13T14:38:55.441Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T14:41:06.525Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T14:41:06.537Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T14:41:06.545Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: admin@iZ5tsbj9fm2mtb9esq9wdsZ:~$ set -a 2 source /opt/apps/proxy-env/.proxy.env 3 set +a 2: command not found 3: command not found admin@iZ5tsbj9fm2mtb9esq9wdsZ
+2026-03-13T14:41:06.564Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T14:41:07.911Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T14:41:07.971Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T14:41:33.205Z [feishu] feishu[default] Started streaming: cardId=7616750367477353420, messageId=om_x100b54766f0610a0b2c4c05a994c3c8
+2026-03-13T14:41:35.488Z [feishu] feishu[default] Closed streaming: cardId=7616750367477353420
+2026-03-13T14:41:35.497Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T14:48:57.390Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-13T14:48:57.393Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-13T14:48:57.417Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-13T14:48:57.419Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-13T22:48:57.421+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-13T14:48:57.426Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-13T22:48:57.429+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-13T14:48:57.434Z [feishu] feishu[default]: WebSocket client started
+2026-03-13T22:49:00.183+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-13T14:55:49.802Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T14:55:49.806Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T14:55:49.810Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: admin@iZ5tsbj9fm2mtb9esq9wdsZ:~$ source /opt/apps/proxy-env/.proxy.env -bash: /opt/apps/proxy-env/.proxy.env: No such file or directory admin@iZ5tsbj9fm2mtb9esq
+2026-03-13T14:55:49.813Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T14:55:52.055Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T14:55:52.112Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T14:56:17.356Z [feishu] feishu[default] Started streaming: cardId=7616754165214514113, messageId=om_x100b547617c03cb4b34a6fa0e046eef
+2026-03-13T14:56:19.683Z [feishu] feishu[default] Closed streaming: cardId=7616754165214514113
+2026-03-13T14:56:19.688Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T15:01:21.799Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T15:01:21.807Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T15:01:21.818Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: admin@iZ5tsbj9fm2mtb9esq9wdsZ:~$ mkdir -p /opt/apps/proxy-env cat > /opt/apps/proxy-env/.proxy.env <<'EOF' ALL_PROXY=socks5://b9ba4b900e:ca63a30dfb@static1.glor
+2026-03-13T15:01:21.823Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T15:01:23.279Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T15:01:23.323Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T15:01:40.051Z [feishu] feishu[default] Started streaming: cardId=7616755551063182277, messageId=om_x100b547623f5d0a8b2819968f5349ff
+2026-03-13T15:01:42.786Z [feishu] feishu[default] Closed streaming: cardId=7616755551063182277
+2026-03-13T15:01:42.790Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T15:03:08.059Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T15:03:08.064Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T15:03:08.066Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: admin@iZ5tsbj9fm2mtb9esq9wdsZ:~$ mkdir -p ~/proxy-env cat > ~/proxy-env/.proxy.env <<'EOF' ALL_PROXY=socks5://b9ba4b900e:ca63a30dfb@static1.glorycloud.cn:40016
+2026-03-13T15:03:08.070Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T15:03:09.668Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T15:03:09.716Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T15:03:44.844Z [feishu] feishu[default] Started streaming: cardId=7616756090625280983, messageId=om_x100b54763bc948acb286a6fb2a5848c
+2026-03-13T15:03:47.716Z [feishu] feishu[default] Closed streaming: cardId=7616756090625280983
+2026-03-13T15:03:47.720Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T15:06:08.445Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T15:06:08.471Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T15:06:08.480Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: admin@iZ5tsbj9fm2mtb9esq9wdsZ:~$ mkdir -p ~/proxy-env cat > ~/proxy-env/.proxy.env <<'EOF' ALL_PROXY=socks5://b9ba4b900e:ca63a30dfb@static1.glorycloud.cn:40016
+2026-03-13T15:06:08.500Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T15:06:10.080Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T15:06:10.138Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T15:06:33.469Z [feishu] feishu[default] Started streaming: cardId=7616756810985311177, messageId=om_x100b5476314348b0b31341fcef12a76
+2026-03-13T15:06:36.210Z [feishu] feishu[default] Closed streaming: cardId=7616756810985311177
+2026-03-13T15:06:36.213Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T15:07:58.561Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T15:07:58.564Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T15:07:58.567Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 现在部署好了的话，我现在可以用我的 ADS power 直接登录那个虾皮的本地号的后台吗？
+2026-03-13T15:07:58.573Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T15:08:00.080Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T15:08:00.124Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T15:08:35.832Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T15:10:18.429Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T15:10:18.432Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T15:10:18.436Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 那我现在要怎么做？我现在就是部署好了这个IP跟VPS 我现在想在我本地的ADS登录它，可以吗？登录那个虾皮账号，还是说我必须在VPS上登录这个虾皮账号？
+2026-03-13T15:10:18.440Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T15:10:33.539Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T15:10:33.587Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T15:11:07.889Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T15:15:05.765Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T15:15:05.769Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T15:15:05.774Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: ![image] ADS显示连接测试失败
+2026-03-13T15:15:05.778Z [feishu] post message contains 1 embedded image(s)
+2026-03-13T15:15:08.608Z [feishu] downloaded embedded image img_v3_02vo_5965908b-f1a3-4fc7-80c7-daefc1a7268g, saved to C:\Users\Administrator\.openclaw\media\inbound\a4bec577-eeba-43ac-8be7-c6fdf9de6c31.jpg
+2026-03-13T15:15:08.615Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T15:15:09.898Z [gateway] memory-lancedb-pro: auto-recall injecting 2 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T15:15:09.942Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T15:15:10.432Z [agents/tool-images] Image resized to fit limits: 1216x785px 82.5KB -> 89.4KB (--8.4%)
+2026-03-13T15:15:47.713Z [feishu] feishu[default] Started streaming: cardId=7616759192489872321, messageId=om_x100b5476ecff4938b3487f51120c3cd
+2026-03-13T15:15:50.800Z [feishu] feishu[default] Closed streaming: cardId=7616759192489872321
+2026-03-13T15:15:50.820Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-13T15:18:31.174Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-13T15:18:31.178Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-13T15:18:31.181Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: C:\Users\Admin>curl.exe --proxy socks5h://b9ba4b900e:ca63a30dfb@static1.glorycloud.cn:40016 https://api.ipify.org curl: (97) User was rejected by the SOCKS5 ser
+2026-03-13T15:18:31.185Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-13T15:18:32.587Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=08c001c4-4066-4e71-b047-822ec8edbfc0
+2026-03-13T15:18:32.638Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-13T15:18:57.468Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-13T15:18:57.473Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-13T15:18:57.497Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-13T15:18:57.500Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-13T23:18:57.503+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-13T15:18:57.506Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-13T23:18:57.508+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-13T15:18:57.511Z [feishu] feishu[default]: WebSocket client started
+2026-03-13T23:18:59.511+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-13T15:19:04.255Z [feishu] feishu[default] Started streaming: cardId=7616760035888974789, messageId=om_x100b5476e0b1c8a0b21477aabf1775f
+2026-03-13T15:19:06.605Z [feishu] feishu[default] Closed streaming: cardId=7616760035888974789
+2026-03-13T15:19:06.634Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
