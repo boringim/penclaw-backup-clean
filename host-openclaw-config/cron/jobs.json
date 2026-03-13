@@ -18,7 +18,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "model": "qwen-max",
+        "model": "siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507",
         "message": "执行每周邮件清理任务：自动清理垃圾邮件或归档旧邮件。完成后在群组汇报。"
       },
       "delivery": {
@@ -53,7 +53,7 @@
       "sessionTarget": "isolated",
       "wakeMode": "now",
       "payload": {
-        "model": "qwen-max",
+        "model": "siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507",
         "message": "执行每周邮件标签管理任务：根据邮件内容自动打标签（Label）或移动到指定文件夹。完成后在群组汇报。",
         "kind": "agentTurn"
       },
@@ -91,7 +91,7 @@
       "payload": {
         "kind": "agentTurn",
         "message": "使用 C:\\Users\\Administrator\\.openclaw\\workspaces\\independent-group-bot\\scripts\\fetch_qq_final.js 脚本读取 1123436838@qq.com 的最新 3 封邮件。注意：执行前必须运行 `$env:HTTP_PROXY=''; $env:HTTPS_PROXY=''; $env:all_proxy='';` 以绕过代理限制。拿到结果后，对邮件进行简明总结发送到群组。",
-        "model": "qwen-max"
+        "model": "siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507"
       },
       "delivery": {
         "channel": "feishu",
@@ -127,7 +127,7 @@
       "payload": {
         "kind": "agentTurn",
         "message": "请执行以下备份任务：\n1. **健康检查**：检查 OpenClaw 核心工具（如 gateway, read）是否响应正常。\n2. **执行备份**：运行 PowerShell 命令进行全量备份：\n   `$backupDir = 'C:\\Users\\Administrator\\openclaw-backups'; $timestamp = Get-Date -Format 'yyyy-MM-dd_HHmm'; $backupFile = \\\"$backupDir\\openclaw-$timestamp.tar.gz\\\"; New-Item -ItemType Directory -Force -Path $backupDir; tar -czf $backupFile --exclude='completions' --exclude='*.log' -C 'C:\\Users\\Administrator' .openclaw`\n3. **状态更新**：读取 `memory/backup-state.json`，将 `backup_count` 加 1 并保存。\n4. **清理提醒**：如果 `backup_count` 是 7 的倍数，请在汇报中特别提醒用户手动删除旧备份（注意：你无权删除备份文件）。\n5. **任务汇报**：总结备份状态、文件路径及大小。",
-        "model": "qwen-plus"
+        "model": "siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507"
       },
       "delivery": {
         "mode": "none",
@@ -234,7 +234,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "## QMB 集成调研任务\n\n### 目标\n调研 `qmb` 本地语义搜索引擎的可行性，评估其安装、配置与与 OpenClaw 的集成方案。\n\n### 任务列表\n1. 详细调研 `qmb` 项目 (GitHub: https://github.com/qmb-search/qmb)。\n2. 检查 `qmb` 是否支持 Windows 环境且有 .exe 或可执行二进制文件。\n3. 评估 `qmb` 与 OpenClaw 的数据交互方式（API、文件、gRPC）。\n4. 生成一份集成方案草案，包含：\n   - 安装与运行指令\n   - 打印 `qmb` 的 Usage/Help 信息\n   - 建议的 OpenClaw MCP 配置\n   - 可能的陷阱与依赖问题\n5. 将方案草案写入 `workflows/qmb-integration-scheme.md`。\n\n### 模式\n- **模型**: qwen-portal/coder-model\n- **执行时长**: 600 秒\n- **思辨模式**: off",
+        "message": "## QMB 集成调研任务\n\n### 目标\n调研 `qmb` 本地语义搜索引擎的可行性，评估其安装、配置与与 OpenClaw 的集成方案。\n\n### 任务列表\n1. 详细调研 `qmb` 项目 (GitHub: https://github.com/qmb-search/qmb)。\n2. 检查 `qmb` 是否支持 Windows 环境且有 .exe 或可执行二进制文件。\n3. 评估 `qmb` 与 OpenClaw 的数据交互方式（API、文件、gRPC）。\n4. 生成一份集成方案草案，包含：\n   - 安装与运行指令\n   - 打印 `qmb` 的 Usage/Help 信息\n   - 建议的 OpenClaw MCP 配置\n   - 可能的陷阱与依赖问题\n5. 将方案草案写入 `workflows/qmb-integration-scheme.md`。\n\n### 模式\n- **模型**: siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507\n- **执行时长**: 600 秒\n- **思辨模式**: off",
         "model": "siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507",
         "thinking": "off",
         "timeoutSeconds": 600
