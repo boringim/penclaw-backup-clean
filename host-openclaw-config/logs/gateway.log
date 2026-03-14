@@ -2370,3 +2370,57 @@
 2026-03-14T20:04:02.692+08:00 [info]: [ '[ws]', 'ws client ready' ]
 2026-03-14T20:05:43.737+08:00 [info]: [ '[ws]', 'reconnect' ]
 2026-03-14T20:06:04.896+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T12:39:00.073Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-14T12:39:00.148Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-14T12:39:00.323Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-14T12:39:00.341Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-14T20:39:00.389+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-14T12:39:00.423Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-14T20:39:00.450+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-14T12:39:00.497Z [feishu] feishu[default]: WebSocket client started
+2026-03-14T20:39:03.645+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-14T12:39:37.729Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_981e24884af3ed7ed6c16c5730c9bd02 (group)
+2026-03-14T12:39:37.809Z [feishu] feishu[default]: group session scope=group, peer=oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-14T12:39:37.844Z [feishu] feishu[default]: Feishu[default] message in group oc_981e24884af3ed7ed6c16c5730c9bd02: 现在做一下git备份跟文件级备份
+2026-03-14T12:39:38.131Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02)
+2026-03-14T12:39:43.797Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=de8c906b-9697-48eb-83da-a70db684e39a
+2026-03-14T12:39:44.856Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T12:42:24.066Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=5)
+2026-03-14T12:43:07.914Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_981e24884af3ed7ed6c16c5730c9bd02 (group)
+2026-03-14T12:43:07.927Z [feishu] feishu[default]: group session scope=group, peer=oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-14T12:43:07.933Z [feishu] feishu[default]: Feishu[default] message in group oc_981e24884af3ed7ed6c16c5730c9bd02: \- 继续盯到文件级备份完整结束，再把“HOME / workspace / snapshot / 日志”逐项最终结果发你 \- 我顺手把 Git 远程 origin 配好，再补一次推送
+2026-03-14T12:43:07.943Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02)
+2026-03-14T12:43:09.676Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=de8c906b-9697-48eb-83da-a70db684e39a
+2026-03-14T12:43:09.789Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T12:43:58.415Z [gateway] update available (latest): v2026.3.13 (current v2026.3.1). Run: openclaw update
+2026-03-14T12:43:58.658Z [gateway] memory-lancedb-pro: backup completed (27 entries → C:\Users\Administrator\.openclaw\memory\backups\memory-backup-2026-03-14.jsonl)
+2026-03-14T12:46:46.638Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=7)
+2026-03-14T13:13:59.902Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-14T13:13:59.907Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-14T13:13:59.947Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-14T13:13:59.950Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-14T21:13:59.952+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-14T13:13:59.959Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-14T21:13:59.962+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-14T13:13:59.976Z [feishu] feishu[default]: WebSocket client started
+2026-03-14T21:14:01.881+08:00 [info]: [ '[ws]', 'ws client ready' ]
