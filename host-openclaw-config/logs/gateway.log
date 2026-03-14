@@ -2089,3 +2089,122 @@
 2026-03-14T08:19:27.154Z [feishu] feishu[default] Started streaming: cardId=7617022988509203414, messageId=om_x100b5465ee24c4a8b3c5c7c17973b4f
 2026-03-14T08:19:29.909Z [feishu] feishu[default] Closed streaming: cardId=7617022988509203414
 2026-03-14T08:19:29.913Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-14T08:21:57.764Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-14T08:21:57.769Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-14T08:21:57.774Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 方案b可以给我整理成飞书的表格吗？你应该可以调用飞书的表格功能吧？
+2026-03-14T08:21:57.780Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-14T08:21:59.101Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=9b52f781-a79a-498a-a837-35888b37544c
+2026-03-14T08:21:59.149Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:22:13.508Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-14T08:22:32.569Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-03-14T08:22:32.581Z [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 好的，下次我要做升级请提醒我
+2026-03-14T08:22:32.587Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-03-14T08:22:34.274Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=83d36189-8d12-427f-9c0e-278fc599ad9a
+2026-03-14T08:22:34.352Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:22:50.580Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-03-14T08:23:01.179Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-14T08:23:01.187Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-14T08:23:01.196Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 直接新建，你给我自己命名，自己做好，然后发那个链接给我
+2026-03-14T08:23:01.201Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-14T08:23:02.887Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=9b52f781-a79a-498a-a837-35888b37544c
+2026-03-14T08:23:02.991Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:23:59.289Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-14T08:23:59.304Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-14T08:23:59.429Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-14T08:23:59.897Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-14T16:23:59.906+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-14T08:23:59.914Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-14T16:23:59.920+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-14T08:23:59.927Z [feishu] feishu[default]: WebSocket client started
+2026-03-14T16:24:02.039+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-14T08:26:00.559Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-03-14T08:29:58.181Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-14T08:29:58.206Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-14T08:29:58.220Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 把方案a也整理成飞书的文档，做一个
+2026-03-14T08:29:58.430Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-14T08:30:01.134Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=9b52f781-a79a-498a-a837-35888b37544c
+2026-03-14T08:30:01.368Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:31:02.376Z [gateway] feishu_doc: Converting markdown...
+2026-03-14T08:31:06.379Z [gateway] feishu_doc: Converted to 209 blocks, inserting...
+2026-03-14T08:31:08.011Z [gateway] feishu_doc: Done (209 blocks, 0 images)
+2026-03-14T08:31:18.459Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-03-14T08:33:09.480Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-14T08:33:09.486Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-14T08:33:09.490Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 那选品库你给我写个5条的选品示例放进去，得是需要呃比较真实的
+2026-03-14T08:33:09.493Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-14T08:33:11.153Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=9b52f781-a79a-498a-a837-35888b37544c
+2026-03-14T08:33:11.213Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:34:40.310Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-03-14T08:42:31.427Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-14T08:42:31.430Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-14T08:42:31.442Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 帮我在那个宠物选品方向的文档里面： 1.每一个方向的关键词写个建议 2.列一下菲律宾本土用户常见的搜索词，帮我去搜索以后写上去
+2026-03-14T08:42:31.449Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-14T08:42:32.957Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=9b52f781-a79a-498a-a837-35888b37544c
+2026-03-14T08:42:33.169Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:42:51.128Z [browser/service] Browser control service ready (profiles=2)
+2026-03-14T08:42:53.503Z [browser/chrome] 🦞 openclaw browser started (chrome) profile "openclaw" on 127.0.0.1:18800 (pid 21416)
+2026-03-14T08:43:56.385Z [gateway] feishu_doc: Converting markdown...
+2026-03-14T08:43:59.643Z [gateway] feishu_doc: Converted to 380 blocks, inserting...
+2026-03-14T08:44:02.017Z [gateway] feishu_doc: Done (380 blocks, 0 images)
+2026-03-14T08:44:13.043Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-03-14T08:46:12.558Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-14T08:46:12.560Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-14T08:46:12.564Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 整理一下这个表格吧，有点乱。 方向建议还有那个本土常见搜索词这些跟那个20个测测的方向整理在一起，然后呢，帮我整理好。如果你觉得文档不够直观的话，帮我整理成那个表格也行
+2026-03-14T08:46:12.568Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-14T08:46:13.877Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=9b52f781-a79a-498a-a837-35888b37544c
+2026-03-14T08:46:13.972Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:47:48.689Z [gateway] feishu_doc: Converting markdown...
+2026-03-14T08:47:53.141Z [gateway] feishu_doc: Converted to 515 blocks, inserting...
+2026-03-14T08:47:55.720Z [gateway] feishu_doc: Done (515 blocks, 0 images)
+2026-03-14T08:48:09.664Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-03-14T08:50:13.904Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-14T08:50:13.920Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-14T08:50:13.929Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 市面上应该有很多那种选品的工具，你推荐一下
+2026-03-14T08:50:13.948Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-14T08:50:15.371Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=9b52f781-a79a-498a-a837-35888b37544c
+2026-03-14T08:50:15.437Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:50:54.688Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-14T08:53:59.450Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-14T08:53:59.456Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-14T08:53:59.500Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-14T08:53:59.503Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-14T16:53:59.506+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-14T08:53:59.514Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-14T16:53:59.517+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-14T08:53:59.525Z [feishu] feishu[default]: WebSocket client started
+2026-03-14T16:54:02.043+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-14T08:56:11.960Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-14T08:56:11.967Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-14T08:56:11.970Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 这些功能我希望你能自己独立完成，可以做到吗？ 如果不，做不到你告诉我还需要给你配备哪些东西，或者说这些工具你给我推荐一下，到时候我给你登录好，到时候你自己弄。因为的话，我可能的话只是做一个审核的工作
+2026-03-14T08:56:11.973Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-14T08:56:13.439Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=9b52f781-a79a-498a-a837-35888b37544c
+2026-03-14T08:56:13.490Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:56:51.997Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-14T08:59:22.055Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-14T08:59:22.058Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-14T08:59:22.062Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 你给我推荐一个虾皮的数据工具，然后呢，推荐还有哪些工具需要的，你自己推荐给我，然后呢，我去做好，我去挑选
+2026-03-14T08:59:22.067Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-14T08:59:23.505Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=9b52f781-a79a-498a-a837-35888b37544c
+2026-03-14T08:59:23.650Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T09:00:04.796Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-14T17:07:25.562+08:00 [info]: [ '[ws]', 'reconnect' ]
