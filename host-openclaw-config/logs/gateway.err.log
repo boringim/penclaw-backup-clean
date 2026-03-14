@@ -404,3 +404,5 @@ Bind: loopback
 2026-03-14T22:42:37.745+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-03-14T22:43:56.294+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-03-14T22:45:50.076+08:00 Rerank API timed out (5s), falling back to cosine
+2026-03-14T16:00:00.093Z [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-03-15T00:00:19.504+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-03-15.md'

@@ -2918,3 +2918,1722 @@
   "Cannot read properties of undefined (reading 'PingInterval')"
 ]
 2026-03-14T23:21:07.533+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 34 times")' ]
+2026-03-14T23:22:14.204+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:22:14.216+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:22:14.234+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:22:42.007+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:22:42.018+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:22:42.031+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 20 times")' ]
+2026-03-14T23:23:11.678+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:23:11.681+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:23:11.685+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 35 times")' ]
+2026-03-14T23:23:44.053+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:23:51.694+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:23:52.621+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:23:54.718+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:23:59.166+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:24:22.568+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:24:22.578+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:24:22.580+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:24:44.139+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:24:44.143+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:24:44.149+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 21 times")' ]
+2026-03-14T23:25:12.820+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:25:12.825+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:25:12.827+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 36 times")' ]
+2026-03-14T23:26:07.745+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-14T23:26:07.749+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:26:15.171+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:26:18.824+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:26:46.275+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:26:46.281+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:26:46.286+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 22 times")' ]
+2026-03-14T23:27:27.861+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-14T23:27:27.866+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 37 times")' ]
+2026-03-14T23:27:43.084+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:27:43.087+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:27:43.091+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:28:41.965+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:28:52.773+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:28:52.837+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:28:52.937+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:28:53.011+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:28:53.278+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:28:53.376+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:28:53.404+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:28:53.523+08:00 [error]: [ '[ws]', 'ws connect failed' ]
+2026-03-14T23:28:53.527+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 23 times")' ]
+2026-03-14T23:28:53.534+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:28:53.544+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:28:53.589+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:28:53.689+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:28:59.810+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:28:59.812+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:29:00.329+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:29:00.331+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:29:05.275+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:29:05.277+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:29:08.263+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:29:08.266+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:29:09.405+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:29:09.408+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:29:11.425+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:29:11.429+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:29:13.616+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:29:13.627+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:29:16.801+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:29:16.807+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:29:18.140+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:29:18.145+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:29:19.156+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:29:19.161+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:29:19.177+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:29:19.180+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:29:22.752+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:29:22.757+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:29:23.001+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:29:23.004+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:29:32.916+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:29:32.932+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 38 times")' ]
+2026-03-14T23:30:18.593+08:00 [error]: [
+  AxiosError: Client network socket disconnected before secure TLS connection was established
+      at Function.from (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\AxiosError.js:7:24)
+      at RedirectableRequest.handleRequestError (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\adapters\http.js:866:27)
+      at RedirectableRequest.emit (node:events:536:35)
+      at ClientRequest.eventHandlers.<computed> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\follow-redirects\index.js:49:24)
+      at ClientRequest.emit (node:events:524:28)
+      at emitErrorEvent (node:_http_client:104:11)
+      at TLSSocket.socketErrorListener (node:_http_client:512:5)
+      at TLSSocket.emit (node:events:524:28)
+      at emitErrorNT (node:internal/streams/destroy:170:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+      at Axios.request (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ECONNRESET',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    cause: Error: Client network socket disconnected before secure TLS connection was established
+        at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)
+        at TLSSocket.emit (node:events:536:35)
+        at endReadableNT (node:internal/streams/readable:1698:12)
+        at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+      code: 'ECONNRESET',
+      path: null,
+      host: 'open.feishu.cn',
+      port: 443,
+      localAddress: undefined
+    }
+  }
+]
+2026-03-14T23:30:34.852+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:30:34.856+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:30:35.371+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:30:35.390+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:30:40.428+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:30:40.430+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:30:43.298+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:30:43.304+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:30:44.437+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:30:44.440+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:30:46.468+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:30:46.470+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:30:48.658+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:30:48.666+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:30:51.858+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:30:51.860+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:30:53.170+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:30:53.175+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:30:54.191+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:30:54.195+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:30:54.206+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:30:54.216+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:30:57.782+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:30:57.790+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:30:58.024+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:30:58.026+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:30:58.544+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:30:58.546+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 24 times")' ]
+2026-03-14T23:31:18.659+08:00 [error]: [
+  AxiosError: Client network socket disconnected before secure TLS connection was established
+      at Function.from (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\AxiosError.js:7:24)
+      at RedirectableRequest.handleRequestError (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\adapters\http.js:866:27)
+      at RedirectableRequest.emit (node:events:536:35)
+      at ClientRequest.eventHandlers.<computed> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\follow-redirects\index.js:49:24)
+      at ClientRequest.emit (node:events:524:28)
+      at emitErrorEvent (node:_http_client:104:11)
+      at TLSSocket.socketErrorListener (node:_http_client:512:5)
+      at TLSSocket.emit (node:events:524:28)
+      at emitErrorNT (node:internal/streams/destroy:170:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+      at Axios.request (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ECONNRESET',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    cause: Error: Client network socket disconnected before secure TLS connection was established
+        at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)
+        at TLSSocket.emit (node:events:536:35)
+        at endReadableNT (node:internal/streams/readable:1698:12)
+        at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+      code: 'ECONNRESET',
+      path: null,
+      host: 'open.feishu.cn',
+      port: 443,
+      localAddress: undefined
+    }
+  }
+]
+2026-03-14T23:31:38.046+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:31:38.051+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 39 times")' ]
+2026-03-14T23:32:09.889+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:32:09.893+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:32:10.421+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:32:10.426+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:32:15.503+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:32:15.514+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:32:18.608+08:00 [error]: [
+  AxiosError: Client network socket disconnected before secure TLS connection was established
+      at Function.from (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\AxiosError.js:7:24)
+      at RedirectableRequest.handleRequestError (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\adapters\http.js:866:27)
+      at RedirectableRequest.emit (node:events:536:35)
+      at ClientRequest.eventHandlers.<computed> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\follow-redirects\index.js:49:24)
+      at ClientRequest.emit (node:events:524:28)
+      at emitErrorEvent (node:_http_client:104:11)
+      at TLSSocket.socketErrorListener (node:_http_client:512:5)
+      at TLSSocket.emit (node:events:524:28)
+      at emitErrorNT (node:internal/streams/destroy:170:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+      at Axios.request (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ECONNRESET',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    cause: Error: Client network socket disconnected before secure TLS connection was established
+        at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)
+        at TLSSocket.emit (node:events:536:35)
+        at endReadableNT (node:internal/streams/readable:1698:12)
+        at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+      code: 'ECONNRESET',
+      path: null,
+      host: 'open.feishu.cn',
+      port: 443,
+      localAddress: undefined
+    }
+  }
+]
+2026-03-14T23:32:18.616+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:32:18.619+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:32:19.549+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:32:19.554+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:32:21.509+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:32:21.513+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:32:23.688+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:32:23.692+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:32:26.914+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:32:26.919+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:32:28.202+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:32:28.208+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T23:32:29.245+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:32:29.250+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:32:29.254+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:32:29.257+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:32:32.883+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:32:32.885+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:32:33.063+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:32:33.068+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:33:23.602+08:00 [error]: [
+  AxiosError: timeout of 10000ms exceeded
+      at RedirectableRequest.handleRequestTimeout (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\adapters\http.js:908:13)
+      at RedirectableRequest.emit (node:events:524:28)
+      at Timeout._onTimeout (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\follow-redirects\index.js:221:12)
+      at listOnTimeout (node:internal/timers:594:17)
+      at processTimers (node:internal/timers:529:7)
+      at Axios.request (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ECONNABORTED',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    }
+  }
+]
+2026-03-14T23:33:27.285+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:33:43.105+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:33:43.110+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 40 times")' ]
+2026-03-14T23:33:44.919+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:33:44.923+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:33:45.478+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:33:45.482+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:33:50.550+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:33:50.554+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:33:53.642+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:33:53.646+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:33:54.569+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:33:54.573+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:33:55.983+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:33:55.986+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:33:56.571+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:33:56.574+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:33:58.719+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:33:58.723+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:34:01.951+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:34:01.956+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:34:03.232+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:34:03.235+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 7 times")' ]
+2026-03-14T23:34:04.281+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:34:04.284+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:34:04.291+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:34:04.295+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:34:07.920+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:34:07.925+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:34:08.088+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:34:08.095+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:34:18.687+08:00 [error]: [
+  AxiosError: Client network socket disconnected before secure TLS connection was established
+      at Function.from (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\AxiosError.js:7:24)
+      at RedirectableRequest.handleRequestError (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\adapters\http.js:866:27)
+      at RedirectableRequest.emit (node:events:536:35)
+      at ClientRequest.eventHandlers.<computed> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\follow-redirects\index.js:49:24)
+      at ClientRequest.emit (node:events:524:28)
+      at emitErrorEvent (node:_http_client:104:11)
+      at TLSSocket.socketErrorListener (node:_http_client:512:5)
+      at TLSSocket.emit (node:events:524:28)
+      at emitErrorNT (node:internal/streams/destroy:170:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+      at Axios.request (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ECONNRESET',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    cause: Error: Client network socket disconnected before secure TLS connection was established
+        at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)
+        at TLSSocket.emit (node:events:536:35)
+        at endReadableNT (node:internal/streams/readable:1698:12)
+        at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+      code: 'ECONNRESET',
+      path: null,
+      host: 'open.feishu.cn',
+      port: 443,
+      localAddress: undefined
+    }
+  }
+]
+2026-03-14T23:35:18.688+08:00 [error]: [
+  AxiosError: Client network socket disconnected before secure TLS connection was established
+      at Function.from (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\AxiosError.js:7:24)
+      at RedirectableRequest.handleRequestError (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\adapters\http.js:866:27)
+      at RedirectableRequest.emit (node:events:536:35)
+      at ClientRequest.eventHandlers.<computed> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\follow-redirects\index.js:49:24)
+      at ClientRequest.emit (node:events:524:28)
+      at emitErrorEvent (node:_http_client:104:11)
+      at TLSSocket.socketErrorListener (node:_http_client:512:5)
+      at TLSSocket.emit (node:events:524:28)
+      at emitErrorNT (node:internal/streams/destroy:170:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+      at Axios.request (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ECONNRESET',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    cause: Error: Client network socket disconnected before secure TLS connection was established
+        at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)
+        at TLSSocket.emit (node:events:536:35)
+        at endReadableNT (node:internal/streams/readable:1698:12)
+        at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+      code: 'ECONNRESET',
+      path: null,
+      host: 'open.feishu.cn',
+      port: 443,
+      localAddress: undefined
+    }
+  }
+]
+2026-03-14T23:35:19.996+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:20.002+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:35:20.510+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:20.514+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:35:22.261+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:22.264+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:35:23.740+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:23.743+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:35:24.641+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:24.645+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:35:26.101+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:26.104+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:35:26.660+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:26.665+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:35:28.809+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:28.812+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:35:32.079+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:32.094+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:35:33.426+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:33.434+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 8 times")' ]
+2026-03-14T23:35:34.390+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:34.392+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:35:34.397+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:34.401+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:35:38.032+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:38.043+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:35:38.234+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:38.238+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:35:43.191+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:35:43.196+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 41 times")' ]
+2026-03-14T23:36:13.712+08:00 [error]: [
+  AxiosError: Client network socket disconnected before secure TLS connection was established
+      at Function.from (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\AxiosError.js:7:24)
+      at RedirectableRequest.handleRequestError (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\adapters\http.js:866:27)
+      at RedirectableRequest.emit (node:events:536:35)
+      at ClientRequest.eventHandlers.<computed> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\follow-redirects\index.js:49:24)
+      at ClientRequest.emit (node:events:524:28)
+      at emitErrorEvent (node:_http_client:104:11)
+      at TLSSocket.socketErrorListener (node:_http_client:512:5)
+      at TLSSocket.emit (node:events:524:28)
+      at emitErrorNT (node:internal/streams/destroy:170:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+      at Axios.request (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ECONNRESET',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    cause: Error: Client network socket disconnected before secure TLS connection was established
+        at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)
+        at TLSSocket.emit (node:events:536:35)
+        at endReadableNT (node:internal/streams/readable:1698:12)
+        at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+      code: 'ECONNRESET',
+      path: null,
+      host: 'open.feishu.cn',
+      port: 443,
+      localAddress: undefined
+    }
+  }
+]
+2026-03-14T23:36:50.068+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:36:50.075+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T23:36:50.584+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:36:50.589+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T23:36:52.343+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:36:52.351+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T23:36:53.830+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:36:53.833+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T23:36:54.722+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:36:54.729+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T23:36:56.184+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:36:56.188+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:36:56.834+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:36:56.845+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T23:36:58.891+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:36:58.897+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T23:37:02.196+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:37:02.202+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T23:37:03.524+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:37:03.529+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 9 times")' ]
+2026-03-14T23:37:04.484+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:37:04.488+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T23:37:04.497+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:37:04.500+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T23:37:08.118+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:37:08.120+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T23:37:08.334+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:37:08.339+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T23:37:13.730+08:00 [error]: [
+  AxiosError: Client network socket disconnected before secure TLS connection was established
+      at Function.from (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\AxiosError.js:7:24)
+      at RedirectableRequest.handleRequestError (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\adapters\http.js:866:27)
+      at RedirectableRequest.emit (node:events:536:35)
+      at ClientRequest.eventHandlers.<computed> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\follow-redirects\index.js:49:24)
+      at ClientRequest.emit (node:events:524:28)
+      at emitErrorEvent (node:_http_client:104:11)
+      at TLSSocket.socketErrorListener (node:_http_client:512:5)
+      at TLSSocket.emit (node:events:524:28)
+      at emitErrorNT (node:internal/streams/destroy:170:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+      at Axios.request (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ECONNRESET',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    cause: Error: Client network socket disconnected before secure TLS connection was established
+        at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)
+        at TLSSocket.emit (node:events:536:35)
+        at endReadableNT (node:internal/streams/readable:1698:12)
+        at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+      code: 'ECONNRESET',
+      path: null,
+      host: 'open.feishu.cn',
+      port: 443,
+      localAddress: undefined
+    }
+  }
+]
+2026-03-14T23:37:54.044+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:37:54.047+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 42 times")' ]
+2026-03-14T23:38:23.709+08:00 [error]: [
+  AxiosError: timeout of 10000ms exceeded
+      at RedirectableRequest.handleRequestTimeout (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\adapters\http.js:908:13)
+      at RedirectableRequest.emit (node:events:524:28)
+      at Timeout._onTimeout (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\follow-redirects\index.js:221:12)
+      at listOnTimeout (node:internal/timers:594:17)
+      at processTimers (node:internal/timers:529:7)
+      at Axios.request (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ECONNABORTED',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    }
+  }
+]
+2026-03-14T23:38:37.378+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-14T23:38:37.382+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 7 times")' ]
+2026-03-14T23:38:53.075+08:00 [error]: [ '[ws]', 'ws connect failed' ]
+2026-03-14T23:38:53.083+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 7 times")' ]
+2026-03-14T23:39:23.669+08:00 [error]: [
+  AxiosError: timeout of 10000ms exceeded
+      at RedirectableRequest.handleRequestTimeout (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\adapters\http.js:908:13)
+      at RedirectableRequest.emit (node:events:524:28)
+      at Timeout._onTimeout (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\follow-redirects\index.js:221:12)
+      at listOnTimeout (node:internal/timers:594:17)
+      at processTimers (node:internal/timers:529:7)
+      at Axios.request (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\axios\lib\core\Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ECONNABORTED',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    }
+  }
+]
+2026-03-14T23:39:33.700+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:39:38.391+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:39:57.697+08:00 [error]: [ '[ws]', 'ws connect failed' ]
+2026-03-14T23:39:57.701+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:40:08.259+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:40:08.263+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:40:08.268+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 8 times")' ]
+2026-03-14T23:40:23.994+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:40:23.996+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:40:23.999+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 8 times")' ]
+2026-03-14T23:41:29.620+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:41:29.624+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:41:29.626+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:41:39.342+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:41:39.347+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:41:39.351+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 9 times")' ]
+2026-03-14T23:41:40.112+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:41:54.829+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:41:54.834+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:41:54.837+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 9 times")' ]
+2026-03-14T23:43:01.686+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:43:01.695+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:43:01.697+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:43:12.549+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:43:12.556+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:43:12.562+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 10 times")' ]
+2026-03-14T23:43:28.337+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:43:28.341+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:43:28.345+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 10 times")' ]
+2026-03-14T15:44:00.278Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-14T15:44:00.283Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-14T15:44:00.317Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-14T15:44:00.320Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-14T23:44:00.322+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-14T15:44:00.326Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-14T23:44:00.328+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-14T15:44:00.335Z [feishu] feishu[default]: WebSocket client started
+2026-03-14T23:44:01.383+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:44:01.386+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:44:01.389+08:00 [error]: [ '[ws]', 'connect failed' ]
+2026-03-14T23:44:01.393+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:44:01.396+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-14T23:44:12.276+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:44:12.280+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:44:12.284+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:44:32.767+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:44:32.772+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:44:32.777+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:44:43.432+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:44:43.454+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:44:43.460+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 11 times")' ]
+2026-03-14T23:44:59.193+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:44:59.198+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:44:59.202+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 11 times")' ]
+2026-03-14T23:46:03.654+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:46:03.660+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:46:03.667+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:46:13.177+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:46:13.181+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:46:13.185+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:46:14.320+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:46:14.324+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:46:14.326+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 12 times")' ]
+2026-03-14T23:46:30.059+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:46:30.063+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:46:30.068+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 12 times")' ]
+2026-03-14T23:47:35.648+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:47:35.652+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:47:35.656+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T23:47:46.591+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:47:46.594+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:47:46.598+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 13 times")' ]
+2026-03-14T23:48:15.104+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-14T23:48:15.107+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 13 times")' ]
+2026-03-14T23:48:15.600+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:48:15.607+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:48:15.610+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:48:30.814+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:48:37.662+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:49:07.010+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:49:07.015+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:49:07.017+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 7 times")' ]
+2026-03-14T23:49:21.230+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:49:21.250+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:49:21.261+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 14 times")' ]
+2026-03-14T23:49:47.254+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:49:47.259+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:49:47.261+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 14 times")' ]
+2026-03-14T23:50:27.859+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:50:30.643+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-14T23:50:30.648+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:50:46.730+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:50:47.392+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:51:19.360+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-14T23:51:19.373+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:51:29.409+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:51:29.415+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 15 times")' ]
+2026-03-14T23:51:30.383+08:00 [error]: [ '[ws]', 'ws connect failed' ]
+2026-03-14T23:51:30.386+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:51:31.421+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:51:38.981+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:52:07.356+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-14T23:52:07.359+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:52:08.256+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-14T23:52:08.259+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:53:04.402+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-14T23:53:04.412+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:53:07.214+08:00 [error]: [ '[ws]', 'ws connect failed' ]
+2026-03-14T23:53:07.220+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:53:41.944+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:53:41.951+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:53:41.974+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:53:48.236+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:53:50.470+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-14T23:53:50.474+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:54:14.318+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-14T23:54:14.323+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:54:27.197+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:54:45.230+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:54:45.235+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:54:45.242+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:55:14.972+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:55:14.983+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:55:14.994+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:55:27.586+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:55:27.589+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:55:27.592+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:55:46.645+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:55:46.649+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:55:46.654+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:56:20.147+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:56:20.162+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:56:20.167+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T23:56:48.271+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:56:48.278+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:56:48.284+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:56:58.317+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:57:05.741+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:57:17.265+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:57:17.270+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:57:17.273+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:57:34.521+08:00 [error]: [ '[ws]', 'ws connect failed' ]
+2026-03-14T23:57:34.525+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-14T23:57:52.398+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:57:52.402+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:57:52.404+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T23:58:24.055+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T23:58:24.062+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T23:58:24.064+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:58:42.468+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:59:10.975+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:59:19.575+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-14T23:59:19.589+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-14T23:59:22.321+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-14T23:59:22.325+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:59:29.312+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:59:31.539+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T23:59:39.485+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-14T23:59:39.491+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T23:59:47.702+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-14T23:59:47.707+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-15T00:00:04.283+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-15T00:00:05.995+08:00 [error]: [ '[ws]', 'ws connect failed' ]
+2026-03-15T00:00:05.997+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-15T00:00:06.461+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-15T00:00:06.465+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-15T00:00:09.086+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-15T00:00:09.090+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-14T16:00:09.401Z [gateway] memory-lancedb-pro: auto-recall injecting 2 row(s) for session=8cee4db8-1515-4336-9101-78404c869794
+2026-03-14T16:00:09.475Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-15T00:01:25.191+08:00 [error]: [ '[ws]', 'ws connect failed' ]
+2026-03-15T00:01:25.196+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T16:01:28.798Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T16:01:28.974Z [ws] ⇄ res ✓ config.get 340ms conn=42ed6243…65dd id=54192f9f…0076
+2026-03-14T16:01:29.057Z [ws] ⇄ res ✓ status 433ms conn=42ed6243…65dd id=cc30ad70…cc27
+2026-03-15T00:01:36.625+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:01:36.629+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:01:36.631+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-15T00:01:39.467+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:01:39.471+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:01:39.474+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-15T00:01:40.301+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:01:40.305+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:01:40.307+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 7 times")' ]
+2026-03-15T00:03:10.235+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-15T00:03:10.239+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-15T00:03:11.163+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:03:11.166+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:03:11.172+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-15T00:03:14.025+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:03:14.030+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:03:14.034+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 8 times")' ]
+2026-03-15T00:03:16.897+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:03:16.901+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:03:16.903+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-15T00:04:42.290+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:04:42.293+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:04:42.295+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-15T00:04:42.868+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:04:42.871+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:04:42.874+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-15T00:04:44.571+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:04:44.575+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:04:44.581+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 9 times")' ]
+2026-03-15T00:04:47.442+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:04:47.446+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:04:47.450+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 7 times")' ]
+2026-03-14T16:04:48.204Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T16:04:48.256Z [ws] ⇄ res ✓ config.get 174ms conn=d518183f…26d1 id=60ff19c3…158f
+2026-03-14T16:04:48.273Z [ws] ⇄ res ✓ status 183ms conn=d518183f…26d1 id=8f9d29bb…ae93
+2026-03-15T00:06:07.022+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-15T00:06:22.614+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:06:22.634+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:06:22.667+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-15T00:06:27.901+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-15T00:06:27.905+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-15T00:06:47.665+08:00 [error]: [ '[ws]', 'ws connect failed' ]
+2026-03-15T00:06:47.669+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-15T00:06:48.150+08:00 [error]: [ '[ws]', 'ws connect failed' ]
+2026-03-15T00:06:48.161+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 8 times")' ]
+2026-03-15T00:08:01.088+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:08:01.093+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:08:01.096+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-15T00:08:01.447+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:08:01.450+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:08:01.453+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-15T00:08:19.496+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:08:19.499+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:08:19.503+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-15T00:08:33.193+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-15T00:08:33.197+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 9 times")' ]
+2026-03-15T00:09:32.803+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:09:32.808+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:09:32.811+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 7 times")' ]
+2026-03-15T00:09:40.306+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:09:40.311+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:09:40.326+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-15T00:09:52.317+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:09:52.320+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:09:52.324+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 7 times")' ]
+2026-03-15T00:10:06.108+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:10:06.114+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:10:06.119+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 10 times")' ]
+2026-03-15T00:10:45.716+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-15T00:11:03.969+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:11:03.975+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:11:03.977+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 8 times")' ]
+2026-03-15T00:11:25.374+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-15T00:11:25.385+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-15T00:11:37.357+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-15T00:11:37.375+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 8 times")' ]
+2026-03-15T00:11:46.107+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:11:46.115+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:11:46.118+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 11 times")' ]
+2026-03-15T00:11:47.412+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-15T00:11:50.554+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-15T00:11:52.787+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-15T00:11:53.090+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-15T00:12:00.943+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-15T00:12:34.827+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:12:34.831+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:12:34.836+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 9 times")' ]
+2026-03-15T00:12:57.825+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:12:57.828+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:12:57.831+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-15T00:13:18.188+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:13:18.194+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:13:18.200+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 12 times")' ]
+2026-03-15T00:13:20.784+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-15T00:13:22.425+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-15T00:13:22.429+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 9 times")' ]
+2026-03-15T00:13:43.078+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T16:14:00.330Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-14T16:14:00.336Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-14T16:14:00.382Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-14T16:14:00.385Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-15T00:14:00.387+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-14T16:14:00.391Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-15T00:14:00.394+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-14T16:14:00.402Z [feishu] feishu[default]: WebSocket client started
+2026-03-15T00:14:04.075+08:00 [error]: [ '[ws]', 'ws connect failed' ]
+2026-03-15T00:14:04.078+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-15T00:14:04.574+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-15T00:14:08.605+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-15T00:14:08.610+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-15T00:14:29.956+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:14:29.959+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:14:29.964+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-15T00:15:03.223+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-15T00:15:03.227+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 13 times")' ]
+2026-03-15T00:15:07.468+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-15T00:15:07.471+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 10 times")' ]
+2026-03-15T00:15:25.667+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-15T00:15:36.362+08:00 [error]: [ '[ws]', 'ws connect failed' ]
+2026-03-15T00:15:36.366+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-15T00:15:39.187+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:15:39.196+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:15:39.203+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-15T00:16:14.993+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-15T00:16:14.998+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 7 times")' ]
+2026-03-15T00:16:39.608+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:16:39.611+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:16:39.618+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 11 times")' ]
+2026-03-15T00:16:41.208+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-15T00:16:48.261+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-15T00:16:48.291+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 14 times")' ]
+2026-03-15T00:17:06.448+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-15T00:17:12.415+08:00 [error]: [ '[ws]', 'ws connect failed' ]
+2026-03-15T00:17:12.429+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-15T00:17:21.561+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:17:21.565+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:17:21.569+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-15T00:17:46.895+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:17:46.898+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:17:46.903+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 8 times")' ]
+2026-03-15T00:18:11.732+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:18:11.736+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:18:11.739+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 12 times")' ]
+2026-03-15T00:18:26.878+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:18:26.887+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:18:26.893+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 15 times")' ]
+2026-03-15T00:18:46.625+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:18:46.630+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:18:46.633+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-15T00:18:52.222+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:18:52.255+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:18:52.279+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-15T00:19:24.437+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:19:24.440+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:19:24.442+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 9 times")' ]
+2026-03-15T00:19:50.539+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:19:50.547+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:19:50.551+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 13 times")' ]
+2026-03-15T00:19:59.246+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:19:59.249+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:19:59.253+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 16 times")' ]
+2026-03-15T00:20:18.350+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:20:18.355+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:20:18.359+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-15T00:20:24.276+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:20:24.280+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:20:24.284+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-15T00:20:58.782+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T00:20:58.789+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T00:20:58.793+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 10 times")' ]
