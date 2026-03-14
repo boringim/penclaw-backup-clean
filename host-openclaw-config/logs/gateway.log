@@ -2424,3 +2424,78 @@
 ]
 2026-03-14T13:13:59.976Z [feishu] feishu[default]: WebSocket client started
 2026-03-14T21:14:01.881+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-14T13:44:00.000Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-14T13:44:00.006Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-14T13:44:00.036Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-14T13:44:00.040Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-14T21:44:00.044+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-14T13:44:00.047Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-14T21:44:00.050+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-14T13:44:00.055Z [feishu] feishu[default]: WebSocket client started
+2026-03-14T21:44:03.765+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-14T22:00:50.545+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T22:01:01.864+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T22:01:28.790+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T22:09:42.895+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T22:12:44.193+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T22:13:11.686+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T14:14:00.053Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-14T14:14:00.056Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-14T14:14:00.079Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-14T14:14:02.016Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-14T22:14:02.019+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-14T14:14:02.026Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-14T22:14:02.028+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-14T14:14:02.033Z [feishu] feishu[default]: WebSocket client started
+2026-03-14T22:14:02.587+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T22:14:02.603+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T22:14:02.611+08:00 [error]: [ '[ws]', 'connect failed' ]
+2026-03-14T22:14:02.614+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-14T22:14:02.617+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-14T22:14:32.042+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T22:14:32.047+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T22:14:32.052+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-14T22:16:33.187+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T22:16:33.190+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T22:16:33.194+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-14T22:18:34.272+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T22:18:34.277+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T22:18:34.280+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-14T22:20:36.396+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-14T22:20:36.415+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-14T22:20:36.420+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
