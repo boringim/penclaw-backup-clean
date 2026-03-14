@@ -5966,3 +5966,1731 @@
   "Cannot read properties of undefined (reading 'PingInterval')"
 ]
 2026-03-15T01:20:51.821+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 36 times")' ]
+2026-03-15T01:21:52.770+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:21:52.775+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:21:52.778+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 35 times")' ]
+2026-03-15T01:21:53.827+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:21:53.829+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:21:53.836+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 45 times")' ]
+2026-03-15T01:21:56.111+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:21:56.115+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:21:56.120+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 35 times")' ]
+2026-03-15T01:22:22.030+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:22:22.035+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:22:22.042+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 18 times")' ]
+2026-03-15T01:22:22.871+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:22:22.875+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:22:22.882+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 37 times")' ]
+2026-03-15T01:22:23.685+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:22:23.689+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:22:23.715+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-15T01:22:52.027+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:22:52.031+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:22:52.036+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 20 times")' ]
+2026-03-15T01:23:24.351+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:23:24.357+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:23:24.361+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 36 times")' ]
+2026-03-15T01:23:24.658+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:23:24.665+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:23:24.667+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 46 times")' ]
+2026-03-15T01:23:26.610+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:23:26.613+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:23:26.615+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 36 times")' ]
+2026-03-15T01:23:55.282+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:23:55.338+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:23:55.354+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 38 times")' ]
+2026-03-15T01:23:57.969+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:23:57.998+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:23:58.007+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 19 times")' ]
+2026-03-15T01:24:25.080+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:24:25.086+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:24:25.090+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-15T01:24:54.078+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:24:54.082+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:24:54.086+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 21 times")' ]
+2026-03-15T01:24:55.393+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:24:55.396+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:24:55.399+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 37 times")' ]
+2026-03-15T01:24:56.022+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:24:56.025+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:24:56.028+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 47 times")' ]
+2026-03-15T01:24:58.991+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:24:58.996+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:24:59.008+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 37 times")' ]
+2026-03-15T01:25:28.221+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:25:28.225+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:25:28.228+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 39 times")' ]
+2026-03-15T01:25:28.841+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:25:28.845+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:25:28.849+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 20 times")' ]
+2026-03-15T01:26:25.903+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:26:25.905+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:26:25.907+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 7 times")' ]
+2026-03-15T01:26:26.241+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:26:26.247+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:26:26.252+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 38 times")' ]
+2026-03-15T01:26:26.444+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:26:26.448+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:26:26.452+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 48 times")' ]
+2026-03-15T01:26:29.625+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:26:29.630+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:26:29.633+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 38 times")' ]
+2026-03-15T01:26:54.938+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:26:54.967+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:26:54.975+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 22 times")' ]
+2026-03-15T01:26:59.787+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:26:59.797+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:26:59.803+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 40 times")' ]
+2026-03-15T01:27:00.939+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:27:00.956+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:27:00.973+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 21 times")' ]
+2026-03-15T01:27:58.303+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:27:58.309+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:27:58.312+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 49 times")' ]
+2026-03-15T01:27:59.115+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:27:59.119+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:27:59.121+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 39 times")' ]
+2026-03-15T01:28:01.204+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:28:01.208+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:28:01.213+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 39 times")' ]
+2026-03-15T01:28:27.682+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:28:27.688+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:28:27.693+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 8 times")' ]
+2026-03-15T01:28:30.574+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:28:30.578+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:28:30.582+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 41 times")' ]
+2026-03-15T01:28:31.543+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:28:31.546+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:28:31.550+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 22 times")' ]
+2026-03-15T01:28:56.160+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:28:56.165+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:28:56.168+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 23 times")' ]
+2026-03-15T01:29:29.403+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:29:29.411+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:29:29.420+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 50 times")' ]
+2026-03-15T01:29:30.427+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:29:30.431+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:29:30.434+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 40 times")' ]
+2026-03-15T01:29:32.866+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:29:32.870+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:29:32.873+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 40 times")' ]
+2026-03-15T01:30:02.169+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:30:02.174+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:30:02.187+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 42 times")' ]
+2026-03-15T01:30:04.357+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:30:04.361+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:30:04.366+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 23 times")' ]
+2026-03-15T01:30:28.790+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:30:28.798+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:30:28.812+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 9 times")' ]
+2026-03-15T01:30:57.967+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:30:57.971+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:30:57.990+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 24 times")' ]
+2026-03-15T01:31:00.180+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:31:00.188+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:31:00.191+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 51 times")' ]
+2026-03-15T01:31:00.991+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:31:00.994+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:31:00.996+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 41 times")' ]
+2026-03-15T01:31:03.409+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:31:03.412+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:31:03.416+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 41 times")' ]
+2026-03-15T01:31:35.011+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:31:35.016+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:31:35.030+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 43 times")' ]
+2026-03-15T01:31:36.469+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:31:36.474+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:31:36.480+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 24 times")' ]
+2026-03-15T01:32:29.898+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:32:29.901+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:32:29.904+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 10 times")' ]
+2026-03-15T01:32:30.729+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:32:30.732+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:32:30.734+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 52 times")' ]
+2026-03-15T01:32:31.534+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:32:31.539+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:32:31.544+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 42 times")' ]
+2026-03-15T01:32:33.966+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:32:33.969+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:32:33.974+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 42 times")' ]
+2026-03-15T01:33:00.742+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:33:00.748+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:33:00.755+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 25 times")' ]
+2026-03-15T01:33:05.577+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:33:05.582+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:33:05.585+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 44 times")' ]
+2026-03-15T01:33:07.023+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:33:07.030+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:33:07.038+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 25 times")' ]
+2026-03-15T01:34:02.327+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:34:02.331+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:34:02.334+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 53 times")' ]
+2026-03-15T01:34:04.150+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:34:04.153+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:34:04.155+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 43 times")' ]
+2026-03-15T01:34:04.532+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:34:04.536+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:34:04.601+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 43 times")' ]
+2026-03-15T01:34:33.521+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:34:33.523+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:34:33.526+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 11 times")' ]
+2026-03-15T01:34:36.644+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:34:36.648+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:34:36.652+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 45 times")' ]
+2026-03-15T01:34:38.275+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:34:38.280+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:34:38.303+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 26 times")' ]
+2026-03-15T01:35:02.365+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:35:02.371+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:35:02.374+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 26 times")' ]
+2026-03-15T01:35:33.517+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:35:33.527+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:35:33.533+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 54 times")' ]
+2026-03-15T01:35:34.710+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:35:34.713+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:35:34.732+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 44 times")' ]
+2026-03-15T01:35:37.300+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:35:37.303+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:35:37.306+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 44 times")' ]
+2026-03-15T01:36:08.726+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:36:08.731+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:36:08.733+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 46 times")' ]
+2026-03-15T01:36:10.380+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:36:10.383+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:36:10.386+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 27 times")' ]
+2026-03-15T01:36:34.610+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:36:34.635+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:36:34.639+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 12 times")' ]
+2026-03-15T01:37:03.460+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:37:03.466+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:37:03.469+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 27 times")' ]
+2026-03-15T01:37:04.583+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:37:04.587+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:37:04.590+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 55 times")' ]
+2026-03-15T01:37:05.476+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:37:05.481+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:37:05.486+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 45 times")' ]
+2026-03-15T01:37:07.847+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:37:07.853+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:37:07.860+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 45 times")' ]
+2026-03-15T01:37:39.854+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:37:39.856+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:37:39.859+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 47 times")' ]
+2026-03-15T01:37:41.865+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:37:41.871+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:37:41.877+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 28 times")' ]
+2026-03-15T01:38:35.737+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:38:35.743+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:38:35.749+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 56 times")' ]
+2026-03-15T01:38:36.902+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:38:36.905+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:38:36.910+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 13 times")' ]
+2026-03-15T01:38:38.118+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:38:38.121+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:38:38.130+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 46 times")' ]
+2026-03-15T01:38:38.281+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:38:38.286+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:38:38.290+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 46 times")' ]
+2026-03-15T01:39:04.281+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:39:04.287+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:39:04.289+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 28 times")' ]
+2026-03-15T01:39:11.562+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:39:11.570+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:39:11.574+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 48 times")' ]
+2026-03-15T01:39:12.528+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:39:12.531+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:39:12.535+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 29 times")' ]
+2026-03-15T01:40:08.989+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:40:08.994+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:40:08.997+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 47 times")' ]
+2026-03-15T01:40:09.174+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:40:09.178+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:40:09.183+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 47 times")' ]
+2026-03-15T01:40:09.823+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:40:09.826+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:40:09.830+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 57 times")' ]
+2026-03-15T01:40:37.777+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:40:37.782+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:40:37.788+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 14 times")' ]
+2026-03-15T01:40:42.917+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:40:42.921+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:40:42.927+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 49 times")' ]
+2026-03-15T01:40:43.388+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:40:43.396+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:40:43.401+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 30 times")' ]
+2026-03-15T01:41:05.125+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:41:05.130+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:41:05.134+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 29 times")' ]
+2026-03-15T01:41:41.362+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:41:41.370+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:41:41.382+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 58 times")' ]
+2026-03-15T01:41:41.628+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:41:41.631+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:41:41.634+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 48 times")' ]
+2026-03-15T01:41:42.219+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:41:42.224+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:41:42.227+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 48 times")' ]
+2026-03-15T01:42:14.257+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:42:14.260+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:42:14.263+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 31 times")' ]
+2026-03-15T01:42:14.452+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:42:14.455+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:42:14.459+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 50 times")' ]
+2026-03-15T01:42:38.635+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:42:38.639+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:42:38.641+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 15 times")' ]
+2026-03-15T01:43:06.028+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:43:06.039+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:43:06.054+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 30 times")' ]
+2026-03-15T01:43:13.580+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:43:13.587+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:43:13.590+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 49 times")' ]
+2026-03-15T01:43:14.162+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:43:14.168+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:43:14.171+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 49 times")' ]
+2026-03-15T01:43:14.345+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:43:14.349+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:43:14.351+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 59 times")' ]
+2026-03-15T01:43:45.105+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:43:45.132+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:43:45.141+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 32 times")' ]
+2026-03-15T01:43:45.309+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:43:45.311+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:43:45.314+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 51 times")' ]
+2026-03-14T17:44:00.512Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-14T17:44:00.515Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-14T17:44:00.549Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-14T17:44:00.557Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-15T01:44:00.559+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-14T17:44:00.564Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-15T01:44:00.565+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-14T17:44:00.574Z [feishu] feishu[default]: WebSocket client started
+2026-03-15T01:44:01.955+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:44:01.978+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:44:02.000+08:00 [error]: [ '[ws]', 'connect failed' ]
+2026-03-15T01:44:02.008+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-15T01:44:02.030+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-15T01:44:18.643+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:44:18.646+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:44:18.649+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-15T01:44:39.500+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:44:39.504+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:44:39.507+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 16 times")' ]
+2026-03-15T01:44:45.189+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:44:45.195+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:44:45.198+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 60 times")' ]
+2026-03-15T01:44:46.225+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:44:46.232+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:44:46.234+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 50 times")' ]
+2026-03-15T01:44:46.417+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:44:46.420+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:44:46.425+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 50 times")' ]
+2026-03-15T01:45:16.675+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:45:16.680+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:45:16.685+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 52 times")' ]
+2026-03-15T01:45:16.690+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:45:16.695+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:45:16.700+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 33 times")' ]
+2026-03-15T01:45:21.101+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-03-15T01:45:21.105+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 31 times")' ]
+2026-03-15T01:46:16.723+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:46:16.745+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:46:16.758+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 61 times")' ]
+2026-03-15T01:46:17.074+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:46:17.077+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:46:17.082+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 51 times")' ]
+2026-03-15T01:46:17.489+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:46:17.494+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:46:17.498+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 51 times")' ]
+2026-03-15T01:46:19.115+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:46:19.130+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:46:19.147+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-15T01:46:41.135+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:46:41.140+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:46:41.143+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 17 times")' ]
+2026-03-15T01:46:48.629+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:46:48.634+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:46:48.636+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 53 times")' ]
+2026-03-15T01:46:48.640+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:46:48.642+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:46:48.645+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 34 times")' ]
+2026-03-15T01:47:23.997+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:47:24.025+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:47:24.041+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 32 times")' ]
+2026-03-15T01:47:47.729+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:47:47.733+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:47:47.738+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 62 times")' ]
+2026-03-15T01:47:49.650+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:47:49.655+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:47:49.662+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 52 times")' ]
+2026-03-15T01:47:50.094+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:47:50.100+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:47:50.104+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 52 times")' ]
+2026-03-15T01:48:20.043+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:48:20.047+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:48:20.053+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 35 times")' ]
+2026-03-15T01:48:20.110+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:48:20.118+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:48:20.121+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-15T01:48:21.001+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:48:21.005+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:48:21.008+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 54 times")' ]
+2026-03-15T01:48:43.536+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:48:43.543+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:48:43.550+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 18 times")' ]
+2026-03-15T01:49:18.576+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:49:18.584+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:49:18.587+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 63 times")' ]
+2026-03-15T01:49:20.100+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:49:20.103+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:49:20.106+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 53 times")' ]
+2026-03-15T01:49:20.526+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:49:20.529+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:49:20.532+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 53 times")' ]
+2026-03-15T01:49:25.080+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:49:25.100+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:49:25.120+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 33 times")' ]
+2026-03-15T01:49:51.603+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:49:51.608+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:49:51.614+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 36 times")' ]
+2026-03-15T01:49:53.872+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:49:53.882+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:49:53.887+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 55 times")' ]
+2026-03-15T01:50:20.970+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:50:20.976+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:50:20.980+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-15T01:50:45.554+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:50:45.560+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:50:45.565+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 19 times")' ]
+2026-03-15T01:50:49.002+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:50:49.008+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:50:49.013+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 64 times")' ]
+2026-03-15T01:50:50.536+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:50:50.539+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:50:50.544+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 54 times")' ]
+2026-03-15T01:50:50.939+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:50:50.943+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:50:50.947+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 54 times")' ]
+2026-03-15T01:51:22.083+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:51:22.104+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:51:22.109+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 37 times")' ]
+2026-03-15T01:51:24.820+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:51:24.826+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:51:24.828+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 56 times")' ]
+2026-03-15T01:51:25.543+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:51:25.545+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:51:25.548+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 34 times")' ]
+2026-03-15T01:52:19.879+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:52:19.887+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:52:19.894+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 65 times")' ]
+2026-03-15T01:52:20.966+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:52:20.970+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:52:20.976+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 55 times")' ]
+2026-03-15T01:52:21.400+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:52:21.402+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:52:21.405+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-03-15T01:52:22.805+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:52:22.811+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:52:22.815+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 55 times")' ]
+2026-03-15T01:52:47.610+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:52:47.684+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:52:47.715+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 20 times")' ]
+2026-03-15T01:52:52.534+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:52:52.545+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:52:52.555+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 38 times")' ]
+2026-03-15T01:52:55.294+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:52:55.302+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:52:55.305+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 57 times")' ]
+2026-03-15T01:53:26.888+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:53:26.894+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:53:26.898+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 35 times")' ]
+2026-03-15T01:53:51.749+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:53:51.753+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:53:51.756+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 66 times")' ]
+2026-03-15T01:53:52.734+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:53:52.797+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:53:52.820+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 56 times")' ]
+2026-03-15T01:53:53.264+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:53:53.271+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:53:53.276+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 56 times")' ]
+2026-03-15T01:54:23.810+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:54:23.819+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:54:23.822+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-03-15T01:54:25.740+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:54:25.746+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:54:25.751+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 58 times")' ]
+2026-03-15T01:54:26.135+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:54:26.139+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:54:26.141+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 39 times")' ]
+2026-03-15T01:54:49.556+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:54:49.561+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:54:49.563+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 21 times")' ]
+2026-03-15T01:55:22.603+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:55:22.610+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:55:22.615+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 67 times")' ]
+2026-03-15T01:55:23.242+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:55:23.247+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:55:23.249+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 57 times")' ]
+2026-03-15T01:55:23.695+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:55:23.701+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:55:23.704+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 57 times")' ]
+2026-03-15T01:55:27.308+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:55:27.311+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:55:27.313+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 36 times")' ]
+2026-03-15T01:55:57.494+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:55:57.497+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:55:57.500+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 40 times")' ]
+2026-03-15T01:55:58.603+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:55:58.605+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:55:58.607+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 59 times")' ]
+2026-03-15T01:56:28.442+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:56:28.446+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:56:28.451+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 7 times")' ]
+2026-03-15T01:56:51.512+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:56:51.524+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:56:51.527+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 22 times")' ]
+2026-03-15T01:56:53.620+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:56:53.624+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:56:53.626+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 68 times")' ]
+2026-03-15T01:56:54.096+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:56:54.100+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:56:54.121+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 58 times")' ]
+2026-03-15T01:56:55.959+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:56:55.963+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:56:55.965+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 58 times")' ]
+2026-03-15T01:57:28.549+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:57:28.555+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:57:28.559+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 41 times")' ]
+2026-03-15T01:57:29.393+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:57:29.397+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:57:29.404+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 37 times")' ]
+2026-03-15T01:57:29.652+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:57:29.659+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:57:29.661+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 60 times")' ]
+2026-03-15T01:58:24.942+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:58:24.945+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:58:24.952+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 59 times")' ]
+2026-03-15T01:58:25.434+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:58:25.441+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:58:25.445+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 69 times")' ]
+2026-03-15T01:58:27.005+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:58:27.106+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:58:27.140+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 59 times")' ]
+2026-03-15T01:58:29.490+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:58:29.495+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:58:29.514+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 8 times")' ]
+2026-03-15T01:58:52.893+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:58:52.897+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:58:52.900+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 23 times")' ]
+2026-03-15T01:58:59.410+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:58:59.415+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:58:59.420+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 42 times")' ]
+2026-03-15T01:59:00.922+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:59:00.927+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:59:00.932+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 61 times")' ]
+2026-03-15T01:59:30.234+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:59:30.247+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:59:30.249+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 38 times")' ]
+2026-03-15T01:59:55.873+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:59:55.880+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:59:55.884+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 60 times")' ]
+2026-03-15T01:59:56.277+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:59:56.280+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:59:56.284+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 70 times")' ]
+2026-03-15T01:59:57.565+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T01:59:57.571+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T01:59:57.574+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 60 times")' ]
+2026-03-15T02:00:32.058+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:00:32.062+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:00:32.070+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 9 times")' ]
+2026-03-15T02:00:32.366+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:00:32.369+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:00:32.376+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 43 times")' ]
+2026-03-15T02:00:32.976+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:00:32.980+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:00:32.984+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 62 times")' ]
+2026-03-15T02:00:54.783+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:00:54.787+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:00:54.791+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 24 times")' ]
+2026-03-15T02:01:27.123+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:01:27.125+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:01:27.130+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 71 times")' ]
+2026-03-15T02:01:27.251+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:01:27.255+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:01:27.259+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 61 times")' ]
+2026-03-15T02:01:28.062+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:01:28.066+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:01:28.070+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 61 times")' ]
+2026-03-15T02:01:30.690+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:01:30.694+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:01:30.698+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 39 times")' ]
+2026-03-15T02:02:03.310+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:02:03.316+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:02:03.320+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 44 times")' ]
+2026-03-15T02:02:05.879+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:02:05.884+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:02:05.887+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 63 times")' ]
+2026-03-15T02:02:35.357+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:02:35.361+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:02:35.367+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 10 times")' ]
+2026-03-15T02:02:55.668+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:02:55.674+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:02:55.677+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 25 times")' ]
+2026-03-15T02:02:57.577+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:02:57.623+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:02:57.633+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 72 times")' ]
+2026-03-15T02:02:58.498+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:02:58.502+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:02:58.506+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 62 times")' ]
+2026-03-15T02:02:58.603+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:02:58.607+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:02:58.611+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 62 times")' ]
+2026-03-15T02:03:31.526+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:03:31.531+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:03:31.542+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 40 times")' ]
+2026-03-15T02:03:33.771+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:03:33.783+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:03:33.792+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 45 times")' ]
+2026-03-15T02:03:36.300+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:03:36.305+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:03:36.311+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 64 times")' ]
+2026-03-15T02:04:28.484+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:04:28.505+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:04:28.508+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 73 times")' ]
+2026-03-15T02:04:28.938+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:04:28.943+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:04:28.947+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 63 times")' ]
+2026-03-15T02:04:29.986+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:04:29.992+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:04:29.997+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 63 times")' ]
+2026-03-15T02:04:36.213+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:04:36.221+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:04:36.227+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 11 times")' ]
+2026-03-15T02:04:56.531+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:04:56.538+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:04:56.540+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 26 times")' ]
+2026-03-15T02:05:07.157+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:05:07.161+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:05:07.168+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 65 times")' ]
+2026-03-15T02:05:07.611+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:05:07.615+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:05:07.620+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 46 times")' ]
+2026-03-15T02:05:32.367+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:05:32.370+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:05:32.372+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 41 times")' ]
+2026-03-15T02:05:59.365+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:05:59.370+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:05:59.372+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 74 times")' ]
+2026-03-15T02:06:00.451+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:06:00.457+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:06:00.461+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 64 times")' ]
+2026-03-15T02:06:03.294+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:06:03.300+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:06:03.303+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 64 times")' ]
+2026-03-15T02:06:38.063+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:06:38.070+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:06:38.074+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 12 times")' ]
+2026-03-15T02:06:39.519+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:06:39.529+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:06:39.532+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 66 times")' ]
+2026-03-15T02:06:39.648+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:06:39.652+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:06:39.654+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 47 times")' ]
+2026-03-15T02:06:57.560+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:06:57.563+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:06:57.566+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 27 times")' ]
+2026-03-15T02:07:30.718+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:07:30.722+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:07:30.728+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 75 times")' ]
+2026-03-15T02:07:31.296+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:07:31.302+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:07:31.307+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 65 times")' ]
+2026-03-15T02:07:33.796+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:07:33.860+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:07:33.891+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 65 times")' ]
+2026-03-15T02:07:33.945+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:07:33.960+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:07:33.969+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 42 times")' ]
+2026-03-15T02:08:10.486+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:08:10.490+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:08:10.492+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 48 times")' ]
+2026-03-15T02:08:11.085+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:08:11.089+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:08:11.092+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 67 times")' ]
+2026-03-15T02:08:39.929+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:08:39.936+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:08:39.949+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 13 times")' ]
+2026-03-15T02:09:00.419+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:09:00.422+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:09:00.427+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 28 times")' ]
+2026-03-15T02:09:01.143+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:09:01.149+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:09:01.155+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 76 times")' ]
+2026-03-15T02:09:01.732+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:09:01.735+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:09:01.739+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 66 times")' ]
+2026-03-15T02:09:04.331+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:09:04.334+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:09:04.339+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 66 times")' ]
+2026-03-15T02:09:34.804+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:09:34.870+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:09:34.890+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 43 times")' ]
+2026-03-15T02:09:41.404+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:09:41.409+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:09:41.413+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 49 times")' ]
+2026-03-15T02:09:41.979+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:09:41.982+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:09:41.988+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 68 times")' ]
+2026-03-15T02:10:33.696+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:10:33.706+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:10:33.726+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 77 times")' ]
+2026-03-15T02:10:34.275+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:10:34.278+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:10:34.281+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 67 times")' ]
+2026-03-15T02:10:34.754+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:10:34.760+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:10:34.766+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 67 times")' ]
+2026-03-15T02:10:40.776+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:10:40.780+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:10:40.786+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 14 times")' ]
+2026-03-15T02:11:02.264+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:11:02.267+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:11:02.271+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 29 times")' ]
+2026-03-15T02:11:12.803+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:11:12.807+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:11:12.810+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 50 times")' ]
+2026-03-15T02:11:13.351+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:11:13.355+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:11:13.371+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 69 times")' ]
+2026-03-15T02:11:35.809+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:11:35.816+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:11:35.820+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 44 times")' ]
+2026-03-15T02:12:04.636+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:12:04.639+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:12:04.643+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 78 times")' ]
+2026-03-15T02:12:05.178+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:12:05.184+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:12:05.187+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 68 times")' ]
+2026-03-15T02:12:05.210+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:12:05.216+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:12:05.219+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 68 times")' ]
+2026-03-15T02:12:41.674+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:12:41.733+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:12:41.765+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 15 times")' ]
+2026-03-15T02:12:43.254+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:12:43.259+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:12:43.263+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 51 times")' ]
+2026-03-15T02:12:43.821+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:12:43.835+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:12:43.838+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 70 times")' ]
+2026-03-15T02:13:03.177+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:13:03.181+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:13:03.186+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 30 times")' ]
+2026-03-15T02:13:35.697+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:13:35.701+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:13:35.717+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 79 times")' ]
+2026-03-15T02:13:36.100+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:13:36.106+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:13:36.109+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 69 times")' ]
+2026-03-15T02:13:36.252+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:13:36.259+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:13:36.264+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 45 times")' ]
+2026-03-15T02:13:37.056+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:13:37.061+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:13:37.066+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 69 times")' ]
+2026-03-14T18:14:00.541Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-14T18:14:00.545Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-14T18:14:00.572Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-14T18:14:00.575Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-15T02:14:00.577+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-14T18:14:00.583Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-15T02:14:00.586+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-14T18:14:00.592Z [feishu] feishu[default]: WebSocket client started
+2026-03-15T02:14:01.427+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:14:01.433+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:14:01.438+08:00 [error]: [ '[ws]', 'connect failed' ]
+2026-03-15T02:14:01.441+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-15T02:14:01.444+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-15T02:14:12.180+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:14:12.183+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:14:12.189+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-15T02:14:13.702+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:14:13.708+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:14:13.711+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 52 times")' ]
+2026-03-15T02:14:14.267+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:14:14.273+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:14:14.277+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 71 times")' ]
+2026-03-15T02:14:42.602+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:14:42.607+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:14:42.613+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 16 times")' ]
+2026-03-15T02:15:04.167+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:15:04.171+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:15:04.186+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 31 times")' ]
+2026-03-15T02:15:06.153+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:15:06.160+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:15:06.163+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 80 times")' ]
+2026-03-15T02:15:06.946+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:15:06.951+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:15:06.963+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 70 times")' ]
+2026-03-15T02:15:07.502+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:15:07.507+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:15:07.511+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 70 times")' ]
+2026-03-15T02:15:37.117+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:15:37.121+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:15:37.124+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 46 times")' ]
+2026-03-15T02:15:44.556+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:15:44.560+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:15:44.566+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 53 times")' ]
+2026-03-15T02:15:45.078+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:15:45.082+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:15:45.088+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 72 times")' ]
+2026-03-15T02:16:13.050+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:16:13.054+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:16:13.057+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-15T02:16:37.042+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:16:37.057+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:16:37.064+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 81 times")' ]
+2026-03-15T02:16:37.843+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:16:37.849+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:16:37.856+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 71 times")' ]
+2026-03-15T02:16:37.931+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:16:37.935+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:16:37.939+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 71 times")' ]
+2026-03-15T02:16:43.037+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:16:43.041+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:16:43.045+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 17 times")' ]
+2026-03-15T02:17:05.009+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:17:05.012+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:17:05.017+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 32 times")' ]
+2026-03-15T02:17:15.675+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:17:15.697+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:17:15.700+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 54 times")' ]
+2026-03-15T02:17:16.081+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:17:16.087+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:17:16.089+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 73 times")' ]
+2026-03-15T02:17:37.986+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:17:37.995+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:17:37.998+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 47 times")' ]
+2026-03-15T02:18:08.311+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:18:08.319+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:18:08.322+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 82 times")' ]
+2026-03-15T02:18:08.707+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:18:08.710+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:18:08.713+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 72 times")' ]
+2026-03-15T02:18:08.782+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:18:08.786+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:18:08.790+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 72 times")' ]
+2026-03-15T02:18:13.476+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:18:13.480+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:18:13.485+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-15T02:18:43.908+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:18:43.913+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:18:43.915+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 18 times")' ]
+2026-03-15T02:18:46.142+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:18:46.146+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:18:46.150+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 55 times")' ]
+2026-03-15T02:18:46.983+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:18:46.987+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:18:46.991+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 74 times")' ]
+2026-03-15T02:19:05.858+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:19:05.871+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:19:05.874+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 33 times")' ]
+2026-03-15T02:19:38.827+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:19:38.831+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:19:38.834+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 48 times")' ]
+2026-03-15T02:19:39.158+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:19:39.164+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:19:39.166+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 83 times")' ]
+2026-03-15T02:19:39.527+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:19:39.532+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:19:39.537+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 73 times")' ]
+2026-03-15T02:19:39.673+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:19:39.687+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:19:39.695+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 73 times")' ]
+2026-03-15T02:20:14.337+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:20:14.343+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:20:14.347+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-15T02:20:16.571+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:20:16.578+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:20:16.581+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 56 times")' ]
+2026-03-15T02:20:17.422+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:20:17.431+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:20:17.434+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 75 times")' ]
+2026-03-15T02:20:44.755+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:20:44.758+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:20:44.761+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 19 times")' ]
+2026-03-15T02:21:06.805+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:21:06.826+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:21:06.855+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 34 times")' ]
+2026-03-15T02:21:09.593+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:21:09.596+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:21:09.599+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 84 times")' ]
+2026-03-15T02:21:10.120+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:21:10.123+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:21:10.126+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 74 times")' ]
+2026-03-15T02:21:10.384+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-15T02:21:10.387+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-15T02:21:10.398+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 74 times")' ]
