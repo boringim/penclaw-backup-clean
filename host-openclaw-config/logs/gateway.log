@@ -2009,3 +2009,83 @@
 ]
 2026-03-14T06:53:59.294Z [feishu] feishu[default]: WebSocket client started
 2026-03-14T14:53:59.603+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-14T07:23:59.101Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-14T07:23:59.104Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-14T07:23:59.135Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-14T07:23:59.140Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-14T15:23:59.144+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-14T07:23:59.148Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-14T15:23:59.150+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-14T07:23:59.157Z [feishu] feishu[default]: WebSocket client started
+2026-03-14T15:23:59.427+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-14T07:53:59.166Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-14T07:53:59.171Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-14T07:53:59.196Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-14T07:53:59.198Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-14T15:53:59.201+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-14T07:53:59.206Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-14T15:53:59.209+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-14T07:53:59.218Z [feishu] feishu[default]: WebSocket client started
+2026-03-14T15:53:59.555+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-14T08:11:37.073Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-14T08:11:37.089Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-14T08:11:37.097Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 你去Git Hub上面找一找，有没有适合做电商的skil技能
+2026-03-14T08:11:37.250Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-14T08:11:40.614Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=9b52f781-a79a-498a-a837-35888b37544c
+2026-03-14T08:11:40.840Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:12:32.201Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-14T08:12:38.858Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-03-14T08:12:38.871Z [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 现在 openclaw 它已经升级到3.13了，我现在还用的是3.1，我现在有必要升级吗？它现在跟我这个版本有什么区别？
+2026-03-14T08:12:38.878Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-03-14T08:12:40.403Z [gateway] memory-lancedb-pro: auto-recall injecting 2 row(s) for session=83d36189-8d12-427f-9c0e-278fc599ad9a
+2026-03-14T08:12:40.476Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:13:49.375Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-14T08:13:49.388Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-14T08:13:49.391Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 那我再找一找。我现在呢，是需要找一些品，是做东南亚，菲律宾，虾皮本土店。然后呢，我要找一些选品工具，然后呢，是做宠物类目的
+2026-03-14T08:13:49.399Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-14T08:13:50.691Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=9b52f781-a79a-498a-a837-35888b37544c
+2026-03-14T08:13:51.130Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:14:07.197Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:14:07.253Z [ws] ⇄ res ✓ config.get 205ms conn=85ac5136…eade id=fd214158…ffda
+2026-03-14T08:14:07.274Z [ws] ⇄ res ✓ status 231ms conn=85ac5136…eade id=db08a910…8686
+2026-03-14T08:14:34.027Z [feishu] feishu[default] Started streaming: cardId=7617021727147674580, messageId=om_x100b5465c058a534b3d41a087b6ad6b
+2026-03-14T08:14:36.938Z [feishu] feishu[default] Closed streaming: cardId=7617021727147674580
+2026-03-14T08:14:36.941Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-03-14T08:14:40.619Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-14T08:15:58.016Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-03-14T08:15:58.021Z [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 那先不升级，先给我做一个升级前的风险评估报告
+2026-03-14T08:15:58.026Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-03-14T08:16:00.329Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=83d36189-8d12-427f-9c0e-278fc599ad9a
+2026-03-14T08:16:00.398Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:17:15.531Z [feishu] feishu[default] Started streaming: cardId=7617022423514467259, messageId=om_x100b5465d66060b0b4b6343b03d6da4
+2026-03-14T08:17:18.163Z [feishu] feishu[default] Closed streaming: cardId=7617022423514467259
+2026-03-14T08:17:18.166Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-03-14T08:18:30.128Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-14T08:18:30.131Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-14T08:18:30.135Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 那你给我方案a 方案b都给我做一下
+2026-03-14T08:18:30.138Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-14T08:18:31.613Z [gateway] memory-lancedb-pro: auto-recall injecting 1 row(s) for session=9b52f781-a79a-498a-a837-35888b37544c
+2026-03-14T08:18:31.662Z [plugins] hook runner initialized with 5 registered hooks
+2026-03-14T08:19:27.154Z [feishu] feishu[default] Started streaming: cardId=7617022988509203414, messageId=om_x100b5465ee24c4a8b3c5c7c17973b4f
+2026-03-14T08:19:29.909Z [feishu] feishu[default] Closed streaming: cardId=7617022988509203414
+2026-03-14T08:19:29.913Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
