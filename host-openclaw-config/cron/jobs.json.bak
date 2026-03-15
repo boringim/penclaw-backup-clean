@@ -80,7 +80,7 @@
       "name": "Email_Summary_Daily",
       "enabled": true,
       "createdAtMs": 1771345366799,
-      "updatedAtMs": 1773450056704,
+      "updatedAtMs": 1773536447004,
       "schedule": {
         "expr": "0 9 * * *",
         "tz": "Asia/Shanghai",
@@ -99,15 +99,14 @@
         "mode": "announce"
       },
       "state": {
-        "nextRunAtMs": 1773536400000,
-        "lastRunAtMs": 1773450000012,
+        "nextRunAtMs": 1773622800000,
+        "lastRunAtMs": 1773536400049,
         "lastStatus": "ok",
-        "lastDurationMs": 56692,
+        "lastDurationMs": 46955,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "delivered",
-        "lastDelivered": true,
-        "runningAtMs": 1773536400041
+        "lastDelivered": true
       }
     },
     {
@@ -143,7 +142,8 @@
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "lastDeliveryStatus": "not-delivered",
+        "runningAtMs": 1773590400060
       }
     },
     {
@@ -153,7 +153,7 @@
       "name": "Weekly_Memory_Review",
       "enabled": true,
       "createdAtMs": 1771478717933,
-      "updatedAtMs": 1772931608818,
+      "updatedAtMs": 1773536522232,
       "schedule": {
         "kind": "cron",
         "expr": "0 9 * * 0",
@@ -172,15 +172,14 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1773536400000,
-        "lastRunAtMs": 1772931602300,
+        "nextRunAtMs": 1774141200000,
+        "lastRunAtMs": 1773536447004,
         "lastStatus": "ok",
-        "lastDurationMs": 6518,
+        "lastDurationMs": 75228,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "runningAtMs": 1773536400041
+        "lastDeliveryStatus": "not-delivered"
       }
     },
     {
