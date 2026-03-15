@@ -45846,3 +45846,94 @@ No destructive actions were taken.
 2026-03-15T05:07:51.483Z [plugins] hook runner initialized with 1 registered hooks
 2026-03-15T05:07:58.116Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-03-15T05:14:38.654Z [ws] ⇄ res ✓ chat.history 266ms conn=30201466…b23f id=d115c1a0…fee1
+2026-03-15T05:27:02.370Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-15T05:27:02.378Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-15T05:27:02.492Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-15T05:27:02.508Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-15T13:27:02.521+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-15T05:27:02.550Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-15T13:27:02.572+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-15T05:27:02.588Z [feishu] feishu[default]: WebSocket client started
+2026-03-15T13:27:05.280+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-15T05:33:31.402Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-03-15T05:33:31.412Z [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 1
+2026-03-15T05:33:31.421Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-03-15T05:33:33.155Z [gateway] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-15T05:33:33.224Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-15T05:34:01.434Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-15T05:34:03.471Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-03-15T05:42:46.549Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-15T05:42:57.791Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-15T05:43:04.941Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-15T05:43:06.818Z [ws] ⇄ res ✓ agent.wait 10804ms conn=e197dc11…af69 id=ebb140a0…da6a
+2026-03-15T05:43:06.853Z [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
+2026-03-15T13:43:06.894+08:00 已完成诊断查询：`memory_recall("激光雕刻机")` 现在会返回结果。
+
+- 返回结果：1 条
+- 顶部匹配记忆（简述）：
+  “LASER 的核心关注主题包括：激光雕刻机、材料参数、功率、速度、焦距、烧边、切割/雕刻效果、故障排查。”
+
+未进行任何修改或删除操作。
+2026-03-15T05:43:09.121Z [ws] ⇄ res ✓ send 2155ms channel=feishu conn=6c80fcdc…587e id=5f663215…77a4
+2026-03-15T05:47:28.572Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-15T05:47:28.580Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-15T05:47:28.585Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: ![image] 这是妙手推荐的菲律宾本土货代，帮我筛选一下最优质的
+2026-03-15T05:47:28.588Z [feishu] post message contains 1 embedded image(s)
+2026-03-15T05:47:30.796Z [feishu] downloaded embedded image img_v3_02vq_a3222926-08c6-4291-bed8-880b03c8b8cg, saved to C:\Users\Administrator\.openclaw\media\inbound\ff0ca098-ce6d-4949-876d-9bc0ce36a879.jpg
+2026-03-15T05:47:30.800Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-15T05:47:32.208Z [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-15T05:47:32.285Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-15T05:47:33.296Z [agents/tool-images] Image resized to fit limits: 1411x845px 199.8KB -> 163.6KB (-18.1%)
+2026-03-15T05:48:15.918Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-15T05:48:17.088Z [gateway] memory-pro: smart-extractor: no memories extracted
+2026-03-15T05:48:17.092Z [gateway] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-03-15T05:48:17.104Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-15T05:49:12.339Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-15T05:49:12.408Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-15T05:49:12.422Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 去网上查查，不要只看我的截图
+2026-03-15T05:49:12.460Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-15T05:49:14.053Z [gateway] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-15T05:49:14.103Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-15T05:49:25.869Z [browser/service] Browser control service ready (profiles=3)
+2026-03-15T05:49:27.993Z [browser/chrome] 🦞 openclaw browser started (chrome) profile "google-auto" on 127.0.0.1:18801 (pid 25864)
+2026-03-15T05:50:52.519Z [gateway] memory-pro: smart-extractor: no memories extracted
+2026-03-15T05:50:52.533Z [gateway] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-03-15T05:50:52.561Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-15T05:50:53.775Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-03-15T05:52:31.041Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-15T05:52:31.047Z [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-15T05:52:31.050Z [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 去了解一下万象云仓的价格和其他对比一下
+2026-03-15T05:52:31.199Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-15T05:52:33.617Z [gateway] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-15T05:52:33.673Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-15T05:54:22.277Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-15T05:54:23.246Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-03-15T05:57:02.491Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-15T05:57:02.506Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-15T05:57:02.592Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-15T05:57:02.596Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-15T13:57:02.601+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-15T05:57:02.607Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-15T13:57:02.615+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-15T05:57:02.634Z [feishu] feishu[default]: WebSocket client started
+2026-03-15T13:57:04.981+08:00 [info]: [ '[ws]', 'ws client ready' ]

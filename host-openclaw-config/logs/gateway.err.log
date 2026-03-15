@@ -620,3 +620,7 @@ Run: openclaw doctor --fix
 2026-03-15T12:56:10.870+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-03-15.md'
 2026-03-15T12:56:10.889+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-03-14.md'
 2026-03-15T04:56:35.483Z [diagnostic] lane wait exceeded: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main waitedMs=9413 queueAhead=0
+2026-03-15T13:33:21.586+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-15T13:49:56.064+08:00 [tools] browser failed: Can't reach the OpenClaw browser control service (timed out after 20000ms). Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable.
+2026-03-15T13:53:37.413+08:00 [tools] browser failed: Can't reach the OpenClaw browser control service (timed out after 20000ms). Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable.
+2026-03-15T13:55:48.470+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
