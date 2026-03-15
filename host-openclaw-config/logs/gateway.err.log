@@ -412,3 +412,7 @@ Bind: loopback
 2026-03-15T08:00:16.021+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-03-15.md'
 2026-03-15T01:00:00.062Z [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
 2026-03-15T01:00:47.015Z [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-03-15T10:46:49.061+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}}
+2026-03-15T10:57:57.345+08:00 Config overwrite: C:\Users\Administrator\.openclaw\openclaw.json (sha256 4c554d2dccb8acc965be36febacbe1b4e3c310f0211d13bc7d4108c535be563d -> 8ea8b61308293b3cfe09a17fcba72437e1b28ae9b3e947d697a039d23d020b65, backup=C:\Users\Administrator\.openclaw\openclaw.json.bak, changedPaths=2)
+2026-03-15T10:58:42.213+08:00 (node:26164) MaxListenersExceededWarning: Possible EventTarget memory leak detected. 11 abort listeners added to [AbortSignal]. MaxListeners is 10. Use events.setMaxListeners() to increase limit
+2026-03-15T10:58:48.214+08:00 [tools] browser failed: Navigation blocked: unsupported protocol "chrome:"
