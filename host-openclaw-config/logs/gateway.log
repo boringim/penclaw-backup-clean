@@ -46565,3 +46565,41 @@ No destructive actions were taken.
 ]
 2026-03-15T21:57:04.385Z [feishu] feishu[default]: WebSocket client started
 2026-03-16T05:57:06.619+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-15T22:27:04.336Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-15T22:27:04.341Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-15T22:27:04.367Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-15T22:27:04.371Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-16T06:27:04.373+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-15T22:27:04.378Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-16T06:27:04.381+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-15T22:27:04.388Z [feishu] feishu[default]: WebSocket client started
+2026-03-16T06:27:06.782+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-15T22:57:04.363Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-15T22:57:04.368Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-15T22:57:04.402Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-15T22:57:04.404Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-16T06:57:04.407+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-15T22:57:04.411Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-16T06:57:04.414+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-15T22:57:04.420Z [feishu] feishu[default]: WebSocket client started
+2026-03-16T06:57:06.748+08:00 [info]: [ '[ws]', 'ws client ready' ]
