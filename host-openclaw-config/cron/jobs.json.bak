@@ -106,7 +106,8 @@
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "delivered",
-        "lastDelivered": true
+        "lastDelivered": true,
+        "runningAtMs": 1773536400041
       }
     },
     {
@@ -178,7 +179,8 @@
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "lastDeliveryStatus": "not-delivered",
+        "runningAtMs": 1773536400041
       }
     },
     {
@@ -188,7 +190,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1773446458055,
+      "updatedAtMs": 1773532825399,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -207,15 +209,14 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1773532800000,
-        "lastRunAtMs": 1773446400181,
+        "nextRunAtMs": 1773619200000,
+        "lastRunAtMs": 1773532800182,
         "lastStatus": "ok",
-        "lastDurationMs": 57874,
+        "lastDurationMs": 25217,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "runningAtMs": 1773532800131
+        "lastDeliveryStatus": "not-delivered"
       }
     },
     {
