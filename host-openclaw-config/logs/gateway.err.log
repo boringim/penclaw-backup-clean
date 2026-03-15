@@ -406,3 +406,7 @@ Bind: loopback
 2026-03-14T22:45:50.076+08:00 Rerank API timed out (5s), falling back to cosine
 2026-03-14T16:00:00.093Z [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
 2026-03-15T00:00:19.504+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-03-15.md'
+2026-03-15T00:00:00.245Z [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-03-15T00:00:04.309Z [gateway] memory-lancedb-pro: auto-recall failed: Error: Embedding provider authentication failed (401: 401 status code (no body)). Check embedding.apiKey and endpoint for Jina. If your Jina key expired or lost access, replace the key or switch to a local OpenAI-compatible endpoint such as Ollama (for example baseURL http://127.0.0.1:11434/v1, with a matching model and embedding.dimensions).
+2026-03-15T00:00:07.808Z [gateway] memory-lancedb-pro: auto-recall failed: Error: Embedding provider authentication failed (401: 401 status code (no body)). Check embedding.apiKey and endpoint for Jina. If your Jina key expired or lost access, replace the key or switch to a local OpenAI-compatible endpoint such as Ollama (for example baseURL http://127.0.0.1:11434/v1, with a matching model and embedding.dimensions).
+2026-03-15T08:00:16.021+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-03-15.md'

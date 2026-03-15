@@ -116,7 +116,7 @@
       "name": "Daily_Self_Backup_Midnight",
       "enabled": true,
       "createdAtMs": 1771408491288,
-      "updatedAtMs": 1773417746374,
+      "updatedAtMs": 1773504316096,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -135,15 +135,14 @@
         "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02"
       },
       "state": {
-        "nextRunAtMs": 1773504000000,
-        "lastRunAtMs": 1773417600165,
+        "nextRunAtMs": 1773590400000,
+        "lastRunAtMs": 1773504000059,
         "lastStatus": "ok",
-        "lastDurationMs": 146209,
+        "lastDurationMs": 316037,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "runningAtMs": 1773504000033
+        "lastDeliveryStatus": "not-delivered"
       }
     },
     {
@@ -215,7 +214,8 @@
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "lastDeliveryStatus": "not-delivered",
+        "runningAtMs": 1773532800131
       }
     },
     {
