@@ -416,3 +416,21 @@ Bind: loopback
 2026-03-15T10:57:57.345+08:00 Config overwrite: C:\Users\Administrator\.openclaw\openclaw.json (sha256 4c554d2dccb8acc965be36febacbe1b4e3c310f0211d13bc7d4108c535be563d -> 8ea8b61308293b3cfe09a17fcba72437e1b28ae9b3e947d697a039d23d020b65, backup=C:\Users\Administrator\.openclaw\openclaw.json.bak, changedPaths=2)
 2026-03-15T10:58:42.213+08:00 (node:26164) MaxListenersExceededWarning: Possible EventTarget memory leak detected. 11 abort listeners added to [AbortSignal]. MaxListeners is 10. Use events.setMaxListeners() to increase limit
 2026-03-15T10:58:48.214+08:00 [tools] browser failed: Navigation blocked: unsupported protocol "chrome:"
+2026-03-15T12:02:08.680+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-15T12:03:18.917+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-15T04:14:27.861Z [reload] config reload skipped (invalid config): agents.defaults.subagents: Unrecognized key: "allowAgents"
+Invalid config at C:\Users\Administrator\.openclaw\openclaw.json:\n- agents.defaults.subagents: Unrecognized key: "allowAgents"
+Config invalid
+File: ~\.openclaw\openclaw.json
+Problem:
+  - agents.defaults.subagents: Unrecognized key: "allowAgents"
+
+Run: openclaw doctor --fix
+Invalid config at C:\Users\Administrator\.openclaw\openclaw.json:\n- agents.defaults.subagents: Unrecognized key: "allowAgents"
+Config invalid
+File: ~\.openclaw\openclaw.json
+Problem:
+  - agents.defaults.subagents: Unrecognized key: "allowAgents"
+
+Run: openclaw doctor --fix
+2026-03-15T04:21:14.386Z [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\1ff0e71d-824d-4c38-a936-24de4e23180a.jsonl.lock (dead-pid)
