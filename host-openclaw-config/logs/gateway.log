@@ -47243,3 +47243,93 @@ No destructive actions were taken.
 ]
 2026-03-16T05:07:06.245Z [feishu] feishu[default]: WebSocket client started
 2026-03-16T13:07:08.318+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-16T05:42:06.147Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-16T05:42:06.152Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-16T05:42:06.200Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-16T05:42:06.207Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-16T13:42:06.210+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-16T05:42:06.217Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-16T13:42:06.220+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-16T05:42:06.237Z [feishu] feishu[default]: WebSocket client started
+2026-03-16T13:42:08.685+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-16T05:43:57.115Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_981e24884af3ed7ed6c16c5730c9bd02 (group)
+2026-03-16T05:43:57.127Z [feishu] feishu[default]: group session scope=group, peer=oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T05:43:57.131Z [feishu] feishu[default]: Feishu[default] message in group oc_981e24884af3ed7ed6c16c5730c9bd02: 核对一下最新备份内容是否完整
+2026-03-16T05:43:57.201Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02)
+2026-03-16T05:44:03.440Z [gateway] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T05:44:03.551Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-16T05:45:18.814Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T05:45:22.950Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=3)
+2026-03-16T05:48:27.730Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-03-16T05:48:27.754Z [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 以下这些问题点哪个可以完美解决：OpenClaw 最重要的工具是浏览器，但它自带的浏览器经常遇到验证码、登陆墙和拒绝访问。比如我的 OpenClaw 访问 Google 搜索都会遇到验证码。我的日常任务总是被这些问题影响，即使登陆了账户、使用干净的 IP，问题依然稳定存在。 OpenClaw 被拦住后只能尝试各种妥协方
+2026-03-16T05:48:27.767Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-03-16T05:48:30.054Z [gateway] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T05:48:30.171Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-16T05:49:37.073Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T05:49:38.882Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-16T06:12:06.206Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-16T06:12:06.218Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-16T06:12:06.273Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-16T06:12:06.281Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-16T14:12:06.285+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-16T06:12:06.294Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-16T14:12:06.297+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-16T06:12:06.311Z [feishu] feishu[default]: WebSocket client started
+2026-03-16T14:12:07.190+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-16T14:12:07.203+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-16T14:12:07.207+08:00 [error]: [ '[ws]', 'connect failed' ]
+2026-03-16T14:12:07.215+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T14:12:07.218+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-16T14:12:19.009+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-16T14:12:19.016+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-16T14:12:19.019+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T14:14:19.926+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-16T14:14:19.931+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-16T14:14:19.936+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-03-16T14:16:20.892+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-16T14:16:20.901+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-16T14:16:20.906+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-03-16T14:18:21.834+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-16T14:18:21.843+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-16T14:18:21.849+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-03-16T14:20:22.853+08:00 [error]: [ '[ws]', 'code: 1000040350, system busy' ]
+2026-03-16T14:20:22.863+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-03-16T14:20:22.867+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
