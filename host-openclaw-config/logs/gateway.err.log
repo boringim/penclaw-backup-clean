@@ -658,3 +658,5 @@ Run: openclaw doctor --fix
 2026-03-16T19:31:03.180+08:00 (node:16376) MaxListenersExceededWarning: Possible EventTarget memory leak detected. 11 abort listeners added to [AbortSignal]. MaxListeners is 10. Use events.setMaxListeners() to increase limit
 2026-03-16T20:15:54.096+08:00 Rerank API timed out (5s), falling back to cosine
 2026-03-16T20:15:59.428+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-16T22:13:44.091+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-16T22:14:04.294+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
