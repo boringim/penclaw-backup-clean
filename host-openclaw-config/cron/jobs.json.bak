@@ -214,7 +214,8 @@
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "lastDeliveryStatus": "not-delivered",
+        "runningAtMs": 1773619200072
       }
     },
     {
@@ -292,7 +293,7 @@
       "name": "Security_Audit_Monthly",
       "enabled": true,
       "createdAtMs": 1773199983907,
-      "updatedAtMs": 1773199983907,
+      "updatedAtMs": 1773597733051,
       "schedule": {
         "kind": "cron",
         "expr": "0 2 */15 * *"
@@ -308,8 +309,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1773597600000,
-        "runningAtMs": 1773597600029
+        "nextRunAtMs": 1774893600000,
+        "lastRunAtMs": 1773597600035,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 133016,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0
       }
     }
   ]
