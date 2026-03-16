@@ -46777,3 +46777,332 @@ No destructive actions were taken.
 2026-03-16T02:00:42.330Z [browser/chrome] 🦞 openclaw browser started (chrome) profile "google-auto" on 127.0.0.1:18801 (pid 30968)
 2026-03-16T02:04:08.145Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-03-16T02:04:10.668Z [ws] ⇄ res ✓ send 2053ms channel=feishu conn=15d5268d…f0ef id=0816cafa…c7c6
+2026-03-16T02:27:04.775Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-16T02:27:04.794Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-16T02:27:04.881Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-16T02:27:04.885Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-16T10:27:04.887+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-16T02:27:04.897Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-16T10:27:04.901+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-16T02:27:04.912Z [feishu] feishu[default]: WebSocket client started
+2026-03-16T10:27:07.733+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-16T02:28:07.121Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-03-16T02:28:07.131Z [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 保持现状把
+2026-03-16T02:28:07.182Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-03-16T02:28:09.869Z [gateway] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T02:28:09.945Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-16T02:28:21.386Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T02:28:22.151Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-16T10:37:26.897+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.056+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.246+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.276+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.319+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.338+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.350+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.369+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.386+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.409+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.422+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.509+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.569+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.592+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.765+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.779+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.785+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.805+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.827+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.873+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.887+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.902+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.947+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.968+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:27.993+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.002+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.023+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.103+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.109+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.125+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.148+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.173+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.185+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.192+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.212+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.220+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.229+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.234+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.245+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.253+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.261+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.273+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.281+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.286+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T10:37:28.643+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:28.648+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:34.263+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:34.267+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:34.534+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:34.541+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:35.385+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:35.389+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:36.535+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:36.539+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:37.256+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:37.260+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:38.551+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:38.554+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:38.749+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:38.754+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:39.079+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:39.083+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:41.997+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:42.002+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:42.014+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:42.017+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:42.280+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:42.283+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:42.359+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:42.363+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:43.419+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:43.423+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:44.598+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:44.602+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:44.678+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:44.682+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:44.801+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:44.805+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:45.377+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:45.382+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:45.734+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:45.738+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:47.159+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:47.164+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:47.898+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:47.908+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:48.004+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:48.007+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:50.090+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:50.093+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:50.563+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:50.565+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:50.699+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:50.702+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:51.597+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:51.636+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:53.003+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:53.038+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:53.118+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:53.122+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:53.214+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:53.216+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:53.370+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:53.374+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:53.707+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:53.712+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:53.723+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:53.727+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:53.841+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:53.850+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:55.064+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:55.074+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:55.543+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:55.546+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:55.620+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:55.623+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:55.754+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:55.759+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:55.853+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:55.856+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:55.915+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:55.921+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:56.305+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:56.318+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:56.581+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:56.584+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:57.003+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:57.007+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:57.173+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:57.178+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T10:37:57.761+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-16T10:37:57.765+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-16T02:41:12.218Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_981e24884af3ed7ed6c16c5730c9bd02 (group)
+2026-03-16T02:41:12.229Z [feishu] feishu[default]: group session scope=group, peer=oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T02:41:12.235Z [feishu] feishu[default]: Feishu[default] message in group oc_981e24884af3ed7ed6c16c5730c9bd02: 文件级备份的文件压缩包怎么涨到757MB，是什么原因
+2026-03-16T02:41:12.247Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02)
+2026-03-16T02:41:14.637Z [gateway] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T02:41:14.721Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-16T02:41:38.322Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T02:41:39.359Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-03-16T02:42:20.385Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_981e24884af3ed7ed6c16c5730c9bd02 (group)
+2026-03-16T02:42:20.388Z [feishu] feishu[default]: group session scope=group, peer=oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T02:42:20.398Z [feishu] feishu[default]: Feishu[default] message in group oc_981e24884af3ed7ed6c16c5730c9bd02: C:\Users\Administrator\backups\openclaw\snapshots这路径下的，找找原因
+2026-03-16T02:42:20.407Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02)
+2026-03-16T02:42:22.278Z [gateway] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T02:42:22.336Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-16T02:44:14.292Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T02:44:18.658Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=4)
+2026-03-16T02:57:04.819Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-16T02:57:04.830Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-16T02:57:04.904Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-16T02:57:04.914Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-16T10:57:04.919+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-16T02:57:04.932Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-16T10:57:04.938+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-16T02:57:04.950Z [feishu] feishu[default]: WebSocket client started
+2026-03-16T10:57:07.223+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-16T11:10:58.877+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T11:10:59.271+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T11:20:18.762+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T11:20:18.901+08:00 [info]: [ '[ws]', 'reconnect' ]
