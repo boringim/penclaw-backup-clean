@@ -1,0 +1,19 @@
+# Cron Job: Gateway Auto-Heal
+# 每5分钟检查一次Gateway健康状态，异常时自动修复
+
+{
+  "id": "gateway-autoheal-monitor",
+  "agentId": "group-oc-981e",
+  "enabled": true,
+  "schedule": {
+    "kind": "cron",
+    "expr": "*/5 * * * *",
+    "tz": "Asia/Shanghai"
+  },
+  "sessionTarget": "isolated",
+  "wakeMode": "now",
+  "payload": {
+    "kind": "script",
+    "path": "C:\\Users\\Administrator\\.openclaw\\scripts\\gateway-autoheal.ps1"
+  }
+}
