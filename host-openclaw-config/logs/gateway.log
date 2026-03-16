@@ -47106,3 +47106,76 @@ No destructive actions were taken.
 2026-03-16T11:10:59.271+08:00 [info]: [ '[ws]', 'reconnect' ]
 2026-03-16T11:20:18.762+08:00 [info]: [ '[ws]', 'reconnect' ]
 2026-03-16T11:20:18.901+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T11:25:30.085+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T03:27:04.854Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-16T03:27:04.857Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-16T03:27:04.887Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-16T03:27:06.140Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-16T11:27:06.142+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-16T03:27:06.149Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-16T11:27:06.151+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-16T03:27:06.159Z [feishu] feishu[default]: WebSocket client started
+2026-03-16T11:27:07.965+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-16T11:39:31.429+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-16T03:51:20.013Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_981e24884af3ed7ed6c16c5730c9bd02 (group)
+2026-03-16T03:51:20.043Z [feishu] feishu[default]: group session scope=group, peer=oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T03:51:20.063Z [feishu] feishu[default]: Feishu[default] message in group oc_981e24884af3ed7ed6c16c5730c9bd02: 按你说的执行一下
+2026-03-16T03:51:20.241Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02)
+2026-03-16T03:51:24.269Z [gateway] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T03:51:24.509Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-16T03:51:55.814Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-03-16T03:51:55.841Z [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: https://github.com/Bin-Huang/camoufox-cli ， 看一下这个skill怎么样
+2026-03-16T03:51:55.850Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-03-16T03:51:58.634Z [gateway] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T03:51:58.732Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-16T03:53:38.131Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T03:53:45.184Z [feishu] feishu[default] Started streaming: cardId=7617696687393524692, messageId=om_x100b5443a24ae8b0b331d103beac1b5
+2026-03-16T03:53:48.054Z [feishu] feishu[default] Closed streaming: cardId=7617696687393524692
+2026-03-16T03:53:48.062Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=4)
+2026-03-16T03:55:53.735Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T03:56:03.123Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=8)
+2026-03-16T03:57:04.948Z [health-monitor] [feishu:default] health-monitor: restarting (reason: stuck)
+2026-03-16T03:57:04.992Z [feishu] feishu[default]: abort signal received, stopping
+2026-03-16T03:57:05.090Z [feishu] starting feishu[default] (mode: websocket)
+2026-03-16T03:57:05.096Z [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-03-16T11:57:05.099+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-03-16T03:57:05.106Z [feishu] feishu[default]: starting WebSocket connection...
+2026-03-16T11:57:05.111+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-03-16T03:57:05.126Z [feishu] feishu[default]: WebSocket client started
+2026-03-16T11:57:07.835+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-03-16T03:59:00.022Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_981e24884af3ed7ed6c16c5730c9bd02 (group)
+2026-03-16T03:59:00.076Z [feishu] feishu[default]: group session scope=group, peer=oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T03:59:00.127Z [feishu] feishu[default]: Feishu[default] message in group oc_981e24884af3ed7ed6c16c5730c9bd02: 我已经手动删除了，本地储存已经严重不足了，看看电脑有哪些东西可以删掉了先给我报告一遍让我确认
+2026-03-16T03:59:00.262Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02)
+2026-03-16T03:59:02.712Z [gateway] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T03:59:02.834Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-16T04:00:04.834Z [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-03-16T04:00:04.842Z [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 找一下有没有类似更成熟的方案，我要实现差不多的功能
+2026-03-16T04:00:04.852Z [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-03-16T04:00:08.481Z [gateway] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T04:00:08.569Z [plugins] hook runner initialized with 1 registered hooks
+2026-03-16T04:02:23.395Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T04:02:28.106Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=4)
+2026-03-16T12:03:49.887+08:00 typing TTL reached (2m); stopping typing indicator
+2026-03-16T04:07:34.511Z [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-16T04:07:40.381Z [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=5)
