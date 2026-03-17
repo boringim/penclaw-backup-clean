@@ -833,3 +833,71 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-03-17T22:21:54.798+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=23105 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
 2026-03-17T22:21:54.828+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
 2026-03-17T22:22:52.685+08:00 Rerank API timed out (5s), falling back to cosine
+2026-03-17T22:23:08.226+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=2603/gpt-5.4 candidate=openrouter/stepfun/step-3.5-flash:free reason=unknown next=none
+2026-03-17T22:23:15.502+08:00 [agent/embedded] embedded run agent end: runId=259465b2-9334-4845-bb61-2849f1bcef9e isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:23:19.281+08:00 [agent/embedded] embedded run agent end: runId=259465b2-9334-4845-bb61-2849f1bcef9e isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:23:25.530+08:00 [agent/embedded] embedded run agent end: runId=259465b2-9334-4845-bb61-2849f1bcef9e isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:23:35.222+08:00 [agent/embedded] embedded run agent end: runId=259465b2-9334-4845-bb61-2849f1bcef9e isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:23:35.274+08:00 [agent/embedded] embedded run failover decision: runId=259465b2-9334-4845-bb61-2849f1bcef9e stage=assistant decision=fallback_model reason=rate_limit provider=2603/gpt-5.4 profile=-
+2026-03-17T22:23:35.278+08:00 [diagnostic] lane task error: lane=main durationMs=26577 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T22:23:35.283+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=26604 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T22:23:35.290+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
+2026-03-17T22:23:44.501+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=2603/gpt-5.4 candidate=openrouter/stepfun/step-3.5-flash:free reason=unknown next=none
+2026-03-17T22:24:08.728+08:00 [agent/embedded] embedded run agent end: runId=3a296f4d-94d3-43f6-9890-6a5a9508aed7 isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:24:12.521+08:00 [agent/embedded] embedded run agent end: runId=3a296f4d-94d3-43f6-9890-6a5a9508aed7 isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:24:18.241+08:00 [agent/embedded] embedded run agent end: runId=3a296f4d-94d3-43f6-9890-6a5a9508aed7 isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:24:27.908+08:00 [agent/embedded] embedded run agent end: runId=3a296f4d-94d3-43f6-9890-6a5a9508aed7 isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:24:27.963+08:00 [agent/embedded] embedded run failover decision: runId=3a296f4d-94d3-43f6-9890-6a5a9508aed7 stage=assistant decision=fallback_model reason=rate_limit provider=2603/gpt-5.4 profile=-
+2026-03-17T22:24:27.968+08:00 [diagnostic] lane task error: lane=main durationMs=23581 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T22:24:27.972+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=23590 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T22:24:27.982+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
+2026-03-17T22:24:33.175+08:00 Rerank API timed out (5s), falling back to cosine
+2026-03-17T22:24:59.112+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=2603/gpt-5.4 candidate=openrouter/stepfun/step-3.5-flash:free reason=unknown next=none
+2026-03-17T22:25:38.550+08:00 [agent/embedded] embedded run agent end: runId=d987d8b4-0b25-460f-be21-2330dfe6c934 isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:25:42.136+08:00 [agent/embedded] embedded run agent end: runId=d987d8b4-0b25-460f-be21-2330dfe6c934 isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:25:47.564+08:00 [agent/embedded] embedded run agent end: runId=d987d8b4-0b25-460f-be21-2330dfe6c934 isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:25:57.192+08:00 [agent/embedded] embedded run agent end: runId=d987d8b4-0b25-460f-be21-2330dfe6c934 isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:25:57.246+08:00 [agent/embedded] embedded run failover decision: runId=d987d8b4-0b25-460f-be21-2330dfe6c934 stage=assistant decision=fallback_model reason=rate_limit provider=2603/gpt-5.4 profile=-
+2026-03-17T22:25:57.252+08:00 [diagnostic] lane task error: lane=main durationMs=23839 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T22:25:57.332+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=23856 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T22:25:57.364+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
+2026-03-17T22:26:36.817+08:00 [tools] gateway failed: raw required
+2026-03-17T22:26:47.713+08:00 [config/redaction] Redacted config array key agents.list[].model.fallbacks[] has been truncated
+2026-03-17T22:26:47.716+08:00 [config/redaction] Redacted config array key agents.list[].model.fallbacks[] has been truncated
+2026-03-17T22:26:47.721+08:00 [config/redaction] Redacted config array key agents.list[].model.fallbacks[] has been truncated
+2026-03-17T22:26:47.839+08:00 Config overwrite: C:\Users\Administrator\.openclaw\openclaw.json (sha256 4e1b2475e75889c948b5469570f8050afea50fdaa4e34cfc5e8e2cbea98330fd -> b06b33052b34ecee480558e43b8a92436c9ff4b5ecaeb090bbd69ff340c53023, backup=C:\Users\Administrator\.openclaw\openclaw.json.bak, changedPaths=6)
+2026-03-17T22:27:06.194+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=2603/gpt-5.4 candidate=openrouter/stepfun/step-3.5-flash:free reason=unknown next=none
+2026-03-17T22:30:24.975+08:00 [agent/embedded] embedded run agent end: runId=4af22b8e-92d4-4738-a172-3f7e3b5ed46e isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:30:28.447+08:00 [agent/embedded] embedded run agent end: runId=4af22b8e-92d4-4738-a172-3f7e3b5ed46e isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:30:33.953+08:00 [agent/embedded] embedded run agent end: runId=4af22b8e-92d4-4738-a172-3f7e3b5ed46e isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:30:43.494+08:00 [agent/embedded] embedded run agent end: runId=4af22b8e-92d4-4738-a172-3f7e3b5ed46e isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:30:43.543+08:00 [agent/embedded] embedded run failover decision: runId=4af22b8e-92d4-4738-a172-3f7e3b5ed46e stage=assistant decision=fallback_model reason=rate_limit provider=2603/gpt-5.4 profile=-
+2026-03-17T22:30:43.553+08:00 [diagnostic] lane task error: lane=main durationMs=23776 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T22:30:43.562+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=23792 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T22:30:43.576+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
+2026-03-17T22:30:53.881+08:00 [tools] session_status failed: Unknown sessionId: oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-17T22:31:18.996+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=2603/gpt-5.4 candidate=openrouter/stepfun/step-3.5-flash:free reason=unknown next=none
+2026-03-17T22:34:55.575+08:00 [agent/embedded] embedded run agent end: runId=57522f48-a3ea-4c47-9311-61ce89b752ff isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:34:59.247+08:00 [agent/embedded] embedded run agent end: runId=57522f48-a3ea-4c47-9311-61ce89b752ff isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:35:04.903+08:00 [agent/embedded] embedded run agent end: runId=57522f48-a3ea-4c47-9311-61ce89b752ff isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:35:14.389+08:00 [agent/embedded] embedded run agent end: runId=57522f48-a3ea-4c47-9311-61ce89b752ff isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:35:14.427+08:00 [agent/embedded] embedded run failover decision: runId=57522f48-a3ea-4c47-9311-61ce89b752ff stage=assistant decision=fallback_model reason=rate_limit provider=2603/gpt-5.4 profile=-
+2026-03-17T22:35:14.440+08:00 [diagnostic] lane task error: lane=main durationMs=22986 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T22:35:14.452+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02 durationMs=23009 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T22:35:14.464+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
+2026-03-17T22:38:12.850+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=2603/gpt-5.4 candidate=openrouter/stepfun/step-3.5-flash:free reason=unknown next=none
+2026-03-17T23:12:36.326+08:00 [agent/embedded] embedded run agent end: runId=2bb1a3ee-0026-44d0-aac5-59ce884552bf isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T23:12:39.883+08:00 [agent/embedded] embedded run agent end: runId=2bb1a3ee-0026-44d0-aac5-59ce884552bf isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T23:12:45.649+08:00 [agent/embedded] embedded run agent end: runId=2bb1a3ee-0026-44d0-aac5-59ce884552bf isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T23:12:55.320+08:00 [agent/embedded] embedded run agent end: runId=2bb1a3ee-0026-44d0-aac5-59ce884552bf isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T23:12:55.376+08:00 [agent/embedded] embedded run failover decision: runId=2bb1a3ee-0026-44d0-aac5-59ce884552bf stage=assistant decision=fallback_model reason=rate_limit provider=2603/gpt-5.4 profile=-
+2026-03-17T23:12:55.397+08:00 [diagnostic] lane task error: lane=main durationMs=24210 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T23:12:55.498+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02 durationMs=24292 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T23:12:55.562+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
+2026-03-17T23:13:10.493+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=2603/gpt-5.4 candidate=openrouter/stepfun/step-3.5-flash:free reason=unknown next=none
+2026-03-17T23:14:09.205+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T23:22:06.153+08:00 Gateway failed to start: gateway already running (pid 27408); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-17T23:22:06.273+08:00 Gateway service appears registered. Stop it first.
+2026-03-17T23:22:06.277+08:00 Tip: openclaw gateway stop
+2026-03-17T23:22:06.280+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
