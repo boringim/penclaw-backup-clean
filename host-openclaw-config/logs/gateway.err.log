@@ -774,3 +774,18 @@ Call log:
 2026-03-17T20:02:47.258+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-03-17T20:19:24.976+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-03-17T20:20:01.963+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T20:36:52.144+08:00 (node:33512) MaxListenersExceededWarning: Possible EventTarget memory leak detected. 11 abort listeners added to [AbortSignal]. MaxListeners is 10. Use events.setMaxListeners() to increase limit
+2026-03-17T20:42:00.387+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T20:42:17.093+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T20:42:55.610+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T20:45:46.373+08:00 (node:33512) MaxListenersExceededWarning: Possible EventTarget memory leak detected. 11 abort listeners added to [AbortSignal]. MaxListeners is 10. Use events.setMaxListeners() to increase limit
+2026-03-17T21:02:05.838+08:00 Gateway failed to start: gateway already running (pid 33512); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-17T21:02:06.255+08:00 Gateway service appears registered. Stop it first.
+2026-03-17T21:02:06.270+08:00 Tip: openclaw gateway stop
+2026-03-17T21:02:06.274+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-17T21:21:41.012+08:00 Gateway failed to start: gateway already running (pid 30852); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-17T21:21:41.146+08:00 Gateway service appears registered. Stop it first.
+2026-03-17T21:21:41.150+08:00 Tip: openclaw gateway stop
+2026-03-17T21:21:41.155+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
