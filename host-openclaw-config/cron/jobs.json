@@ -80,7 +80,7 @@
       "name": "Email_Summary_Daily",
       "enabled": true,
       "createdAtMs": 1771345366799,
-      "updatedAtMs": 1773622848871,
+      "updatedAtMs": 1773709246905,
       "schedule": {
         "expr": "0 9 * * *",
         "tz": "Asia/Shanghai",
@@ -99,10 +99,10 @@
         "mode": "announce"
       },
       "state": {
-        "nextRunAtMs": 1773709200000,
-        "lastRunAtMs": 1773622800023,
+        "nextRunAtMs": 1773795600000,
+        "lastRunAtMs": 1773709200229,
         "lastStatus": "ok",
-        "lastDurationMs": 48848,
+        "lastDurationMs": 46676,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "delivered",

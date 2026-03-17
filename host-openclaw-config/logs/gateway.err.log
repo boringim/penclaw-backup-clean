@@ -672,3 +672,6 @@ Call log:
 2026-03-17T00:00:00.086Z [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
 2026-03-17T00:00:03.973Z [gateway] memory-lancedb-pro: recall failed: Error: Embedding provider authentication failed (401: 401 status code (no body)). Check embedding.apiKey and endpoint for Jina. If your Jina key expired or lost access, replace the key or switch to a local OpenAI-compatible endpoint such as Ollama (for example baseURL http://127.0.0.1:11434/v1, with a matching model and embedding.dimensions).
 2026-03-17T00:00:07.582Z [gateway] memory-lancedb-pro: recall failed: Error: Embedding provider authentication failed (401: 401 status code (no body)). Check embedding.apiKey and endpoint for Jina. If your Jina key expired or lost access, replace the key or switch to a local OpenAI-compatible endpoint such as Ollama (for example baseURL http://127.0.0.1:11434/v1, with a matching model and embedding.dimensions).
+2026-03-17T00:42:20.719Z [diagnostic] lane wait exceeded: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main waitedMs=20034 queueAhead=0
+2026-03-17T08:43:41.926+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T01:00:00.283Z [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
