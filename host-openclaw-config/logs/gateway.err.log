@@ -688,3 +688,5 @@ Call log:
 2026-03-17T14:10:23.406+08:00 [tools] edit failed: No changes made to C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\tmp-camoufox-cli-test\repo\src\camoufox_cli\server.py. The replacement produced identical content. This might indicate an issue with special characters or the text not existing as expected.
 2026-03-17T14:10:37.194+08:00 (node:16376) MaxListenersExceededWarning: Possible EventTarget memory leak detected. 11 abort listeners added to [AbortSignal]. MaxListeners is 10. Use events.setMaxListeners() to increase limit
 2026-03-17T14:11:00.084+08:00 [tools] edit failed: No changes made to C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\tmp-camoufox-cli-test\repo\src\camoufox_cli\server.py. The replacement produced identical content. This might indicate an issue with special characters or the text not existing as expected.
+2026-03-17T14:24:20.290+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T14:25:35.718+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
