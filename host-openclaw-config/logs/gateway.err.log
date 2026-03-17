@@ -789,3 +789,47 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-03-17T21:21:41.146+08:00 Gateway service appears registered. Stop it first.
 2026-03-17T21:21:41.150+08:00 Tip: openclaw gateway stop
 2026-03-17T21:21:41.155+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-17T21:57:20.275+08:00 Gateway failed to start: gateway already running (pid 34872); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-17T21:57:20.521+08:00 Gateway service appears registered. Stop it first.
+2026-03-17T21:57:20.528+08:00 Tip: openclaw gateway stop
+2026-03-17T21:57:20.532+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-17T21:58:41.134+08:00 Gateway failed to start: gateway already running; lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-17T21:58:41.250+08:00 Gateway service appears registered. Stop it first.
+2026-03-17T21:58:41.255+08:00 Tip: openclaw gateway stop
+2026-03-17T21:58:41.260+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-17T21:59:05.752+08:00 Gateway failed to start: gateway already running; lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-17T21:59:05.862+08:00 Gateway service appears registered. Stop it first.
+2026-03-17T21:59:05.866+08:00 Tip: openclaw gateway stop
+2026-03-17T21:59:05.870+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-17T22:13:49.066+08:00 Gateway failed to start: gateway already running (pid 6616); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-17T22:13:49.473+08:00 Gateway service appears registered. Stop it first.
+2026-03-17T22:13:49.477+08:00 Tip: openclaw gateway stop
+2026-03-17T22:13:49.482+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-17T22:15:56.520+08:00 [memory] embeddings rate limited; retrying in 544ms
+2026-03-17T22:15:58.895+08:00 [memory] embeddings rate limited; retrying in 1001ms
+2026-03-17T22:16:01.874+08:00 [memory] embeddings rate limited; retrying in 2255ms
+2026-03-17T22:16:33.836+08:00 [agent/embedded] embedded run agent end: runId=5b7f6dc9-6413-4f41-8a36-6923bf02830c isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:16:37.349+08:00 [agent/embedded] embedded run agent end: runId=5b7f6dc9-6413-4f41-8a36-6923bf02830c isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:16:42.821+08:00 [agent/embedded] embedded run agent end: runId=5b7f6dc9-6413-4f41-8a36-6923bf02830c isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:16:52.688+08:00 [agent/embedded] embedded run agent end: runId=5b7f6dc9-6413-4f41-8a36-6923bf02830c isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:16:52.846+08:00 [agent/embedded] embedded run failover decision: runId=5b7f6dc9-6413-4f41-8a36-6923bf02830c stage=assistant decision=fallback_model reason=rate_limit provider=2603/gpt-5.4 profile=-
+2026-03-17T22:16:52.858+08:00 [diagnostic] lane task error: lane=main durationMs=22851 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T22:16:52.867+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=22875 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T22:16:52.881+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
+2026-03-17T22:17:16.205+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T22:21:00.042+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\cb99b2bb-a2ef-4611-943f-22f0efece099.jsonl.lock (dead-pid)
+2026-03-17T22:21:04.998+08:00 [ws] handshake timeout conn=541bba4f-febd-4a6f-9a9a-02c960cddf79 remote=127.0.0.1
+2026-03-17T22:21:05.576+08:00 [ws] closed before connect conn=541bba4f-febd-4a6f-9a9a-02c960cddf79 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 code=1006 reason=n/a
+2026-03-17T22:21:34.935+08:00 [agent/embedded] embedded run agent end: runId=40522dc0-7af9-4ecc-a87d-f7ca616c3e3f isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:21:38.804+08:00 [agent/embedded] embedded run agent end: runId=40522dc0-7af9-4ecc-a87d-f7ca616c3e3f isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:21:44.512+08:00 [agent/embedded] embedded run agent end: runId=40522dc0-7af9-4ecc-a87d-f7ca616c3e3f isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:21:54.585+08:00 [agent/embedded] embedded run agent end: runId=40522dc0-7af9-4ecc-a87d-f7ca616c3e3f isError=true model=gpt-5.4 provider=2603 error=⚠️ API rate limit reached. Please try again later.
+2026-03-17T22:21:54.780+08:00 [agent/embedded] embedded run failover decision: runId=40522dc0-7af9-4ecc-a87d-f7ca616c3e3f stage=assistant decision=fallback_model reason=rate_limit provider=2603/gpt-5.4 profile=-
+2026-03-17T22:21:54.792+08:00 [diagnostic] lane task error: lane=main durationMs=23082 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T22:21:54.798+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=23105 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-17T22:21:54.828+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
+2026-03-17T22:22:52.685+08:00 Rerank API timed out (5s), falling back to cosine
