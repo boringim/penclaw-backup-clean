@@ -760,3 +760,17 @@ Call log:
 2026-03-17T18:05:15.672+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-03-17T18:10:00.382+08:00 [tools] browser failed: Error: tab not found
 2026-03-17T18:10:23.134+08:00 [tools] browser failed: Error: tab not found
+2026-03-17T19:32:45.635+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T11:33:39.069Z [diagnostic] lane wait exceeded: lane=main waitedMs=10804 queueAhead=0
+2026-03-17T19:33:39.822+08:00 (node:33512) MaxListenersExceededWarning: Possible EventTarget memory leak detected. 11 abort listeners added to [AbortSignal]. MaxListeners is 10. Use events.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+2026-03-17T19:34:39.902+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T19:37:48.505+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T19:39:49.660+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T19:42:07.681+08:00 (node:33512) MaxListenersExceededWarning: Possible EventTarget memory leak detected. 11 abort listeners added to [AbortSignal]. MaxListeners is 10. Use events.setMaxListeners() to increase limit
+2026-03-17T19:43:14.867+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T11:45:21.669Z [diagnostic] lane wait exceeded: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main waitedMs=10480 queueAhead=0
+2026-03-17T19:46:15.913+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T20:02:47.258+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T20:19:24.976+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-17T20:20:01.963+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
