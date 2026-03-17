@@ -677,3 +677,7 @@ Call log:
 2026-03-17T01:00:00.283Z [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
 2026-03-17T09:35:33.573+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-03-17T09:35:59.087+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}}
+2026-03-17T11:50:55.198+08:00 (node:16376) MaxListenersExceededWarning: Possible EventTarget memory leak detected. 11 abort listeners added to [AbortSignal]. MaxListeners is 10. Use events.setMaxListeners() to increase limit
+2026-03-17T11:54:25.873+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\extensions\feishu\skills\coding-agent\SKILL.md'
+2026-03-17T11:55:42.368+08:00 (node:16376) MaxListenersExceededWarning: Possible EventTarget memory leak detected. 11 abort listeners added to [AbortSignal]. MaxListeners is 10. Use events.setMaxListeners() to increase limit
+2026-03-17T11:57:34.512+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\tmp-camoufox-cli-test\repo\debug_import.log'
