@@ -31,6 +31,15 @@ Things like:
 - Default speaker: Kitchen HomePod
 ```
 
+## Browser
+
+- Preferred automation browser: Google Chrome
+- Preferred OpenClaw browser profile: `google-auto`
+- Purpose: dedicated persistent automation profile for plugin retention and login persistence
+- User data dir: `C:\Users\Administrator\.openclaw\browser\google-auto\user-data`
+- Guidance: when browser actions do not specifically require the user's live tab/session, prefer `profile="google-auto"`
+- Note: this profile is separate from the user's everyday Chrome profile to reduce contamination/risk while preserving extensions and site sessions
+
 ## Why Separate?
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.

@@ -52,27 +52,33 @@ if ($Node) {
     }
 }
 
-# Robocopy: OpenClaw home (entire .openclaw directory)
-$Dest1 = Join-Path $BackupDir "openclaw-home"
-Log "Robocopy HOME: $OpenclawHome -> $Dest1"
-$excludeDirs = @("node_modules", ".git", "__pycache__", "workspace", "workspaces")
-$excludeFiles = @("*.log", "*.tmp", "*.lock")
-robocopy $OpenclawHome $Dest1 /MIR /NFL /NDL /NP /MT:4 /XD $excludeDirs /XF $excludeFiles /LOG+:$LogFile /TEE
-if ($LASTEXITCODE -ge 8) {
-    Log "ERROR: Robocopy home failed (code $LASTEXITCODE)"
-} else {
-    Log "SUCCESS: Home backed up"
+function Invoke-RobocopyLogged($Source, $Destination, $DirsToExclude, $FilesToExclude, $Label) {
+    Log "Robocopy ${Label}: $Source -> $Destination"
+    robocopy $Source $Destination /MIR /NFL /NDL /NP /MT:4 /R:1 /W:1 /XD $DirsToExclude /XF $FilesToExclude /LOG+:$LogFile /TEE
+    $code = $LASTEXITCODE
+    if ($code -ge 8) {
+        Log "ERROR: Robocopy $Label failed (code $code)"
+        return $false
+    }
+
+    Log "SUCCESS: $Label backed up (robocopy code $code)"
+    return $true
 }
 
+# Robocopy: OpenClaw home (entire .openclaw directory)
+$Dest1 = Join-Path $BackupDir "openclaw-home"
+$excludeDirs = @(
+    "node_modules", ".git", "__pycache__", "workspace", "workspaces",
+    "browser", "logs",
+    "profiles", "Cache", "Cache_Data", "Code Cache"
+)
+$excludeFiles = @("*.log", "*.tmp", "*.lock", "Cookies", "Cookies-journal", "Tabs_*")
+$homeOk = Invoke-RobocopyLogged -Source $OpenclawHome -Destination $Dest1 -DirsToExclude $excludeDirs -FilesToExclude $excludeFiles -Label "HOME"
+
 # Robocopy: Workspace (specific workspace)
-$Dest2 = Join-Path $BackupDir "workspace-$(Get-Date -Format 'yyyyMMdd_HHmmss')"
-Log "Robocopy WS: $OpenclawWorkspace -> $Dest2"
-robocopy $OpenclawWorkspace $Dest2 /MIR /NFL /NDL /NP /MT:4 /XD $excludeDirs /XF $excludeFiles /LOG+:$LogFile /TEE
-if ($LASTEXITCODE -ge 8) {
-    Log "ERROR: Robocopy workspace failed (code $LASTEXITCODE)"
-} else {
-    Log "SUCCESS: Workspace backed up"
-}
+$Dest2Name = "workspace-$(Get-Date -Format 'yyyyMMdd_HHmmss')"
+$Dest2 = Join-Path $BackupDir $Dest2Name
+$wsOk = Invoke-RobocopyLogged -Source $OpenclawWorkspace -Destination $Dest2 -DirsToExclude $excludeDirs -FilesToExclude $excludeFiles -Label "WORKSPACE"
 
 # Timestamped snapshot (keep 7)
 $SnapshotDir = Join-Path $BackupDir "snapshots"
@@ -82,7 +88,7 @@ $SnapshotFile = Join-Path $SnapshotDir "openclaw-$timestamp.tar"
 Log "Creating snapshot..."
 try {
     # Use tar to avoid file lock issues with Compress-Archive
-    tar -cf "`"$SnapshotFile`"" -C $BackupDir openclaw-home workspace-* 2>$null
+    tar -cf "`"$SnapshotFile`"" -C $BackupDir openclaw-home $Dest2Name 2>$null
     if ($LASTEXITCODE -ne 0) { throw "tar exited with code $LASTEXITCODE" }
     $size = [math]::Round((Get-Item $SnapshotFile).Length / 1MB, 1)
     Log "SUCCESS: Snapshot created ($size MB)"

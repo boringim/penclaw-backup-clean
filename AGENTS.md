@@ -207,6 +207,16 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## 子Agent默认规范
+
+未来创建新的子agent / 新agent时，默认执行以下流程：
+
+1. 先确认用途、命名、workspace 路径
+2. 默认要求其可使用 memory-lancedb-pro 记忆能力
+3. 不只看配置，要做一次实际验证（至少确认能调用 `memory_recall`）
+4. 如果检索为空，要区分“没有命中”与“没有能力”
+5. 将 agent / workspace / memory 映射同步记录到 `AGENT_MAP.md`
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.

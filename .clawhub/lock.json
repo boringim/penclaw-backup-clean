@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "skills": {
+    "review-defect-miner": {
+      "version": "1.0.0",
+      "installedAt": 1773737306265
+    },
+    "review-analysis": {
+      "version": "1.0.0",
+      "installedAt": 1773737310418
+    },
+    "faq-generator-from-reviews": {
+      "version": "1.0.0",
+      "installedAt": 1773737314334
+    },
+    "listing-gap-audit": {
+      "version": "1.0.0",
+      "installedAt": 1773737319967
+    },
+    "creator-monetization-risk-checker": {
+      "version": "1.0.3",
+      "installedAt": 1773737323958
+    },
+    "tiktok-claim-rewriter": {
+      "version": "1.0.0",
+      "installedAt": 1773737327992
+    },
+    "content-source-to-markdown": {
+      "version": "1.0.0",
+      "installedAt": 1773737332088
+    },
+    "ima-skills": {
+      "version": "1.0.1",
+      "installedAt": 1773740256034
+    }
+  }
+}
