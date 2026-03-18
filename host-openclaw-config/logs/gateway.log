@@ -214451,3 +214451,31 @@ No destructive actions were taken.
 2026-03-18T20:20:23.689+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-03-18T20:20:27.322+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-03-18T20:20:27.350+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-18T20:22:02.402+08:00 [ws] ⇄ res ✓ sessions.list 72ms conn=7c0ee10a…b380 id=d234ec9b…9804
+2026-03-18T20:22:02.414+08:00 [ws] ⇄ res ✓ chat.history 143ms conn=7c0ee10a…b380 id=3bc32aed…693a
+2026-03-18T20:22:07.583+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-18T20:22:08.025+08:00 [ws] ⇄ res ✓ chat.history 75ms conn=7c0ee10a…b380 id=fa7f8c4a…c860
+2026-03-18T20:22:10.506+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-03-18T20:22:41.349+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-03-18T20:22:41.360+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 继续
+2026-03-18T20:22:41.368+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-03-18T20:22:41.953+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-18T20:22:41.965+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-18T20:22:41.971+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-18T20:22:41.981+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-18T20:22:41.991+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-18T20:22:44.482+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-18T20:22:44.511+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-18T20:24:17.312+08:00 [plugins] memory-lancedb-pro: smart extraction enabled (LLM model: openai/gpt-oss-120b, noise bank: ON)
+2026-03-18T20:24:17.316+08:00 [plugins] memory-lancedb-pro@1.1.0-beta.8: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small, smartExtraction: ON)
+2026-03-18T20:24:17.320+08:00 [plugins] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-03-18T20:24:17.327+08:00 [plugins] session-memory: hook registered for command:new as memory-lancedb-pro-session-memory
+2026-03-18T20:24:27.425+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-03-18T20:24:27.429+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-03-18T20:24:27.434+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-03-18T20:24:27.439+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-03-18T20:24:27.452+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-03-18T20:24:27.461+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-18T20:24:27.478+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-18T20:24:27.486+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-18T20:24:27.538+08:00 [plugins] hook runner initialized with 1 registered hooks
