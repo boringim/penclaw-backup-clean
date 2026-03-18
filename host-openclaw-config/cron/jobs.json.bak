@@ -244,14 +244,15 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1773799200000,
+        "nextRunAtMs": 1773972000000,
         "lastRunAtMs": 1773626400021,
         "lastStatus": "ok",
         "lastDurationMs": 250650,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": true,
-        "lastDeliveryStatus": "delivered"
+        "lastDeliveryStatus": "delivered",
+        "runningAtMs": 1773801572740
       }
     },
     {
