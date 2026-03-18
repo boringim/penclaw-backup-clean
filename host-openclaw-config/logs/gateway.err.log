@@ -1199,3 +1199,74 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-03-18T14:11:21.567+08:00 Embedded agent failed before reply: All models failed (3): 2603/gpt-5.4: session file locked (timeout 10000ms): pid=4180 C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock (timeout) | gemini/gemini-3.1-pro-preview: session file locked (timeout 10000ms): pid=4180 C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock (timeout) | openrouter/stepfun/step-3.5-flash:free: session file locked (timeout 10000ms): pid=4180 C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock (timeout)
 2026-03-18T16:59:05.358+08:00 [agent/embedded] embedded run agent end: runId=afd8618b-61e9-4b2c-9524-17312280d5c0 isError=true model=minimax/minimax-m2.5:free provider=openrouter error=404 No endpoints available matching your guardrail restrictions and data policy. Configure: https://openrouter.ai/settings/privacy
 2026-03-18T17:15:45.835+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-18T17:26:38.186+08:00 [agent/embedded] embedded run agent end: runId=b210b62c-a45f-4e80-aad8-804d9a22208d isError=true model=minimax/minimax-m2.5:free provider=openrouter error=404 No endpoints available matching your guardrail restrictions and data policy. Configure: https://openrouter.ai/settings/privacy
+2026-03-18T17:27:19.178+08:00 Gateway failed to start: gateway already running (pid 16800); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-18T17:27:19.406+08:00 Gateway service appears registered. Stop it first.
+2026-03-18T17:27:19.410+08:00 Tip: openclaw gateway stop
+2026-03-18T17:27:19.414+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-18T17:33:19.506+08:00 Gateway failed to start: gateway already running (pid 8668); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-18T17:33:19.607+08:00 Gateway service appears registered. Stop it first.
+2026-03-18T17:33:19.612+08:00 Tip: openclaw gateway stop
+2026-03-18T17:33:19.616+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-18T17:34:49.547+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\c656ce41-61d8-4a67-bacc-cfdd368ca1c8.jsonl.lock (dead-pid)
+2026-03-18T17:35:11.243+08:00 [agent/embedded] embedded run agent end: runId=08cad0ef-5c9e-46ca-b533-69fcc42535f9 isError=true model=minimax/minimax-m2.5:free provider=openrouter error=404 No endpoints available matching your guardrail restrictions and data policy. Configure: https://openrouter.ai/settings/privacy
+2026-03-18T17:39:08.834+08:00 [reload] config change requires gateway restart (auth.profiles.openrouter:default)
+2026-03-18T17:39:12.787+08:00 [reload] config change requires gateway restart (env.OPENROUTER_API_KEY)
+2026-03-18T17:42:16.299+08:00 Gateway failed to start: gateway already running (pid 17964); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-18T17:42:16.465+08:00 Gateway service appears registered. Stop it first.
+2026-03-18T17:42:16.471+08:00 Tip: openclaw gateway stop
+2026-03-18T17:42:16.475+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-18T17:43:25.355+08:00 [agent/embedded] embedded run agent end: runId=54b70369-632e-4d4a-91b3-53f2b078ae33 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:43:28.868+08:00 [agent/embedded] embedded run agent end: runId=54b70369-632e-4d4a-91b3-53f2b078ae33 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:43:34.341+08:00 [agent/embedded] embedded run agent end: runId=54b70369-632e-4d4a-91b3-53f2b078ae33 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:43:43.958+08:00 [agent/embedded] embedded run agent end: runId=54b70369-632e-4d4a-91b3-53f2b078ae33 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:43:44.034+08:00 [agent/embedded] embedded run failover decision: runId=54b70369-632e-4d4a-91b3-53f2b078ae33 stage=assistant decision=fallback_model reason=timeout provider=gemini/gemini-3.1-pro-preview profile=-
+2026-03-18T17:43:44.047+08:00 [diagnostic] lane task error: lane=main durationMs=23987 error="FailoverError: 502 unknown provider for model gemini-3.1-pro-preview"
+2026-03-18T17:43:44.061+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=24011 error="FailoverError: 502 unknown provider for model gemini-3.1-pro-preview"
+2026-03-18T17:43:44.081+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=gemini/gemini-3.1-pro-preview candidate=gemini/gemini-3.1-pro-preview reason=timeout next=none
+2026-03-18T17:43:44.089+08:00 Transient HTTP provider error before reply (502 unknown provider for model gemini-3.1-pro-preview). Retrying once in 2500ms.
+2026-03-18T17:43:52.198+08:00 [agent/embedded] embedded run agent end: runId=54b70369-632e-4d4a-91b3-53f2b078ae33 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:43:55.634+08:00 [agent/embedded] embedded run agent end: runId=54b70369-632e-4d4a-91b3-53f2b078ae33 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:44:01.225+08:00 [agent/embedded] embedded run agent end: runId=54b70369-632e-4d4a-91b3-53f2b078ae33 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:44:11.489+08:00 [agent/embedded] embedded run agent end: runId=54b70369-632e-4d4a-91b3-53f2b078ae33 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:44:11.539+08:00 [agent/embedded] embedded run failover decision: runId=54b70369-632e-4d4a-91b3-53f2b078ae33 stage=assistant decision=fallback_model reason=timeout provider=gemini/gemini-3.1-pro-preview profile=-
+2026-03-18T17:44:11.550+08:00 [diagnostic] lane task error: lane=main durationMs=24669 error="FailoverError: 502 unknown provider for model gemini-3.1-pro-preview"
+2026-03-18T17:44:11.556+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=24686 error="FailoverError: 502 unknown provider for model gemini-3.1-pro-preview"
+2026-03-18T17:44:11.569+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=gemini/gemini-3.1-pro-preview candidate=gemini/gemini-3.1-pro-preview reason=timeout next=none
+2026-03-18T17:44:11.575+08:00 Embedded agent failed before reply: 502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:44:12.080+08:00 [agent/embedded] embedded run agent end: runId=bf5d6ce9-37c8-4b84-8117-88603d495c56 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:44:15.669+08:00 [agent/embedded] embedded run agent end: runId=bf5d6ce9-37c8-4b84-8117-88603d495c56 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:44:21.531+08:00 [agent/embedded] embedded run agent end: runId=bf5d6ce9-37c8-4b84-8117-88603d495c56 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:44:31.064+08:00 [agent/embedded] embedded run agent end: runId=bf5d6ce9-37c8-4b84-8117-88603d495c56 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:44:31.119+08:00 [agent/embedded] embedded run failover decision: runId=bf5d6ce9-37c8-4b84-8117-88603d495c56 stage=assistant decision=fallback_model reason=timeout provider=gemini/gemini-3.1-pro-preview profile=-
+2026-03-18T17:44:31.128+08:00 [diagnostic] lane task error: lane=main durationMs=21795 error="FailoverError: 502 unknown provider for model gemini-3.1-pro-preview"
+2026-03-18T17:44:31.131+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02 durationMs=21815 error="FailoverError: 502 unknown provider for model gemini-3.1-pro-preview"
+2026-03-18T17:44:31.141+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=gemini/gemini-3.1-pro-preview candidate=gemini/gemini-3.1-pro-preview reason=timeout next=none
+2026-03-18T17:44:31.144+08:00 Transient HTTP provider error before reply (502 unknown provider for model gemini-3.1-pro-preview). Retrying once in 2500ms.
+2026-03-18T17:44:35.151+08:00 [agent/embedded] embedded run agent end: runId=bf5d6ce9-37c8-4b84-8117-88603d495c56 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:44:38.790+08:00 [agent/embedded] embedded run agent end: runId=bf5d6ce9-37c8-4b84-8117-88603d495c56 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:44:44.459+08:00 [agent/embedded] embedded run agent end: runId=bf5d6ce9-37c8-4b84-8117-88603d495c56 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:44:54.002+08:00 [agent/embedded] embedded run agent end: runId=bf5d6ce9-37c8-4b84-8117-88603d495c56 isError=true model=gemini-3.1-pro-preview provider=gemini error=502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:44:54.068+08:00 [agent/embedded] embedded run failover decision: runId=bf5d6ce9-37c8-4b84-8117-88603d495c56 stage=assistant decision=fallback_model reason=timeout provider=gemini/gemini-3.1-pro-preview profile=-
+2026-03-18T17:44:54.075+08:00 [diagnostic] lane task error: lane=main durationMs=20395 error="FailoverError: 502 unknown provider for model gemini-3.1-pro-preview"
+2026-03-18T17:44:54.078+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02 durationMs=20407 error="FailoverError: 502 unknown provider for model gemini-3.1-pro-preview"
+2026-03-18T17:44:54.085+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=gemini/gemini-3.1-pro-preview candidate=gemini/gemini-3.1-pro-preview reason=timeout next=none
+2026-03-18T17:44:54.090+08:00 Embedded agent failed before reply: 502 unknown provider for model gemini-3.1-pro-preview
+2026-03-18T17:45:40.775+08:00 [reload] config change requires gateway restart (auth.profiles.google-gemini-cli:default, auth.profiles.google:default)
+2026-03-18T17:45:48.089+08:00 [reload] config change requires gateway restart (plugins.allow, plugins.entries.google-gemini-cli-auth)
+2026-03-18T18:05:14.431+08:00 Gateway failed to start: gateway already running (pid 11156); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-18T18:05:14.555+08:00 Gateway service appears registered. Stop it first.
+2026-03-18T18:05:14.559+08:00 Tip: openclaw gateway stop
+2026-03-18T18:05:14.563+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-18T18:09:46.115+08:00 Gateway failed to start: gateway already running (pid 12560); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-18T18:09:46.402+08:00 Port 18789 is already in use.
+2026-03-18T18:09:46.408+08:00 - pid 12560: "C:\Program Files\nodejs\node.exe"  C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\dist\index.js gateway --port 18789 (127.0.0.1:18789)
+2026-03-18T18:09:46.412+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-18T18:09:46.460+08:00 Gateway service appears registered. Stop it first.
+2026-03-18T18:09:46.463+08:00 Tip: openclaw gateway stop
+2026-03-18T18:09:46.467+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
