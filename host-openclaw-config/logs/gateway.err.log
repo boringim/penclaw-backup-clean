@@ -1003,3 +1003,45 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-03-18T09:12:17.058+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=23442 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
 2026-03-18T09:12:17.072+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=gemini/gemini-3.1-pro-preview candidate=gemini/gemini-3.1-pro-preview reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
 2026-03-18T09:12:37.343+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=gemini/gemini-3.1-pro-preview candidate=openrouter/stepfun/step-3.5-flash:free reason=unknown next=none
+2026-03-18T09:25:05.259+08:00 [agent/embedded] embedded run agent end: runId=533845e8-2a39-470e-bf20-06c2560dab5c isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:25:08.785+08:00 [agent/embedded] embedded run agent end: runId=533845e8-2a39-470e-bf20-06c2560dab5c isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:25:14.554+08:00 [agent/embedded] embedded run agent end: runId=533845e8-2a39-470e-bf20-06c2560dab5c isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:25:24.428+08:00 [agent/embedded] embedded run agent end: runId=533845e8-2a39-470e-bf20-06c2560dab5c isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:25:24.484+08:00 [agent/embedded] embedded run failover decision: runId=533845e8-2a39-470e-bf20-06c2560dab5c stage=assistant decision=fallback_model reason=rate_limit provider=gemini/gemini-3.1-pro-preview profile=-
+2026-03-18T09:25:24.496+08:00 [diagnostic] lane task error: lane=main durationMs=24112 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-18T09:25:24.507+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=24134 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-18T09:25:24.523+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=gemini/gemini-3.1-pro-preview candidate=gemini/gemini-3.1-pro-preview reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
+2026-03-18T09:25:46.705+08:00 [ws] handshake timeout conn=4fb292c2-21da-4068-b9a6-aa9ab3f1963e remote=127.0.0.1
+2026-03-18T09:25:59.620+08:00 [ws] closed before connect conn=4fb292c2-21da-4068-b9a6-aa9ab3f1963e remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1000 reason=n/a
+2026-03-18T09:54:15.335+08:00 Gateway failed to start: gateway already running (pid 11628); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-18T09:54:15.450+08:00 Gateway service appears registered. Stop it first.
+2026-03-18T09:54:15.454+08:00 Tip: openclaw gateway stop
+2026-03-18T09:54:15.458+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-18T10:19:43.044+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock (dead-pid, too-old)
+2026-03-18T10:19:46.043+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-03-18T10:19:52.453+08:00 [agent/embedded] embedded run agent end: runId=795bdeb2-a960-4635-9d54-821c826dd6c1 isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T10:19:55.995+08:00 [agent/embedded] embedded run agent end: runId=795bdeb2-a960-4635-9d54-821c826dd6c1 isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T10:20:01.563+08:00 [agent/embedded] embedded run agent end: runId=795bdeb2-a960-4635-9d54-821c826dd6c1 isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T10:20:11.266+08:00 [agent/embedded] embedded run agent end: runId=795bdeb2-a960-4635-9d54-821c826dd6c1 isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T10:20:11.343+08:00 [agent/embedded] embedded run failover decision: runId=795bdeb2-a960-4635-9d54-821c826dd6c1 stage=assistant decision=fallback_model reason=rate_limit provider=gemini/gemini-3.1-pro-preview profile=-
+2026-03-18T10:20:11.355+08:00 [diagnostic] lane task error: lane=nested durationMs=24101 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-18T10:20:11.363+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:cron:994029b0-9ab5-4147-9a23-47c31d1db98d durationMs=24123 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-18T10:20:11.380+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=gemini/gemini-3.1-pro-preview candidate=gemini/gemini-3.1-pro-preview reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
+2026-03-18T10:20:21.975+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}}
+2026-03-18T10:20:24.782+08:00 [ws] unauthorized conn=80b91d20-5918-49b4-aff2-1bc7ac9f64be remote=127.0.0.1 client=agent backend v2026.3.13 reason=token_mismatch
+2026-03-18T10:20:24.791+08:00 gateway connect failed: GatewayClientRequestError: unauthorized: gateway token mismatch (provide gateway auth token)
+2026-03-18T10:20:24.824+08:00 [ws] closed before connect conn=80b91d20-5918-49b4-aff2-1bc7ac9f64be remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=unauthorized: gateway token mismatch (provide gateway auth token)
+2026-03-18T10:20:24.844+08:00 [tools] browser failed: gateway closed (1008): unauthorized: gateway token mismatch (provide gateway auth token)
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: C:\Users\Administrator\.openclaw\openclaw.json
+Bind: loopback
+2026-03-18T10:20:53.072+08:00 [memory] embeddings rate limited; retrying in 600ms
+2026-03-18T10:20:55.224+08:00 [memory] embeddings rate limited; retrying in 1170ms
+2026-03-18T10:20:58.128+08:00 [memory] embeddings rate limited; retrying in 2047ms
+2026-03-18T10:22:06.524+08:00 Gateway failed to start: gateway already running (pid 8040); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-18T10:22:06.655+08:00 Gateway service appears registered. Stop it first.
+2026-03-18T10:22:06.662+08:00 Tip: openclaw gateway stop
+2026-03-18T10:22:06.667+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
