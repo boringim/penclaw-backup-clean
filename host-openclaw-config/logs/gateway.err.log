@@ -969,3 +969,37 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-03-18T00:13:18.167+08:00 [memory] embeddings rate limited; retrying in 557ms
 2026-03-18T00:13:19.949+08:00 [memory] embeddings rate limited; retrying in 1132ms
 2026-03-18T00:13:22.304+08:00 [memory] embeddings rate limited; retrying in 2040ms
+2026-03-18T09:00:24.899+08:00 Gateway failed to start: gateway already running (pid 28040); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-18T09:00:25.058+08:00 Gateway service appears registered. Stop it first.
+2026-03-18T09:00:25.066+08:00 Tip: openclaw gateway stop
+2026-03-18T09:00:25.071+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-18T09:02:24.093+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-03-18T09:02:30.533+08:00 [agent/embedded] embedded run agent end: runId=b8e823d1-7b0e-445f-ba01-2e629c834e48 isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:02:34.236+08:00 [agent/embedded] embedded run agent end: runId=b8e823d1-7b0e-445f-ba01-2e629c834e48 isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:02:39.614+08:00 [agent/embedded] embedded run agent end: runId=b8e823d1-7b0e-445f-ba01-2e629c834e48 isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:02:49.190+08:00 [agent/embedded] embedded run agent end: runId=b8e823d1-7b0e-445f-ba01-2e629c834e48 isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:02:49.269+08:00 [agent/embedded] embedded run failover decision: runId=b8e823d1-7b0e-445f-ba01-2e629c834e48 stage=assistant decision=fallback_model reason=rate_limit provider=gemini/gemini-3.1-pro-preview profile=-
+2026-03-18T09:02:49.279+08:00 [diagnostic] lane task error: lane=nested durationMs=23962 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-18T09:02:49.287+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:cron:0d4541a0-2d0f-498b-945d-ae14c7071409 durationMs=23980 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-18T09:02:49.303+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=gemini/gemini-3.1-pro-preview candidate=gemini/gemini-3.1-pro-preview reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
+2026-03-18T09:03:49.023+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=gemini/gemini-3.1-pro-preview candidate=openrouter/stepfun/step-3.5-flash:free reason=unknown next=none
+2026-03-18T09:06:08.041+08:00 [agent/embedded] embedded run agent end: runId=0dd6b8ea-8da2-4c48-b4fc-0fdc38779aa4 isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:06:11.386+08:00 [agent/embedded] embedded run agent end: runId=0dd6b8ea-8da2-4c48-b4fc-0fdc38779aa4 isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:06:17.124+08:00 [agent/embedded] embedded run agent end: runId=0dd6b8ea-8da2-4c48-b4fc-0fdc38779aa4 isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:06:26.586+08:00 [agent/embedded] embedded run agent end: runId=0dd6b8ea-8da2-4c48-b4fc-0fdc38779aa4 isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:06:26.660+08:00 [agent/embedded] embedded run failover decision: runId=0dd6b8ea-8da2-4c48-b4fc-0fdc38779aa4 stage=assistant decision=fallback_model reason=rate_limit provider=gemini/gemini-3.1-pro-preview profile=-
+2026-03-18T09:06:26.673+08:00 [diagnostic] lane task error: lane=main durationMs=25181 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-18T09:06:26.688+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=25202 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-18T09:06:26.709+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=gemini/gemini-3.1-pro-preview candidate=gemini/gemini-3.1-pro-preview reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
+2026-03-18T09:06:35.849+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}}
+2026-03-18T09:09:34.991+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=gemini/gemini-3.1-pro-preview candidate=openrouter/stepfun/step-3.5-flash:free reason=unknown next=none
+2026-03-18T09:11:58.016+08:00 [agent/embedded] embedded run agent end: runId=ddc5d27a-db73-4df1-b6f2-56d3ec2bdc7a isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:12:01.869+08:00 [agent/embedded] embedded run agent end: runId=ddc5d27a-db73-4df1-b6f2-56d3ec2bdc7a isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:12:07.362+08:00 [agent/embedded] embedded run agent end: runId=ddc5d27a-db73-4df1-b6f2-56d3ec2bdc7a isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:12:16.957+08:00 [agent/embedded] embedded run agent end: runId=ddc5d27a-db73-4df1-b6f2-56d3ec2bdc7a isError=true model=gemini-3.1-pro-preview provider=gemini error=⚠️ API rate limit reached. Please try again later.
+2026-03-18T09:12:17.029+08:00 [agent/embedded] embedded run failover decision: runId=ddc5d27a-db73-4df1-b6f2-56d3ec2bdc7a stage=assistant decision=fallback_model reason=rate_limit provider=gemini/gemini-3.1-pro-preview profile=-
+2026-03-18T09:12:17.041+08:00 [diagnostic] lane task error: lane=main durationMs=23424 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-18T09:12:17.058+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=23442 error="FailoverError: ⚠️ API rate limit reached. Please try again later."
+2026-03-18T09:12:17.072+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=gemini/gemini-3.1-pro-preview candidate=gemini/gemini-3.1-pro-preview reason=rate_limit next=openrouter/stepfun/step-3.5-flash:free
+2026-03-18T09:12:37.343+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=gemini/gemini-3.1-pro-preview candidate=openrouter/stepfun/step-3.5-flash:free reason=unknown next=none
