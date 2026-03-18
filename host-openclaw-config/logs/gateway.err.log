@@ -1122,3 +1122,78 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-03-18T12:18:22.222+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=24127 error="FailoverError: LLM request timed out."
 2026-03-18T12:18:22.233+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=gemini/gemini-3.1-pro-preview candidate=gemini/gemini-3.1-pro-preview reason=timeout next=openrouter/stepfun/step-3.5-flash:free
 2026-03-18T12:18:47.677+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=gemini/gemini-3.1-pro-preview candidate=openrouter/stepfun/step-3.5-flash:free reason=unknown next=none
+2026-03-18T13:36:40.938+08:00 [agent/embedded] embedded run agent end: runId=cb640968-c714-4d65-88d9-068b267c6137 isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:36:44.338+08:00 [agent/embedded] embedded run agent end: runId=cb640968-c714-4d65-88d9-068b267c6137 isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:36:49.680+08:00 [agent/embedded] embedded run agent end: runId=cb640968-c714-4d65-88d9-068b267c6137 isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:36:59.251+08:00 [agent/embedded] embedded run agent end: runId=cb640968-c714-4d65-88d9-068b267c6137 isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:36:59.417+08:00 [agent/embedded] embedded run failover decision: runId=cb640968-c714-4d65-88d9-068b267c6137 stage=assistant decision=fallback_model reason=timeout provider=gemini/gemini-3.1-pro-preview profile=-
+2026-03-18T13:36:59.446+08:00 [diagnostic] lane task error: lane=main durationMs=23589 error="FailoverError: LLM request timed out."
+2026-03-18T13:36:59.489+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=23651 error="FailoverError: LLM request timed out."
+2026-03-18T13:36:59.519+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=gemini/gemini-3.1-pro-preview candidate=gemini/gemini-3.1-pro-preview reason=timeout next=openrouter/stepfun/step-3.5-flash:free
+2026-03-18T13:37:15.417+08:00 [tools] edit failed: Found 3 occurrences of the text in C:\Users\Administrator\.openclaw\openclaw.json. The text must be unique. Please provide more context to make it unique.
+2026-03-18T13:38:16.776+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-18T13:38:21.005+08:00 [agent/embedded] embedded run agent end: runId=8d6d0a39-ac30-4b77-bfe8-3f1552b70f9c isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:38:24.501+08:00 [agent/embedded] embedded run agent end: runId=8d6d0a39-ac30-4b77-bfe8-3f1552b70f9c isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:38:29.809+08:00 [agent/embedded] embedded run agent end: runId=8d6d0a39-ac30-4b77-bfe8-3f1552b70f9c isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:39:21.703+08:00 Gateway failed to start: gateway already running (pid 11304); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-18T13:39:21.794+08:00 Gateway service appears registered. Stop it first.
+2026-03-18T13:39:21.799+08:00 Tip: openclaw gateway stop
+2026-03-18T13:39:21.803+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-18T13:40:06.370+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock (dead-pid)
+2026-03-18T13:40:06.383+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\c656ce41-61d8-4a67-bacc-cfdd368ca1c8.jsonl.lock (dead-pid)
+2026-03-18T13:40:20.962+08:00 Gateway failed to start: gateway already running (pid 4180); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-18T13:40:21.390+08:00 Port 18789 is already in use.
+2026-03-18T13:40:21.396+08:00 - pid 4180: "C:\Program Files\nodejs\node.exe" --disable-warning=ExperimentalWarning C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\openclaw.mjs gateway --port 18789 (127.0.0.1:18789)
+2026-03-18T13:40:21.404+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-03-18T13:40:21.516+08:00 Gateway service appears registered. Stop it first.
+2026-03-18T13:40:21.533+08:00 Tip: openclaw gateway stop
+2026-03-18T13:40:21.557+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-18T13:40:27.993+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-18T13:40:47.789+08:00 [agent/embedded] embedded run agent end: runId=c41af07c-5f7a-4504-80a6-b0387fc09bbd isError=true model=gpt-5.4 provider=2603 error=LLM request timed out.
+2026-03-18T13:40:51.155+08:00 [agent/embedded] embedded run agent end: runId=c41af07c-5f7a-4504-80a6-b0387fc09bbd isError=true model=gpt-5.4 provider=2603 error=LLM request timed out.
+2026-03-18T13:40:56.621+08:00 [agent/embedded] embedded run agent end: runId=c41af07c-5f7a-4504-80a6-b0387fc09bbd isError=true model=gpt-5.4 provider=2603 error=LLM request timed out.
+2026-03-18T13:41:06.054+08:00 [agent/embedded] embedded run agent end: runId=c41af07c-5f7a-4504-80a6-b0387fc09bbd isError=true model=gpt-5.4 provider=2603 error=LLM request timed out.
+2026-03-18T13:41:06.156+08:00 [agent/embedded] embedded run failover decision: runId=c41af07c-5f7a-4504-80a6-b0387fc09bbd stage=assistant decision=fallback_model reason=timeout provider=2603/gpt-5.4 profile=-
+2026-03-18T13:41:06.171+08:00 [diagnostic] lane task error: lane=main durationMs=24374 error="FailoverError: LLM request timed out."
+2026-03-18T13:41:06.189+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=24398 error="FailoverError: LLM request timed out."
+2026-03-18T13:41:06.213+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=timeout next=gemini/gemini-3.1-pro-preview
+2026-03-18T13:41:11.164+08:00 [agent/embedded] embedded run agent end: runId=c41af07c-5f7a-4504-80a6-b0387fc09bbd isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:41:13.860+08:00 [agent/embedded] embedded run agent end: runId=a41773a5-3542-4145-937d-4dab83e78846 isError=true model=gpt-5.4 provider=2603 error=LLM request timed out.
+2026-03-18T13:41:14.543+08:00 [agent/embedded] embedded run agent end: runId=c41af07c-5f7a-4504-80a6-b0387fc09bbd isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:41:17.227+08:00 [agent/embedded] embedded run agent end: runId=a41773a5-3542-4145-937d-4dab83e78846 isError=true model=gpt-5.4 provider=2603 error=LLM request timed out.
+2026-03-18T13:41:19.936+08:00 [agent/embedded] embedded run agent end: runId=c41af07c-5f7a-4504-80a6-b0387fc09bbd isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:41:22.657+08:00 [agent/embedded] embedded run agent end: runId=a41773a5-3542-4145-937d-4dab83e78846 isError=true model=gpt-5.4 provider=2603 error=LLM request timed out.
+2026-03-18T13:41:29.237+08:00 [agent/embedded] embedded run agent end: runId=c41af07c-5f7a-4504-80a6-b0387fc09bbd isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:41:29.342+08:00 [agent/embedded] embedded run failover decision: runId=c41af07c-5f7a-4504-80a6-b0387fc09bbd stage=assistant decision=fallback_model reason=timeout provider=gemini/gemini-3.1-pro-preview profile=-
+2026-03-18T13:41:29.361+08:00 [diagnostic] lane task error: lane=main durationMs=23118 error="FailoverError: LLM request timed out."
+2026-03-18T13:41:29.379+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=23146 error="FailoverError: LLM request timed out."
+2026-03-18T13:41:29.403+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=gemini/gemini-3.1-pro-preview reason=timeout next=openrouter/stepfun/step-3.5-flash:free
+2026-03-18T13:41:32.035+08:00 [agent/embedded] embedded run agent end: runId=a41773a5-3542-4145-937d-4dab83e78846 isError=true model=gpt-5.4 provider=2603 error=LLM request timed out.
+2026-03-18T13:41:32.073+08:00 [agent/embedded] embedded run failover decision: runId=a41773a5-3542-4145-937d-4dab83e78846 stage=assistant decision=fallback_model reason=timeout provider=2603/gpt-5.4 profile=-
+2026-03-18T13:41:32.083+08:00 [diagnostic] lane task error: lane=main durationMs=25097 error="FailoverError: LLM request timed out."
+2026-03-18T13:41:32.100+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02 durationMs=25114 error="FailoverError: LLM request timed out."
+2026-03-18T13:41:32.110+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=timeout next=gemini/gemini-3.1-pro-preview
+2026-03-18T13:41:35.495+08:00 [agent/embedded] embedded run agent end: runId=a41773a5-3542-4145-937d-4dab83e78846 isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:41:39.040+08:00 [agent/embedded] embedded run agent end: runId=a41773a5-3542-4145-937d-4dab83e78846 isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:41:44.338+08:00 [agent/embedded] embedded run agent end: runId=a41773a5-3542-4145-937d-4dab83e78846 isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:41:53.670+08:00 [agent/embedded] embedded run agent end: runId=a41773a5-3542-4145-937d-4dab83e78846 isError=true model=gemini-3.1-pro-preview provider=gemini error=LLM request timed out.
+2026-03-18T13:41:53.719+08:00 [agent/embedded] embedded run failover decision: runId=a41773a5-3542-4145-937d-4dab83e78846 stage=assistant decision=fallback_model reason=timeout provider=gemini/gemini-3.1-pro-preview profile=-
+2026-03-18T13:41:53.731+08:00 [diagnostic] lane task error: lane=main durationMs=21595 error="FailoverError: LLM request timed out."
+2026-03-18T13:41:53.742+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02 durationMs=21612 error="FailoverError: LLM request timed out."
+2026-03-18T13:41:53.754+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=gemini/gemini-3.1-pro-preview reason=timeout next=openrouter/stepfun/step-3.5-flash:free
+2026-03-18T13:42:04.231+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\backup\backup-monitor.log'
+2026-03-18T13:42:10.258+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\openclaw.json'
+2026-03-18T13:42:25.621+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\scripts\backup-db.js'
+2026-03-18T14:10:55.799+08:00 [diagnostic] lane task error: lane=main durationMs=17377 error="Error: session file locked (timeout 10000ms): pid=4180 C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock"
+2026-03-18T14:10:55.811+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=17405 error="Error: session file locked (timeout 10000ms): pid=4180 C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock"
+2026-03-18T14:10:55.847+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=timeout next=gemini/gemini-3.1-pro-preview
+2026-03-18T14:11:08.855+08:00 [diagnostic] lane task error: lane=main durationMs=12975 error="Error: session file locked (timeout 10000ms): pid=4180 C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock"
+2026-03-18T14:11:08.875+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=12999 error="Error: session file locked (timeout 10000ms): pid=4180 C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock"
+2026-03-18T14:11:08.895+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=gemini/gemini-3.1-pro-preview reason=timeout next=openrouter/stepfun/step-3.5-flash:free
+2026-03-18T14:11:18.112+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-18T14:11:21.530+08:00 [diagnostic] lane task error: lane=main durationMs=12609 error="Error: session file locked (timeout 10000ms): pid=4180 C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock"
+2026-03-18T14:11:21.544+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=12626 error="Error: session file locked (timeout 10000ms): pid=4180 C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock"
+2026-03-18T14:11:21.560+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=openrouter/stepfun/step-3.5-flash:free reason=timeout next=none
+2026-03-18T14:11:21.567+08:00 Embedded agent failed before reply: All models failed (3): 2603/gpt-5.4: session file locked (timeout 10000ms): pid=4180 C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock (timeout) | gemini/gemini-3.1-pro-preview: session file locked (timeout 10000ms): pid=4180 C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock (timeout) | openrouter/stepfun/step-3.5-flash:free: session file locked (timeout 10000ms): pid=4180 C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock (timeout)
