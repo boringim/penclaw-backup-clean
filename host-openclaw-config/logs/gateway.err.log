@@ -1270,3 +1270,35 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-03-18T18:09:46.460+08:00 Gateway service appears registered. Stop it first.
 2026-03-18T18:09:46.463+08:00 Tip: openclaw gateway stop
 2026-03-18T18:09:46.467+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-18T19:47:13.328+08:00 Gateway failed to start: gateway already running (pid 12560); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-18T19:47:13.420+08:00 Gateway service appears registered. Stop it first.
+2026-03-18T19:47:13.427+08:00 Tip: openclaw gateway stop
+2026-03-18T19:47:13.432+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-18T19:47:53.276+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock (dead-pid)
+2026-03-18T19:47:53.297+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\c656ce41-61d8-4a67-bacc-cfdd368ca1c8.jsonl.lock (dead-pid)
+2026-03-18T19:58:27.908+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-18T20:01:51.563+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable.
+2026-03-18T20:03:23.085+08:00 [ws] unauthorized conn=3d3e3c3d-76a0-48ce-9f2c-fff8f5fec320 remote=127.0.0.1 client=cli probe vdev reason=token_mismatch
+2026-03-18T20:03:23.114+08:00 [ws] closed before connect conn=3d3e3c3d-76a0-48ce-9f2c-fff8f5fec320 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
+2026-03-18T20:03:24.125+08:00 [ws] unauthorized conn=00d91b5d-eebf-4b24-98ce-35f43630f9d3 remote=127.0.0.1 client=cli probe vdev reason=token_mismatch
+2026-03-18T20:03:24.135+08:00 [ws] closed before connect conn=00d91b5d-eebf-4b24-98ce-35f43630f9d3 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=connect failed
+2026-03-18T20:03:52.768+08:00 [reload] config change requires gateway restart (gateway.auth.token) — deferring until 2 operation(s), 1 embedded run(s) complete
+2026-03-18T20:05:56.966+08:00 Gateway failed to start: gateway already running (pid 3316); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-18T20:05:57.056+08:00 Gateway service appears registered. Stop it first.
+2026-03-18T20:05:57.061+08:00 Tip: openclaw gateway stop
+2026-03-18T20:05:57.065+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-18T20:07:27.305+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock (dead-pid)
+2026-03-18T20:08:21.179+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable.
+2026-03-18T20:11:36.853+08:00 [agent/embedded] embedded run agent end: runId=265e7d5c-865d-4c63-86ae-5462c1ce64b1 isError=true model=gpt-5.4 provider=2603 error=500 empty_stream: upstream stream closed before first payload
+2026-03-18T20:15:44.401+08:00 [ws] handshake timeout conn=c7f3245d-d4ab-4854-ac34-dda6fe3c676a remote=127.0.0.1
+2026-03-18T20:15:53.530+08:00 [ws] closed before connect conn=c7f3245d-d4ab-4854-ac34-dda6fe3c676a remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1006 reason=n/a
+2026-03-18T20:17:59.578+08:00 Gateway failed to start: gateway already running (pid 12200); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-03-18T20:17:59.676+08:00 Gateway service appears registered. Stop it first.
+2026-03-18T20:17:59.681+08:00 Tip: openclaw gateway stop
+2026-03-18T20:17:59.684+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-03-18T20:18:21.380+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\721732b1-9a3e-4c5e-a5ff-e193f29c0546.jsonl.lock (dead-pid)
+2026-03-18T20:18:53.590+08:00 [ws] handshake timeout conn=e79ce846-8956-4035-9477-2feb0da288f7 remote=127.0.0.1
+2026-03-18T20:19:03.438+08:00 [ws] closed before connect conn=e79ce846-8956-4035-9477-2feb0da288f7 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1006 reason=n/a
