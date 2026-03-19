@@ -215834,3 +215834,17 @@ No destructive actions were taken.
 2026-03-20T00:20:22.280+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-03-20T00:20:56.221+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-03-20T00:20:59.135+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-03-20T00:24:23.817+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-20T00:24:23.825+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-20T00:24:23.832+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 重新打开https://shopee.ph/appliancemall?page=0&sortBy=sales&tab=0 链接进入，等30秒后再读取信息
+2026-03-20T00:24:23.843+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-20T00:24:24.326+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T00:24:24.338+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T00:24:24.349+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T00:24:24.377+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T00:24:24.386+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T00:24:30.513+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-20T00:24:30.534+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T00:24:49.791+08:00 [ws] ⇄ res ✓ node.list 86ms conn=38be77da…2a43 id=65d30b02…1ade
+2026-03-20T00:25:20.599+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-20T00:25:22.403+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
