@@ -1343,3 +1343,4 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-03-19T15:22:46.687+08:00 Rerank API timed out (5s), falling back to cosine
 2026-03-19T16:00:55.261+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\skills\content-source-to-markdown\SKILL.md'
 2026-03-19T16:01:08.294+08:00 [tools] browser failed: BrowserProfileNotFoundError: Profile "google-auto" not found. Available profiles: openclaw, user, chrome-relay
+2026-03-19T17:14:01.533+08:00 [tools] browser failed: Error: Navigation timeout of 10000 ms exceeded
