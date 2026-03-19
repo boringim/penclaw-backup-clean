@@ -1335,3 +1335,5 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-03-19T09:57:47.129+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable.
 2026-03-19T09:59:25.464+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\tmp_shopee_jina.txt'
 2026-03-19T10:54:29.001+08:00 [tools] browser failed: tab not found
+2026-03-19T11:35:08.283+08:00 Rerank API timed out (5s), falling back to cosine
+2026-03-19T11:35:43.891+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable.
