@@ -19,6 +19,7 @@ _当前 OpenClaw agent / workspace / memory 映射梳理（2026-03-15）_
 | `oc_981e24884af3ed7ed6c16c5730c9bd02` | `C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group` | 当前 Feishu 主 agent |
 | `oc_baa6c26e80932344e32cf514de6acde3` | `C:\Users\Administrator\.openclaw\workspaces\DAQIAN` | 独立业务 agent |
 | `oc_8f6fe7a8106b318e5d183817579bc8ea` | `C:\Users\Administrator\.openclaw\workspaces\LASER` | 激光雕刻机知识库 agent |
+| `oc_981e24884af3ed7ed6c16c5730c9bd02` skill `shopee-ph-competitor-research` | `C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\skills\shopee-ph-competitor-research` | Shopee 菲律宾本土店竞品调研与开发选品工作流；交付自动化浏览器研究 + 飞书文档 + 多维表 |
 
 ## 3. Subagent 现状判断
 

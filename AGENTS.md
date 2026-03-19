@@ -117,6 +117,20 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
+### Browser Automation Default
+
+- 浏览器自动化默认**优先使用官方 existing-session 路线**：`profile="user"`
+- 这条路线对应 **Chrome DevTools MCP / existing-session**，优先复用用户当前真实 Chrome 会话
+- 只有在以下情况才退到其他方案：
+  - `profile="user"` attach 失败
+  - 用户明确要求 Chrome 扩展 attach-tab 流程
+  - 某项功能在 `user` 路线暂时不稳定
+- 备选优先级：
+  1. `profile="user"`
+  2. `profile="chrome-relay"`
+  3. `profile="openclaw"`
+- 不要默认先走 Browser Relay；除非用户明确提到扩展 / attach tab / Browser Relay
+
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
 **📝 Platform Formatting:**
