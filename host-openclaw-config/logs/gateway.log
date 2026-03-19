@@ -215848,3 +215848,11 @@ No destructive actions were taken.
 2026-03-20T00:24:49.791+08:00 [ws] ⇄ res ✓ node.list 86ms conn=38be77da…2a43 id=65d30b02…1ade
 2026-03-20T00:25:20.599+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-03-20T00:25:22.403+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-03-20T07:00:00.421+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T07:00:00.458+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T07:00:00.465+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T07:00:00.483+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T07:00:00.500+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T07:00:04.505+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T07:00:12.988+08:00 [gateway] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-20T07:01:26.693+08:00 [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
