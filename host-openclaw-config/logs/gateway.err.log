@@ -1353,3 +1353,15 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-03-19T21:02:33.777+08:00 [tools] browser failed: Error: The selected page has been closed. Call list_pages to see open pages.
 2026-03-19T21:02:40.902+08:00 [tools] browser failed: Error: The selected page has been closed. Call list_pages to see open pages.
 2026-03-19T21:03:53.946+08:00 [tools] browser failed: Error: Navigation timeout of 10000 ms exceeded
+2026-03-20T00:00:00.191+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-03-20T00:00:01.872+08:00 [tools] browser failed: Error: The selected page has been closed. Call list_pages to see open pages.
+2026-03-20T00:00:01.915+08:00 [tools] browser failed: Error: The selected page has been closed. Call list_pages to see open pages.
+2026-03-20T00:00:18.599+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-03-20.md'
+2026-03-20T00:07:54.741+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-20T00:08:34.783+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-03-20.md'
+2026-03-20T00:08:39.530+08:00 [tools] browser failed: Error: The selected page has been closed. Call list_pages to see open pages.
+2026-03-20T00:10:07.398+08:00 [agent/embedded] embedded run timeout: runId=e9457e56-2242-470f-b001-5df9278f6aee sessionId=e9457e56-2242-470f-b001-5df9278f6aee timeoutMs=600000
+2026-03-20T00:10:37.452+08:00 [agent/embedded] embedded run failover decision: runId=e9457e56-2242-470f-b001-5df9278f6aee stage=assistant decision=fallback_model reason=timeout provider=2603/gpt-5.4 profile=-
+2026-03-20T00:10:37.463+08:00 [diagnostic] lane task error: lane=nested durationMs=635288 error="FailoverError: LLM request timed out."
+2026-03-20T00:10:37.521+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:cron:7ba0d0d4-9451-4427-83a9-6e2f135300f6 durationMs=635336 error="FailoverError: LLM request timed out."
+2026-03-20T00:10:37.596+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=unknown next=none
