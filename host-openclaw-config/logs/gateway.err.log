@@ -1369,3 +1369,5 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-03-20T07:00:00.145+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
 2026-03-20T07:00:04.319+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Embedding provider authentication failed (401: 401 status code (no body)). Check embedding.apiKey and endpoint for Jina. If your Jina key expired or lost access, replace the key or switch to a local OpenAI-compatible endpoint such as Ollama (for example baseURL http://127.0.0.1:11434/v1, with a matching model and embedding.dimensions).
 2026-03-20T07:00:21.359+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-03-20.md'
+2026-03-20T08:00:00.209+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-03-20T08:01:22.441+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
