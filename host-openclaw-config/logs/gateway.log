@@ -216253,3 +216253,12 @@ No destructive actions were taken.
 2026-03-20T14:45:03.272+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
 2026-03-20T14:53:49.783+08:00 [ws] ⇄ res ✓ node.list 73ms conn=38be77da…2a43 id=08525426…c505
 2026-03-20T14:59:25.370+08:00 [ws] ⇄ res ✓ node.list 52ms conn=38be77da…2a43 id=e3e724bd…7274
+2026-03-20T17:42:45.957+08:00 [ws] ⇄ res ✓ node.list 5331ms conn=38be77da…2a43 id=e7fe9e65…6125
+2026-03-20T17:43:05.018+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-20T17:43:30.664+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-20T17:43:30.676+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-20T17:47:09.867+08:00 [ws] ⇄ res ✓ node.list 86ms conn=38be77da…2a43 id=b37f1a67…bbfa
+2026-03-20T17:47:10.625+08:00 [gateway] memory-lancedb-pro: backup completed (57 entries → C:\Users\Administrator\.openclaw\memory\backups\memory-backup-2026-03-20.jsonl)
