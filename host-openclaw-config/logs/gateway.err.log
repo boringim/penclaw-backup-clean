@@ -1371,3 +1371,11 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-03-20T07:00:21.359+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-03-20.md'
 2026-03-20T08:00:00.209+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
 2026-03-20T08:01:22.441+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-03-20T08:26:50.704+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-20T08:36:02.437+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-20T08:36:34.410+08:00 [tools] browser failed: BrowserProfileNotFoundError: Profile "google-auto" not found. Available profiles: openclaw, user, chrome-relay
+2026-03-20T08:59:11.871+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable.
+2026-03-20T09:00:00.253+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-03-20T09:00:56.566+08:00 [tools] browser failed: Error: Navigation timeout of 10000 ms exceeded
+2026-03-20T09:13:30.509+08:00 [tools] browser failed: Error: Failed to interact with the element with uid 1_122. The element did not become interactive within the configured timeout.
+Cause: Timed out after waiting 5000ms
