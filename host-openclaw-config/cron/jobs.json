@@ -225,7 +225,7 @@
       "name": "qmb_integration_research",
       "enabled": true,
       "createdAtMs": 1772049923757,
-      "updatedAtMs": 1773801715744,
+      "updatedAtMs": 1773972191934,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 * * 1,3,5",
@@ -245,10 +245,10 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1773972000000,
-        "lastRunAtMs": 1773801575027,
+        "nextRunAtMs": 1774231200000,
+        "lastRunAtMs": 1773972000034,
         "lastStatus": "ok",
-        "lastDurationMs": 140717,
+        "lastDurationMs": 191900,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": true,

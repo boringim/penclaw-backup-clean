@@ -80,7 +80,7 @@
       "name": "Email_Summary_Daily",
       "enabled": true,
       "createdAtMs": 1771345366799,
-      "updatedAtMs": 1773882138706,
+      "updatedAtMs": 1773968443011,
       "schedule": {
         "expr": "0 9 * * *",
         "tz": "Asia/Shanghai",
@@ -99,15 +99,14 @@
         "mode": "announce"
       },
       "state": {
-        "nextRunAtMs": 1773968400000,
-        "lastRunAtMs": 1773882000051,
+        "nextRunAtMs": 1774054800000,
+        "lastRunAtMs": 1773968400159,
         "lastStatus": "ok",
-        "lastDurationMs": 138655,
+        "lastDurationMs": 42852,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "delivered",
-        "lastDelivered": true,
-        "runningAtMs": 1773968400079
+        "lastDelivered": true
       }
     },
     {
@@ -253,7 +252,8 @@
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": true,
-        "lastDeliveryStatus": "delivered"
+        "lastDeliveryStatus": "delivered",
+        "runningAtMs": 1773972000019
       }
     },
     {
