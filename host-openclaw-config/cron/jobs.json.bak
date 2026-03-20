@@ -142,8 +142,8 @@
         "consecutiveErrors": 1,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
-        "lastError": "FailoverError: LLM request timed out.",
-        "lastErrorReason": "timeout"
+        "lastErrorReason": "timeout",
+        "runningAtMs": 1774022400108
       }
     },
     {
@@ -225,7 +225,7 @@
       "name": "qmb_integration_research",
       "enabled": true,
       "createdAtMs": 1772049923757,
-      "updatedAtMs": 1773801715744,
+      "updatedAtMs": 1773972191934,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 * * 1,3,5",
@@ -245,15 +245,14 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1773972000000,
-        "lastRunAtMs": 1773801575027,
+        "nextRunAtMs": 1774231200000,
+        "lastRunAtMs": 1773972000034,
         "lastStatus": "ok",
-        "lastDurationMs": 140717,
+        "lastDurationMs": 191900,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": true,
-        "lastDeliveryStatus": "delivered",
-        "runningAtMs": 1773972000019
+        "lastDeliveryStatus": "delivered"
       }
     },
     {

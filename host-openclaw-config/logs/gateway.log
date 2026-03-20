@@ -216262,3 +216262,11 @@ No destructive actions were taken.
 2026-03-20T17:43:30.676+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
 2026-03-20T17:47:09.867+08:00 [ws] ⇄ res ✓ node.list 86ms conn=38be77da…2a43 id=b37f1a67…bbfa
 2026-03-20T17:47:10.625+08:00 [gateway] memory-lancedb-pro: backup completed (57 entries → C:\Users\Administrator\.openclaw\memory\backups\memory-backup-2026-03-20.jsonl)
+2026-03-21T00:00:00.649+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-21T00:00:00.684+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-21T00:00:00.689+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-21T00:00:00.706+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-21T00:00:00.732+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-21T00:00:13.796+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-21T00:00:14.118+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-21T00:00:49.863+08:00 [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
