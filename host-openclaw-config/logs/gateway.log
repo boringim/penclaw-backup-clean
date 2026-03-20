@@ -216186,3 +216186,54 @@ No destructive actions were taken.
 2026-03-20T11:33:54.901+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-03-20T11:36:29.323+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-03-20T11:36:34.222+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=4)
+2026-03-20T13:39:14.863+08:00 [ws] ⇄ res ✓ node.list 94ms conn=38be77da…2a43 id=a12e00d8…1cf1
+2026-03-20T13:47:08.779+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-03-20T13:47:08.795+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-03-20T13:47:08.822+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 补完剩余已抓 SKU + 清理空记录 + 最终对齐表格
+2026-03-20T13:47:08.906+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-03-20T13:47:10.027+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T13:47:10.128+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T13:47:10.137+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T13:47:10.152+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T13:47:10.172+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T13:47:17.831+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-20T13:47:18.067+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-20T13:49:12.304+08:00 [plugins] feishu_doc: Converting markdown...
+2026-03-20T13:49:13.117+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-20T13:49:14.611+08:00 [error]: [
+  [
+    {
+      message: 'Request failed with status code 400',
+      config: [Object],
+      request: [Object],
+      response: [Object]
+    },
+    {
+      code: 1770001,
+      msg: 'invalid param',
+      error: [Object],
+      helps: [Array],
+      log_id: '20260320134915AFC8A9E3E62EC34B8327',
+      troubleshooter: '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20260320134915AFC8A9E3E62EC34B8327&code=1770001&method_id=7055124481601748994'
+    }
+  ]
+]
+2026-03-20T13:49:15.271+08:00 [error]: [
+  [
+    {
+      message: 'Request failed with status code 400',
+      config: [Object],
+      request: [Object],
+      response: [Object]
+    },
+    {
+      code: 99992402,
+      msg: 'field validation failed',
+      error: [Object],
+      troubleshooter: '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202603201349159030D4FFB942CD4902B9&code=99992402&method_id=7474947569993285660',
+      field_violations: [Array],
+      log_id: '202603201349159030D4FFB942CD4902B9'
+    }
+  ]
+]
+2026-03-20T13:49:46.012+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=3)
