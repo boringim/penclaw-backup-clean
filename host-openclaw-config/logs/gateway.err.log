@@ -1382,3 +1382,5 @@ Cause: Timed out after waiting 5000ms
 2026-03-20T09:25:01.762+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-03-20T09:26:54.893+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-03-20T10:00:00.093+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-03-20T11:33:41.867+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-20T11:33:49.176+08:00 Rerank API timed out (5s), falling back to cosine
