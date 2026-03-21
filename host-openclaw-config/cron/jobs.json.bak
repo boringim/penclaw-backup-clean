@@ -80,7 +80,7 @@
       "name": "Email_Summary_Daily",
       "enabled": true,
       "createdAtMs": 1771345366799,
-      "updatedAtMs": 1773968443011,
+      "updatedAtMs": 1774055408037,
       "schedule": {
         "expr": "0 9 * * *",
         "tz": "Asia/Shanghai",
@@ -99,15 +99,15 @@
         "mode": "announce"
       },
       "state": {
-        "nextRunAtMs": 1774054800000,
-        "lastRunAtMs": 1773968400159,
-        "lastStatus": "ok",
-        "lastDurationMs": 42852,
-        "consecutiveErrors": 0,
-        "lastRunStatus": "ok",
-        "lastDeliveryStatus": "delivered",
-        "lastDelivered": true,
-        "runningAtMs": 1774054800025
+        "nextRunAtMs": 1774141200000,
+        "lastRunAtMs": 1774054800045,
+        "lastStatus": "error",
+        "lastDurationMs": 607992,
+        "consecutiveErrors": 1,
+        "lastRunStatus": "error",
+        "lastDeliveryStatus": "unknown",
+        "lastError": "FailoverError: LLM request timed out.",
+        "lastErrorReason": "timeout"
       }
     },
     {
@@ -143,7 +143,7 @@
         "consecutiveErrors": 2,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
-        "lastError": "FailoverError: 500 Post \"https://chatgpt.com/backend-api/codex/responses\": read tcp 192.168.0.180:56389->104.18.32.47:443: wsarecv: An existing connection was forcibly closed by the remote host."
+        "runningAtMs": 1774108800028
       }
     },
     {
