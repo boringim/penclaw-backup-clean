@@ -216273,3 +216273,9 @@ No destructive actions were taken.
 2026-03-21T01:42:05.927+08:00 [info]: [ '[ws]', 'reconnect' ]
 2026-03-21T03:24:29.420+08:00 [info]: [ '[ws]', 'reconnect' ]
 2026-03-21T04:18:42.222+08:00 [ws] ⇄ res ✓ node.list 53ms conn=38be77da…2a43 id=dd0c0d1b…8dfd
+2026-03-21T08:00:00.557+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-21T08:00:00.653+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-21T08:00:00.662+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-21T08:00:00.669+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-21T08:00:00.683+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-21T08:00:04.968+08:00 [plugins] hook runner initialized with 1 registered hooks
