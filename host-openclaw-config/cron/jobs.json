@@ -80,7 +80,7 @@
       "name": "Email_Summary_Daily",
       "enabled": true,
       "createdAtMs": 1771345366799,
-      "updatedAtMs": 1774055408037,
+      "updatedAtMs": 1774141808513,
       "schedule": {
         "expr": "0 9 * * *",
         "tz": "Asia/Shanghai",
@@ -99,15 +99,15 @@
         "mode": "announce"
       },
       "state": {
-        "nextRunAtMs": 1774141200000,
-        "lastRunAtMs": 1774054800045,
+        "nextRunAtMs": 1774227600000,
+        "lastRunAtMs": 1774141200041,
         "lastStatus": "error",
-        "lastDurationMs": 607992,
-        "consecutiveErrors": 1,
+        "lastDurationMs": 608472,
+        "consecutiveErrors": 2,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "unknown",
-        "lastError": "FailoverError: LLM request timed out.",
-        "lastErrorReason": "timeout"
+        "lastErrorReason": "timeout",
+        "lastError": "FailoverError: LLM request timed out."
       }
     },
     {
@@ -154,7 +154,7 @@
       "name": "Weekly_Memory_Review",
       "enabled": true,
       "createdAtMs": 1771478717933,
-      "updatedAtMs": 1773536522232,
+      "updatedAtMs": 1774142108550,
       "schedule": {
         "kind": "cron",
         "expr": "0 9 * * 0",
@@ -173,14 +173,15 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1774141200000,
-        "lastRunAtMs": 1773536447004,
-        "lastStatus": "ok",
-        "lastDurationMs": 75228,
-        "consecutiveErrors": 0,
-        "lastRunStatus": "ok",
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "nextRunAtMs": 1774746000000,
+        "lastRunAtMs": 1774141808513,
+        "lastStatus": "error",
+        "lastDurationMs": 300037,
+        "consecutiveErrors": 1,
+        "lastRunStatus": "error",
+        "lastDeliveryStatus": "not-requested",
+        "lastError": "cron: job execution timed out",
+        "lastErrorReason": "timeout"
       }
     },
     {

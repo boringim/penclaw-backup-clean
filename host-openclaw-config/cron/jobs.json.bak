@@ -106,8 +106,8 @@
         "consecutiveErrors": 1,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "unknown",
-        "lastError": "FailoverError: LLM request timed out.",
-        "lastErrorReason": "timeout"
+        "lastErrorReason": "timeout",
+        "runningAtMs": 1774141200019
       }
     },
     {
@@ -180,7 +180,8 @@
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "lastDeliveryStatus": "not-delivered",
+        "runningAtMs": 1774141200019
       }
     },
     {
@@ -190,7 +191,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1774051320250,
+      "updatedAtMs": 1774137720294,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -209,15 +210,15 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1774137600000,
-        "lastRunAtMs": 1774051200051,
+        "nextRunAtMs": 1774224000000,
+        "lastRunAtMs": 1774137600198,
         "lastStatus": "error",
-        "lastDurationMs": 120199,
-        "consecutiveErrors": 1,
+        "lastDurationMs": 120096,
+        "consecutiveErrors": 2,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
         "lastErrorReason": "timeout",
-        "runningAtMs": 1774137600110
+        "lastError": "cron: job execution timed out"
       }
     },
     {
