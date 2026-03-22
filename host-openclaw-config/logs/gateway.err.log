@@ -1434,3 +1434,10 @@ Cause: Timed out after waiting 5000ms
 2026-03-22T09:15:08.639+08:00 [diagnostic] lane task error: lane=nested durationMs=300009 error="FailoverError: LLM request timed out."
 2026-03-22T09:15:08.647+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:cron:463668e5-54b7-407b-8f00-1b2bb24e7380 durationMs=300018 error="FailoverError: LLM request timed out."
 2026-03-22T09:15:08.654+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=unknown next=none
+2026-03-23T00:00:00.261+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-03-23T00:06:32.211+08:00 [agent/embedded] embedded run agent end: runId=8918a66f-ca80-44bc-a473-670b95fc0bd4 isError=true model=gpt-5.4 provider=2603 error=500 Post "https://chatgpt.com/backend-api/codex/responses": dial tcp 31.13.112.4:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2026-03-23T00:10:09.987+08:00 [agent/embedded] embedded run timeout: runId=8918a66f-ca80-44bc-a473-670b95fc0bd4 sessionId=8918a66f-ca80-44bc-a473-670b95fc0bd4 timeoutMs=600000
+2026-03-23T00:10:10.057+08:00 [agent/embedded] embedded run failover decision: runId=8918a66f-ca80-44bc-a473-670b95fc0bd4 stage=assistant decision=fallback_model reason=timeout provider=2603/gpt-5.4 profile=-
+2026-03-23T00:10:10.061+08:00 [diagnostic] lane task error: lane=nested durationMs=609530 error="FailoverError: LLM request timed out."
+2026-03-23T00:10:10.070+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:cron:7ba0d0d4-9451-4427-83a9-6e2f135300f6 durationMs=609556 error="FailoverError: LLM request timed out."
+2026-03-23T00:10:10.085+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=unknown next=none
