@@ -117,7 +117,7 @@
       "name": "Daily_Self_Backup_Midnight",
       "enabled": true,
       "createdAtMs": 1771408491288,
-      "updatedAtMs": 1774022449904,
+      "updatedAtMs": 1774109410123,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -136,14 +136,15 @@
         "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02"
       },
       "state": {
-        "nextRunAtMs": 1774108800000,
-        "lastRunAtMs": 1774022400197,
+        "nextRunAtMs": 1774195200000,
+        "lastRunAtMs": 1774108800062,
         "lastStatus": "error",
-        "lastDurationMs": 49707,
-        "consecutiveErrors": 2,
+        "lastDurationMs": 610061,
+        "consecutiveErrors": 3,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
-        "runningAtMs": 1774108800028
+        "lastError": "FailoverError: LLM request timed out.",
+        "lastErrorReason": "timeout"
       }
     },
     {
@@ -215,8 +216,8 @@
         "consecutiveErrors": 1,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
-        "lastError": "cron: job execution timed out",
-        "lastErrorReason": "timeout"
+        "lastErrorReason": "timeout",
+        "runningAtMs": 1774137600110
       }
     },
     {
