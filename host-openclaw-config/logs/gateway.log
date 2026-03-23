@@ -216542,3 +216542,4 @@ No destructive actions were taken.
 2026-03-23T18:10:22.151+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
 2026-03-23T18:11:22.296+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-03-23T18:11:28.461+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=5)
+2026-03-23T18:56:23.951+08:00 [ws] ⇄ res ✓ node.list 157ms conn=38be77da…2a43 id=b5afbed4…2167
