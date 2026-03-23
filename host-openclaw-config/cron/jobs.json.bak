@@ -78,7 +78,7 @@
       "agentId": "group-oc-981e",
       "sessionKey": "agent:group-oc-981e:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02",
       "name": "Email_Summary_Daily",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1771345366799,
       "updatedAtMs": 1774228208304,
       "schedule": {
@@ -99,7 +99,6 @@
         "mode": "announce"
       },
       "state": {
-        "nextRunAtMs": 1774314000000,
         "lastRunAtMs": 1774227600043,
         "lastStatus": "error",
         "lastDurationMs": 608261,
@@ -128,7 +127,8 @@
       "payload": {
         "kind": "agentTurn",
         "message": "请执行以下备份任务：\n1. **健康检查**：检查 OpenClaw 核心工具（如 gateway, read）是否响应正常。\n2. **执行备份**：运行 PowerShell 命令进行全量备份：\n   `$backupDir = 'C:\\Users\\Administrator\\openclaw-backups'; $timestamp = Get-Date -Format 'yyyy-MM-dd_HHmm'; $backupFile = \\\"$backupDir\\openclaw-$timestamp.tar.gz\\\"; New-Item -ItemType Directory -Force -Path $backupDir; tar -czf $backupFile --exclude='completions' --exclude='*.log' -C 'C:\\Users\\Administrator' .openclaw`\n3. **状态更新**：读取 `memory/backup-state.json`，将 `backup_count` 加 1 并保存。\n4. **清理提醒**：如果 `backup_count` 是 7 的倍数，请在汇报中特别提醒用户手动删除旧备份（注意：你无权删除备份文件）。\n5. **任务汇报**：总结备份状态、文件路径及大小。",
-        "model": "siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507"
+        "model": "siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "timeoutSeconds": 900
       },
       "delivery": {
         "mode": "none",
@@ -166,7 +166,7 @@
         "kind": "agentTurn",
         "message": "请执行每周记忆回顾任务：\n\n1. **读取过去 7 天的记忆文件**：遍历 `memory/YYYY-MM-DD.md` 文件（最近 7 天）\n\n2. **提炼关键内容**：\n   - 用户偏好和习惯变化\n   - 重要决定和结论\n   - 新的技术发现/问题\n   - 未完成待办事项\n   - 值得长期记录的模式\n\n3. **更新 MEMORY.md**：\n   - 添加新的洞察到相应章节\n   - 更新进行中项目状态\n   - 标记已完成的任务\n   - 更新最后更新时间\n\n4. **生成周报**：输出本周记忆提炼摘要，包括：\n   - 本周关键洞察\n   - 新增/更新的长期记忆\n   - 需要关注的事项\n\n注意：保持 MEMORY.md 简洁，只记录值得永久保存的内容。",
         "model": "siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507",
-        "timeoutSeconds": 300
+        "timeoutSeconds": 900
       },
       "delivery": {
         "mode": "none",
@@ -203,7 +203,7 @@
         "kind": "agentTurn",
         "message": "请执行每日记忆创建任务：\n\n1. **检查今日记忆文件**：检查 `memory/YYYY-MM-DD.md` 是否存在\n\n2. **如不存在则创建**：使用标准模板创建今日记忆文件，包含：\n   - 日期信息（年月日、星期）\n   - 对话摘要章节\n   - 技术问题章节\n   - 今日待办章节\n   - 洞察与发现章节\n\n3. **回顾昨日记忆**：\n   - 读取昨天的记忆文件\n   - 检查是否有未完成待办\n   - 如有，提醒用户\n\n4. **汇报状态**：输出今日记忆文件创建状态和昨日待办提醒（如有）\n\n注意：如果今日记忆文件已存在，只需检查并汇报即可。",
         "model": "siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507",
-        "timeoutSeconds": 120
+        "timeoutSeconds": 300
       },
       "delivery": {
         "mode": "none",
@@ -226,9 +226,9 @@
       "agentId": "group-oc-981e",
       "sessionKey": "agent:group-oc-981e:main",
       "name": "qmb_integration_research",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772049923757,
-      "updatedAtMs": 1773972191934,
+      "updatedAtMs": 1774231800128,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 * * 1,3,5",
@@ -248,15 +248,15 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1774231200000,
-        "lastRunAtMs": 1773972000034,
-        "lastStatus": "ok",
-        "lastDurationMs": 191900,
-        "consecutiveErrors": 0,
-        "lastRunStatus": "ok",
-        "lastDelivered": true,
-        "lastDeliveryStatus": "delivered",
-        "runningAtMs": 1774231200019
+        "nextRunAtMs": 1774404000000,
+        "lastRunAtMs": 1774231200038,
+        "lastStatus": "error",
+        "lastDurationMs": 600090,
+        "consecutiveErrors": 1,
+        "lastRunStatus": "error",
+        "lastDeliveryStatus": "unknown",
+        "lastError": "cron: job execution timed out",
+        "lastErrorReason": "timeout"
       }
     },
     {

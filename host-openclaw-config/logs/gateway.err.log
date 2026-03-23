@@ -1482,3 +1482,15 @@ Cause: Timed out after waiting 5000ms
 2026-03-23T19:51:31.766+08:00 [ws] closed before connect conn=00b7972f-baa3-4134-a6ec-ef23cbbc27a8 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1000 reason=n/a
 2026-03-23T20:08:46.037+08:00 [ws] handshake timeout conn=98744b08-a950-4ff6-95fa-2fdd3403390b remote=127.0.0.1
 2026-03-23T20:09:06.036+08:00 [ws] closed before connect conn=98744b08-a950-4ff6-95fa-2fdd3403390b remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1000 reason=n/a
+2026-03-23T20:40:46.201+08:00 Rerank API timed out (5s), falling back to cosine
+2026-03-23T20:40:48.042+08:00 [agent/embedded] session file repair skipped: invalid session header (cf32d53a-11bf-4059-bca3-471849d115ff.jsonl)
+2026-03-23T20:43:02.880+08:00 [ws] handshake timeout conn=f72d4fa4-0631-4dce-aeaf-4bafa0969249 remote=127.0.0.1
+2026-03-23T20:43:07.769+08:00 [ws] closed before connect conn=f72d4fa4-0631-4dce-aeaf-4bafa0969249 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1006 reason=n/a
+2026-03-23T20:48:20.074+08:00 Rerank API timed out (5s), falling back to cosine
+2026-03-23T21:04:22.039+08:00 Rerank API returned 403: {"detail":{"message":"Model service error: HTTP 403","request_id":"7774220a96209415cda2abea5c9bd275"}}, falling back to cosine
+2026-03-23T21:05:33.845+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-03-23.md. The old text must match exactly including all whitespace and newlines.
+2026-03-23T21:08:03.717+08:00 Rerank API returned 403: {"detail":{"message":"Model service error: HTTP 403","request_id":"da2961d67b5f914682ca0a9ddb9354fd"}}, falling back to cosine
+2026-03-23T21:08:34.497+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-23T21:08:52.295+08:00 Rerank API returned 403: {"detail":{"message":"Model service error: HTTP 403","request_id":"a59e71284e7d2890eb55b835977dc3cf"}}, falling back to cosine
+2026-03-23T21:09:44.608+08:00 Rerank API returned 403: {"detail":{"message":"Model service error: HTTP 403","request_id":"7a47b11a672b9b56ba3564e287d76287"}}, falling back to cosine
+2026-03-23T21:13:53.728+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
