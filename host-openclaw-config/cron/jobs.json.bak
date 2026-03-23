@@ -144,7 +144,7 @@
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
         "lastErrorReason": "timeout",
-        "lastError": "FailoverError: LLM request timed out."
+        "runningAtMs": 1774281600017
       }
     },
     {
@@ -248,7 +248,6 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1774404000000,
         "lastRunAtMs": 1774231200038,
         "lastStatus": "error",
         "lastDurationMs": 600090,
