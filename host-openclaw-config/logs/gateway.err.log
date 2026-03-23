@@ -1494,3 +1494,10 @@ Cause: Timed out after waiting 5000ms
 2026-03-23T21:08:52.295+08:00 Rerank API returned 403: {"detail":{"message":"Model service error: HTTP 403","request_id":"a59e71284e7d2890eb55b835977dc3cf"}}, falling back to cosine
 2026-03-23T21:09:44.608+08:00 Rerank API returned 403: {"detail":{"message":"Model service error: HTTP 403","request_id":"7a47b11a672b9b56ba3564e287d76287"}}, falling back to cosine
 2026-03-23T21:13:53.728+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-23T23:00:53.983+08:00 [tools] browser failed: BrowserProfileNotFoundError: Profile "google-auto" not found. Available profiles: openclaw, user, chrome-relay
+2026-03-23T23:01:18.000+08:00 [tools] browser failed: tab not found
+2026-03-23T23:01:41.127+08:00 [tools] browser failed: tab not found
+2026-03-23T23:01:46.061+08:00 [tools] browser failed: tab not found
+2026-03-23T23:23:09.088+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}}
+2026-03-23T23:23:27.499+08:00 [tools] browser failed: tab not found
+2026-03-23T23:23:35.060+08:00 [tools] browser failed: tab not found
