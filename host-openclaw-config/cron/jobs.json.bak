@@ -80,7 +80,7 @@
       "name": "Email_Summary_Daily",
       "enabled": true,
       "createdAtMs": 1771345366799,
-      "updatedAtMs": 1774141808513,
+      "updatedAtMs": 1774228208304,
       "schedule": {
         "expr": "0 9 * * *",
         "tz": "Asia/Shanghai",
@@ -99,15 +99,15 @@
         "mode": "announce"
       },
       "state": {
-        "nextRunAtMs": 1774227600000,
-        "lastRunAtMs": 1774141200041,
+        "nextRunAtMs": 1774314000000,
+        "lastRunAtMs": 1774227600043,
         "lastStatus": "error",
-        "lastDurationMs": 608472,
-        "consecutiveErrors": 2,
+        "lastDurationMs": 608261,
+        "consecutiveErrors": 3,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "unknown",
         "lastErrorReason": "timeout",
-        "runningAtMs": 1774227600022
+        "lastError": "FailoverError: LLM request timed out."
       }
     },
     {
@@ -255,7 +255,8 @@
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": true,
-        "lastDeliveryStatus": "delivered"
+        "lastDeliveryStatus": "delivered",
+        "runningAtMs": 1774231200019
       }
     },
     {
