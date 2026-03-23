@@ -1476,3 +1476,9 @@ Cause: Timed out after waiting 5000ms
 2026-03-23T17:56:40.690+08:00 [ws] handshake timeout conn=11c69181-5237-44e3-aae4-279239b428b4 remote=127.0.0.1
 2026-03-23T17:57:01.507+08:00 [ws] closed before connect conn=11c69181-5237-44e3-aae4-279239b428b4 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1000 reason=n/a
 2026-03-23T18:07:24.200+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-23T19:48:05.397+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-03-23T19:48:42.332+08:00 Rerank API timed out (5s), falling back to cosine
+2026-03-23T19:51:10.876+08:00 [ws] handshake timeout conn=00b7972f-baa3-4134-a6ec-ef23cbbc27a8 remote=127.0.0.1
+2026-03-23T19:51:31.766+08:00 [ws] closed before connect conn=00b7972f-baa3-4134-a6ec-ef23cbbc27a8 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1000 reason=n/a
+2026-03-23T20:08:46.037+08:00 [ws] handshake timeout conn=98744b08-a950-4ff6-95fa-2fdd3403390b remote=127.0.0.1
+2026-03-23T20:09:06.036+08:00 [ws] closed before connect conn=98744b08-a950-4ff6-95fa-2fdd3403390b remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1000 reason=n/a

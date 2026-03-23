@@ -216543,3 +216543,38 @@ No destructive actions were taken.
 2026-03-23T18:11:22.296+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-03-23T18:11:28.461+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=5)
 2026-03-23T18:56:23.951+08:00 [ws] ⇄ res ✓ node.list 157ms conn=38be77da…2a43 id=b5afbed4…2167
+2026-03-23T19:47:30.180+08:00 [ws] ⇄ res ✓ node.list 50ms conn=38be77da…2a43 id=0f7ceed6…a3fc
+2026-03-23T19:48:25.673+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-03-23T19:48:25.911+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 尝试修复
+2026-03-23T19:48:26.128+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-03-23T19:48:26.979+08:00 [ws] ⇄ res ✓ node.list 1131ms conn=38be77da…2a43 id=15cff536…28eb
+2026-03-23T19:48:31.919+08:00 [ws] ⇄ res ✓ node.list 227ms conn=38be77da…2a43 id=213ded0b…874a
+2026-03-23T19:48:33.052+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-23T19:48:33.255+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-23T19:48:33.287+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-23T19:48:33.325+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-23T19:48:33.376+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-23T19:48:54.422+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-23T19:48:54.852+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-23T19:51:12.977+08:00 [ws] ⇄ res ✗ status 10ms errorCode=INVALID_REQUEST errorMessage=missing scope: operator.read conn=2c3e16df…f76f id=899750f5…9c14
+2026-03-23T19:51:12.987+08:00 [ws] ⇄ res ✗ system-presence 0ms errorCode=INVALID_REQUEST errorMessage=missing scope: operator.read conn=2c3e16df…f76f id=e7c169e8…741a
+2026-03-23T19:51:12.996+08:00 [ws] ⇄ res ✗ config.get 0ms errorCode=INVALID_REQUEST errorMessage=missing scope: operator.read conn=2c3e16df…f76f id=63de86d0…ff52
+2026-03-23T19:52:10.940+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-23T19:52:15.899+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=3)
+2026-03-23T19:54:05.810+08:00 [ws] ⇄ res ✓ node.list 55ms conn=38be77da…2a43 id=46e50e1b…2f17
+2026-03-23T20:06:21.331+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-03-23T20:06:30.511+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 继续
+2026-03-23T20:06:30.605+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-03-23T20:06:31.683+08:00 [ws] ⇄ res ✓ node.list 1221ms conn=38be77da…2a43 id=d77b2491…13b3
+2026-03-23T20:06:43.722+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-23T20:06:43.868+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-23T20:06:43.958+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-23T20:06:44.045+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-23T20:06:44.153+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-23T20:06:51.276+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-23T20:06:51.377+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-23T20:08:17.867+08:00 [ws] ⇄ res ✗ status 0ms errorCode=INVALID_REQUEST errorMessage=missing scope: operator.read conn=3d0f3b61…223a id=87eb819a…bb8d
+2026-03-23T20:08:17.873+08:00 [ws] ⇄ res ✗ system-presence 0ms errorCode=INVALID_REQUEST errorMessage=missing scope: operator.read conn=3d0f3b61…223a id=1a336332…5aeb
+2026-03-23T20:08:17.879+08:00 [ws] ⇄ res ✗ config.get 1ms errorCode=INVALID_REQUEST errorMessage=missing scope: operator.read conn=3d0f3b61…223a id=85c0dc0d…60cb
+2026-03-23T20:10:17.213+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-23T20:10:23.568+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=6)
