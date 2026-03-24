@@ -216949,3 +216949,4 @@ No destructive actions were taken.
 2026-03-24T08:00:00.620+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-03-24T08:00:00.637+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-03-24T08:00:04.841+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-24T14:19:10.895+08:00 [ws] ⇄ res ✓ node.list 65ms conn=38be77da…2a43 id=b769dc0b…2765
