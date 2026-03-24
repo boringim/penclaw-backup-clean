@@ -143,7 +143,7 @@
         "consecutiveErrors": 5,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
-        "lastError": "FailoverError: 500 Post \"https://chatgpt.com/backend-api/codex/responses\": dial tcp 148.163.48.215:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."
+        "runningAtMs": 1774368000017
       }
     },
     {
@@ -190,7 +190,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1774224120179,
+      "updatedAtMs": 1774310700160,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -209,15 +209,15 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1774310400000,
-        "lastRunAtMs": 1774224000060,
+        "nextRunAtMs": 1774396800000,
+        "lastRunAtMs": 1774310400069,
         "lastStatus": "error",
-        "lastDurationMs": 120119,
-        "consecutiveErrors": 3,
+        "lastDurationMs": 300091,
+        "consecutiveErrors": 4,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
         "lastErrorReason": "timeout",
-        "runningAtMs": 1774310400006
+        "lastError": "cron: job execution timed out"
       }
     },
     {
