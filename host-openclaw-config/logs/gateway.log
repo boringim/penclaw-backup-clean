@@ -216970,3 +216970,4 @@ No destructive actions were taken.
 2026-03-25T08:00:00.729+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-03-25T08:00:04.949+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-03-25T15:29:06.024+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-25T17:47:10.630+08:00 [gateway] memory-lancedb-pro: backup completed (57 entries → C:\Users\Administrator\.openclaw\memory\backups\memory-backup-2026-03-25.jsonl)
