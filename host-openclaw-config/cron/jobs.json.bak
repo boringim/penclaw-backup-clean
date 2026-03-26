@@ -34,7 +34,8 @@
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDelivered": true,
-        "lastDeliveryStatus": "delivered"
+        "lastDeliveryStatus": "delivered",
+        "runningAtMs": 1774566000014
       }
     },
     {
@@ -116,7 +117,7 @@
       "name": "Daily_Self_Backup_Midnight",
       "enabled": true,
       "createdAtMs": 1771408491288,
-      "updatedAtMs": 1774455300219,
+      "updatedAtMs": 1774541700139,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -136,15 +137,15 @@
         "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02"
       },
       "state": {
-        "nextRunAtMs": 1774540800000,
-        "lastRunAtMs": 1774454400124,
+        "nextRunAtMs": 1774627200000,
+        "lastRunAtMs": 1774540800063,
         "lastStatus": "error",
-        "lastDurationMs": 900095,
-        "consecutiveErrors": 7,
+        "lastDurationMs": 900076,
+        "consecutiveErrors": 8,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
         "lastErrorReason": "timeout",
-        "runningAtMs": 1774540800015
+        "lastError": "cron: job execution timed out"
       }
     },
     {
