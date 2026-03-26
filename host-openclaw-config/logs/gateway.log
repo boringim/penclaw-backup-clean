@@ -217012,3 +217012,10 @@ No destructive actions were taken.
 2026-03-26T08:00:04.752+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-03-26T17:47:10.675+08:00 [gateway] memory-lancedb-pro: backup completed (57 entries → C:\Users\Administrator\.openclaw\memory\backups\memory-backup-2026-03-26.jsonl)
 2026-03-26T17:47:20.709+08:00 [gateway] update available (latest): v2026.3.24 (current v2026.3.13). Run: openclaw update
+2026-03-27T00:00:00.486+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-27T00:00:00.547+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-27T00:00:00.578+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-27T00:00:00.604+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-27T00:00:00.625+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-27T00:00:08.745+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-27T00:00:08.923+08:00 [plugins] hook runner initialized with 1 registered hooks
