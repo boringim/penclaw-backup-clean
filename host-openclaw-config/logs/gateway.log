@@ -217040,3 +217040,10 @@ No destructive actions were taken.
 2026-03-27T08:10:10.319+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-03-27T08:10:10.347+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-03-27T17:47:10.608+08:00 [gateway] memory-lancedb-pro: backup completed (57 entries → C:\Users\Administrator\.openclaw\memory\backups\memory-backup-2026-03-27.jsonl)
+2026-03-28T00:00:00.489+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-28T00:00:00.543+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-28T00:00:00.571+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-28T00:00:00.589+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-28T00:00:00.610+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-03-28T00:00:08.529+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-03-28T00:00:08.707+08:00 [plugins] hook runner initialized with 1 registered hooks

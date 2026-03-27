@@ -45,7 +45,7 @@
       "name": "Email_Label_Management_Weekly",
       "enabled": true,
       "createdAtMs": 1771345366763,
-      "updatedAtMs": 1773964882427,
+      "updatedAtMs": 1774570207359,
       "schedule": {
         "expr": "0 8 * * 5",
         "tz": "Asia/Shanghai",
@@ -64,15 +64,15 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1774569600000,
-        "lastRunAtMs": 1773964800178,
-        "lastStatus": "ok",
-        "lastDurationMs": 82249,
-        "consecutiveErrors": 0,
-        "lastRunStatus": "ok",
-        "lastDelivered": true,
-        "lastDeliveryStatus": "delivered",
-        "runningAtMs": 1774569600013
+        "nextRunAtMs": 1775174400000,
+        "lastRunAtMs": 1774569600044,
+        "lastStatus": "error",
+        "lastDurationMs": 607315,
+        "consecutiveErrors": 1,
+        "lastRunStatus": "error",
+        "lastDeliveryStatus": "unknown",
+        "lastError": "FailoverError: LLM request timed out.",
+        "lastErrorReason": "timeout"
       }
     },
     {
@@ -146,7 +146,7 @@
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
         "lastErrorReason": "timeout",
-        "lastError": "cron: job execution timed out"
+        "runningAtMs": 1774627200008
       }
     },
     {
@@ -193,7 +193,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1774483500169,
+      "updatedAtMs": 1774570507409,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -212,15 +212,15 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1774569600000,
-        "lastRunAtMs": 1774483200089,
+        "nextRunAtMs": 1774656000000,
+        "lastRunAtMs": 1774570207359,
         "lastStatus": "error",
-        "lastDurationMs": 300080,
-        "consecutiveErrors": 6,
+        "lastDurationMs": 300050,
+        "consecutiveErrors": 7,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
         "lastErrorReason": "timeout",
-        "runningAtMs": 1774569600013
+        "lastError": "cron: job execution timed out"
       }
     },
     {
