@@ -182,8 +182,8 @@
         "consecutiveErrors": 1,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
-        "lastError": "cron: job execution timed out",
-        "lastErrorReason": "timeout"
+        "lastErrorReason": "timeout",
+        "runningAtMs": 1774746000006
       }
     },
     {
@@ -193,7 +193,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1774656300189,
+      "updatedAtMs": 1774742700185,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -212,15 +212,15 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1774742400000,
-        "lastRunAtMs": 1774656000100,
+        "nextRunAtMs": 1774828800000,
+        "lastRunAtMs": 1774742400089,
         "lastStatus": "error",
-        "lastDurationMs": 300089,
-        "consecutiveErrors": 8,
+        "lastDurationMs": 300096,
+        "consecutiveErrors": 9,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
         "lastErrorReason": "timeout",
-        "runningAtMs": 1774742400019
+        "lastError": "cron: job execution timed out"
       }
     },
     {
