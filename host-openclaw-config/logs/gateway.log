@@ -217227,3 +217227,9 @@ No destructive actions were taken.
 2026-03-30T14:09:24.767+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-03-30T14:09:26.361+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
 2026-03-30T14:10:07.347+08:00 [gateway] memory-lancedb-pro: backup completed (62 entries → C:\Users\Administrator\.openclaw\memory\backups\memory-backup-2026-03-30.jsonl)
+2026-03-30T15:15:40.340+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-03-30T15:15:46.239+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-03-30T15:15:46.244+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
