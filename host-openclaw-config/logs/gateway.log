@@ -217233,3 +217233,4 @@ No destructive actions were taken.
   'Client network socket disconnected before secure TLS connection was established'
 ]
 2026-03-30T15:15:46.244+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-03-30T17:38:47.528+08:00 [ws] webchat disconnected code=1001 reason=n/a conn=ac2f56b1-708f-41c2-bfb0-82d1e70f047e
