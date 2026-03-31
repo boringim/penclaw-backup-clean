@@ -217254,3 +217254,9 @@ No destructive actions were taken.
 2026-03-31T12:42:19.819+08:00 [info]: [ '[ws]', 'reconnect' ]
 2026-03-31T14:09:07.348+08:00 [gateway] memory-lancedb-pro: backup completed (62 entries → C:\Users\Administrator\.openclaw\memory\backups\memory-backup-2026-03-31.jsonl)
 2026-03-31T19:51:29.130+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-01T00:00:00.205+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-01T00:00:00.221+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-01T00:00:00.225+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-01T00:00:00.230+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-01T00:00:00.236+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-01T00:00:07.571+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
