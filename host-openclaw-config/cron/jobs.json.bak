@@ -220,7 +220,7 @@
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
         "lastErrorReason": "timeout",
-        "lastError": "cron: job execution timed out"
+        "runningAtMs": 1774915200022
       }
     },
     {
@@ -298,7 +298,7 @@
       "name": "Security_Audit_Monthly",
       "enabled": true,
       "createdAtMs": 1773199983907,
-      "updatedAtMs": 1773597733051,
+      "updatedAtMs": 1774893600229,
       "schedule": {
         "kind": "cron",
         "expr": "0 2 */15 * *"
@@ -314,15 +314,15 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774893600000,
-        "lastRunAtMs": 1773597600035,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 133016,
-        "lastDelivered": true,
-        "lastDeliveryStatus": "delivered",
-        "consecutiveErrors": 0,
-        "runningAtMs": 1774893600021
+        "nextRunAtMs": 1774980000000,
+        "lastRunAtMs": 1774893600030,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 199,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "lastError": "FailoverError: No API key found for provider \"2603\". Auth store: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent\\auth-profiles.json (agentDir: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.",
+        "lastErrorReason": "auth"
       }
     }
   ]
