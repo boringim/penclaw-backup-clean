@@ -146,7 +146,7 @@
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
         "lastErrorReason": "auth",
-        "lastError": "FailoverError: No API key found for provider \"2603\". Auth store: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent\\auth-profiles.json (agentDir: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+        "runningAtMs": 1775059200037
       }
     },
     {
@@ -193,7 +193,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1774915203935,
+      "updatedAtMs": 1775001603963,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -212,15 +212,15 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1775001600000,
-        "lastRunAtMs": 1774915200044,
+        "nextRunAtMs": 1775088000000,
+        "lastRunAtMs": 1775001600043,
         "lastStatus": "error",
-        "lastDurationMs": 3891,
-        "consecutiveErrors": 11,
+        "lastDurationMs": 3920,
+        "consecutiveErrors": 12,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
         "lastErrorReason": "auth",
-        "runningAtMs": 1775001600027
+        "lastError": "FailoverError: No API key found for provider \"2603\". Auth store: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent\\auth-profiles.json (agentDir: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
       }
     },
     {
