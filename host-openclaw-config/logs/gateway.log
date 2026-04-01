@@ -217270,3 +217270,5 @@ No destructive actions were taken.
 2026-04-01T08:00:00.198+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-04-01T08:00:00.207+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-04-01T08:00:00.212+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-01T14:09:07.365+08:00 [gateway] memory-lancedb-pro: backup completed (62 entries → C:\Users\Administrator\.openclaw\memory\backups\memory-backup-2026-04-01.jsonl)
+2026-04-01T14:09:07.410+08:00 [gateway] update available (latest): v2026.3.31 (current v2026.3.13). Run: openclaw update
