@@ -8,7 +8,7 @@
       "name": "Email_Cleanup_Weekly",
       "enabled": true,
       "createdAtMs": 1771345366707,
-      "updatedAtMs": 1774566604860,
+      "updatedAtMs": 1775170879736,
       "schedule": {
         "expr": "0 7 * * 5",
         "kind": "cron",
@@ -27,15 +27,14 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1775170800000,
-        "lastRunAtMs": 1774566000068,
-        "lastStatus": "error",
-        "lastDurationMs": 604792,
-        "consecutiveErrors": 1,
-        "lastRunStatus": "error",
-        "lastDeliveryStatus": "unknown",
-        "lastError": "FailoverError: LLM request timed out.",
-        "lastErrorReason": "timeout"
+        "nextRunAtMs": 1775775600000,
+        "lastRunAtMs": 1775170800045,
+        "lastStatus": "ok",
+        "lastDurationMs": 79691,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDeliveryStatus": "delivered",
+        "lastDelivered": true
       }
     },
     {
