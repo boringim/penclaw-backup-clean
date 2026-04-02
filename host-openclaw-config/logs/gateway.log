@@ -217511,3 +217511,5 @@ No destructive actions were taken.
 2026-04-02T09:31:04.297+08:00 [gateway] memory-lancedb-pro: backup completed (62 entries → C:\Users\Administrator\.openclaw\memory\backups\memory-backup-2026-04-02.jsonl)
 2026-04-02T09:34:27.438+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, tools.web.search.perplexity)
 2026-04-02T09:34:27.463+08:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt, tools.web.search.perplexity)
+2026-04-02T10:22:08.826+08:00 [reload] config change detected; evaluating reload (models.providers.openrouter.apiKey, models.providers.2603, models.providers.gemini, models.providers.siliconflow, agents.defaults.model.fallbacks, agents.defaults.models.2603/gpt-5.4, agents.defaults.models.gemini/gemini-3.1-pro-preview)
+2026-04-02T10:22:08.851+08:00 [reload] config hot reload applied (models.providers.openrouter.apiKey, models.providers.2603, models.providers.gemini, models.providers.siliconflow, agents.defaults.model.fallbacks, agents.defaults.models.2603/gpt-5.4, agents.defaults.models.gemini/gemini-3.1-pro-preview)
