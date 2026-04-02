@@ -1684,3 +1684,19 @@ Cause: Timed out after waiting 5000ms
 2026-04-02T08:00:33.684+08:00 [diagnostic] lane task error: lane=nested durationMs=33470 error="FailoverError: No API key found for provider "2603". Auth store: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
 2026-04-02T08:00:33.690+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:cron:c4cc1ad6-25a8-4c64-9c0a-9a0041f49301 durationMs=33508 error="FailoverError: No API key found for provider "2603". Auth store: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
 2026-04-02T08:00:33.704+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=auth next=none
+2026-04-02T09:11:45.413+08:00 [memory] embeddings rate limited; retrying in 584ms
+2026-04-02T09:11:47.181+08:00 [memory] embeddings rate limited; retrying in 1103ms
+2026-04-02T09:11:49.407+08:00 [memory] embeddings rate limited; retrying in 2311ms
+2026-04-02T09:12:51.431+08:00 Gateway failed to start: gateway already running (pid 18852); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-02T09:12:51.562+08:00 Gateway service appears registered. Stop it first.
+2026-04-02T09:12:51.567+08:00 Tip: openclaw gateway stop
+2026-04-02T09:12:51.571+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-04-02T09:14:30.671+08:00 [memory] embeddings rate limited; retrying in 501ms
+2026-04-02T09:14:31.806+08:00 [memory] embeddings rate limited; retrying in 1026ms
+2026-04-02T09:14:33.493+08:00 [memory] embeddings rate limited; retrying in 2286ms
+2026-04-02T09:17:05.943+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-02T09:17:16.131+08:00 [diagnostic] lane task error: lane=main durationMs=3140 error="FailoverError: No API key found for provider "2603". Auth store: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+2026-04-02T09:17:16.144+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=3175 error="FailoverError: No API key found for provider "2603". Auth store: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+2026-04-02T09:17:16.167+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=2603/gpt-5.4 candidate=2603/gpt-5.4 reason=auth next=none
+2026-04-02T09:17:16.173+08:00 Embedded agent failed before reply: No API key found for provider "2603". Auth store: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
