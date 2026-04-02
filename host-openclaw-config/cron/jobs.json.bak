@@ -118,7 +118,7 @@
       "name": "Daily_Self_Backup_Midnight",
       "enabled": true,
       "createdAtMs": 1771408491288,
-      "updatedAtMs": 1774972807635,
+      "updatedAtMs": 1775059233835,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -138,15 +138,15 @@
         "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02"
       },
       "state": {
-        "nextRunAtMs": 1775059200000,
-        "lastRunAtMs": 1774972800037,
+        "nextRunAtMs": 1775145600000,
+        "lastRunAtMs": 1775059200056,
         "lastStatus": "error",
-        "lastDurationMs": 7598,
-        "consecutiveErrors": 13,
+        "lastDurationMs": 33779,
+        "consecutiveErrors": 14,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
         "lastErrorReason": "auth",
-        "runningAtMs": 1775059200037
+        "lastError": "FailoverError: No API key found for provider \"2603\". Auth store: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent\\auth-profiles.json (agentDir: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
       }
     },
     {
@@ -220,7 +220,7 @@
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
         "lastErrorReason": "auth",
-        "lastError": "FailoverError: No API key found for provider \"2603\". Auth store: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent\\auth-profiles.json (agentDir: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+        "runningAtMs": 1775088000021
       }
     },
     {
