@@ -1716,3 +1716,13 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-02T09:30:43.614+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/minimax/minimax-m2.5:free reason=auth next=none
 2026-04-02T09:30:43.621+08:00 Embedded agent failed before reply: All models failed (3): openrouter/openrouter/auto: HTTP 401: User not found. (auth) | 2603/gpt-5.4: No API key found for provider "2603". Auth store: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir. (auth) | openrouter/minimax/minimax-m2.5:free: HTTP 401: User not found. (auth)
 2026-04-02T09:46:11.885+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-02T15:13:04.778+08:00 Gateway failed to start: gateway already running (pid 6324); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-02T15:13:04.923+08:00 Gateway service appears registered. Stop it first.
+2026-04-02T15:13:04.927+08:00 Tip: openclaw gateway stop
+2026-04-02T15:13:04.931+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-04-02T15:13:10.816+08:00 Gateway failed to start: gateway already running (pid 6324); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-02T15:13:10.911+08:00 Gateway service appears registered. Stop it first.
+2026-04-02T15:13:10.918+08:00 Tip: openclaw gateway stop
+2026-04-02T15:13:10.922+08:00 Or: schtasks /End /TN "OpenClaw Gateway"

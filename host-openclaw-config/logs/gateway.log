@@ -217513,3 +217513,29 @@ No destructive actions were taken.
 2026-04-02T09:34:27.463+08:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt, tools.web.search.perplexity)
 2026-04-02T10:22:08.826+08:00 [reload] config change detected; evaluating reload (models.providers.openrouter.apiKey, models.providers.2603, models.providers.gemini, models.providers.siliconflow, agents.defaults.model.fallbacks, agents.defaults.models.2603/gpt-5.4, agents.defaults.models.gemini/gemini-3.1-pro-preview)
 2026-04-02T10:22:08.851+08:00 [reload] config hot reload applied (models.providers.openrouter.apiKey, models.providers.2603, models.providers.gemini, models.providers.siliconflow, agents.defaults.model.fallbacks, agents.defaults.models.2603/gpt-5.4, agents.defaults.models.gemini/gemini-3.1-pro-preview)
+2026-04-02T15:12:48.346+08:00 [plugins] memory-lancedb-pro: smart extraction enabled (LLM model: openai/gpt-oss-120b, noise bank: ON)
+2026-04-02T15:12:48.356+08:00 [plugins] memory-lancedb-pro@1.1.0-beta.8: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small, smartExtraction: ON)
+2026-04-02T15:12:48.362+08:00 [plugins] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-04-02T15:12:48.369+08:00 [plugins] session-memory: hook registered for command:new as memory-lancedb-pro-session-memory
+2026-04-02T15:13:00.245+08:00 [plugins] memory-lancedb-pro: smart extraction enabled (LLM model: openai/gpt-oss-120b, noise bank: ON)
+2026-04-02T15:13:00.252+08:00 [plugins] memory-lancedb-pro@1.1.0-beta.8: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small, smartExtraction: ON)
+2026-04-02T15:13:00.258+08:00 [plugins] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-04-02T15:13:00.265+08:00 [plugins] session-memory: hook registered for command:new as memory-lancedb-pro-session-memory
+2026-04-02T15:13:04.570+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-02T15:13:04.577+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-02T15:13:04.583+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-02T15:13:04.593+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-02T15:13:04.601+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-02T15:13:04.613+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-02T15:13:04.623+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-02T15:13:04.631+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-02T15:13:04.691+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-02T15:13:10.634+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-02T15:13:10.640+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-02T15:13:10.648+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-02T15:13:10.655+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-02T15:13:10.667+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-02T15:13:10.678+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-02T15:13:10.687+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-02T15:13:10.696+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-02T15:13:10.735+08:00 [plugins] hook runner initialized with 1 registered hooks
