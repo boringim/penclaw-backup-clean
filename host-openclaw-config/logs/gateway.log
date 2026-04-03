@@ -219682,3 +219682,19 @@ No destructive actions were taken.
 2026-04-03T20:29:43.968+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-04-03T20:29:51.433+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-03T20:29:53.264+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-04T00:00:01.388+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T00:00:01.422+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T00:00:01.431+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T00:00:01.437+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T00:00:01.442+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T00:00:03.999+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-04T00:00:04.158+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T00:00:06.349+08:00 [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-04T00:00:06.437+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T00:00:06.450+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T00:00:06.458+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T00:00:06.464+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T00:00:06.469+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T00:00:08.520+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-04T00:00:08.537+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T00:00:15.341+08:00 [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02

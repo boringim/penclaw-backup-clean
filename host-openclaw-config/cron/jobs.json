@@ -116,7 +116,7 @@
       "name": "Daily_Self_Backup_Midnight",
       "enabled": true,
       "createdAtMs": 1771408491288,
-      "updatedAtMs": 1775146176109,
+      "updatedAtMs": 1775232015419,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -136,14 +136,16 @@
         "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02"
       },
       "state": {
-        "nextRunAtMs": 1775232000000,
-        "lastRunAtMs": 1775145600322,
-        "lastStatus": "ok",
-        "lastDurationMs": 575787,
-        "consecutiveErrors": 0,
-        "lastRunStatus": "ok",
+        "nextRunAtMs": 1775318400000,
+        "lastRunAtMs": 1775232000057,
+        "lastStatus": "error",
+        "lastDurationMs": 15362,
+        "consecutiveErrors": 1,
+        "lastRunStatus": "error",
         "lastDeliveryStatus": "not-delivered",
-        "lastDelivered": false
+        "lastDelivered": false,
+        "lastError": "402 status code (no body)",
+        "lastDeliveryError": "402 status code (no body)"
       }
     },
     {
