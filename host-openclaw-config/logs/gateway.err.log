@@ -1740,3 +1740,8 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-03T14:20:10.515+08:00 [agent/embedded] embedded run agent end: runId=6341a985-a681-47ae-b041-2617a9ec886c isError=true model=gpt-5.4 provider=2603 error=402 status code (no body)
 2026-04-03T14:20:13.636+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=openrouter/openrouter/auto candidate=2603/gpt-5.4 reason=unknown next=none
 2026-04-03T14:20:49.438+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-03T19:43:17.678+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-03T20:20:01.670+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-03T20:21:44.095+08:00 [memory] embeddings rate limited; retrying in 598ms
+2026-04-03T20:21:45.935+08:00 [memory] embeddings rate limited; retrying in 1021ms
+2026-04-03T20:21:48.163+08:00 [memory] embeddings rate limited; retrying in 2321ms
