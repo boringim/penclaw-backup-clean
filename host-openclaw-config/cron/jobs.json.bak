@@ -8,7 +8,7 @@
       "name": "Email_Cleanup_Weekly",
       "enabled": true,
       "createdAtMs": 1771345366707,
-      "updatedAtMs": 1774566604860,
+      "updatedAtMs": 1775170879736,
       "schedule": {
         "expr": "0 7 * * 5",
         "kind": "cron",
@@ -27,15 +27,14 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1775170800000,
-        "lastRunAtMs": 1774566000068,
-        "lastStatus": "error",
-        "lastDurationMs": 604792,
-        "consecutiveErrors": 1,
-        "lastRunStatus": "error",
-        "lastDeliveryStatus": "unknown",
-        "lastErrorReason": "timeout",
-        "runningAtMs": 1775170800022
+        "nextRunAtMs": 1775775600000,
+        "lastRunAtMs": 1775170800045,
+        "lastStatus": "ok",
+        "lastDurationMs": 79691,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDeliveryStatus": "delivered",
+        "lastDelivered": true
       }
     },
     {
@@ -71,8 +70,8 @@
         "consecutiveErrors": 1,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "unknown",
-        "lastError": "FailoverError: LLM request timed out.",
-        "lastErrorReason": "timeout"
+        "lastErrorReason": "timeout",
+        "runningAtMs": 1775174400034
       }
     },
     {
@@ -219,7 +218,7 @@
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
         "lastErrorReason": "auth",
-        "lastError": "FailoverError: No API key found for provider \"2603\". Auth store: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent\\auth-profiles.json (agentDir: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+        "runningAtMs": 1775174400034
       }
     },
     {

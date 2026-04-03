@@ -44,7 +44,7 @@
       "name": "Email_Label_Management_Weekly",
       "enabled": true,
       "createdAtMs": 1771345366763,
-      "updatedAtMs": 1774570207359,
+      "updatedAtMs": 1775174523756,
       "schedule": {
         "expr": "0 8 * * 5",
         "tz": "Asia/Shanghai",
@@ -63,15 +63,14 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1775174400000,
-        "lastRunAtMs": 1774569600044,
-        "lastStatus": "error",
-        "lastDurationMs": 607315,
-        "consecutiveErrors": 1,
-        "lastRunStatus": "error",
-        "lastDeliveryStatus": "unknown",
-        "lastError": "FailoverError: LLM request timed out.",
-        "lastErrorReason": "timeout"
+        "nextRunAtMs": 1775779200000,
+        "lastRunAtMs": 1775174400047,
+        "lastStatus": "ok",
+        "lastDurationMs": 123709,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDeliveryStatus": "delivered",
+        "lastDelivered": true
       }
     },
     {
@@ -191,7 +190,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1775088033705,
+      "updatedAtMs": 1775174773645,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -210,15 +209,15 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1775174400000,
-        "lastRunAtMs": 1775088000044,
+        "nextRunAtMs": 1775260800000,
+        "lastRunAtMs": 1775174523756,
         "lastStatus": "error",
-        "lastDurationMs": 33661,
-        "consecutiveErrors": 13,
+        "lastDurationMs": 249889,
+        "consecutiveErrors": 14,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
-        "lastErrorReason": "auth",
-        "lastError": "FailoverError: No API key found for provider \"2603\". Auth store: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent\\auth-profiles.json (agentDir: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+        "lastErrorReason": "timeout",
+        "lastError": "Error: All models failed (3): openrouter/openrouter/auto: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys (auth) | 2603/gpt-5.4: LLM request timed out. (timeout) | gemini/gemini-3.1-pro-preview: LLM request timed out. (timeout)"
       }
     },
     {
