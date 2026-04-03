@@ -1745,3 +1745,10 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-03T20:21:44.095+08:00 [memory] embeddings rate limited; retrying in 598ms
 2026-04-03T20:21:45.935+08:00 [memory] embeddings rate limited; retrying in 1021ms
 2026-04-03T20:21:48.163+08:00 [memory] embeddings rate limited; retrying in 2321ms
+2026-04-03T20:29:42.319+08:00 [agent/embedded] embedded run agent end: runId=6eea7cc7-94d1-401c-bfbd-ca5918ca69ba isError=true model=openrouter/auto provider=openrouter error=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys
+2026-04-03T20:29:42.403+08:00 [agent/embedded] embedded run failover decision: runId=6eea7cc7-94d1-401c-bfbd-ca5918ca69ba stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:ac092b59b472
+2026-04-03T20:29:42.427+08:00 [diagnostic] lane task error: lane=main durationMs=7464 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-03T20:29:42.454+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=7498 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-03T20:29:42.485+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/openrouter/auto reason=auth next=2603/gpt-5.4
+2026-04-03T20:29:51.400+08:00 [agent/embedded] embedded run agent end: runId=6eea7cc7-94d1-401c-bfbd-ca5918ca69ba isError=true model=gpt-5.4 provider=2603 error=402 status code (no body)
+2026-04-03T20:29:51.469+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=openrouter/openrouter/auto candidate=2603/gpt-5.4 reason=unknown next=none

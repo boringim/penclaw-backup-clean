@@ -219662,3 +219662,23 @@ No destructive actions were taken.
   }
 ]
 2026-04-03T20:21:51.609+08:00 [ws] ⇄ res ✓ doctor.memory.status 9263ms conn=d0cadf4b…d0a0 id=3182fcea…7a32
+2026-04-03T20:29:32.496+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-03T20:29:32.544+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 1
+2026-04-03T20:29:32.644+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-03T20:29:34.961+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-03T20:29:35.032+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-03T20:29:35.046+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-03T20:29:35.057+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-03T20:29:35.069+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-03T20:29:40.433+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-03T20:29:40.561+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-03T20:29:42.542+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-03T20:29:42.569+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-03T20:29:42.579+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-03T20:29:42.591+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-03T20:29:42.599+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-03T20:29:43.247+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-03T20:29:43.935+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-03T20:29:43.968+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-03T20:29:51.433+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-03T20:29:53.264+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
