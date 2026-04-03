@@ -217738,3 +217738,8 @@ No destructive actions were taken.
 2026-04-03T14:20:01.907+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-04-03T14:20:11.781+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-03T14:20:30.967+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-03T17:18:27.419+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-03T17:18:44.535+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-04-03T17:18:44.543+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-04-03T17:20:29.568+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]
+2026-04-03T17:20:29.580+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
