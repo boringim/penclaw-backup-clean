@@ -219719,3 +219719,5 @@ No destructive actions were taken.
   'Client network socket disconnected before secure TLS connection was established'
 ]
 2026-04-04T11:04:52.388+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-04-04T11:38:58.047+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-04T11:43:33.934+08:00 [info]: [ '[ws]', 'reconnect' ]
