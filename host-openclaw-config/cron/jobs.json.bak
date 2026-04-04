@@ -144,8 +144,8 @@
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-delivered",
         "lastDelivered": false,
-        "lastError": "402 status code (no body)",
-        "lastDeliveryError": "402 status code (no body)"
+        "lastDeliveryError": "402 status code (no body)",
+        "runningAtMs": 1775318400017
       }
     },
     {
@@ -192,7 +192,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1775174773645,
+      "updatedAtMs": 1775260819876,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -211,15 +211,16 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1775260800000,
-        "lastRunAtMs": 1775174523756,
+        "nextRunAtMs": 1775347200000,
+        "lastRunAtMs": 1775260800068,
         "lastStatus": "error",
-        "lastDurationMs": 249889,
-        "consecutiveErrors": 14,
+        "lastDurationMs": 19808,
+        "consecutiveErrors": 15,
         "lastRunStatus": "error",
-        "lastDeliveryStatus": "not-requested",
-        "lastErrorReason": "timeout",
-        "runningAtMs": 1775260800035
+        "lastDeliveryStatus": "not-delivered",
+        "lastError": "402 status code (no body)",
+        "lastDelivered": false,
+        "lastDeliveryError": "402 status code (no body)"
       }
     },
     {

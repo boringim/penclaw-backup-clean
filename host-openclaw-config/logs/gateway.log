@@ -219723,3 +219723,16 @@ No destructive actions were taken.
 2026-04-04T11:43:33.934+08:00 [info]: [ '[ws]', 'reconnect' ]
 2026-04-04T13:35:34.365+08:00 [gateway] update available (latest): v2026.4.2 (current v2026.3.13). Run: openclaw update
 2026-04-04T13:35:36.185+08:00 [gateway] memory-lancedb-pro: backup completed (62 entries → C:\Users\Administrator\.openclaw\memory\backups\memory-backup-2026-04-04.jsonl)
+2026-04-05T00:00:00.329+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T00:00:00.360+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T00:00:00.376+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T00:00:00.388+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T00:00:00.406+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T00:00:34.362+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T00:01:17.325+08:00 [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-05T00:01:17.399+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T00:01:17.407+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T00:01:17.413+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T00:01:17.418+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T00:01:17.425+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T00:01:50.411+08:00 [plugins] hook runner initialized with 1 registered hooks
