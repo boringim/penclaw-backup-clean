@@ -219698,3 +219698,18 @@ No destructive actions were taken.
 2026-04-04T00:00:08.520+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-04T00:00:08.537+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-04-04T00:00:15.341+08:00 [gateway] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-04T08:00:00.289+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T08:00:00.305+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T08:00:00.315+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T08:00:00.331+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T08:00:00.339+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T08:00:04.136+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T08:00:11.328+08:00 [gateway] memory-lancedb-pro: regex fallback found 1 capturable text(s) for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-04T08:00:11.390+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T08:00:11.403+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T08:00:11.409+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T08:00:11.414+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T08:00:11.419+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T08:00:13.338+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-04T08:00:13.357+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-04T08:00:19.772+08:00 [gateway] memory-lancedb-pro: regex fallback found 1 capturable text(s) for agent oc_981e24884af3ed7ed6c16c5730c9bd02
