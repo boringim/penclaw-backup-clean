@@ -219721,3 +219721,5 @@ No destructive actions were taken.
 2026-04-04T11:04:52.388+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
 2026-04-04T11:38:58.047+08:00 [info]: [ '[ws]', 'reconnect' ]
 2026-04-04T11:43:33.934+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-04T13:35:34.365+08:00 [gateway] update available (latest): v2026.4.2 (current v2026.3.13). Run: openclaw update
+2026-04-04T13:35:36.185+08:00 [gateway] memory-lancedb-pro: backup completed (62 entries → C:\Users\Administrator\.openclaw\memory\backups\memory-backup-2026-04-04.jsonl)
