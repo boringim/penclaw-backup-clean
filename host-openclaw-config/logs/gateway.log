@@ -219749,3 +219749,16 @@ No destructive actions were taken.
 2026-04-05T08:01:11.215+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-04-05T08:01:11.219+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-04-05T08:01:44.096+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T09:00:00.202+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T09:00:00.216+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T09:00:00.225+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T09:00:00.231+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T09:00:00.239+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T09:00:33.648+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T09:01:09.014+08:00 [gateway] memory-lancedb-pro: regex fallback found 1 capturable text(s) for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-05T09:01:09.079+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T09:01:09.092+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T09:01:09.097+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T09:01:09.110+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T09:01:09.123+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-05T09:01:42.245+08:00 [plugins] hook runner initialized with 1 registered hooks

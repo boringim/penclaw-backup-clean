@@ -154,7 +154,7 @@
       "name": "Weekly_Memory_Review",
       "enabled": true,
       "createdAtMs": 1771478717933,
-      "updatedAtMs": 1774746900076,
+      "updatedAtMs": 1775351700061,
       "schedule": {
         "kind": "cron",
         "expr": "0 9 * * 0",
@@ -173,11 +173,11 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1775350800000,
-        "lastRunAtMs": 1774746000044,
+        "nextRunAtMs": 1775955600000,
+        "lastRunAtMs": 1775350800041,
         "lastStatus": "error",
-        "lastDurationMs": 900032,
-        "consecutiveErrors": 2,
+        "lastDurationMs": 900020,
+        "consecutiveErrors": 3,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
         "lastErrorReason": "timeout",
