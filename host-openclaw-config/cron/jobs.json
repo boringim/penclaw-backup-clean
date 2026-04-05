@@ -191,7 +191,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1775260819876,
+      "updatedAtMs": 1775347500078,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -210,16 +210,15 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1775347200000,
-        "lastRunAtMs": 1775260800068,
+        "nextRunAtMs": 1775433600000,
+        "lastRunAtMs": 1775347200029,
         "lastStatus": "error",
-        "lastDurationMs": 19808,
-        "consecutiveErrors": 15,
+        "lastDurationMs": 300049,
+        "consecutiveErrors": 16,
         "lastRunStatus": "error",
-        "lastDeliveryStatus": "not-delivered",
-        "lastError": "402 status code (no body)",
-        "lastDelivered": false,
-        "lastDeliveryError": "402 status code (no body)"
+        "lastDeliveryStatus": "not-requested",
+        "lastError": "cron: job execution timed out",
+        "lastErrorReason": "timeout"
       }
     },
     {
