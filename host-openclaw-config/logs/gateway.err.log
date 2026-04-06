@@ -2270,3 +2270,35 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-06T17:40:19.383+08:00 [ws] closed before connect conn=2c35f1c3-ee12-4ec6-97b4-4e05aae142d2 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
 2026-04-06T17:41:21.574+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
 2026-04-06T17:41:56.579+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T18:40:49.052+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T18:40:49.059+08:00 [ws] handshake timeout conn=bd111567-dad2-41f0-a5cc-8bccbaad7400 remote=127.0.0.1
+2026-04-06T18:40:49.075+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T18:40:53.607+08:00 [ws] closed before connect conn=bd111567-dad2-41f0-a5cc-8bccbaad7400 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
+2026-04-06T18:40:53.635+08:00 [ws] closed before connect conn=8e3db690-b678-4779-a0f6-d46a1b9d165e remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1006 reason=n/a
+2026-04-06T18:40:53.638+08:00 [ws] closed before connect conn=2de3673d-f031-4d39-9c9a-2431b6c7c4ea remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1006 reason=n/a
+2026-04-06T18:40:55.529+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-06T18:40:58.229+08:00 [bonjour] restarting advertiser (service stuck in announcing for 9175ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-06T18:40:58.272+08:00 [ws] closed before connect conn=ce35edf4-3307-4138-b495-8f726061228c remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1005 reason=n/a
+2026-04-06T18:41:19.649+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T18:42:09.272+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T18:42:09.291+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T18:42:17.631+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-06T18:42:20.824+08:00 [bonjour] restarting advertiser (service stuck in announcing for 11561ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-06T18:42:36.454+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity) — deferring until 1 reply(ies) complete
+2026-04-06T18:43:24.167+08:00 [feishu] feishu[default]: bot identity background retry 1/5 failed; next attempt in 120s
+2026-04-06T18:51:03.335+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-06T18:51:04.291+08:00 Port 18789 is already in use.
+2026-04-06T18:51:04.294+08:00 - pid 4708: "C:\Program Files\nodejs\node.exe" --disable-warning=ExperimentalWarning C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\openclaw.mjs gateway (127.0.0.1:18789)
+2026-04-06T18:51:04.296+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-04-06T18:51:04.440+08:00 Gateway service appears registered. Stop it first.
+2026-04-06T18:51:04.443+08:00 Tip: openclaw gateway stop
+2026-04-06T18:51:04.445+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-04-06T18:51:12.331+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-06T18:51:12.739+08:00 Port 18789 is already in use.
+2026-04-06T18:51:12.742+08:00 - pid 4708: "C:\Program Files\nodejs\node.exe" --disable-warning=ExperimentalWarning C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\openclaw.mjs gateway (127.0.0.1:18789)
+2026-04-06T18:51:12.745+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-04-06T18:51:12.807+08:00 Gateway service appears registered. Stop it first.
+2026-04-06T18:51:12.810+08:00 Tip: openclaw gateway stop
+2026-04-06T18:51:12.813+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
