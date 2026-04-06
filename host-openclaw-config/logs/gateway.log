@@ -220890,3 +220890,478 @@ No destructive actions were taken.
 2026-04-06T16:21:36.415+08:00 [ws] ⇄ res ✓ chat.history 162ms conn=a7d49f26…22e0 id=e92c33f8…1333
 2026-04-06T16:21:36.436+08:00 [ws] ⇄ res ✓ node.list 185ms conn=a7d49f26…22e0 id=16477a1e…19a5
 2026-04-06T16:21:36.438+08:00 [ws] ⇄ res ✓ device.pair.list 188ms conn=a7d49f26…22e0 id=e99d2b04…0497
+2026-04-06T16:26:01.311+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, models.providers.wellapi.baseUrl, plugins.entries.perplexity)
+2026-04-06T16:26:02.318+08:00 [gateway] signal SIGUSR1 received
+2026-04-06T16:26:02.321+08:00 [gateway] received SIGUSR1; restarting
+2026-04-06T16:26:03.296+08:00 [feishu] feishu[default]: abort signal received, stopping
+2026-04-06T16:26:03.302+08:00 [info]: [ '[ws]', 'ws client closed manually' ]
+2026-04-06T16:26:03.310+08:00 [gmail-watcher] gmail watcher stopped
+2026-04-06T16:26:03.315+08:00 [ws] webchat disconnected code=1012 reason=service restart conn=a7d49f26-0bc2-4fb0-b95c-056dd73922e0
+2026-04-06T16:26:03.323+08:00 [gateway] restart mode: in-process restart (win32: detached respawn unsupported without Scheduled Task markers)
+2026-04-06T16:26:06.527+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\Administrator\.openclaw\canvas)
+2026-04-06T16:26:06.571+08:00 [heartbeat] started
+2026-04-06T16:26:06.573+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-04-06T16:26:06.585+08:00 [gateway] agent model: wellapi/gpt-5.1-codex-max
+2026-04-06T16:26:06.588+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 17228)
+2026-04-06T16:26:06.590+08:00 [gateway] log file: \tmp\openclaw\openclaw-2026-04-06.log
+2026-04-06T16:26:07.081+08:00 [hooks] loaded 4 internal hook handlers
+2026-04-06T16:26:27.088+08:00 [feishu] starting feishu[default] (mode: websocket)
+2026-04-06T16:26:27.091+08:00 [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-04-06T16:26:27.096+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-04-06T16:26:27.110+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:26:27.132+08:00 [feishu] feishu[default]: dedup warmup loaded 11 entries from disk
+2026-04-06T16:26:27.135+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-06T16:26:27.139+08:00 [feishu] feishu[default]: starting WebSocket connection...
+2026-04-06T16:26:27.140+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-06T16:26:27.148+08:00 [feishu] feishu[default]: WebSocket client started
+2026-04-06T16:26:27.170+08:00 [ws] webchat connected conn=e5174afc-0e5a-48e7-8c91-b6fd7d41bd6c remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13
+2026-04-06T16:26:27.290+08:00 [ws] ⇄ res ✓ sessions.list 88ms conn=e5174afc…bd6c id=ec1241ad…33d6
+2026-04-06T16:26:27.293+08:00 [ws] ⇄ res ✓ chat.history 104ms conn=e5174afc…bd6c id=dea579c0…cf14
+2026-04-06T16:26:27.316+08:00 [ws] ⇄ res ✓ node.list 129ms conn=e5174afc…bd6c id=357820b7…a672
+2026-04-06T16:26:27.319+08:00 [ws] ⇄ res ✓ device.pair.list 130ms conn=e5174afc…bd6c id=e033be96…dd9d
+2026-04-06T16:26:27.449+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-06T16:28:29.130+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-06T16:28:29.143+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 默认大模型是哪个
+2026-04-06T16:28:29.155+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-06T16:28:32.078+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:28:48.839+08:00 [ws] ⇄ res ✓ node.list 1246ms conn=e5174afc…bd6c id=a0f244cd…e672
+2026-04-06T16:29:03.570+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:29:03.619+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:29:12.057+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-06T16:29:13.254+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-06T16:30:00.568+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-06T16:30:00.572+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-06T16:30:00.575+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-06T16:30:00.578+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-06T16:30:00.582+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-06T16:30:00.616+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\Administrator\.openclaw\canvas)
+2026-04-06T16:30:00.961+08:00 [heartbeat] started
+2026-04-06T16:30:00.970+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-04-06T16:30:01.030+08:00 [gateway] agent model: wellapi/gpt-5.1-codex-max
+2026-04-06T16:30:01.032+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 13664)
+2026-04-06T16:30:01.036+08:00 [gateway] log file: \tmp\openclaw\openclaw-2026-04-06.log
+2026-04-06T16:30:01.094+08:00 [info]: [ 'client ready' ]
+2026-04-06T16:30:01.873+08:00 [hooks] loaded 4 internal hook handlers
+2026-04-06T16:30:21.966+08:00 [error]: [
+  AxiosError: timeout of 10000ms exceeded
+      at RedirectableRequest.handleRequestTimeout (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\@larksuiteoapi\node-sdk\node_modules\axios\lib\adapters\http.js:908:13)
+      at RedirectableRequest.emit (node:events:519:28)
+      at Timeout._onTimeout (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\follow-redirects\index.js:221:12)
+      at listOnTimeout (node:internal/timers:588:17)
+      at processTimers (node:internal/timers:523:7)
+      at Axios.request (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\@larksuiteoapi\node-sdk\node_modules\axios\lib\core\Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at runNextTicks (node:internal/process/task_queues:69:3)
+      at processTimers (node:internal/timers:520:9) {
+    isAxiosError: true,
+    code: 'ECONNABORTED',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    }
+  }
+]
+2026-04-06T16:30:28.313+08:00 [feishu] starting feishu[default] (mode: websocket)
+2026-04-06T16:30:28.336+08:00 [feishu] feishu[default]: bot open_id resolved: unknown
+2026-04-06T16:30:28.339+08:00 [feishu] feishu[default]: bot open_id unknown; starting background retry (delays: 60s, 120s, 300s, 600s, 900s)
+2026-04-06T16:30:28.341+08:00 [feishu] feishu[default]: requireMention group messages stay gated until bot identity recovery succeeds
+2026-04-06T16:30:28.349+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-04-06T16:30:30.354+08:00 [plugins] memory-lancedb-pro: smart extraction enabled (LLM model: openai/gpt-oss-120b, noise bank: ON)
+2026-04-06T16:30:30.360+08:00 [plugins] memory-lancedb-pro@1.1.0-beta.8: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small, smartExtraction: ON)
+2026-04-06T16:30:30.369+08:00 [plugins] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-04-06T16:30:30.381+08:00 [plugins] session-memory: hook registered for command:new as memory-lancedb-pro-session-memory
+2026-04-06T16:30:30.420+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-06T16:30:30.426+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-06T16:30:30.428+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-06T16:30:30.431+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-06T16:30:30.434+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-06T16:30:30.441+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:30:30.889+08:00 [feishu] feishu[default]: dedup warmup loaded 12 entries from disk
+2026-04-06T16:30:30.899+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-06T16:30:30.927+08:00 [feishu] feishu[default]: starting WebSocket connection...
+2026-04-06T16:30:30.930+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-06T16:30:30.942+08:00 [feishu] feishu[default]: WebSocket client started
+2026-04-06T16:30:30.948+08:00 [ws] webchat connected conn=91e45c19-1314-4cdb-a1fd-3dd99c62025e remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13
+2026-04-06T16:30:31.198+08:00 [ws] webchat connected conn=bfba7e93-2866-4e38-8e05-87123c321ba5 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13
+2026-04-06T16:30:31.360+08:00 [ws] ⇄ res ✓ sessions.list 104ms conn=bfba7e93…1ba5 id=0eed5135…00df
+2026-04-06T16:30:32.714+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-06T16:30:32.741+08:00 [ws] ⇄ res ✓ node.list 1514ms conn=bfba7e93…1ba5 id=59d4b3cb…0488
+2026-04-06T16:30:32.745+08:00 [ws] ⇄ res ✓ device.pair.list 1516ms conn=bfba7e93…1ba5 id=4bed3c03…d21a
+2026-04-06T16:31:00.705+08:00 [ws] ⇄ res ✓ chat.history 29475ms conn=bfba7e93…1ba5 id=36497e29…c6f8
+2026-04-06T16:31:00.714+08:00 [ws] ⇄ res ✓ models.list 29349ms conn=bfba7e93…1ba5 id=1aeb20bf…8058
+2026-04-06T16:31:00.735+08:00 [feishu] feishu[default]: dropping duplicate event for message om_x100b5202bc43fca8b2db01ff41b9beb
+2026-04-06T16:31:00.741+08:00 [ws] ⇄ res ✓ node.list 11521ms conn=bfba7e93…1ba5 id=331ac164…2d68
+2026-04-06T16:31:01.119+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-06T16:31:01.133+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 默认大模型是哪个，自检一下
+2026-04-06T16:31:01.144+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-06T16:31:03.929+08:00 [plugins] memory-lancedb-pro: smart extraction enabled (LLM model: openai/gpt-oss-120b, noise bank: ON)
+2026-04-06T16:31:03.932+08:00 [plugins] memory-lancedb-pro@1.1.0-beta.8: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small, smartExtraction: ON)
+2026-04-06T16:31:03.936+08:00 [plugins] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-04-06T16:31:03.940+08:00 [plugins] session-memory: hook registered for command:new as memory-lancedb-pro-session-memory
+2026-04-06T16:31:03.970+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-06T16:31:03.974+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-06T16:31:03.976+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-06T16:31:03.978+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-06T16:31:03.982+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-06T16:31:03.987+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:31:14.138+08:00 [plugins] memory-lancedb-pro: smart extraction enabled (LLM model: openai/gpt-oss-120b, noise bank: ON)
+2026-04-06T16:31:14.140+08:00 [plugins] memory-lancedb-pro@1.1.0-beta.8: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small, smartExtraction: ON)
+2026-04-06T16:31:14.143+08:00 [plugins] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-04-06T16:31:14.149+08:00 [plugins] session-memory: hook registered for command:new as memory-lancedb-pro-session-memory
+2026-04-06T16:31:14.192+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-06T16:31:14.197+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-06T16:31:14.200+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-06T16:31:14.203+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-06T16:31:14.207+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-06T16:31:14.246+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:31:14.766+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:31:28.520+08:00 [feishu] feishu[default]: bot open_id recovered via background retry: ou_f1f557cde4bd987782c9a10d363bebed
+2026-04-06T16:31:38.350+08:00 [ws] ⇄ res ✓ channels.status 403ms conn=2c877228…4890 id=b7e76839…3b01
+2026-04-06T16:32:10.306+08:00 [feishu] feishu[default] Started streaming: cardId=7625561227217308628, messageId=om_x100b5202b650dcacb284f208cdbad1a
+2026-04-06T16:32:11.322+08:00 [feishu] feishu[default] Closed streaming: cardId=7625561227217308628
+2026-04-06T16:32:11.326+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-06T16:32:21.510+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-06T16:32:21.514+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-06T16:32:21.520+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-06T16:35:54.480+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-06T16:35:54.546+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 调整大模型为gpt-5.1-codex-max，删除无用的大模型
+2026-04-06T16:35:54.553+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-06T16:35:58.056+08:00 [feishu] feishu[default]: dropping duplicate event for message om_x100b5202bc43fca8b2db01ff41b9beb
+2026-04-06T16:36:29.972+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:36:30.010+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:37:49.019+08:00 [reload] config change detected; evaluating reload (agents.defaults.models.TY2/glm-5-oc, agents.defaults.models.openrouter/minimax/minimax-m2.5:free, agents.list, plugins.entries.perplexity)
+2026-04-06T16:38:32.179+08:00 [reload] config change detected; evaluating reload (models.providers.TY2, models.providers.openrouter)
+2026-04-06T16:38:33.428+08:00 [reload] config hot reload applied (models.providers.TY2, models.providers.openrouter)
+2026-04-06T16:38:53.425+08:00 [reload] config change detected; evaluating reload (auth.profiles.openrouter:default)
+2026-04-06T16:39:16.915+08:00 [reload] config change detected; evaluating reload (agents.defaults.model.fallbacks)
+2026-04-06T16:39:17.787+08:00 [reload] config hot reload applied (agents.defaults.model.fallbacks)
+2026-04-06T16:39:25.108+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-06T16:39:29.261+08:00 [feishu] feishu[default] Started streaming: cardId=7625563107767077841, messageId=om_x100b52035ac090b0b4c93f12ce25232
+2026-04-06T16:39:30.339+08:00 [feishu] feishu[default] Closed streaming: cardId=7625563107767077841
+2026-04-06T16:39:30.348+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=6)
+2026-04-06T16:39:30.583+08:00 [reload] all operations and replies completed; restarting gateway now
+2026-04-06T16:39:30.588+08:00 [gateway] signal SIGUSR1 received
+2026-04-06T16:39:30.593+08:00 [gateway] received SIGUSR1; restarting
+2026-04-06T16:39:32.083+08:00 [feishu] feishu[default]: abort signal received, stopping
+2026-04-06T16:39:32.095+08:00 [info]: [ '[ws]', 'ws client closed manually' ]
+2026-04-06T16:39:32.114+08:00 [gmail-watcher] gmail watcher stopped
+2026-04-06T16:39:32.129+08:00 [ws] webchat disconnected code=1012 reason=service restart conn=bfba7e93-2866-4e38-8e05-87123c321ba5
+2026-04-06T16:39:32.235+08:00 [gateway] restart mode: in-process restart (win32: detached respawn unsupported without Scheduled Task markers)
+2026-04-06T16:39:36.027+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\Administrator\.openclaw\canvas)
+2026-04-06T16:39:36.058+08:00 [heartbeat] started
+2026-04-06T16:39:36.063+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-04-06T16:39:36.077+08:00 [gateway] agent model: wellapi/gpt-5.1-codex-max
+2026-04-06T16:39:36.081+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 13664)
+2026-04-06T16:39:36.084+08:00 [gateway] log file: \tmp\openclaw\openclaw-2026-04-06.log
+2026-04-06T16:39:36.610+08:00 [hooks] loaded 4 internal hook handlers
+2026-04-06T16:39:55.479+08:00 [feishu] starting feishu[default] (mode: websocket)
+2026-04-06T16:39:55.482+08:00 [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-04-06T16:39:55.489+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-04-06T16:39:55.504+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:39:55.528+08:00 [feishu] feishu[default]: dedup warmup loaded 14 entries from disk
+2026-04-06T16:39:55.531+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-06T16:39:55.538+08:00 [feishu] feishu[default]: starting WebSocket connection...
+2026-04-06T16:39:55.540+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-06T16:39:55.549+08:00 [feishu] feishu[default]: WebSocket client started
+2026-04-06T16:39:55.568+08:00 [ws] webchat connected conn=153fefe4-3791-4c72-83e0-a2e727812103 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13
+2026-04-06T16:39:55.714+08:00 [ws] ⇄ res ✓ sessions.list 101ms conn=153fefe4…2103 id=1ceb0d45…d556
+2026-04-06T16:39:55.722+08:00 [ws] ⇄ res ✓ chat.history 130ms conn=153fefe4…2103 id=bd5c1d28…b317
+2026-04-06T16:39:55.749+08:00 [ws] ⇄ res ✓ node.list 159ms conn=153fefe4…2103 id=b8f2df93…7ef3
+2026-04-06T16:39:55.754+08:00 [ws] ⇄ res ✓ device.pair.list 163ms conn=153fefe4…2103 id=5fcbb63a…402d
+2026-04-06T16:39:55.955+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-06T16:43:09.439+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_981e24884af3ed7ed6c16c5730c9bd02 (group)
+2026-04-06T16:43:09.448+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-06T16:43:09.456+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_981e24884af3ed7ed6c16c5730c9bd02: 文件还是好大，检查一下哪个文件夹下的文件占比最大
+2026-04-06T16:43:09.472+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02)
+2026-04-06T16:43:12.630+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:44:06.189+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:44:06.223+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:44:43.573+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=false, replies=0)
+2026-04-06T16:48:36.130+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-06T16:48:36.135+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-06T16:48:36.143+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-06T16:49:34.815+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-06T16:49:34.841+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 总结一下你的信息
+2026-04-06T16:49:34.852+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-06T16:49:41.431+08:00 [ws] ⇄ res ✓ node.list 499ms conn=153fefe4…2103 id=31c40de5…1c38
+2026-04-06T16:50:15.953+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:50:15.989+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:50:52.826+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=false, replies=0)
+2026-04-06T16:51:25.894+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-06T16:55:17.019+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, models.providers.wellapi.models, agents.defaults.models.wellapi/gpt-5.4, plugins.entries.perplexity)
+2026-04-06T16:55:18.230+08:00 [gateway] signal SIGUSR1 received
+2026-04-06T16:55:18.236+08:00 [gateway] received SIGUSR1; restarting
+2026-04-06T16:55:19.276+08:00 [feishu] feishu[default]: abort signal received, stopping
+2026-04-06T16:55:19.278+08:00 [info]: [ '[ws]', 'ws client closed manually' ]
+2026-04-06T16:55:19.291+08:00 [gmail-watcher] gmail watcher stopped
+2026-04-06T16:55:19.351+08:00 [ws] webchat disconnected code=1012 reason=service restart conn=153fefe4-3791-4c72-83e0-a2e727812103
+2026-04-06T16:55:19.449+08:00 [gateway] restart mode: in-process restart (win32: detached respawn unsupported without Scheduled Task markers)
+2026-04-06T16:55:22.788+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\Administrator\.openclaw\canvas)
+2026-04-06T16:55:22.819+08:00 [heartbeat] started
+2026-04-06T16:55:22.821+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-04-06T16:55:22.832+08:00 [gateway] agent model: wellapi/gpt-5.1-codex-max
+2026-04-06T16:55:22.834+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 13664)
+2026-04-06T16:55:22.837+08:00 [gateway] log file: \tmp\openclaw\openclaw-2026-04-06.log
+2026-04-06T16:55:23.348+08:00 [hooks] loaded 4 internal hook handlers
+2026-04-06T16:55:43.580+08:00 [feishu] starting feishu[default] (mode: websocket)
+2026-04-06T16:55:43.585+08:00 [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-04-06T16:55:43.606+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-04-06T16:55:43.649+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:55:43.760+08:00 [feishu] feishu[default]: dedup warmup loaded 16 entries from disk
+2026-04-06T16:55:43.763+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-06T16:55:43.770+08:00 [feishu] feishu[default]: starting WebSocket connection...
+2026-04-06T16:55:43.777+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-06T16:55:43.793+08:00 [feishu] feishu[default]: WebSocket client started
+2026-04-06T16:55:44.057+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-06T16:55:45.264+08:00 [ws] webchat connected conn=e7de3597-f01c-4bcf-9540-e2a25ca77c62 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13
+2026-04-06T16:55:45.469+08:00 [ws] ⇄ res ✓ sessions.list 121ms conn=e7de3597…7c62 id=604cb716…319a
+2026-04-06T16:57:18.204+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-06T16:57:18.219+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 1
+2026-04-06T16:57:18.231+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-06T16:57:21.007+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:58:14.718+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:58:14.753+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:58:51.443+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=false, replies=0)
+2026-04-06T16:59:24.493+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-06T17:02:42.769+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, models.providers.wellapi.models, agents.defaults.model.primary, agents.defaults.models.wellapi/gpt-5.4-xhigh, plugins.entries.perplexity)
+2026-04-06T17:02:43.868+08:00 [gateway] signal SIGUSR1 received
+2026-04-06T17:02:43.873+08:00 [gateway] received SIGUSR1; restarting
+2026-04-06T17:02:44.820+08:00 [feishu] feishu[default]: abort signal received, stopping
+2026-04-06T17:02:44.822+08:00 [info]: [ '[ws]', 'ws client closed manually' ]
+2026-04-06T17:02:44.834+08:00 [gmail-watcher] gmail watcher stopped
+2026-04-06T17:02:44.840+08:00 [ws] webchat disconnected code=1012 reason=service restart conn=e7de3597-f01c-4bcf-9540-e2a25ca77c62
+2026-04-06T17:02:44.856+08:00 [gateway] restart mode: in-process restart (win32: detached respawn unsupported without Scheduled Task markers)
+2026-04-06T17:02:48.190+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\Administrator\.openclaw\canvas)
+2026-04-06T17:02:48.234+08:00 [heartbeat] started
+2026-04-06T17:02:48.236+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-04-06T17:02:48.248+08:00 [gateway] agent model: wellapi/gpt-5.4
+2026-04-06T17:02:48.252+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 13664)
+2026-04-06T17:02:48.256+08:00 [gateway] log file: \tmp\openclaw\openclaw-2026-04-06.log
+2026-04-06T17:02:48.847+08:00 [hooks] loaded 4 internal hook handlers
+2026-04-06T17:03:15.197+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-06T17:03:15.203+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-06T17:03:15.206+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-06T17:03:15.209+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-06T17:03:15.214+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-06T17:03:15.258+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\Administrator\.openclaw\canvas)
+2026-04-06T17:03:15.525+08:00 [heartbeat] started
+2026-04-06T17:03:15.533+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-04-06T17:03:15.589+08:00 [gateway] agent model: wellapi/gpt-5.4-xhigh
+2026-04-06T17:03:15.593+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 3580)
+2026-04-06T17:03:15.597+08:00 [gateway] log file: \tmp\openclaw\openclaw-2026-04-06.log
+2026-04-06T17:03:15.659+08:00 [info]: [ 'client ready' ]
+2026-04-06T17:03:16.401+08:00 [hooks] loaded 4 internal hook handlers
+2026-04-06T17:03:35.572+08:00 [error]: [
+  AxiosError: timeout of 10000ms exceeded
+      at RedirectableRequest.handleRequestTimeout (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\@larksuiteoapi\node-sdk\node_modules\axios\lib\adapters\http.js:908:13)
+      at RedirectableRequest.emit (node:events:519:28)
+      at Timeout._onTimeout (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\follow-redirects\index.js:221:12)
+      at listOnTimeout (node:internal/timers:588:17)
+      at processTimers (node:internal/timers:523:7)
+      at Axios.request (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\@larksuiteoapi\node-sdk\node_modules\axios\lib\core\Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at runNextTicks (node:internal/process/task_queues:69:3)
+      at processTimers (node:internal/timers:520:9) {
+    isAxiosError: true,
+    code: 'ECONNABORTED',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    }
+  }
+]
+2026-04-06T17:03:41.816+08:00 [feishu] starting feishu[default] (mode: websocket)
+2026-04-06T17:03:41.842+08:00 [feishu] feishu[default]: bot open_id resolved: unknown
+2026-04-06T17:03:41.846+08:00 [feishu] feishu[default]: bot open_id unknown; starting background retry (delays: 60s, 120s, 300s, 600s, 900s)
+2026-04-06T17:03:41.848+08:00 [feishu] feishu[default]: requireMention group messages stay gated until bot identity recovery succeeds
+2026-04-06T17:03:41.858+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-04-06T17:03:43.890+08:00 [plugins] memory-lancedb-pro: smart extraction enabled (LLM model: openai/gpt-oss-120b, noise bank: ON)
+2026-04-06T17:03:43.897+08:00 [plugins] memory-lancedb-pro@1.1.0-beta.8: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small, smartExtraction: ON)
+2026-04-06T17:03:43.899+08:00 [plugins] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-04-06T17:03:43.902+08:00 [plugins] session-memory: hook registered for command:new as memory-lancedb-pro-session-memory
+2026-04-06T17:03:43.932+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-06T17:03:43.935+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-06T17:03:43.937+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-06T17:03:43.942+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-06T17:03:43.945+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-06T17:03:43.947+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T17:03:44.405+08:00 [feishu] feishu[default]: dedup warmup loaded 17 entries from disk
+2026-04-06T17:03:44.407+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-06T17:03:44.428+08:00 [feishu] feishu[default]: starting WebSocket connection...
+2026-04-06T17:03:44.431+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-06T17:03:44.441+08:00 [feishu] feishu[default]: WebSocket client started
+2026-04-06T17:03:44.479+08:00 [ws] webchat connected conn=fca5ab9d-f03a-4193-b828-25a94b1cf052 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13
+2026-04-06T17:03:44.673+08:00 [ws] ⇄ res ✓ sessions.list 115ms conn=fca5ab9d…f052 id=c5739245…1684
+2026-04-06T17:03:45.633+08:00 [ws] ⇄ res ✓ node.list 1103ms conn=fca5ab9d…f052 id=7f853362…0bf6
+2026-04-06T17:03:45.637+08:00 [ws] ⇄ res ✓ device.pair.list 1105ms conn=fca5ab9d…f052 id=83d8fe9b…b803
+2026-04-06T17:04:03.690+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-06T17:04:15.626+08:00 [ws] ⇄ res ✓ chat.history 31094ms conn=fca5ab9d…f052 id=133a4864…a91c
+2026-04-06T17:04:15.633+08:00 [ws] ⇄ res ✓ models.list 30957ms conn=fca5ab9d…f052 id=3defe3b0…81dc
+2026-04-06T17:04:42.024+08:00 [feishu] feishu[default]: bot open_id recovered via background retry: ou_f1f557cde4bd987782c9a10d363bebed
+2026-04-06T17:10:45.648+08:00 [plugins] memory-lancedb-pro: smart extraction enabled (LLM model: openai/gpt-oss-120b, noise bank: ON)
+2026-04-06T17:10:45.652+08:00 [plugins] memory-lancedb-pro@1.1.0-beta.8: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small, smartExtraction: ON)
+2026-04-06T17:10:45.656+08:00 [plugins] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-04-06T17:10:45.661+08:00 [plugins] session-memory: hook registered for command:new as memory-lancedb-pro-session-memory
+2026-04-06T17:10:45.700+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-06T17:10:45.704+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-06T17:10:45.708+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-06T17:10:45.711+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-06T17:10:45.714+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-06T17:10:45.719+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T17:10:51.033+08:00 [ws] ⇄ res ✓ node.list 500ms conn=fca5ab9d…f052 id=ba086ad2…dd97
+2026-04-06T17:10:53.204+08:00 [plugins] memory-lancedb-pro: smart extraction enabled (LLM model: openai/gpt-oss-120b, noise bank: ON)
+2026-04-06T17:10:53.207+08:00 [plugins] memory-lancedb-pro@1.1.0-beta.8: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small, smartExtraction: ON)
+2026-04-06T17:10:53.210+08:00 [plugins] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-04-06T17:10:53.215+08:00 [plugins] session-memory: hook registered for command:new as memory-lancedb-pro-session-memory
+2026-04-06T17:10:53.267+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-06T17:10:53.270+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-06T17:10:53.272+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-06T17:10:53.276+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-06T17:10:53.279+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-06T17:10:53.325+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T17:10:54.397+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T17:10:58.285+08:00 [ws] ⇄ res ✓ node.list 783ms conn=fca5ab9d…f052 id=c7cbf2e5…06a9
+2026-04-06T17:11:10.971+08:00 [ws] ⇄ res ✓ node.list 656ms conn=fca5ab9d…f052 id=43209b45…38fd
+2026-04-06T17:11:29.057+08:00 [ws] ⇄ res ✓ node.list 1059ms conn=fca5ab9d…f052 id=95d6c134…2d1a
+2026-04-06T17:11:29.474+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T17:11:29.508+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T17:11:33.023+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-06T17:11:39.824+08:00 [ws] ⇄ res ✓ sessions.patch 79ms conn=fca5ab9d…f052 id=203d26fb…617f
+2026-04-06T17:11:39.948+08:00 [ws] ⇄ res ✓ sessions.list 119ms conn=fca5ab9d…f052 id=31500837…019d
+2026-04-06T17:11:46.127+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T17:11:46.157+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T17:11:49.299+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-06T17:11:51.711+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-06T17:11:51.715+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-06T17:11:51.724+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-06T17:11:58.167+08:00 [ws] ⇄ res ✓ sessions.patch 68ms conn=fca5ab9d…f052 id=7152dc7a…3657
+2026-04-06T17:11:58.291+08:00 [ws] ⇄ res ✓ sessions.list 119ms conn=fca5ab9d…f052 id=4cf728ab…207d
+2026-04-06T17:12:00.125+08:00 [ws] ⇄ res ✓ chat.send 52ms runId=da79068f-1549-4042-a912-552db925197d conn=fca5ab9d…f052 id=0a9710a1…611f
+2026-04-06T17:12:01.610+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T17:12:01.644+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T17:12:05.146+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-06T17:12:14.911+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-06T17:12:14.936+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 总结一下你的信息
+2026-04-06T17:12:14.946+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-06T17:12:49.123+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T17:12:49.158+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T17:13:24.508+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-06T17:13:24.611+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=false, replies=0)
