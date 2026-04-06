@@ -116,7 +116,7 @@
       "name": "Daily_Self_Backup_Midnight",
       "enabled": true,
       "createdAtMs": 1771408491288,
-      "updatedAtMs": 1775405051325,
+      "updatedAtMs": 1775491654885,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -136,15 +136,14 @@
         "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02"
       },
       "state": {
-        "nextRunAtMs": 1775491200000,
-        "lastRunAtMs": 1775404800029,
-        "lastStatus": "error",
-        "lastDurationMs": 251296,
-        "consecutiveErrors": 3,
-        "lastRunStatus": "error",
-        "lastDeliveryStatus": "not-requested",
-        "lastErrorReason": "timeout",
-        "lastError": "Error: All models failed (3): openrouter/openrouter/auto: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys (auth) | 2603/gpt-5.4: 500 Post \"https://chatgpt.com/backend-api/codex/responses\": read tcp 192.168.0.180:50247->104.18.32.47:443: wsarecv: An existing connection was forcibly closed by the remote host. (timeout) | gemini/gemini-3.1-pro-preview: 502 unknown provider for model gemini-3.1-pro-preview (timeout)"
+        "nextRunAtMs": 1775577600000,
+        "lastRunAtMs": 1775491384718,
+        "lastStatus": "ok",
+        "lastDurationMs": 270167,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDeliveryStatus": "not-delivered",
+        "lastDelivered": false
       }
     },
     {

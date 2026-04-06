@@ -3008,3 +3008,34 @@ Current file contents:
         "s
 ... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
 2026-04-06T21:25:31.988+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T23:44:00.347+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity)
+2026-04-06T23:44:24.216+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T23:44:24.220+08:00 [ws] handshake timeout conn=c55f49d4-1e32-4ddb-ac30-4e2b99a3f798 remote=127.0.0.1
+2026-04-06T23:44:24.233+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T23:44:26.216+08:00 [ws] closed before connect conn=c55f49d4-1e32-4ddb-ac30-4e2b99a3f798 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
+2026-04-06T23:50:06.723+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\a940906e-2541-4315-8c50-3f9b60834d6d.jsonl.lock (dead-pid)
+2026-04-06T23:50:27.617+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T23:50:27.629+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T23:50:33.417+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-06T23:50:36.139+08:00 [bonjour] restarting advertiser (service stuck in announcing for 8526ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-06T23:58:35.170+08:00 [agent/embedded] embedded run failover decision: runId=e56eaa48-fd59-47f6-86af-b11a934f2f61 stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-07T00:00:00.116+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-07T00:00:27.241+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity) — deferring until 2 operation(s), 1 embedded run(s), 1 task run(s) complete
+2026-04-07T00:00:31.866+08:00 [agent/embedded] read tool called without path: toolCallId=call_0cb765a3e81e49b08273be6d1cfa839c argsType=object
+2026-04-07T00:00:31.921+08:00 [tools] read failed: Missing required parameter: path alias. Supply correct parameters before retrying. raw_params={}
+2026-04-07T00:01:01.967+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\c7b1ec3a-d412-4b17-a194-c2eb36fbc834.jsonl.lock (dead-pid)
+2026-04-07T00:01:19.758+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-07T00:01:19.767+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-07T00:01:24.682+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-07T00:01:41.843+08:00 [bonjour] restarting advertiser (service stuck in announcing for 22086ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-07T00:01:51.981+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=unannounced)
+2026-04-07T00:02:01.995+08:00 [bonjour] restarting advertiser (service stuck in unannounced for 10011ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=unannounced))
+2026-04-07T00:02:33.292+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity) — deferring until 1 task run(s) complete
+2026-04-07T00:03:23.134+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-07T00:03:23.146+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-07T00:03:29.214+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-07T00:03:32.574+08:00 [bonjour] restarting advertiser (service stuck in announcing for 9443ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-07T00:04:06.055+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-07T00:04:07.103+08:00 [bonjour] restarting advertiser (service stuck in probing for 14863ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing))
+2026-04-07T00:04:25.094+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-07T00:19:09.086+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity) — deferring until 1 task run(s) complete
