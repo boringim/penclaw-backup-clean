@@ -191,7 +191,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1775347500078,
+      "updatedAtMs": 1775446300711,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -210,15 +210,15 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1775433600000,
-        "lastRunAtMs": 1775347200029,
+        "nextRunAtMs": 1775520000000,
+        "lastRunAtMs": 1775446000364,
         "lastStatus": "error",
-        "lastDurationMs": 300049,
-        "consecutiveErrors": 16,
+        "lastDurationMs": 300347,
+        "consecutiveErrors": 17,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
-        "lastError": "cron: job execution timed out",
-        "lastErrorReason": "timeout"
+        "lastErrorReason": "timeout",
+        "lastError": "cron: job execution timed out"
       }
     },
     {
@@ -321,6 +321,31 @@
         "consecutiveErrors": 2,
         "lastErrorReason": "auth",
         "lastError": "FailoverError: No API key found for provider \"2603\". Auth store: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent\\auth-profiles.json (agentDir: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+      }
+    },
+    {
+      "id": "ceaee79b-2eec-4195-ad6b-f4e4a0a30cc9",
+      "agentId": "oc_baa6c26e80932344e32cf514de6acde3",
+      "name": "daqian-self-reflection",
+      "enabled": true,
+      "createdAtMs": 1775479789038,
+      "updatedAtMs": 1775479789038,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 4 * * *"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "执行深度自省任务：翻看过去 24 小时的聊天记录。重点查找用户不满意的反馈、回复延迟的原因以及逻辑漏洞。根据反思结果更新 SOUL.md 和 USER.md，并在 improvement_log.md 中记录今日进化的核心洞察。"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1775505600000
       }
     }
   ]

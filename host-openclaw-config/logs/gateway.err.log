@@ -2326,3 +2326,625 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-06T19:40:18.710+08:00 [agent/embedded] embedded run agent end: runId=f701025c-29b2-4b64-bb6a-a2c9b1a06752 isError=true model=gpt-5.4-xhigh provider=wellapi error=⚠️ API rate limit reached. Please try again later. rawError=429 当前分组上游负载已饱和，请稍后再试 (request id: sha256:be5a664b5c65)
 2026-04-06T19:40:58.778+08:00 [agent/embedded] embedded run agent end: runId=f701025c-29b2-4b64-bb6a-a2c9b1a06752 isError=true model=gpt-5.4-xhigh provider=wellapi error=⚠️ API rate limit reached. Please try again later. rawError=429 当前分组上游负载已饱和，请稍后再试 (request id: sha256:69cd6435d00d)
 2026-04-06T19:40:58.973+08:00 [agent/embedded] embedded run failover decision: runId=f701025c-29b2-4b64-bb6a-a2c9b1a06752 stage=assistant decision=surface_error reason=rate_limit provider=wellapi/gpt-5.4-xhigh profile=-
+2026-04-06T20:36:11.726+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T20:36:11.739+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T20:36:17.662+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-06T20:36:20.929+08:00 [bonjour] restarting advertiser (service stuck in announcing for 9205ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-06T20:39:58.332+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity) — deferring until 2 operation(s), 1 reply(ies), 1 embedded run(s) complete
+2026-04-06T20:40:32.820+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T20:40:32.823+08:00 [ws] handshake timeout conn=ec8dde5c-77ae-4c63-ad46-bcc67a809cb3 remote=127.0.0.1
+2026-04-06T20:40:32.828+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T20:40:35.301+08:00 [ws] closed before connect conn=ec8dde5c-77ae-4c63-ad46-bcc67a809cb3 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
+2026-04-06T20:40:49.472+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T20:41:23.266+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T20:42:25.745+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\AppData\Roaming
+pm
+ode_modules\openclaw\skills\clawhub\SKILL.md' raw_params={"path":"C:\\Users\\Administrator\\AppData\\Roaming\npm\node_modules\\openclaw\\skills\\clawhub\\SKILL.md"}
+2026-04-06T20:42:59.141+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T20:45:18.708+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T20:45:51.717+08:00 [tools] read failed: Missing required parameter: path alias. Supply correct parameters before retrying. raw_params={}
+2026-04-06T20:45:51.768+08:00 [agent/embedded] read tool called without path: toolCallId=call_bb2e6e27d63f4e4193ca6eedacbca915 argsType=object
+2026-04-06T20:46:16.384+08:00 [agent/embedded] embedded run timeout: runId=a4a5be09-00dc-4322-a366-576c5ce68d1a sessionId=cb9ea6c1-33b7-4791-8a07-5bfbf1deb6ed timeoutMs=300000
+2026-04-06T20:46:38.951+08:00 [agent/embedded] read tool called without path: toolCallId=call_cec16fc989f749fa9348a860146c0cc9 argsType=object
+2026-04-06T20:46:39.019+08:00 [tools] read failed: Missing required parameter: path alias. Supply correct parameters before retrying. raw_params={}
+2026-04-06T20:46:46.422+08:00 [agent/embedded] embedded run failover decision: runId=a4a5be09-00dc-4322-a366-576c5ce68d1a stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-06T20:46:58.825+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T20:52:29.220+08:00 [agent/embedded] read tool called without path: toolCallId=call_bd5c8b28926041238b1d403b24f7a9f4 argsType=object
+2026-04-06T20:52:29.289+08:00 [agent/embedded] read tool called without path: toolCallId=call_13516dc141c7440385ae4dab17fbd338 argsType=object
+2026-04-06T20:52:29.361+08:00 [agent/embedded] read tool called without path: toolCallId=call_47e67f82bd744f1fae7ae2bed67355ed argsType=object
+2026-04-06T20:52:29.477+08:00 [tools] read failed: Missing required parameter: path alias. Supply correct parameters before retrying. raw_params={}
+2026-04-06T20:52:29.483+08:00 [tools] read failed: Missing required parameter: path alias. Supply correct parameters before retrying. raw_params={}
+2026-04-06T20:52:29.492+08:00 [tools] read failed: Missing required parameter: path alias. Supply correct parameters before retrying. raw_params={}
+2026-04-06T20:54:18.502+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T20:56:21.277+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T21:01:09.068+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T21:02:01.549+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T21:02:23.267+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T21:07:23.571+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T21:09:52.829+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:10:11.005+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:10:16.595+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:10:34.533+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:11:07.306+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:12:22.184+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:12:31.863+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:12:43.364+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:12:53.034+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:13:02.441+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:13:26.034+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:13:51.974+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:13:56.320+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:14:00.987+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:14:14.445+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:14:19.260+08:00 [agent/embedded] embedded run timeout: runId=b65e3fc4-f4f0-4241-8255-ba6d0e616590 sessionId=a940906e-2541-4315-8c50-3f9b60834d6d timeoutMs=300000
+2026-04-06T21:14:19.483+08:00 [agent/embedded] embedded run failover decision: runId=b65e3fc4-f4f0-4241-8255-ba6d0e616590 stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-06T21:15:15.000+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T21:15:45.812+08:00 [agent/embedded] read tool called without path: toolCallId=call_f98557988aa74fec92abbc64176c4ecb argsType=object
+2026-04-06T21:15:45.956+08:00 [tools] read failed: Missing required parameter: path alias. Supply correct parameters before retrying. raw_params={}
+2026-04-06T21:15:52.274+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:15:56.696+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:16:56.765+08:00 [agent/embedded] embedded run failover decision: runId=9877bf1d-8ae3-4058-91ae-01c00bb0f76c stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-06T21:17:51.206+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:18:13.797+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:19:58.479+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:21:09.407+08:00 [agent/embedded] embedded run failover decision: runId=0ec31523-4501-491e-a7e6-04d3ed572ab4 stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
