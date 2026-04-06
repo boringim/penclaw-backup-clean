@@ -222654,3 +222654,41 @@ No destructive actions were taken.
 2026-04-07T00:24:34.318+08:00 [ws] ⇄ res ✓ chat.history 161ms conn=e20cea4b…cb68 id=85b3ff6d…ee3f
 2026-04-07T00:24:34.335+08:00 [ws] ⇄ res ✓ node.list 178ms conn=e20cea4b…cb68 id=125a9fe9…d005
 2026-04-07T00:24:34.338+08:00 [ws] ⇄ res ✓ device.pair.list 180ms conn=e20cea4b…cb68 id=3cfab30d…9251
+2026-04-07T04:00:02.212+08:00 [plugins] memory-lancedb-pro: smart extraction enabled (LLM model: openai/gpt-oss-120b, noise bank: ON)
+2026-04-07T04:00:02.215+08:00 [plugins] memory-lancedb-pro@1.1.0-beta.8: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small, smartExtraction: ON)
+2026-04-07T04:00:02.217+08:00 [plugins] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-04-07T04:00:02.221+08:00 [plugins] session-memory: hook registered for command:new as memory-lancedb-pro-session-memory
+2026-04-07T04:00:02.259+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-07T04:00:02.264+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-07T04:00:02.267+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-07T04:00:02.270+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-07T04:00:02.274+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-07T04:00:02.277+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-07T04:00:20.953+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_baa6c26e80932344e32cf514de6acde3
+2026-04-07T04:00:23.502+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-07T04:00:23.558+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-07T04:00:25.844+08:00 [ws] ⇄ res ✓ sessions.list 136ms conn=e20cea4b…cb68 id=cb9f0f55…a499
+2026-04-07T04:00:35.767+08:00 [ws] ⇄ res ✓ sessions.list 111ms conn=e20cea4b…cb68 id=478b83d1…98a7
+2026-04-07T04:01:07.766+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_baa6c26e80932344e32cf514de6acde3
+2026-04-07T04:01:07.898+08:00 [ws] ⇄ res ✓ sessions.list 125ms conn=e20cea4b…cb68 id=69ccc0c0…c706
+2026-04-07T04:01:08.812+08:00 [plugins] memory-lancedb-pro: smart extraction enabled (LLM model: openai/gpt-oss-120b, noise bank: ON)
+2026-04-07T04:01:08.814+08:00 [plugins] memory-lancedb-pro@1.1.0-beta.8: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small, smartExtraction: ON)
+2026-04-07T04:01:08.818+08:00 [plugins] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-04-07T04:01:08.822+08:00 [plugins] session-memory: hook registered for command:new as memory-lancedb-pro-session-memory
+2026-04-07T04:01:08.849+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-07T04:01:08.852+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-07T04:01:08.854+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-07T04:01:08.856+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-07T04:01:08.860+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-07T04:01:08.864+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-07T04:01:27.563+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_8f6fe7a8106b318e5d183817579bc8ea
+2026-04-07T04:01:30.043+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-07T04:01:30.073+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-07T04:01:32.282+08:00 [ws] ⇄ res ✓ sessions.list 126ms conn=e20cea4b…cb68 id=1d59d9f5…c40c
+2026-04-07T04:01:49.834+08:00 [ws] ⇄ res ✓ sessions.list 113ms conn=e20cea4b…cb68 id=6f26ed7d…67cb
+2026-04-07T04:01:50.027+08:00 [ws] ⇄ res ✓ sessions.list 110ms conn=7d628668…afd0 id=16edd4a9…77a0
+2026-04-07T04:01:52.329+08:00 [ws] ⇄ res ✓ sessions.list 110ms conn=e20cea4b…cb68 id=d18d4594…51c3
+2026-04-07T04:01:52.492+08:00 [ws] ⇄ res ✓ sessions.list 127ms conn=f920da28…d934 id=92d83ce4…57c3
+2026-04-07T04:01:55.252+08:00 [ws] ⇄ res ✓ sessions.list 115ms conn=e20cea4b…cb68 id=9f9ca57c…03d8
+2026-04-07T04:02:00.118+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
+2026-04-07T04:02:00.237+08:00 [ws] ⇄ res ✓ sessions.list 115ms conn=e20cea4b…cb68 id=4e188ffd…df0d

@@ -328,7 +328,7 @@
       "name": "daqian-self-reflection",
       "enabled": true,
       "createdAtMs": 1775479789038,
-      "updatedAtMs": 1775479789038,
+      "updatedAtMs": 1775505667940,
       "schedule": {
         "kind": "cron",
         "expr": "0 4 * * *"
@@ -344,7 +344,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775505600000
+        "nextRunAtMs": 1775592000000,
+        "lastRunAtMs": 1775505600020,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 67920,
+        "lastError": "Delivering to Feishu requires target <chatId|user:openId|chat:chatId>",
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1
       }
     },
     {
@@ -353,7 +360,7 @@
       "name": "laser-self-reflection",
       "enabled": true,
       "createdAtMs": 1775479800224,
-      "updatedAtMs": 1775479800224,
+      "updatedAtMs": 1775505720273,
       "schedule": {
         "kind": "cron",
         "expr": "0 4 * * *"
@@ -369,7 +376,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775505600000
+        "nextRunAtMs": 1775592000000,
+        "lastRunAtMs": 1775505667940,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 52333,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
       }
     }
   ]

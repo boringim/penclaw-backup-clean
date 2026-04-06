@@ -3044,3 +3044,10 @@ Current file contents:
 2026-04-07T00:24:30.755+08:00 [ws] handshake timeout conn=c0a5c0e0-d4f1-4933-8104-4b05379d7a05 remote=127.0.0.1
 2026-04-07T00:24:30.760+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
 2026-04-07T00:24:32.093+08:00 [ws] closed before connect conn=c0a5c0e0-d4f1-4933-8104-4b05379d7a05 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
+2026-04-07T04:00:35.499+08:00 [agent/embedded] read tool called without path: toolCallId=call_fada05192b5c4a88b5616465dc3a0d97 argsType=object
+2026-04-07T04:00:35.510+08:00 [agent/embedded] read tool called without path: toolCallId=call_8e4e67b8667d46739d800ef0ddf6d20d argsType=object
+2026-04-07T04:00:35.516+08:00 [agent/embedded] read tool called without path: toolCallId=call_77a014d718364e9aac91d3c48b1e55b1 argsType=object
+2026-04-07T04:00:35.537+08:00 [agent/embedded] read tool called without path: toolCallId=call_101b42b2099a47439a77c25d5e89cb49 argsType=object
+2026-04-07T04:00:35.630+08:00 [agent/embedded] read tool called without path: toolCallId=call_89bb7a14ea22446485be0a6fc15d5993 argsType=object
+2026-04-07T04:00:35.789+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\DAQIAN\memory\2026-04-06.md' raw_params={"file":"memory/2026-04-06.md"}
+2026-04-07T04:00:35.809+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\DAQIAN\memory\2026-04-07.md' raw_params={"file":"memory/2026-04-07.md"}
