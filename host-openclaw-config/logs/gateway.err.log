@@ -2948,3 +2948,63 @@ Current file contents:
         "s
 ... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
 2026-04-06T21:21:09.407+08:00 [agent/embedded] embedded run failover decision: runId=0ec31523-4501-491e-a7e6-04d3ed572ab4 stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-06T21:21:52.931+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:24:38.004+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T21:25:04.471+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.openclaw\openclaw.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "agents": {
+    "defaults": {
+      "timeoutSeconds": 300,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "model": {
+        "fallbacks": [],
+        "primary": "wellapi/gemini-3-flash-preview"
+      },
+      "models": {
+        "wellapi/gemini-3-flash-preview": {},
+        "wellapi/gemini-3.1-flash-image-preview": {},
+        "wellapi/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "C:\\Users\\Administrator\\.openclaw\\workspace"
+    },
+    "list": [
+      {
+        "agentDir": "C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent",
+        "id": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "model": "wellapi/gemini-3-flash-preview",
+        "name": "oc_981e24884af3ed7ed6c16c5730c9bd02",
+        "s
+... (truncated) raw_params={"edits":[{"newText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\ANQUANYUAN\"","oldText":"\"workspace\": \"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\""}],"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json"}
+2026-04-06T21:25:31.988+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
