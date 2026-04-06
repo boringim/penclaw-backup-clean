@@ -3039,3 +3039,8 @@ Current file contents:
 2026-04-07T00:04:07.103+08:00 [bonjour] restarting advertiser (service stuck in probing for 14863ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing))
 2026-04-07T00:04:25.094+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
 2026-04-07T00:19:09.086+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity) — deferring until 1 task run(s) complete
+2026-04-07T00:24:09.292+08:00 [reload] restart timeout after 300199ms with 1 task run(s) still active; restarting anyway
+2026-04-07T00:24:30.750+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-07T00:24:30.755+08:00 [ws] handshake timeout conn=c0a5c0e0-d4f1-4933-8104-4b05379d7a05 remote=127.0.0.1
+2026-04-07T00:24:30.760+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-07T00:24:32.093+08:00 [ws] closed before connect conn=c0a5c0e0-d4f1-4933-8104-4b05379d7a05 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
