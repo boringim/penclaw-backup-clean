@@ -1883,3 +1883,200 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-06T09:23:22.013+08:00 [ws] closed before connect conn=47c2ee6d-b063-4350-9bf3-c5df7f4c0b32 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
 2026-04-06T09:23:59.254+08:00 [ws] handshake timeout conn=84014d2b-732b-4d1d-a90f-724997e4eb8c remote=127.0.0.1
 2026-04-06T09:23:59.363+08:00 [ws] closed before connect conn=84014d2b-732b-4d1d-a90f-724997e4eb8c remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
+2026-04-06T09:33:53.940+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:34:01.639+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T09:34:07.773+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T09:34:27.909+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:34:29.896+08:00 [agent/embedded] embedded run agent end: runId=1bd6413c-91ee-46ac-a282-ada35c69c4af isError=true model=openrouter/auto provider=openrouter error=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys
+2026-04-06T09:34:29.981+08:00 [agent/embedded] embedded run failover decision: runId=1bd6413c-91ee-46ac-a282-ada35c69c4af stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:ac092b59b472
+2026-04-06T09:34:29.996+08:00 [diagnostic] lane task error: lane=main durationMs=69343 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T09:34:30.007+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=69365 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T09:34:30.027+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/openrouter/auto reason=auth next=ty/MiniMax-M2.5-oc
+2026-04-06T09:35:02.329+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:35:34.741+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:38:44.575+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=openrouter/openrouter/auto candidate=ty/MiniMax-M2.5-oc reason=unknown next=none
+2026-04-06T09:38:49.168+08:00 [agent/embedded] embedded run agent end: runId=e4634781-65ce-4a92-9a94-abf22838f7c8 isError=true model=openrouter/auto provider=openrouter error=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys
+2026-04-06T09:38:49.236+08:00 [agent/embedded] embedded run failover decision: runId=e4634781-65ce-4a92-9a94-abf22838f7c8 stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:ac092b59b472
+2026-04-06T09:38:49.245+08:00 [diagnostic] lane task error: lane=main durationMs=4249 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T09:38:49.256+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=4266 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T09:38:49.301+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/openrouter/auto reason=auth next=ty/MiniMax-M2.5-oc
+2026-04-06T09:38:55.214+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=openrouter/openrouter/auto candidate=ty/MiniMax-M2.5-oc reason=unknown next=none
+2026-04-06T09:39:47.087+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:40:20.027+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:40:24.204+08:00 [agent/embedded] embedded run agent end: runId=19e59ce3-e529-404d-9fd5-d22096778df2 isError=true model=openrouter/auto provider=openrouter error=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys
+2026-04-06T09:40:24.282+08:00 [agent/embedded] embedded run failover decision: runId=19e59ce3-e529-404d-9fd5-d22096778df2 stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:ac092b59b472
+2026-04-06T09:40:24.296+08:00 [diagnostic] lane task error: lane=main durationMs=70114 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T09:40:24.304+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=70132 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T09:40:24.319+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/openrouter/auto reason=auth next=ty/MiniMax-M2.5-oc
+2026-04-06T09:40:57.320+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:41:30.676+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:41:50.672+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=openrouter/openrouter/auto candidate=ty/MiniMax-M2.5-oc reason=unknown next=none
+2026-04-06T09:44:31.716+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:45:05.172+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:45:07.406+08:00 [agent/embedded] embedded run agent end: runId=f71dc0be-f358-4869-93c0-096b62a1bf8a isError=true model=openrouter/auto provider=openrouter error=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys
+2026-04-06T09:45:07.448+08:00 [agent/embedded] embedded run failover decision: runId=f71dc0be-f358-4869-93c0-096b62a1bf8a stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:ac092b59b472
+2026-04-06T09:45:07.458+08:00 [diagnostic] lane task error: lane=main durationMs=68897 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T09:45:07.466+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02 durationMs=68911 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T09:45:07.480+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/openrouter/auto reason=auth next=ty/MiniMax-M2.5-oc
+2026-04-06T09:45:40.605+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:46:13.859+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:46:29.642+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T09:47:23.207+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:47:55.883+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:47:58.705+08:00 [agent/embedded] embedded run agent end: runId=20551dfd-4f43-40da-9b34-81e4994e65cd isError=true model=openrouter/auto provider=openrouter error=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys
+2026-04-06T09:47:58.742+08:00 [agent/embedded] embedded run failover decision: runId=20551dfd-4f43-40da-9b34-81e4994e65cd stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:ac092b59b472
+2026-04-06T09:47:58.753+08:00 [diagnostic] lane task error: lane=main durationMs=68217 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T09:47:58.761+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=68231 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T09:47:58.774+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/openrouter/auto reason=auth next=ty/MiniMax-M2.5-oc
+2026-04-06T09:48:31.800+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:48:40.891+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=openrouter/openrouter/auto candidate=ty/MiniMax-M2.5-oc reason=unknown next=none
+2026-04-06T09:49:03.232+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T09:49:04.586+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:49:13.188+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:49:16.182+08:00 [diagnostic] lane wait exceeded: lane=main waitedMs=32796 queueAhead=0
+2026-04-06T09:49:16.210+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=openrouter/openrouter/auto candidate=ty/MiniMax-M2.5-oc reason=unknown next=none
+2026-04-06T09:49:45.552+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:49:47.588+08:00 [agent/embedded] embedded run agent end: runId=c9c19053-1107-491f-99f1-331ac1e96231 isError=true model=openrouter/auto provider=openrouter error=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys
+2026-04-06T09:49:47.624+08:00 [agent/embedded] embedded run failover decision: runId=c9c19053-1107-491f-99f1-331ac1e96231 stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:ac092b59b472
+2026-04-06T09:49:47.638+08:00 [diagnostic] lane task error: lane=main durationMs=66768 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T09:49:47.651+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_8f6fe7a8106b318e5d183817579bc8ea durationMs=68330 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T09:49:47.665+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/openrouter/auto reason=auth next=ty/MiniMax-M2.5-oc
+2026-04-06T09:49:48.587+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:50:19.988+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:50:20.979+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:50:24.630+08:00 [agent/embedded] embedded run agent end: runId=4b669530-8c3c-40c3-ad0a-b92bb7f5a5c3 isError=true model=openrouter/auto provider=openrouter error=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys
+2026-04-06T09:50:24.707+08:00 [agent/embedded] embedded run failover decision: runId=4b669530-8c3c-40c3-ad0a-b92bb7f5a5c3 stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:ac092b59b472
+2026-04-06T09:50:24.729+08:00 [diagnostic] lane task error: lane=main durationMs=68527 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T09:50:24.752+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02 durationMs=101360 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T09:50:24.773+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/openrouter/auto reason=auth next=ty/MiniMax-M2.5-oc
+2026-04-06T09:50:52.453+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:50:57.016+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:50:59.164+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=openrouter/openrouter/auto candidate=ty/MiniMax-M2.5-oc reason=unknown next=none
+2026-04-06T09:51:29.469+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T09:51:52.663+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=openrouter/openrouter/auto candidate=ty/MiniMax-M2.5-oc reason=unknown next=none
+2026-04-06T10:00:58.766+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T10:03:56.867+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T10:05:07.003+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T10:05:40.442+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T10:05:44.710+08:00 [agent/embedded] embedded run agent end: runId=f639b985-2c47-4828-9cdf-b1bb71edb20d isError=true model=openrouter/auto provider=openrouter error=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys
+2026-04-06T10:05:44.753+08:00 [agent/embedded] embedded run failover decision: runId=f639b985-2c47-4828-9cdf-b1bb71edb20d stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:ac092b59b472
+2026-04-06T10:05:44.764+08:00 [diagnostic] lane task error: lane=main durationMs=71031 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T10:05:44.776+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=71047 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T10:05:44.791+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/openrouter/auto reason=auth next=ty/MiniMax-M2.5-oc
+2026-04-06T10:06:18.029+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T10:06:51.376+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T10:07:10.447+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=openrouter/openrouter/auto candidate=ty/MiniMax-M2.5-oc reason=unknown next=none
+2026-04-06T10:09:23.021+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T10:09:56.451+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T10:09:58.322+08:00 [agent/embedded] embedded run agent end: runId=7ca69807-2f2c-4e14-852e-93975ccb9197 isError=true model=openrouter/auto provider=openrouter error=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys
+2026-04-06T10:09:58.371+08:00 [agent/embedded] embedded run failover decision: runId=7ca69807-2f2c-4e14-852e-93975ccb9197 stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:ac092b59b472
+2026-04-06T10:09:58.384+08:00 [diagnostic] lane task error: lane=main durationMs=68700 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T10:09:58.397+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=68722 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T10:09:58.413+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/openrouter/auto reason=auth next=ty/MiniMax-M2.5-oc
+2026-04-06T10:10:31.536+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T10:11:04.716+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T10:11:04.758+08:00 [plugins] memory-lancedb-pro: capture failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T10:11:37.507+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}}
+2026-04-06T10:20:31.660+08:00 [agent/embedded] embedded run timeout: runId=7ca69807-2f2c-4e14-852e-93975ccb9197 sessionId=161c3764-8f4b-45ac-ba76-c491c3d12b5e timeoutMs=600000
+2026-04-06T10:20:34.946+08:00 [agent/embedded] embedded run failover decision: runId=7ca69807-2f2c-4e14-852e-93975ccb9197 stage=assistant decision=fallback_model reason=timeout provider=ty/MiniMax-M2.5-oc profile=-
+2026-04-06T10:20:34.957+08:00 [diagnostic] lane task error: lane=main durationMs=636520 error="FailoverError: LLM request timed out."
+2026-04-06T10:20:34.967+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=636538 error="FailoverError: LLM request timed out."
+2026-04-06T10:20:34.982+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=ty/MiniMax-M2.5-oc reason=unknown next=none
+2026-04-06T10:20:34.990+08:00 Embedded agent failed before reply: All models failed (2): openrouter/openrouter/auto: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys (auth) | ty/MiniMax-M2.5-oc: LLM request timed out. (unknown)
+2026-04-06T10:20:37.706+08:00 Config warnings:\n- plugins.entries.amazon-bedrock: plugin amazon-bedrock: plugin id mismatch (manifest uses "amazon-bedrock", entry hints "amazon-bedrock-provider")
+- plugins.entries.anthropic: plugin anthropic: plugin id mismatch (manifest uses "anthropic", entry hints "anthropic-provider")
+- plugins.entries.anthropic-vertex: plugin anthropic-vertex: plugin id mismatch (manifest uses "anthropic-vertex", entry hints "anthropic-vertex-provider")
+- plugins.entries.brave: plugin brave: plugin id mismatch (manifest uses "brave", entry hints "brave-plugin")
+- plugins.entries.browser: plugin browser: plugin id mismatch (manifest uses "browser", entry hints "browser-plugin")
+- plugins.entries.byteplus: plugin byteplus: plugin id mismatch (manifest uses "byteplus", entry hints "byteplus-provider")
+- plugins.entries.chutes: plugin chutes: plugin id mismatch (manifest uses "chutes", entry hints "chutes-provider")
+- plugins.entries.cloudflare-ai-gateway: plugin cloudflare-ai-gateway: plugin id mismatch (manifest uses "cloudflare-ai-gateway", entry hints "cloudflare-ai-gateway-provider")
+- plugins.entries.deepgram: plugin deepgram: plugin id mismatch (manifest uses "deepgram", entry hints "deepgram-provider")
+- plugins.entries.deepseek: plugin deepseek: plugin id mismatch (manifest uses "deepseek", entry hints "deepseek-provider")
+- plugins.entries.duckduckgo: plugin duckduckgo: plugin id mismatch (manifest uses "duckduckgo", entry hints "duckduckgo-plugin")
+- plugins.entries.elevenlabs: plugin elevenlabs: plugin id mismatch (manifest uses "elevenlabs", entry hints "elevenlabs-speech")
+- plugins.entries.exa: plugin exa: plugin id mismatch (manifest uses "exa", entry hints "exa-plugin")
+- plugins.entries.fal: plugin fal: plugin id mismatch (manifest uses "fal", entry hints "fal-provider")
+- plugins.entries.firecrawl: plugin firecrawl: plugin id mismatch (manifest uses "firecrawl", entry hints "firecrawl-plugin")
+- plugins.entries.github-copilot: plugin github-copilot: plugin id mismatch (manifest uses "github-copilot", entry hints "github-copilot-provider")
+- plugins.entries.google: plugin google: plugin id mismatch (manifest uses "google", entry hints "google-plugin")
+- plugins.entries.groq: plugin groq: plugin id mismatch (manifest uses "groq", entry hints "groq-provider")
+- plugins.entries.huggingface: plugin huggingface: plugin id mismatch (manifest uses "huggingface", entry hints "huggingface-provider")
+- plugins.entries.kilocode: plugin kilocode: plugin id mismatch (manifest uses "kilocode", entry hints "kilocode-provider")
+- plugins.entries.kimi: plugin kimi: plugin id mismatch (manifest uses "kimi", entry hints "kimi-provider")
+- plugins.entries.litellm: plugin litellm: plugin id mismatch (manifest uses "litellm", entry hints "litellm-provider")
+- plugins.entries.microsoft: plugin microsoft: plugin id mismatch (manifest uses "microsoft", entry hints "microsoft-speech")
+- plugins.entries.minimax: plugin minimax: plugin id mismatch (manifest uses "minimax", entry hints "minimax-provider")
+- plugins.entries.mistral: plugin mistral: plugin id mismatch (manifest uses "mistral", entry hints "mistral-provider")
+- plugins.entries.modelstudio: plugin modelstudio: plugin id mismatch (manifest uses "modelstudio", entry hints "modelstudio-provider")
+- plugins.entries.moonshot: plugin moonshot: plugin id mismatch (manifest uses "moonshot", entry hints "moonshot-provider")
+- plugins.entries.nvidia: plugin nvidia: plugin id mismatch (manifest uses "nvidia", entry hints "nvidia-provider")
+- plugins.entries.openai: plugin openai: plugin id mismatch (manifest uses "openai", entry hints "openai-provider")
+- plugins.entries.opencode: plugin opencode: plugin id mismatch (manifest uses "opencode", entry hints "opencode-provider")
+- plugins.entries.opencode-go: plugin opencode-go: plugin id mismatch (manifest uses "opencode-go", entry hints "opencode-go-provider")
+- plugins.entries.openrouter: plugin openrouter: plugin id mismatch (manifest uses "openrouter", entry hints "openrouter-provider")
+- plugins.entries.openshell: plugin openshell: plugin id mismatch (manifest uses "openshell", entry hints "openshell-sandbox")
+- plugins.entries.perplexity: plugin perplexity: plugin id mismatch (manifest uses "perplexity", entry hints "perplexity-plugin")
+- plugins.entries.qianfan: plugin qianfan: plugin id mismatch (manifest uses "qianfan", entry hints "qianfan-provider")
+- plugins.entries.searxng: plugin searxng: plugin id mismatch (manifest uses "searxng", entry hints "searxng-plugin")
+- plugins.entries.synthetic: plugin synthetic: plugin id mismatch (manifest uses "synthetic", entry hints "synthetic-provider")
+- plugins.entries.tavily: plugin tavily: plugin id mismatch (manifest uses "tavily", entry hints "tavily-plugin")
+- plugins.entries.together: plugin together: plugin id mismatch (manifest uses "together", entry hints "together-provider")
+- plugins.entries.venice: plugin venice: plugin id mismatch (manifest uses "venice", entry hints "venice-provider")
+- plugins.entries.vercel-ai-gateway: plugin vercel-ai-gateway: plugin id mismatch (manifest uses "vercel-ai-gateway", entry hints "vercel-ai-gateway-provider")
+- plugins.entries.volcengine: plugin volcengine: plugin id mismatch (manifest uses "volcengine", entry hints "volcengine-provider")
+- plugins.entries.xai: plugin xai: plugin id mismatch (manifest uses "xai", entry hints "xai-plugin")
+- plugins.entries.xiaomi: plugin xiaomi: plugin id mismatch (manifest uses "xiaomi", entry hints "xiaomi-provider")
+- plugins.entries.zai: plugin zai: plugin id mismatch (manifest uses "zai", entry hints "zai-provider")
+2026-04-06T10:20:38.149+08:00 Config warnings:\n- plugins.entries.amazon-bedrock: plugin amazon-bedrock: plugin id mismatch (manifest uses "amazon-bedrock", entry hints "amazon-bedrock-provider")
+- plugins.entries.anthropic: plugin anthropic: plugin id mismatch (manifest uses "anthropic", entry hints "anthropic-provider")
+- plugins.entries.anthropic-vertex: plugin anthropic-vertex: plugin id mismatch (manifest uses "anthropic-vertex", entry hints "anthropic-vertex-provider")
+- plugins.entries.brave: plugin brave: plugin id mismatch (manifest uses "brave", entry hints "brave-plugin")
+- plugins.entries.browser: plugin browser: plugin id mismatch (manifest uses "browser", entry hints "browser-plugin")
+- plugins.entries.byteplus: plugin byteplus: plugin id mismatch (manifest uses "byteplus", entry hints "byteplus-provider")
+- plugins.entries.chutes: plugin chutes: plugin id mismatch (manifest uses "chutes", entry hints "chutes-provider")
+- plugins.entries.cloudflare-ai-gateway: plugin cloudflare-ai-gateway: plugin id mismatch (manifest uses "cloudflare-ai-gateway", entry hints "cloudflare-ai-gateway-provider")
+- plugins.entries.deepgram: plugin deepgram: plugin id mismatch (manifest uses "deepgram", entry hints "deepgram-provider")
+- plugins.entries.deepseek: plugin deepseek: plugin id mismatch (manifest uses "deepseek", entry hints "deepseek-provider")
+- plugins.entries.duckduckgo: plugin duckduckgo: plugin id mismatch (manifest uses "duckduckgo", entry hints "duckduckgo-plugin")
+- plugins.entries.elevenlabs: plugin elevenlabs: plugin id mismatch (manifest uses "elevenlabs", entry hints "elevenlabs-speech")
+- plugins.entries.exa: plugin exa: plugin id mismatch (manifest uses "exa", entry hints "exa-plugin")
+- plugins.entries.fal: plugin fal: plugin id mismatch (manifest uses "fal", entry hints "fal-provider")
+- plugins.entries.firecrawl: plugin firecrawl: plugin id mismatch (manifest uses "firecrawl", entry hints "firecrawl-plugin")
+- plugins.entries.github-copilot: plugin github-copilot: plugin id mismatch (manifest uses "github-copilot", entry hints "github-copilot-provider")
+- plugins.entries.google: plugin google: plugin id mismatch (manifest uses "google", entry hints "google-plugin")
+- plugins.entries.groq: plugin groq: plugin id mismatch (manifest uses "groq", entry hints "groq-provider")
+- plugins.entries.huggingface: plugin huggingface: plugin id mismatch (manifest uses "huggingface", entry hints "huggingface-provider")
+- plugins.entries.kilocode: plugin kilocode: plugin id mismatch (manifest uses "kilocode", entry hints "kilocode-provider")
+- plugins.entries.kimi: plugin kimi: plugin id mismatch (manifest uses "kimi", entry hints "kimi-provider")
+- plugins.entries.litellm: plugin litellm: plugin id mismatch (manifest uses "litellm", entry hints "litellm-provider")
+- plugins.entries.microsoft: plugin microsoft: plugin id mismatch (manifest uses "microsoft", entry hints "microsoft-speech")
+- plugins.entries.minimax: plugin minimax: plugin id mismatch (manifest uses "minimax", entry hints "minimax-provider")
+- plugins.entries.mistral: plugin mistral: plugin id mismatch (manifest uses "mistral", entry hints "mistral-provider")
+- plugins.entries.modelstudio: plugin modelstudio: plugin id mismatch (manifest uses "modelstudio", entry hints "modelstudio-provider")
+- plugins.entries.moonshot: plugin moonshot: plugin id mismatch (manifest uses "moonshot", entry hints "moonshot-provider")
+- plugins.entries.nvidia: plugin nvidia: plugin id mismatch (manifest uses "nvidia", entry hints "nvidia-provider")
+- plugins.entries.openai: plugin openai: plugin id mismatch (manifest uses "openai", entry hints "openai-provider")
+- plugins.entries.opencode: plugin opencode: plugin id mismatch (manifest uses "opencode", entry hints "opencode-provider")
+- plugins.entries.opencode-go: plugin opencode-go: plugin id mismatch (manifest uses "opencode-go", entry hints "opencode-go-provider")
+- plugins.entries.openrouter: plugin openrouter: plugin id mismatch (manifest uses "openrouter", entry hints "openrouter-provider")
+- plugins.entries.openshell: plugin openshell: plugin id mismatch (manifest uses "openshell", entry hints "openshell-sandbox")
+- plugins.entries.perplexity: plugin perplexity: plugin id mismatch (manifest uses "perplexity", entry hints "perplexity-plugin")
+- plugins.entries.qianfan: plugin qianfan: plugin id mismatch (manifest uses "qianfan", entry hints "qianfan-provider")
+- plugins.entries.searxng: plugin searxng: plugin id mismatch (manifest uses "searxng", entry hints "searxng-plugin")
+- plugins.entries.synthetic: plugin synthetic: plugin id mismatch (manifest uses "synthetic", entry hints "synthetic-provider")
+- plugins.entries.tavily: plugin tavily: plugin id mismatch (manifest uses "tavily", entry hints "tavily-plugin")
+- plugins.entries.together: plugin together: plugin id mismatch (manifest uses "together", entry hints "together-provider")
+- plugins.entries.venice: plugin venice: plugin id mismatch (manifest uses "venice", entry hints "venice-provider")
+- plugins.entries.vercel-ai-gateway: plugin vercel-ai-gateway: plugin id mismatch (manifest uses "vercel-ai-gateway", entry hints "vercel-ai-gateway-provider")
+- plugins.entries.volcengine: plugin volcengine: plugin id mismatch (manifest uses "volcengine", entry hints "volcengine-provider")
+- plugins.entries.xai: plugin xai: plugin id mismatch (manifest uses "xai", entry hints "xai-plugin")
+- plugins.entries.xiaomi: plugin xiaomi: plugin id mismatch (manifest uses "xiaomi", entry hints "xiaomi-provider")
+- plugins.entries.zai: plugin zai: plugin id mismatch (manifest uses "zai", entry hints "zai-provider")
+2026-04-06T10:20:46.558+08:00 [plugins] feishu failed to load from C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\dist\extensions\feishu\index.js: Error: Cannot find module '@larksuiteoapi/node-sdk'
+Require stack:
+- C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\dist\probe-Sr6ZihvE.js
+2026-04-06T10:20:47.441+08:00 [plugins] feishu failed to load from C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\dist\extensions\feishu\index.js: Error: Cannot find module '@larksuiteoapi/node-sdk'
+Require stack:
+- C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\dist\probe-Sr6ZihvE.js
+2026-04-06T10:21:20.267+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
