@@ -2089,3 +2089,67 @@ Require stack:
 2026-04-06T10:22:27.578+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
 2026-04-06T10:23:00.045+08:00 [plugins] memory-lancedb-pro: capture failed: Error: Failed to generate embedding from Jina: Request timed out.
 2026-04-06T10:23:00.059+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:25:35.316+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T11:25:35.435+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T11:25:42.118+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-06T11:25:45.100+08:00 [bonjour] restarting advertiser (service stuck in announcing for 9789ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-06T11:26:20.795+08:00 [bonjour] restarting advertiser (service stuck in announcing for 15515ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-06T11:26:35.298+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity)
+2026-04-06T11:26:58.803+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T11:26:58.810+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T11:27:01.760+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-06T11:27:02.111+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-06T11:28:20.655+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:29:01.138+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:29:05.358+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:29:07.584+08:00 [agent/embedded] embedded run agent end: runId=2210fb96-57d9-4fe8-9e8f-a7cf2f08d17d isError=true model=openrouter/auto provider=openrouter error=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys rawError=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys
+2026-04-06T11:29:07.698+08:00 [agent/embedded] embedded run failover decision: runId=2210fb96-57d9-4fe8-9e8f-a7cf2f08d17d stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:ac092b59b472
+2026-04-06T11:29:07.706+08:00 [diagnostic] lane task error: lane=nested durationMs=124338 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T11:29:07.738+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:cron:c4cc1ad6-25a8-4c64-9c0a-9a0041f49301 durationMs=124356 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T11:29:07.771+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/openrouter/auto reason=auth next=2603/gpt-5.4
+2026-04-06T11:29:53.864+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:29:54.875+08:00 [plugins] memory-lancedb-pro: capture failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:29:55.432+08:00 [agent/embedded] embedded run agent end: runId=c91e89c9-3bad-4c76-bb86-d1976aa3d4f9 isError=true model=openrouter/auto provider=openrouter error=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys rawError=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys
+2026-04-06T11:29:55.459+08:00 [agent/embedded] embedded run failover decision: runId=c91e89c9-3bad-4c76-bb86-d1976aa3d4f9 stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:ac092b59b472
+2026-04-06T11:29:55.461+08:00 [diagnostic] lane task error: lane=main durationMs=113201 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T11:29:55.465+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=113207 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T11:29:55.471+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/openrouter/auto reason=auth next=ty2/glm-5-oc
+2026-04-06T11:30:05.936+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:30:08.145+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:30:22.072+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T11:30:32.687+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:30:43.703+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:30:44.203+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:30:45.922+08:00 [agent/embedded] embedded run agent end: runId=70edd26a-bf83-4271-9ba6-7613c56fa050 isError=true model=openrouter/auto provider=openrouter error=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys rawError=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys
+2026-04-06T11:30:45.941+08:00 [agent/embedded] embedded run failover decision: runId=70edd26a-bf83-4271-9ba6-7613c56fa050 stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:ac092b59b472
+2026-04-06T11:30:45.943+08:00 [diagnostic] lane task error: lane=main durationMs=77359 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T11:30:45.947+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02 durationMs=77363 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T11:30:45.951+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/openrouter/auto reason=auth next=ty2/glm-5-oc
+2026-04-06T11:31:07.565+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:31:18.719+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:31:40.974+08:00 [agent/embedded] Profile 2603:default timed out. Trying next account...
+2026-04-06T11:31:40.987+08:00 [agent/embedded] embedded run failover decision: runId=2210fb96-57d9-4fe8-9e8f-a7cf2f08d17d stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:8c8e6742f32d
+2026-04-06T11:31:40.995+08:00 [diagnostic] lane task error: lane=nested durationMs=153174 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T11:31:41.002+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:cron:c4cc1ad6-25a8-4c64-9c0a-9a0041f49301 durationMs=153183 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T11:31:41.011+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=2603/gpt-5.4 reason=auth next=gemini/gemini-3.1-pro-preview
+2026-04-06T11:31:41.018+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=gemini/gemini-3.1-pro-preview reason=timeout next=none
+2026-04-06T11:31:52.825+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:32:01.779+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity) — deferring until 4 operation(s), 2 reply(ies), 2 embedded run(s) complete
+2026-04-06T11:33:04.274+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=openrouter/openrouter/auto candidate=ty2/glm-5-oc reason=unknown next=none
+2026-04-06T11:37:02.104+08:00 [reload] restart timeout after 300318ms with 2 operation(s), 1 reply(ies), 1 embedded run(s) still active; restarting anyway
+2026-04-06T11:38:24.475+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T11:38:32.245+08:00 [diagnostic] wait for active embedded runs timed out: activeRuns=1 timeoutMs=90000
+2026-04-06T11:38:32.249+08:00 [gateway] drain timeout reached; proceeding with restart
+2026-04-06T11:38:53.593+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T11:38:53.597+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T11:38:54.938+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=openrouter/openrouter/auto candidate=ty2/glm-5-oc reason=unknown next=none
+2026-04-06T11:38:55.408+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-06T11:39:49.626+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:40:25.857+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:43:14.134+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:43:50.472+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:44:37.140+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:45:11.992+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T11:46:47.753+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T11:47:14.491+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T11:50:55.488+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
