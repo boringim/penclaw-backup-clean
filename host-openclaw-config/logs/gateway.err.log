@@ -2153,3 +2153,46 @@ Require stack:
 2026-04-06T11:46:47.753+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-06T11:47:14.491+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-06T11:50:55.488+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T14:25:29.131+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T14:26:02.015+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T14:26:38.194+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T14:36:22.818+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity)
+2026-04-06T14:36:46.227+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T14:36:46.246+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T14:38:14.292+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T14:38:50.586+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T14:42:31.882+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T14:43:07.101+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T14:49:07.601+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T14:49:43.658+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T14:49:47.424+08:00 [tools] browser failed: BrowserProfileNotFoundError: Profile "google-auto" not found. Available profiles: chrome-relay, openclaw, user raw_params={"action":"open","targetUrl":"https://github.com/lancelot3777-svg/openclaw-backup-guide","profile":"google-auto"}
+2026-04-06T14:50:10.807+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"open","targetUrl":"https://github.com/lancelot3777-svg/openclaw-backup-guide","profile":"user"}
+2026-04-06T14:50:22.105+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}} raw_params={"query":"site:github.com lancelot3777-svg openclaw-backup-guide 文件级备份 GIT备份规则"}
+2026-04-06T15:12:03.752+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\cb9ea6c1-33b7-4791-8a07-5bfbf1deb6ed.jsonl.lock (dead-pid)
+2026-04-06T15:12:13.494+08:00 Gateway failed to start: gateway already running (pid 17228); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-06T15:12:14.703+08:00 Port 18789 is already in use.
+2026-04-06T15:12:14.714+08:00 - pid 17228: "C:\Program Files\nodejs\node.exe" --disable-warning=ExperimentalWarning C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\openclaw.mjs gateway --port 18789 (127.0.0.1:18789)
+2026-04-06T15:12:14.720+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-04-06T15:12:14.951+08:00 Gateway service appears registered. Stop it first.
+2026-04-06T15:12:14.960+08:00 Tip: openclaw gateway stop
+2026-04-06T15:12:14.964+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-04-06T15:12:26.378+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T15:12:26.471+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T15:12:32.798+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-06T15:12:40.013+08:00 [bonjour] restarting advertiser (service stuck in announcing for 13636ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-06T15:12:57.473+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T15:12:58.925+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T15:13:57.801+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T15:14:37.061+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T15:15:35.465+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-06T15:15:45.037+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity)
+2026-04-06T15:16:08.975+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T15:16:08.979+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T15:18:24.475+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T15:19:00.908+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T15:19:48.532+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity) — deferring until 2 operation(s), 1 reply(ies), 1 embedded run(s) complete
+2026-04-06T15:21:05.312+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T15:21:05.318+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T15:21:05.330+08:00 [ws] handshake timeout conn=052d97bc-38a3-4da6-856a-f57625a1982d remote=127.0.0.1
+2026-04-06T15:21:07.826+08:00 [ws] closed before connect conn=052d97bc-38a3-4da6-856a-f57625a1982d remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
