@@ -2302,3 +2302,27 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-06T18:51:12.807+08:00 Gateway service appears registered. Stop it first.
 2026-04-06T18:51:12.810+08:00 Tip: openclaw gateway stop
 2026-04-06T18:51:12.813+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-04-06T19:31:25.429+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T19:31:25.435+08:00 [ws] handshake timeout conn=85885537-3813-49cb-8a68-d6d4733e696b remote=127.0.0.1
+2026-04-06T19:31:25.447+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T19:31:29.785+08:00 [ws] closed before connect conn=85885537-3813-49cb-8a68-d6d4733e696b remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
+2026-04-06T19:31:31.660+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-06T19:31:34.446+08:00 [bonjour] restarting advertiser (service stuck in announcing for 9018ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-06T19:33:16.980+08:00 [agent/embedded] embedded run agent end: runId=5f21fbe6-9d2b-4ae1-844c-650963f469c2 isError=true model=gpt-5.4-xhigh provider=wellapi error=⚠️ API rate limit reached. Please try again later. rawError=429 当前分组上游负载已饱和，请稍后再试 (request id: sha256:4342d8f0dcc3)
+2026-04-06T19:33:49.257+08:00 [agent/embedded] embedded run agent end: runId=5f21fbe6-9d2b-4ae1-844c-650963f469c2 isError=true model=gpt-5.4-xhigh provider=wellapi error=⚠️ API rate limit reached. Please try again later. rawError=429 当前分组上游负载已饱和，请稍后再试 (request id: sha256:de910a3516d3)
+2026-04-06T19:34:24.489+08:00 [agent/embedded] embedded run agent end: runId=5f21fbe6-9d2b-4ae1-844c-650963f469c2 isError=true model=gpt-5.4-xhigh provider=wellapi error=⚠️ API rate limit reached. Please try again later. rawError=429 当前分组上游负载已饱和，请稍后再试 (request id: sha256:4fe5f785a2a6)
+2026-04-06T19:35:04.180+08:00 [agent/embedded] embedded run agent end: runId=5f21fbe6-9d2b-4ae1-844c-650963f469c2 isError=true model=gpt-5.4-xhigh provider=wellapi error=⚠️ API rate limit reached. Please try again later. rawError=429 当前分组上游负载已饱和，请稍后再试 (request id: sha256:bb3252c5bc33)
+2026-04-06T19:35:04.373+08:00 [agent/embedded] embedded run failover decision: runId=5f21fbe6-9d2b-4ae1-844c-650963f469c2 stage=assistant decision=surface_error reason=rate_limit provider=wellapi/gpt-5.4-xhigh profile=-
+2026-04-06T19:36:30.239+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity)
+2026-04-06T19:37:15.788+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T19:37:15.794+08:00 [ws] handshake timeout conn=818051b3-fe8e-43b7-b957-2df0b20bcb6e remote=127.0.0.1
+2026-04-06T19:37:15.810+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T19:37:20.280+08:00 [ws] closed before connect conn=818051b3-fe8e-43b7-b957-2df0b20bcb6e remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
+2026-04-06T19:37:22.110+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-06T19:37:24.915+08:00 [bonjour] restarting advertiser (service stuck in announcing for 9128ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-06T19:37:56.924+08:00 [bonjour] restarting advertiser (service stuck in announcing for 12502ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-06T19:39:09.991+08:00 [agent/embedded] embedded run agent end: runId=f701025c-29b2-4b64-bb6a-a2c9b1a06752 isError=true model=gpt-5.4-xhigh provider=wellapi error=⚠️ API rate limit reached. Please try again later. rawError=429 当前分组上游负载已饱和，请稍后再试 (request id: sha256:f4eacb189560)
+2026-04-06T19:39:42.657+08:00 [agent/embedded] embedded run agent end: runId=f701025c-29b2-4b64-bb6a-a2c9b1a06752 isError=true model=gpt-5.4-xhigh provider=wellapi error=⚠️ API rate limit reached. Please try again later. rawError=429 当前分组上游负载已饱和，请稍后再试 (request id: sha256:bd2261c8c3a4)
+2026-04-06T19:40:18.710+08:00 [agent/embedded] embedded run agent end: runId=f701025c-29b2-4b64-bb6a-a2c9b1a06752 isError=true model=gpt-5.4-xhigh provider=wellapi error=⚠️ API rate limit reached. Please try again later. rawError=429 当前分组上游负载已饱和，请稍后再试 (request id: sha256:be5a664b5c65)
+2026-04-06T19:40:58.778+08:00 [agent/embedded] embedded run agent end: runId=f701025c-29b2-4b64-bb6a-a2c9b1a06752 isError=true model=gpt-5.4-xhigh provider=wellapi error=⚠️ API rate limit reached. Please try again later. rawError=429 当前分组上游负载已饱和，请稍后再试 (request id: sha256:69cd6435d00d)
+2026-04-06T19:40:58.973+08:00 [agent/embedded] embedded run failover decision: runId=f701025c-29b2-4b64-bb6a-a2c9b1a06752 stage=assistant decision=surface_error reason=rate_limit provider=wellapi/gpt-5.4-xhigh profile=-
