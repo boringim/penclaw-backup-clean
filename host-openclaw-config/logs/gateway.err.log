@@ -2080,3 +2080,12 @@ Require stack:
 Require stack:
 - C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\dist\probe-Sr6ZihvE.js
 2026-04-06T10:21:20.267+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T10:21:52.585+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T10:21:54.979+08:00 [agent/embedded] embedded run agent end: runId=4bdc5400-9b9e-47ad-9371-fd164c47137f isError=true model=openrouter/auto provider=openrouter error=403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys
+2026-04-06T10:21:55.034+08:00 [agent/embedded] embedded run failover decision: runId=4bdc5400-9b9e-47ad-9371-fd164c47137f stage=assistant decision=fallback_model reason=auth provider=openrouter/openrouter/auto profile=sha256:ac092b59b472
+2026-04-06T10:21:55.045+08:00 [diagnostic] lane task error: lane=main durationMs=76782 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T10:21:55.057+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main durationMs=76798 error="FailoverError: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys"
+2026-04-06T10:21:55.070+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=openrouter/openrouter/auto candidate=openrouter/openrouter/auto reason=auth next=ty/MiniMax-M2.5-oc
+2026-04-06T10:22:27.578+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T10:23:00.045+08:00 [plugins] memory-lancedb-pro: capture failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-06T10:23:00.059+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.

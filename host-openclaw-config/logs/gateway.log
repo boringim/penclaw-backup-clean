@@ -220099,3 +220099,13 @@ No destructive actions were taken.
 2026-04-06T10:20:47.476+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-04-06T10:20:47.488+08:00 [plugins] hook runner initialized with 1 registered hooks
 2026-04-06T10:21:20.328+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T10:21:55.095+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T10:21:55.117+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T10:21:55.131+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T10:21:55.140+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T10:21:55.153+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T10:22:27.619+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-06T10:22:27.627+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-06T10:22:27.645+08:00 [plugins] memory-lancedb-pro: regex fallback found 2 capturable text(s) for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-06T10:22:27.695+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T10:22:38.253+08:00 typing TTL reached (2m); stopping typing indicator

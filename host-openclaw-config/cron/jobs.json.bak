@@ -217,8 +217,8 @@
         "consecutiveErrors": 16,
         "lastRunStatus": "error",
         "lastDeliveryStatus": "not-requested",
-        "lastErrorReason": "timeout",
-        "runningAtMs": 1775433600026
+        "lastError": "cron: job execution timed out",
+        "lastErrorReason": "timeout"
       }
     },
     {
