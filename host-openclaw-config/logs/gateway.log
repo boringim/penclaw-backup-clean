@@ -220808,3 +220808,85 @@ No destructive actions were taken.
 2026-04-06T15:21:29.136+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
 2026-04-06T15:21:29.139+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
 2026-04-06T15:21:29.145+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-06T15:49:17.653+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 1799893ms conn=34b62f6f…93c4 id=79242591…d5f5
+2026-04-06T15:53:35.329+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, models.providers.gemini-defapi.models, agents.defaults.models.gemini-defapi/gemini-3-flash-preview, plugins.entries.perplexity)
+2026-04-06T15:53:36.505+08:00 [gateway] signal SIGUSR1 received
+2026-04-06T15:53:36.512+08:00 [gateway] received SIGUSR1; restarting
+2026-04-06T15:53:37.434+08:00 [feishu] feishu[default]: abort signal received, stopping
+2026-04-06T15:53:37.436+08:00 [info]: [ '[ws]', 'ws client closed manually' ]
+2026-04-06T15:53:37.447+08:00 [gmail-watcher] gmail watcher stopped
+2026-04-06T15:53:37.455+08:00 [ws] webchat disconnected code=1012 reason=service restart conn=3bef1608-1a98-4894-9849-6597fd1f7578
+2026-04-06T15:53:37.476+08:00 [gateway] restart mode: in-process restart (win32: detached respawn unsupported without Scheduled Task markers)
+2026-04-06T15:53:40.541+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\Administrator\.openclaw\canvas)
+2026-04-06T15:53:40.580+08:00 [heartbeat] started
+2026-04-06T15:53:40.582+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-04-06T15:53:40.599+08:00 [gateway] agent model: gemini-defapi/gemini-3-flash-preview
+2026-04-06T15:53:40.603+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 17228)
+2026-04-06T15:53:40.606+08:00 [gateway] log file: \tmp\openclaw\openclaw-2026-04-06.log
+2026-04-06T15:53:41.145+08:00 [hooks] loaded 4 internal hook handlers
+2026-04-06T15:54:01.646+08:00 [feishu] starting feishu[default] (mode: websocket)
+2026-04-06T15:54:01.649+08:00 [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-04-06T15:54:01.657+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-04-06T15:54:01.676+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T15:54:01.705+08:00 [feishu] feishu[default]: dedup warmup loaded 11 entries from disk
+2026-04-06T15:54:01.706+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-06T15:54:01.712+08:00 [feishu] feishu[default]: starting WebSocket connection...
+2026-04-06T15:54:01.717+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-06T15:54:01.726+08:00 [feishu] feishu[default]: WebSocket client started
+2026-04-06T15:54:01.750+08:00 [ws] webchat connected conn=cc048968-c656-4c5f-aed5-8436c70fe083 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13
+2026-04-06T15:54:01.970+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-06T15:54:03.261+08:00 [ws] webchat connected conn=f65d24fa-c47c-4b12-9233-ae327f413854 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13
+2026-04-06T15:54:03.486+08:00 [ws] ⇄ res ✓ sessions.list 85ms conn=f65d24fa…3854 id=1611be15…0212
+2026-04-06T15:54:03.493+08:00 [ws] ⇄ res ✓ chat.history 102ms conn=f65d24fa…3854 id=5ba7d2d3…1852
+2026-04-06T15:54:03.517+08:00 [ws] ⇄ res ✓ node.list 130ms conn=f65d24fa…3854 id=6bf501b5…0024
+2026-04-06T15:54:03.523+08:00 [ws] ⇄ res ✓ device.pair.list 133ms conn=f65d24fa…3854 id=4f28e049…70c0
+2026-04-06T16:21:08.521+08:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, models.providers.gemini-defapi, models.providers.wellapi, agents.defaults.model.primary, agents.defaults.models.gemini-defapi/gemini-3-flash, agents.defaults.models.gemini-defapi/gemini-3-flash-preview, agents.defaults.models.wellapi/gpt-5.1-codex-max, plugins.entries.perplexity)
+2026-04-06T16:21:09.588+08:00 [gateway] signal SIGUSR1 received
+2026-04-06T16:21:09.591+08:00 [gateway] received SIGUSR1; restarting
+2026-04-06T16:21:10.573+08:00 [feishu] feishu[default]: abort signal received, stopping
+2026-04-06T16:21:10.575+08:00 [info]: [ '[ws]', 'ws client closed manually' ]
+2026-04-06T16:21:10.587+08:00 [gmail-watcher] gmail watcher stopped
+2026-04-06T16:21:10.592+08:00 [ws] webchat disconnected code=1012 reason=service restart conn=f65d24fa-c47c-4b12-9233-ae327f413854
+2026-04-06T16:21:10.608+08:00 [gateway] restart mode: in-process restart (win32: detached respawn unsupported without Scheduled Task markers)
+2026-04-06T16:21:13.756+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\Administrator\.openclaw\canvas)
+2026-04-06T16:21:13.786+08:00 [heartbeat] started
+2026-04-06T16:21:13.790+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-04-06T16:21:13.805+08:00 [gateway] agent model: wellapi/gpt-5.1-codex-max
+2026-04-06T16:21:13.807+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 17228)
+2026-04-06T16:21:13.810+08:00 [gateway] log file: \tmp\openclaw\openclaw-2026-04-06.log
+2026-04-06T16:21:14.331+08:00 [hooks] loaded 4 internal hook handlers
+2026-04-06T16:21:35.003+08:00 [feishu] starting feishu[default] (mode: websocket)
+2026-04-06T16:21:35.007+08:00 [feishu] feishu[default]: bot open_id resolved: ou_f1f557cde4bd987782c9a10d363bebed
+2026-04-06T16:21:35.015+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-04-06T16:21:35.033+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-06T16:21:35.072+08:00 [feishu] feishu[default]: dedup warmup loaded 11 entries from disk
+2026-04-06T16:21:35.074+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-06T16:21:35.079+08:00 [feishu] feishu[default]: starting WebSocket connection...
+2026-04-06T16:21:35.081+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-06T16:21:35.092+08:00 [feishu] feishu[default]: WebSocket client started
+2026-04-06T16:21:35.369+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-06T16:21:36.219+08:00 [ws] webchat connected conn=a7d49f26-0bc2-4fb0-b95c-056dd73922e0 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.13
+2026-04-06T16:21:36.406+08:00 [ws] ⇄ res ✓ sessions.list 135ms conn=a7d49f26…22e0 id=0289dbc8…fe02
+2026-04-06T16:21:36.415+08:00 [ws] ⇄ res ✓ chat.history 162ms conn=a7d49f26…22e0 id=e92c33f8…1333
+2026-04-06T16:21:36.436+08:00 [ws] ⇄ res ✓ node.list 185ms conn=a7d49f26…22e0 id=16477a1e…19a5
+2026-04-06T16:21:36.438+08:00 [ws] ⇄ res ✓ device.pair.list 188ms conn=a7d49f26…22e0 id=e99d2b04…0497

@@ -2196,3 +2196,15 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-06T15:21:05.318+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
 2026-04-06T15:21:05.330+08:00 [ws] handshake timeout conn=052d97bc-38a3-4da6-856a-f57625a1982d remote=127.0.0.1
 2026-04-06T15:21:07.826+08:00 [ws] closed before connect conn=052d97bc-38a3-4da6-856a-f57625a1982d remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
+2026-04-06T15:53:36.500+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity)
+2026-04-06T15:53:59.079+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T15:53:59.083+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T15:53:59.096+08:00 [ws] handshake timeout conn=cc048968-c656-4c5f-aed5-8436c70fe083 remote=127.0.0.1
+2026-04-06T15:54:01.174+08:00 [ws] closed before connect conn=cc048968-c656-4c5f-aed5-8436c70fe083 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
+2026-04-06T16:05:32.136+08:00 [reload] config reload skipped (invalid config): agents.defaults.model: Invalid input
+2026-04-06T16:20:59.495+08:00 [reload] config reload skipped (invalid config): agents.defaults.model: Invalid input
+2026-04-06T16:21:09.584+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity)
+2026-04-06T16:21:32.529+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-06T16:21:32.534+08:00 [ws] handshake timeout conn=2b177d55-28e8-4969-9862-f5e094b7fe4c remote=127.0.0.1
+2026-04-06T16:21:32.538+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-06T16:21:34.484+08:00 [ws] closed before connect conn=2b177d55-28e8-4969-9862-f5e094b7fe4c remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
