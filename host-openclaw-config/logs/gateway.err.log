@@ -3097,3 +3097,21 @@ Current file contents:
 2026-04-07T13:36:54.838+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-07T13:37:29.435+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-07T13:38:17.585+08:00 [agent/embedded] embedded run failover decision: runId=11b45314-e0e3-48eb-9679-b2824c26ea0d stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-07T14:28:07.813+08:00 [agent/embedded] embedded run failover decision: runId=b88bce7b-2841-4e77-8d20-e74b0dc752af stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-07T14:34:39.498+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-07T14:35:05.610+08:00 [agent/embedded] embedded run failover decision: runId=9ad3e829-2bd1-4cce-8393-2c7d98d451fe stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-07T14:55:32.015+08:00 [agent/embedded] embedded run failover decision: runId=79b8c6dc-bdcb-49f2-8590-86f32e09e86b stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-07T14:55:37.729+08:00 [feishu] feishu[default] final reply failed: Error: Client network socket disconnected before secure TLS connection was established
+2026-04-07T14:57:10.268+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-07T15:04:35.718+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-07T15:06:22.875+08:00 [agent/embedded] embedded run failover decision: runId=e7189784-39a2-48b0-bd67-f54572fe5c46 stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-07T15:07:43.866+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-07T15:19:37.938+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-07T15:19:37.946+08:00 [ws] handshake timeout conn=e64dfc48-4bdf-46c6-bd67-f9cff2f28d5d remote=127.0.0.1
+2026-04-07T15:19:37.960+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-07T15:19:44.034+08:00 [ws] closed before connect conn=6b9f3b3e-96b1-48cd-b18f-06ced819908c remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1006 reason=n/a
+2026-04-07T15:19:44.349+08:00 [ws] closed before connect conn=34709a70-49f8-4fb6-853f-74498403c6fa remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1001 reason=n/a
+2026-04-07T15:19:44.384+08:00 [ws] closed before connect conn=e64dfc48-4bdf-46c6-bd67-f9cff2f28d5d remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1005 reason=n/a
+2026-04-07T15:19:46.943+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-07T15:19:49.844+08:00 [bonjour] restarting advertiser (service stuck in announcing for 11908ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-07T15:20:21.386+08:00 [bonjour] restarting advertiser (service stuck in announcing for 14121ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
