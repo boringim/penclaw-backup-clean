@@ -3115,3 +3115,46 @@ Current file contents:
 2026-04-07T15:19:46.943+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
 2026-04-07T15:19:49.844+08:00 [bonjour] restarting advertiser (service stuck in announcing for 11908ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
 2026-04-07T15:20:21.386+08:00 [bonjour] restarting advertiser (service stuck in announcing for 14121ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-07T15:26:05.245+08:00 [agent/embedded] embedded run failover decision: runId=24728a3c-00f8-4b7f-af14-c7e376c27251 stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-07T15:27:46.907+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity) — deferring until 1 task run(s) complete
+2026-04-07T15:32:47.229+08:00 [reload] restart timeout after 300316ms with 1 task run(s) still active; restarting anyway
+2026-04-07T15:33:08.276+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-07T15:33:08.282+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-07T15:35:54.645+08:00 [agent/embedded] embedded run failover decision: runId=d49eaf4e-c95a-4620-bdcc-0a70cf2c6798 stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-07T15:44:52.435+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-07T15:44:52.452+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-07T15:44:57.999+08:00 [ws] closed before connect conn=3b258eb2-fdad-4235-97db-133401fb38cb remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1006 reason=n/a
+2026-04-07T15:44:58.004+08:00 [ws] closed before connect conn=78a0d991-717e-458c-b988-967dd07a6e77 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1006 reason=n/a
+2026-04-07T15:45:00.461+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-07T15:45:04.487+08:00 [bonjour] restarting advertiser (service stuck in announcing for 12059ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-07T15:45:04.601+08:00 [ws] closed before connect conn=6346384e-4883-4ef4-a241-25f49c7bbf9c remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1001 reason=n/a
+2026-04-07T15:50:18.574+08:00 [agent/embedded] embedded run agent end: runId=0c0a02bb-2489-4814-a212-fb63817783cd isError=true model=gemini-3-flash-preview provider=wellapi error=LLM request timed out. rawError=Request timed out.
+2026-04-07T15:51:45.850+08:00 [tools] edit failed: Could not find the exact text in C:\Users\Administrator\.model-router\config.json. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+{
+  "version": "1.1.0",
+  "providers": {
+    "wellapi": {
+      "configured": true,
+      "models": [
+        "gemini-3-flash-preview",
+        "gemini-3.1-pro-preview",
+        "gemini-3.1-flash-image-preview",
+        "gpt-5.4-nano"
+      ]
+    }
+  },
+  "task_mappings": {
+    "simple": "wellapi/gpt-5.4-nano",
+    "coding": "wellapi/gemini-3.1-pro-preview",
+    "research": "wellapi/gemini-3-flash-preview",
+    "vision": "wellapi/gemini-3.1-flash-image-preview",
+    "long_context": "wellapi/gemini-3.1-pro-preview"
+  },
+  "preferences": {
+    "cost_optimization": "balanced",
+    "default_provider": "wellapi",
+    "context_passthrough": true
+  }
+}
+ raw_params={"edits":[{"newText":" \"task_mappings\": {\n \"simple\": \"wellapi/gemini-3.1-flash-lite-preview\",\n \"coding\": \"wellapi/gemini-3.1-pro-preview\",\n \"research\": \"wellapi/gemini-3-flash-preview\",\n \"vision\": \"wellapi/gemini-3.1-flash-image-preview\",\n \"long_context\": \"wellapi/gemini-3.1-pro-preview\"\n },","oldText":" \"task_mappings\": {\n \"simple\": \"wellapi/gpt-5.4-nano\",\n \"coding\": \"wellapi/gemini-3.1-pro-preview\",\n \"research\": \"wellapi/gemini-3-flash-preview\",\n \"vision\": \"wellapi/gemini-3.1-flash-image-preview\",\n \"long_context\": \"wellapi/gemini-3.1-pro-…
