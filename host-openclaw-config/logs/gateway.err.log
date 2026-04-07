@@ -3079,3 +3079,21 @@ Current file contents:
 2026-04-07T12:01:03.045+08:00 [agent/embedded] read tool called without path: toolCallId=call_a86a72a86d7540d2b286bb6f41e9781f argsType=object
 2026-04-07T12:01:03.142+08:00 [tools] read failed: Missing required parameter: path alias. Supply correct parameters before retrying. raw_params={}
 2026-04-07T12:01:36.901+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-07T13:29:06.687+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-07T13:29:06.749+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-07T13:29:16.223+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-07T13:29:20.367+08:00 [bonjour] restarting advertiser (service stuck in announcing for 13719ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-07T13:29:37.001+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-07T13:31:36.206+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-07T13:32:27.971+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-07T13:32:27.990+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-07T13:32:36.756+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-07T13:32:39.718+08:00 [bonjour] restarting advertiser (service stuck in announcing for 11755ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-07T13:33:09.246+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-07T13:34:09.652+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-07T13:34:42.483+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-07T13:35:01.412+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-07T13:36:41.955+08:00 [agent/embedded] embedded run failover decision: runId=571b3bca-38bd-4f06-8301-75150f57d7e2 stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-07T13:36:54.838+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-07T13:37:29.435+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-07T13:38:17.585+08:00 [agent/embedded] embedded run failover decision: runId=11b45314-e0e3-48eb-9679-b2824c26ea0d stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
