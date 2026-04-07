@@ -3198,3 +3198,4 @@ Current file contents:
 2026-04-07T17:21:08.926+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
 2026-04-07T17:21:15.106+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
 2026-04-07T17:21:18.787+08:00 [bonjour] restarting advertiser (service stuck in announcing for 9873ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-07T20:50:22.990+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
