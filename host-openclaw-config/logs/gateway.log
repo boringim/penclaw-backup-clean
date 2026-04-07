@@ -222703,3 +222703,4 @@ No destructive actions were taken.
 2026-04-07T08:01:06.637+08:00 [ws] ⇄ res ✓ sessions.list 99ms conn=e20cea4b…cb68 id=ceee3753…f8f3
 2026-04-07T08:01:09.250+08:00 [plugins] memory-lancedb-pro: regex fallback found 1 capturable text(s) for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-07T08:01:09.401+08:00 [ws] ⇄ res ✓ sessions.list 141ms conn=e20cea4b…cb68 id=9a0e0505…af8f
+2026-04-07T10:52:20.438+08:00 [info]: [ '[ws]', 'reconnect' ]
