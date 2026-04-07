@@ -3053,3 +3053,29 @@ Current file contents:
 2026-04-07T04:00:35.809+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\DAQIAN\memory\2026-04-07.md' raw_params={"file":"memory/2026-04-07.md"}
 2026-04-07T07:50:32.250+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-07T08:00:00.081+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-07T11:23:58.087+08:00 [agent/embedded] embedded run failover decision: runId=2700ac3e-ab68-46b0-b0a7-a77312a60875 stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-07T11:24:52.594+08:00 [agent/embedded] embedded run agent end: runId=b05946f5-6263-4f58-9de8-b376362abea8 isError=true model=gemini-3-flash-preview provider=wellapi error=Provider finish_reason: content_filter rawError=Provider finish_reason: content_filter
+2026-04-07T11:26:55.729+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity) — deferring until 2 operation(s), 1 reply(ies), 1 embedded run(s), 1 task run(s) complete
+2026-04-07T11:27:07.214+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}} raw_params={"query":"openclaw digitaladaption/model-router skill"}
+2026-04-07T11:28:39.139+08:00 [agent/embedded] read tool called without path: toolCallId=call_484cbeb4bb024ceb8610f3a0fdce6125 argsType=object
+2026-04-07T11:28:39.235+08:00 [tools] read failed: Missing required parameter: path alias. Supply correct parameters before retrying. raw_params={}
+2026-04-07T11:29:01.353+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"open","url":"https://github.com/openclaw/skills/blob/main/skills/digitaladaption/model-router/SKILL.md"}
+2026-04-07T11:31:56.191+08:00 [reload] restart timeout after 300454ms with 2 operation(s), 1 reply(ies), 1 embedded run(s), 1 task run(s) still active; restarting anyway
+2026-04-07T11:33:26.293+08:00 [diagnostic] wait for active embedded runs timed out: activeRuns=1 timeoutMs=90000
+2026-04-07T11:33:26.298+08:00 [gateway] drain timeout reached; proceeding with restart
+2026-04-07T11:33:58.345+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-07T11:33:58.351+08:00 [ws] handshake timeout conn=b3edb146-f97c-499a-a002-7e793c471534 remote=127.0.0.1
+2026-04-07T11:34:00.924+08:00 [ws] closed before connect conn=b3edb146-f97c-499a-a002-7e793c471534 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
+2026-04-07T11:47:11.255+08:00 [agent/embedded] embedded run agent end: runId=32a35aa0-0cdb-4051-b015-26cb446d2833 isError=true model=gemini-3-flash-preview provider=wellapi error=terminated rawError=terminated
+2026-04-07T11:47:12.049+08:00 [agent/embedded] embedded run timeout: runId=32a35aa0-0cdb-4051-b015-26cb446d2833 sessionId=d4091040-2dad-4638-8f51-760841864f73 timeoutMs=600000
+2026-04-07T11:47:14.483+08:00 [agent/embedded] embedded run failover decision: runId=32a35aa0-0cdb-4051-b015-26cb446d2833 stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-07T11:48:42.675+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-07T11:56:49.536+08:00 [agent/embedded] read tool called without path: toolCallId=call_b9c090cca8c14e90b5e2a99302339ab1 argsType=object
+2026-04-07T11:56:49.765+08:00 [tools] read failed: Missing required parameter: path alias. Supply correct parameters before retrying. raw_params={}
+2026-04-07T11:56:49.774+08:00 [tools] read failed: Missing required parameter: path alias. Supply correct parameters before retrying. raw_params={}
+2026-04-07T11:56:49.783+08:00 [agent/embedded] read tool called without path: toolCallId=call_10355719aa634b5482801b12215a971d argsType=object
+2026-04-07T11:58:03.148+08:00 [agent/embedded] embedded run failover decision: runId=bd212f9d-4fac-44ca-9ac0-bb2c3dfe2e96 stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-07T12:00:01.003+08:00 [agent/embedded] embedded run failover decision: runId=26f31db3-bd69-4e53-8610-f87f2c73d2d9 stage=assistant decision=surface_error reason=timeout provider=wellapi/gemini-3-flash-preview profile=-
+2026-04-07T12:01:03.045+08:00 [agent/embedded] read tool called without path: toolCallId=call_a86a72a86d7540d2b286bb6f41e9781f argsType=object
+2026-04-07T12:01:03.142+08:00 [tools] read failed: Missing required parameter: path alias. Supply correct parameters before retrying. raw_params={}
+2026-04-07T12:01:36.901+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
