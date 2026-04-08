@@ -3285,3 +3285,8 @@ Current file contents:
 2026-04-08T12:01:09.022+08:00 [ws] closed before connect conn=7441ec1f-2dca-4bd2-a45a-11f71eb26f19 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1001 reason=n/a
 2026-04-08T12:01:09.067+08:00 [bonjour] restarting advertiser (service stuck in announcing for 12569ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
 2026-04-08T12:10:23.980+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"status","profile":"user","target":"host","timeoutMs":15000}
+2026-04-08T13:32:47.501+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-08T13:39:24.987+08:00 [tools] browser failed: TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('aria-ref=e642')[22m
+ raw_params={"action":"act","profile":"openclaw","target":"host","targetId":"D09946D0EF2674463251D7DF93A620E3","request":{"kind":"click","ref":"e642","targetId":"D09946D0EF2674463251D7DF93A620E3","timeoutMs":15000}}
