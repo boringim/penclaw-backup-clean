@@ -3322,3 +3322,18 @@ Call log:
 2026-04-08T16:11:57.239+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-08T16:12:15.750+08:00 [plugins] acpx ensureSession probing named session after ensure failure: session=agent:oc_baa6c26e80932344e32cf514de6acde3:acp:52c577ab-8a8d-40af-84af-c63f247a8901 cwd=C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group error=-32603: Failed to spawn agent command: oc_baa6c26e80932344e32cf514de6acde3
 2026-04-08T16:16:15.225+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-08T16:46:49.399+08:00 [agent/embedded] embedded run failover decision: runId=222168d1-1033-45bf-a3ca-655b0538845d stage=assistant decision=surface_error reason=timeout provider=wellapi/gpt-5.4-nano profile=-
+2026-04-08T16:48:58.608+08:00 [agent/embedded] read tool called without path: toolCallId=call_hv0KwZiP4MYu5VYMKGDArv0b argsType=object
+2026-04-08T16:48:58.634+08:00 [agent/embedded] read tool called without path: toolCallId=call_DUbhd2RIKT924OMglGq9nbcG argsType=object
+2026-04-08T16:49:07.402+08:00 [agent/embedded] read tool called without path: toolCallId=call_9sWDlyqbI5fIiEkcdq2Y9MEX argsType=object
+2026-04-08T16:49:07.429+08:00 [agent/embedded] read tool called without path: toolCallId=call_9zcJ0Wb6wkbUtjRruvvbECEm argsType=object
+2026-04-08T16:49:10.547+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"tabs","target":"host","profile":"user"}
+2026-04-08T16:50:20.821+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}} raw_params={"query":"site:wecreat.com WeCreat Vision Pro Basic Rotary Conveyor Super Pack Frequently Bought Together price includes","count":5}
+2026-04-08T16:52:52.904+08:00 [agent/embedded] embedded run timeout: runId=f0a135e8-2ad3-4c4e-aab8-a698bde419dc sessionId=75cd6cee-77c6-464f-a8c6-d8590b0f0aa1 timeoutMs=240000
+2026-04-08T16:52:53.185+08:00 [agent/embedded] embedded run failover decision: runId=f0a135e8-2ad3-4c4e-aab8-a698bde419dc stage=assistant decision=surface_error reason=timeout provider=XAI/GPT-5.4 profile=-
+2026-04-08T16:52:53.187+08:00 [agent] run f0a135e8-2ad3-4c4e-aab8-a698bde419dc ended with stopReason=stop
+2026-04-08T17:01:48.824+08:00 [agent/embedded] read tool called without path: toolCallId=call_60cw818NK33DSUPz9pQ3RLxo argsType=object
+2026-04-08T17:01:48.855+08:00 [agent/embedded] read tool called without path: toolCallId=call_z3bTFo1qBT94ltAyusaJlUqc argsType=object
+2026-04-08T17:01:54.398+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"status","target":"host","profile":"user"}
+2026-04-08T17:01:55.883+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"tabs","target":"host","profile":"user"}
+2026-04-08T17:04:30.136+08:00 [tools] exec failed: exec denied: allowlist miss raw_params={"command":"openclaw help","timeout":10,"yieldMs":10000,"security":"allowlist"}
