@@ -3398,3 +3398,17 @@ Call log:
 2026-04-09T00:38:49.307+08:00 [reload] restart timeout after 300130ms with 1 task run(s) still active; restarting anyway
 2026-04-09T00:39:10.127+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
 2026-04-09T00:39:10.138+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-09T04:00:34.068+08:00 [agent/embedded] read tool called without path: toolCallId=call_YRwbuHyzi9q49NR3n8hd3tVq argsType=object
+2026-04-09T04:00:34.079+08:00 [agent/embedded] read tool called without path: toolCallId=call_XU0y41m9LUK0fWvbzKzkYd0A argsType=object
+2026-04-09T04:01:02.125+08:00 [agent/embedded] read tool called without path: toolCallId=call_1I4bYmdhRm6XTQEmNgL6uhMN argsType=object
+2026-04-09T04:01:13.915+08:00 [agent/embedded] read tool called without path: toolCallId=call_f75OEzywVXysv0OqMmh1W4FJ argsType=object
+2026-04-09T04:01:41.864+08:00 [agent/embedded] read tool called without path: toolCallId=call_u1NhCzE6IoefFtfHpayUzgXG argsType=object
+2026-04-09T04:01:41.877+08:00 [agent/embedded] read tool called without path: toolCallId=call_3GDpfLTrnXnnbngz3d4krNuV argsType=object
+2026-04-09T04:02:51.686+08:00 [agent/embedded] read tool called without path: toolCallId=call_gp0R6v0R8DNubSCIuj93CCNu argsType=object
+2026-04-09T04:02:51.695+08:00 [agent/embedded] read tool called without path: toolCallId=call_TuSbWn7Eowv6lscUcMUttegr argsType=object
+2026-04-09T04:02:57.723+08:00 [agent/embedded] read tool called without path: toolCallId=call_OqbZJXLsS670lgibSGtLT4Nv argsType=object
+2026-04-09T04:02:57.730+08:00 [agent/embedded] read tool called without path: toolCallId=call_UGRWHmKtD5l2I09RkGlOlUSL argsType=object
+2026-04-09T04:02:57.748+08:00 [agent/embedded] read tool called without path: toolCallId=call_McHHpRrgxY2l2qqXe3A1pXuW argsType=object
+2026-04-09T04:02:57.880+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-09.md' raw_params={"file":"memory/2026-04-09.md"}
+2026-04-09T04:02:57.899+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-08.md' raw_params={"file":"memory/2026-04-08.md"}
+2026-04-09T04:02:57.910+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\improvement_log.md' raw_params={"file":"improvement_log.md"}

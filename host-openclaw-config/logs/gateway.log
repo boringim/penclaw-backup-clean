@@ -227195,3 +227195,43 @@ Bind: loopback
 2026-04-09T00:39:12.996+08:00 [ws] ⇄ res ✓ device.pair.list 247ms conn=7b9dbc63…c481 id=69b8d62d…6676
 2026-04-09T00:39:14.371+08:00 [plugins] acpx runtime backend ready
 2026-04-09T00:39:15.167+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-09T03:42:09.357+08:00 [ws] ⇄ res ✓ node.list 57ms conn=7b9dbc63…c481 id=329ebc6f…cebb
+2026-04-09T04:00:00.191+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T04:00:19.052+08:00 [ws] ⇄ res ✓ node.list 1434ms conn=7b9dbc63…c481 id=22494863…de59
+2026-04-09T04:00:22.712+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_baa6c26e80932344e32cf514de6acde3
+2026-04-09T04:00:26.121+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T04:00:26.154+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T04:00:27.781+08:00 [ws] ⇄ res ✓ sessions.list 226ms conn=7b9dbc63…c481 id=1658bb78…4d89
+2026-04-09T04:00:34.398+08:00 [ws] ⇄ res ✓ sessions.list 107ms conn=7b9dbc63…c481 id=a325df09…fc97
+2026-04-09T04:00:34.523+08:00 [ws] ⇄ res ✗ sessions.resolve 19ms errorCode=INVALID_REQUEST errorMessage=No session found: current conn=be6dc68b…8b2a id=313a6c27…096f
+2026-04-09T04:00:34.654+08:00 [ws] ⇄ res ✗ sessions.resolve 96ms errorCode=INVALID_REQUEST errorMessage=No session found: current conn=ba566851…2709 id=596ec89f…0e59
+2026-04-09T04:00:45.328+08:00 [ws] ⇄ res ✓ sessions.list 127ms conn=7b9dbc63…c481 id=b9371835…8fa6
+2026-04-09T04:00:45.460+08:00 [ws] ⇄ res ✓ sessions.list 95ms conn=47e43cbb…bb97 id=750671dd…b20d
+2026-04-09T04:00:53.552+08:00 [ws] ⇄ res ✓ sessions.list 91ms conn=7b9dbc63…c481 id=139efb24…77c9
+2026-04-09T04:01:02.365+08:00 [ws] ⇄ res ✓ sessions.list 106ms conn=7b9dbc63…c481 id=be5ea1b8…bfbd
+2026-04-09T04:01:14.150+08:00 [ws] ⇄ res ✓ sessions.list 117ms conn=7b9dbc63…c481 id=00b888ce…acaa
+2026-04-09T04:01:24.408+08:00 [ws] ⇄ res ✓ sessions.list 125ms conn=7b9dbc63…c481 id=a155a615…cb2b
+2026-04-09T04:01:34.110+08:00 [ws] ⇄ res ✓ sessions.list 121ms conn=7b9dbc63…c481 id=1708dbcf…5adf
+2026-04-09T04:01:41.993+08:00 [ws] ⇄ res ✓ sessions.list 103ms conn=7b9dbc63…c481 id=321d1dea…7f5c
+2026-04-09T04:01:48.116+08:00 [ws] ⇄ res ✓ sessions.list 123ms conn=7b9dbc63…c481 id=226ddfd9…facb
+2026-04-09T04:01:57.810+08:00 [ws] ⇄ res ✓ sessions.list 127ms conn=7b9dbc63…c481 id=35bd1447…a8aa
+2026-04-09T04:02:06.021+08:00 [ws] ⇄ res ✓ sessions.list 115ms conn=7b9dbc63…c481 id=40fe21db…9c04
+2026-04-09T04:02:20.147+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_baa6c26e80932344e32cf514de6acde3
+2026-04-09T04:02:20.261+08:00 [ws] ⇄ res ✓ sessions.list 108ms conn=7b9dbc63…c481 id=b42e02d9…5d6a
+2026-04-09T04:02:20.397+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T04:02:38.756+08:00 [ws] ⇄ res ✓ node.list 1394ms conn=7b9dbc63…c481 id=bea50b48…8c33
+2026-04-09T04:02:41.117+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_8f6fe7a8106b318e5d183817579bc8ea
+2026-04-09T04:02:44.632+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T04:02:44.654+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T04:02:46.172+08:00 [ws] ⇄ res ✓ sessions.list 119ms conn=7b9dbc63…c481 id=a722db0a…8e38
+2026-04-09T04:02:51.924+08:00 [ws] ⇄ res ✓ sessions.list 127ms conn=7b9dbc63…c481 id=5409409f…d3a4
+2026-04-09T04:02:51.982+08:00 [ws] ⇄ res ✗ sessions.resolve 11ms errorCode=INVALID_REQUEST errorMessage=No session found: current conn=841c2992…df07 id=1bc49538…2b2f
+2026-04-09T04:02:52.110+08:00 [ws] ⇄ res ✗ sessions.resolve 94ms errorCode=INVALID_REQUEST errorMessage=No session found: current conn=3f87d226…e50a id=c9f64022…3f3c
+2026-04-09T04:02:57.869+08:00 [ws] ⇄ res ✓ sessions.list 108ms conn=7b9dbc63…c481 id=5660fbb7…55b4
+2026-04-09T04:03:01.522+08:00 [ws] ⇄ res ✓ sessions.list 113ms conn=7b9dbc63…c481 id=aabd8ad2…2fca
+2026-04-09T04:03:05.588+08:00 [ws] ⇄ res ✓ sessions.list 130ms conn=7b9dbc63…c481 id=3d6193f6…6e62
+2026-04-09T04:03:22.785+08:00 [ws] ⇄ res ✓ sessions.list 117ms conn=7b9dbc63…c481 id=a88fbdb3…5b51
+2026-04-09T04:03:32.671+08:00 [ws] ⇄ res ✓ sessions.list 113ms conn=7b9dbc63…c481 id=2b6a0401…a3b0
+2026-04-09T04:03:40.866+08:00 [ws] ⇄ res ✓ sessions.list 116ms conn=7b9dbc63…c481 id=0a4a5535…7267
+2026-04-09T04:03:49.590+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
+2026-04-09T04:03:49.694+08:00 [ws] ⇄ res ✓ sessions.list 100ms conn=7b9dbc63…c481 id=bc766067…4cdb
