@@ -226243,3 +226243,267 @@ Bind: loopback
 2026-04-08T18:13:24.071+08:00 [ws] ⇄ res ✓ chat.history 63ms conn=cc9a308b…1e67 id=67e9bc49…e981
 2026-04-08T18:13:24.749+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-08T18:14:39.336+08:00 [ws] ⇄ res ✓ node.list 51ms conn=cc9a308b…1e67 id=5c62f432…8376
+2026-04-08T20:57:10.821+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-08T20:57:10.852+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 继续
+2026-04-08T20:57:10.930+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-08T20:57:17.734+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T20:57:19.103+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T20:57:19.134+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T20:57:20.711+08:00 [ws] ⇄ res ✓ node.list 1039ms conn=cc9a308b…1e67 id=05704a42…2272
+2026-04-08T20:57:20.993+08:00 [ws] ⇄ res ✓ sessions.list 234ms conn=cc9a308b…1e67 id=27b7ec68…0db7
+2026-04-08T20:57:32.905+08:00 [ws] ⇄ res ✓ sessions.list 143ms conn=cc9a308b…1e67 id=f5f2f5ae…14a2
+2026-04-08T20:57:33.763+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T20:57:34.829+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-08T20:58:11.662+08:00 [ws] ⇄ res ✓ channels.status 681ms conn=cc9a308b…1e67 id=d23524c7…209b
+2026-04-08T20:58:11.840+08:00 [ws] ⇄ res ✓ sessions.list 150ms conn=cc9a308b…1e67 id=d4d7cf56…7834
+2026-04-08T20:58:13.773+08:00 [ws] ⇄ res ✓ skills.status 1904ms conn=cc9a308b…1e67 id=bf25c222…9939
+2026-04-08T20:58:13.827+08:00 [ws] ⇄ res ✓ models.list 1962ms conn=cc9a308b…1e67 id=d37bcc04…83e3
+2026-04-08T20:58:13.842+08:00 [ws] ⇄ res ✓ cron.status 1992ms conn=cc9a308b…1e67 id=6a7fe541…ed03
+2026-04-08T20:58:13.853+08:00 [ws] ⇄ res ✓ cron.list 2006ms conn=cc9a308b…1e67 id=a28d7bf1…27ea
+2026-04-08T20:58:13.882+08:00 [ws] ⇄ res ✓ status 2030ms conn=cc9a308b…1e67 id=e78cc72c…4ff3
+2026-04-08T20:58:14.083+08:00 [ws] ⇄ res ✓ sessions.list 133ms conn=cc9a308b…1e67 id=c2611a67…985f
+2026-04-08T20:58:14.094+08:00 [ws] ⇄ res ✓ chat.history 208ms conn=cc9a308b…1e67 id=422cacc2…fd64
+2026-04-08T20:58:14.186+08:00 [ws] ⇄ res ✓ logs.tail 363ms conn=cc9a308b…1e67 id=bda592b1…60a7
+2026-04-08T20:58:14.872+08:00 [ws] ⇄ res ✓ node.list 153ms conn=cc9a308b…1e67 id=74171a43…6e09
+2026-04-08T20:58:15.726+08:00 [ws] ⇄ res ✓ sessions.usage 1947ms conn=cc9a308b…1e67 id=47d08ac1…0cab
+2026-04-08T20:58:15.855+08:00 [ws] ⇄ res ✓ chat.history 71ms conn=cc9a308b…1e67 id=71973668…755b
+2026-04-08T20:58:16.031+08:00 [ws] ⇄ res ✓ sessions.list 172ms conn=cc9a308b…1e67 id=eaeb0cb4…e606
+2026-04-08T20:58:46.481+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-08T20:58:46.491+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 继续 测试好告诉我
+2026-04-08T20:58:46.497+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-08T20:58:51.640+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T20:58:52.969+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T20:58:53.002+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T20:58:54.841+08:00 [ws] ⇄ res ✓ sessions.list 293ms conn=cc9a308b…1e67 id=de33b2f3…c50a
+2026-04-08T20:58:54.883+08:00 [ws] ⇄ res ✓ node.list 338ms conn=cc9a308b…1e67 id=2621ad7c…e59b
+2026-04-08T20:59:03.497+08:00 [ws] ⇄ res ✓ sessions.list 242ms conn=cc9a308b…1e67 id=b4833b58…546a
+2026-04-08T20:59:19.276+08:00 [ws] ⇄ res ✓ sessions.list 151ms conn=cc9a308b…1e67 id=5727ee25…8767
+2026-04-08T20:59:19.504+08:00 [ws] ⇄ res ✓ sessions.patch 139ms conn=7d18c6d8…b230 id=65d7912c…5e3f
+2026-04-08T20:59:19.674+08:00 [ws] ⇄ res ✓ sessions.list 150ms conn=cc9a308b…1e67 id=e8fb9b8c…ad45
+2026-04-08T20:59:19.737+08:00 [ws] ⇄ res ✓ sessions.patch 324ms conn=76a5500c…d6c6 id=7574161f…1e37
+2026-04-08T20:59:19.887+08:00 [ws] ⇄ res ✓ sessions.list 130ms conn=cc9a308b…1e67 id=322c19e8…ec61
+2026-04-08T20:59:19.938+08:00 [ws] ⇄ res ✓ sessions.patch 474ms conn=d66dc295…f877 id=39624f18…5ddd
+2026-04-08T20:59:20.263+08:00 [ws] ⇄ res ✓ sessions.list 135ms conn=cc9a308b…1e67 id=69066874…6d97
+2026-04-08T20:59:20.346+08:00 [ws] ⇄ res ✓ sessions.patch 247ms conn=53f85f9e…9df4 id=c484d102…e014
+2026-04-08T20:59:20.509+08:00 [ws] ⇄ res ✓ sessions.list 144ms conn=cc9a308b…1e67 id=30918bc3…3dc6
+2026-04-08T20:59:20.588+08:00 [ws] ⇄ res ✓ sessions.patch 285ms conn=8db99ea5…7a64 id=18e50297…a5a5
+2026-04-08T20:59:20.731+08:00 [ws] ⇄ res ✓ sessions.list 127ms conn=cc9a308b…1e67 id=ce91f9da…9cb9
+2026-04-08T20:59:20.822+08:00 [ws] ⇄ res ✓ sessions.patch 259ms conn=76e26a67…bb80 id=3cd3064d…952f
+2026-04-08T20:59:21.002+08:00 [ws] ⇄ res ✓ sessions.list 161ms conn=cc9a308b…1e67 id=c2dc7a6e…b234
+2026-04-08T20:59:21.108+08:00 [ws] ⇄ res ✓ agent 338ms runId=b6c2f046-7d57-476a-97bf-5a7841d261f8 conn=70cbfd44…b484 id=e7e0de65…13c8
+2026-04-08T20:59:21.414+08:00 [ws] ⇄ res ✓ sessions.list 138ms conn=cc9a308b…1e67 id=e07c22c9…7c5d
+2026-04-08T20:59:22.271+08:00 [ws] ⇄ res ✓ agent 1220ms runId=a6146892-16b2-4a5e-b1b8-6277b9e51ccf conn=68f02e8a…01b9 id=57c7ee09…fce4
+2026-04-08T20:59:22.682+08:00 [ws] ⇄ res ✓ agent 728ms runId=a4b43612-434b-460f-bff7-478a52f2b4ab conn=8fd8dca1…f7ed id=fad2ffb0…4bc2
+2026-04-08T20:59:23.346+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T20:59:25.843+08:00 [ws] ⇄ res ✓ sessions.list 158ms conn=cc9a308b…1e67 id=4f875c11…ec26
+2026-04-08T20:59:27.691+08:00 [ws] ⇄ res ✓ sessions.list 178ms conn=cc9a308b…1e67 id=1270e20e…5a03
+2026-04-08T20:59:27.817+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T20:59:28.706+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T20:59:30.010+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T20:59:30.038+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T20:59:31.759+08:00 [ws] ⇄ res ✓ sessions.list 239ms conn=cc9a308b…1e67 id=1702cde2…2d22
+2026-04-08T20:59:32.488+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T20:59:34.281+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-04-08T20:59:34.347+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T20:59:34.389+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T20:59:35.907+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T20:59:36.132+08:00 [ws] ⇄ res ✓ sessions.list 160ms conn=cc9a308b…1e67 id=076fa330…bfd2
+2026-04-08T20:59:36.211+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T20:59:36.241+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T20:59:37.912+08:00 [ws] ⇄ res ✓ sessions.list 299ms conn=cc9a308b…1e67 id=b54cc11e…3658
+2026-04-08T20:59:45.640+08:00 [ws] ⇄ res ✓ agent.wait 23265ms conn=4620e540…ff05 id=eb016b2d…13fd
+2026-04-08T20:59:45.826+08:00 [ws] ⇄ res ✓ sessions.list 168ms conn=cc9a308b…1e67 id=a17c8cb5…5655
+2026-04-08T20:59:46.078+08:00 nano ok
+2026-04-08T20:59:46.326+08:00 [ws] ⇄ res ✓ sessions.list 158ms conn=cc9a308b…1e67 id=b1e3715a…2796
+2026-04-08T20:59:46.558+08:00 [ws] ⇄ res ✓ sessions.list 148ms conn=cc9a308b…1e67 id=516dbc87…480f
+2026-04-08T20:59:46.702+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T20:59:46.877+08:00 [ws] ⇄ res ✓ agent 67ms runId=announce:v1:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:subagent:9feb0691-083b-40f1-90ac-7e290559f1a3:b6c2f046-7d57-476a-97bf-5a7841d261f8 conn=acde2a62…9ca3 id=d5eb26de…68f2
+2026-04-08T20:59:47.062+08:00 [ws] ⇄ res ✓ sessions.list 156ms conn=cc9a308b…1e67 id=9c267df9…b403
+2026-04-08T20:59:47.539+08:00 [ws] ⇄ res ✓ agent.wait 24840ms conn=6a339302…93a0 id=30eb0229…5590
+2026-04-08T20:59:47.702+08:00 [ws] ⇄ res ✓ sessions.list 153ms conn=cc9a308b…1e67 id=93cff0a0…585a
+2026-04-08T20:59:47.936+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T20:59:47.951+08:00 xai ok
+2026-04-08T20:59:48.292+08:00 [ws] ⇄ res ✓ sessions.list 160ms conn=cc9a308b…1e67 id=436d9e12…1e1a
+2026-04-08T20:59:48.493+08:00 [ws] ⇄ res ✓ sessions.list 142ms conn=cc9a308b…1e67 id=2b255434…4f4c
+2026-04-08T20:59:48.626+08:00 [ws] ⇄ res ✓ agent 89ms runId=announce:v1:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:subagent:d37e2125-20d9-448d-88a7-a0506eeb1a63:a6146892-16b2-4a5e-b1b8-6277b9e51ccf conn=fbfdf1a9…2ba8 id=9bac8d4c…d2c9
+2026-04-08T20:59:48.806+08:00 [ws] ⇄ res ✓ sessions.list 156ms conn=cc9a308b…1e67 id=0d87332f…6a2b
+2026-04-08T20:59:50.508+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T20:59:51.809+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T20:59:51.834+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T20:59:53.508+08:00 [ws] ⇄ res ✓ sessions.list 156ms conn=cc9a308b…1e67 id=d7a2840a…4a4e
+2026-04-08T20:59:58.654+08:00 [ws] ⇄ res ✓ sessions.list 145ms conn=cc9a308b…1e67 id=32cbce38…9dd3
+2026-04-08T21:00:00.413+08:00 [ws] ⇄ res ✓ sessions.list 144ms conn=cc9a308b…1e67 id=7d0fa38a…6b05
+2026-04-08T21:00:00.597+08:00 No reply from agent.
+2026-04-08T21:00:01.131+08:00 [ws] ⇄ res ✓ sessions.delete 486ms conn=620f7f3b…9d18 id=e3153d80…78c4
+2026-04-08T21:00:01.154+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:00:01.321+08:00 [ws] ⇄ res ✓ sessions.list 155ms conn=cc9a308b…1e67 id=17a55c41…b8d8
+2026-04-08T21:00:03.686+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T21:00:04.955+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:00:04.986+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:00:06.762+08:00 [ws] ⇄ res ✓ sessions.list 172ms conn=cc9a308b…1e67 id=84d5ea9a…590a
+2026-04-08T21:00:09.828+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-08T21:00:09.832+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-08T21:00:09.838+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T21:00:12.128+08:00 [ws] ⇄ res ✓ sessions.list 174ms conn=cc9a308b…1e67 id=7f993516…ca41
+2026-04-08T21:00:12.245+08:00 No reply from agent.
+2026-04-08T21:00:12.266+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-08T21:00:12.268+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-08T21:00:12.274+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T21:00:12.824+08:00 [ws] ⇄ res ✓ sessions.delete 516ms conn=b5f35f8d…915f id=8fa3652c…b24c
+2026-04-08T21:00:12.849+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:00:13.023+08:00 [ws] ⇄ res ✓ sessions.list 164ms conn=cc9a308b…1e67 id=bb297b93…d49d
+2026-04-08T21:00:19.508+08:00 [ws] ⇄ res ✓ sessions.list 151ms conn=cc9a308b…1e67 id=d0b08367…95de
+2026-04-08T21:01:23.060+08:00 [ws] ⇄ res ✓ agent.wait 120020ms conn=dad30c46…f73c id=3e436e08…5df1
+2026-04-08T21:01:23.498+08:00 Request timed out before a response was generated. Please try again, or increase `agents.defaults.timeoutSeconds` in your config.
+2026-04-08T21:01:26.625+08:00 [ws] ⇄ res ✓ sessions.list 184ms conn=cc9a308b…1e67 id=8845708f…8317
+2026-04-08T21:01:58.809+08:00 [ws] ⇄ res ✓ agent 60ms runId=announce:v1:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:subagent:73e27c01-7520-4461-9576-c57f86f5ae5a:a4b43612-434b-460f-bff7-478a52f2b4ab conn=e3a19a90…6ee7 id=45a687a1…dcc1
+2026-04-08T21:01:58.978+08:00 [ws] ⇄ res ✓ sessions.list 149ms conn=cc9a308b…1e67 id=8a614d81…e1cb
+2026-04-08T21:01:59.574+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:02:01.976+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T21:02:03.307+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:02:03.339+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:02:05.554+08:00 [ws] ⇄ res ✓ sessions.list 209ms conn=cc9a308b…1e67 id=33e34ef1…0635
+2026-04-08T21:02:05.560+08:00 [ws] ⇄ res ✓ node.list 216ms conn=cc9a308b…1e67 id=082f4442…f689
+2026-04-08T21:02:17.757+08:00 [ws] ⇄ res ✓ sessions.list 163ms conn=cc9a308b…1e67 id=e75db533…a9ec
+2026-04-08T21:02:17.891+08:00 我这轮已经测完了，结果如下：
+
+- `wellapi/gpt-5.4-nano`：通过
+- `XAI/GPT-5.4`：通过
+- `wellapi/gemini-3.1-flash-image-preview`：这轮超时，没正常返回
+
+所以现在可以明确确认两件事：
+
+- `model-router` 修完后，**simple / coding-research 这条执行闭环已经能跑通**
+- 但 **vision 这条还不能算验收通过**，因为这次最小子 agent 验证超时了
+
+## 这代表什么
+现在“自动切换大模型”这件事，已经不是全线不通，而是分成两层：
+
+- 文字类 / 编码类 / 研究类
+  - 已经基本可用
+- 视觉类
+  - 还需要单独继续查为什么 `gemini-3.1-flash-image-preview` 这轮超时
+
+## 当前最准确结论
+> 这轮测试已经证明：
+> - `wellapi/gpt-5.4-nano` 可用
+> - `XAI/GPT-5.4` 可用
+> - `wellapi/gemini-3.1-flash-image-preview` 暂未验收通过
+
+所以如果你现在要一个实话版状态：
+
+> **自动切换大模型这件事，文字和编码任务基本打通了；视觉模型这条还差最后一段。**
+
+如果你要，我下一步就直接继续只盯这一个点：
+1. 单独测视觉模型为什么超时
+2. 判断是模型本身、子 agent 路径，还是任务类型不对
+3. 修完后再给你最终完整通过结果
+2026-04-08T21:02:18.427+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-08T21:02:18.431+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-08T21:02:18.437+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T21:02:19.902+08:00 [ws] ⇄ res ✓ sessions.delete 519ms conn=79c0b209…8480 id=a402fd92…b7b8
+2026-04-08T21:02:19.931+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:02:20.102+08:00 [ws] ⇄ res ✓ sessions.list 162ms conn=cc9a308b…1e67 id=9d5bc311…57d0
+2026-04-08T21:04:49.012+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-08T21:04:49.024+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 测试一下
+2026-04-08T21:04:49.065+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-08T21:04:53.715+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T21:04:54.983+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:04:55.015+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:04:56.576+08:00 [ws] ⇄ res ✓ sessions.list 131ms conn=cc9a308b…1e67 id=bca67855…04c8
+2026-04-08T21:05:22.186+08:00 [ws] ⇄ res ✓ sessions.list 163ms conn=cc9a308b…1e67 id=bcacb3e9…5abe
+2026-04-08T21:05:22.302+08:00 [ws] ⇄ res ✓ sessions.patch 76ms conn=7dd5ce67…d1e5 id=79ed7eb6…3455
+2026-04-08T21:05:22.470+08:00 [ws] ⇄ res ✓ sessions.list 148ms conn=cc9a308b…1e67 id=ca979d13…0cec
+2026-04-08T21:05:22.618+08:00 [ws] ⇄ res ✓ sessions.patch 70ms conn=a67648e5…00a0 id=9d90fe52…a2b3
+2026-04-08T21:05:22.783+08:00 [ws] ⇄ res ✓ sessions.list 147ms conn=cc9a308b…1e67 id=a6fca0ed…160f
+2026-04-08T21:05:22.918+08:00 [ws] ⇄ res ✓ agent 93ms runId=405e228e-f252-44d1-b108-08b25d988956 conn=a30f8912…3b64 id=d2eb5d4b…ac81
+2026-04-08T21:05:23.185+08:00 [ws] ⇄ res ✓ sessions.list 134ms conn=cc9a308b…1e67 id=ed289264…f450
+2026-04-08T21:05:24.372+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:05:27.582+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T21:05:28.909+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:05:28.940+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:05:29.614+08:00 [ws] ⇄ res ✓ sessions.list 169ms conn=cc9a308b…1e67 id=fbf54bd3…e4d8
+2026-04-08T21:05:29.619+08:00 [ws] ⇄ res ✓ node.list 257ms conn=cc9a308b…1e67 id=0a338e1a…f415
+2026-04-08T21:05:32.753+08:00 [ws] ⇄ res ✓ sessions.list 166ms conn=cc9a308b…1e67 id=c8e0844f…2772
+2026-04-08T21:05:33.515+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T21:05:34.308+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-08T21:06:29.566+08:00 [ws] ⇄ res ✓ agent.wait 65439ms conn=1a85c8d1…37e6 id=e18fd5a9…2519
+2026-04-08T21:06:29.770+08:00 [ws] ⇄ res ✓ sessions.list 186ms conn=cc9a308b…1e67 id=7b539037…eb7e
+2026-04-08T21:06:29.905+08:00 Request timed out before a response was generated. Please try again, or increase `agents.defaults.timeoutSeconds` in your config.
+2026-04-08T21:06:34.209+08:00 [ws] ⇄ res ✓ sessions.list 196ms conn=cc9a308b…1e67 id=722daa55…b999
+2026-04-08T21:07:04.647+08:00 [ws] ⇄ res ✓ chat.history 55ms conn=53d74719…b323 id=5b4652ab…56c4
+2026-04-08T21:07:04.672+08:00 [ws] ⇄ res ✓ node.list 85ms conn=cc9a308b…1e67 id=53cd9dc3…5830
+2026-04-08T21:07:06.119+08:00 [ws] ⇄ res ✓ agent 62ms runId=announce:v1:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:subagent:7961c173-635c-47e5-a641-68d042b9c10c:405e228e-f252-44d1-b108-08b25d988956 conn=6f0c2148…1bbe id=d9ce150c…b851
+2026-04-08T21:07:06.285+08:00 [ws] ⇄ res ✓ sessions.list 145ms conn=cc9a308b…1e67 id=60fa9c8c…b3f9
+2026-04-08T21:07:09.106+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T21:07:10.352+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:07:10.382+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:07:12.095+08:00 [ws] ⇄ res ✓ sessions.list 154ms conn=cc9a308b…1e67 id=4e8f4a03…3354
+2026-04-08T21:07:28.338+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T21:07:28.504+08:00 [ws] ⇄ res ✓ sessions.list 162ms conn=cc9a308b…1e67 id=2f07fd37…3dee
+2026-04-08T21:07:28.616+08:00 我刚又单独测了一次视觉模型，结果还是一样：
+
+- `wellapi/gemini-3.1-flash-image-preview` 这条最小子 agent 测试再次超时
+- 不是偶发，一轮复测也没过
+
+## 现在可以明确下结论
+### 已通过
+- `wellapi/gpt-5.4-nano`
+- `XAI/GPT-5.4`
+
+### 未通过
+- `wellapi/gemini-3.1-flash-image-preview`
+
+所以如果你现在让我给一个最干净的测试结论：
+
+> **自动模型切换里，文字/编码路线已经能用；视觉路线当前还不通。**
+
+---
+
+## 这次测试说明什么
+因为我已经用非常小的任务测了两次：
+
+- `Reply with exactly: vision ok`
+
+都超时了，所以问题大概率不是：
+- 任务太复杂
+- prompt 写得不好
+
+而更像是：
+- 这个模型在当前子 agent 路径上本身不可用
+- 或当前 provider / runtime 对这条模型支持不完整
+
+---
+
+## 当前最准确状态
+### 可以先投入使用的
+- 默认任务 → `wellapi/gpt-5.4-nano`
+- 大模型任务 → `XAI/GPT-5.4`
+
+### 先不要依赖自动切换的
+- 视觉任务 → `wellapi/gemini-3.1-flash-image-preview`
+
+---
+
+## 一句话版
+> **测试过了：当前“自动切换大模型”只算部分通过，文本类通过，视觉类未通过。**
+
+如果你要继续，我下一步就不再泛测了，直接专查：
+1. 这个视觉模型本身是否在当前环境可用
+2. 是模型不可用、provider 不通，还是 subagent 路径不支持
+2026-04-08T21:07:30.564+08:00 [ws] ⇄ res ✓ sessions.delete 502ms conn=702508cb…551c id=5e3bfdaa…1287
+2026-04-08T21:07:30.589+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:07:30.739+08:00 [ws] ⇄ res ✓ sessions.list 140ms conn=cc9a308b…1e67 id=2323d35d…c9e1
+2026-04-08T21:13:47.816+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-08T21:13:47.824+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 他是专门生图的模型，让他生成一张银渐层猫咪看下
+2026-04-08T21:13:47.833+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-08T21:13:52.574+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T21:13:53.881+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:13:53.917+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:13:55.619+08:00 [ws] ⇄ res ✓ sessions.list 151ms conn=cc9a308b…1e67 id=c4f1098e…218a
+2026-04-08T21:13:55.625+08:00 [ws] ⇄ res ✓ node.list 1196ms conn=cc9a308b…1e67 id=09cfd8d0…10d1
+2026-04-08T21:14:09.003+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T21:14:09.240+08:00 [ws] ⇄ res ✓ sessions.list 147ms conn=cc9a308b…1e67 id=18941f3d…eb6f
+2026-04-08T21:14:23.640+08:00 [ws] ⇄ res ✓ sessions.list 153ms conn=cc9a308b…1e67 id=4e2ce7a0…cf92
+2026-04-08T21:14:24.635+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T21:14:26.624+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
