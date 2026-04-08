@@ -3313,3 +3313,12 @@ Call log:
 2026-04-08T15:17:49.070+08:00 [agent/embedded] embedded run agent end: runId=83638413-910a-4de8-9a2c-254fa6dd8fe2 isError=true model=GPT-5.4 provider=XAI error=Codex stream error rawError=Codex stream error
 2026-04-08T15:17:49.331+08:00 [diagnostic] lane wait exceeded: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main waitedMs=67090 queueAhead=0
 2026-04-08T15:18:22.907+08:00 [plugins] acpx ensureSession repairing dead named session by resuming backend session: session=agent:openclaw:acp:ede0507f-66ed-40bd-8072-7d014a3ab172 cwd=C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group resumeSessionId=78afdd4b-9479-4def-9c9a-3337b5d47bdc status=dead summary=queue owner unavailable
+2026-04-08T15:49:12.153+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-08T15:52:13.112+08:00 [plugins] acpx ensureSession returned no events after sessions ensure: session=agent:codex:acp:ece67b5a-9bd7-4b04-9e5d-d34346a6191c agent=codex cwd=C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group
+2026-04-08T15:52:14.392+08:00 [plugins] acpx ensureSession returned no events after sessions new: session=agent:codex:acp:ece67b5a-9bd7-4b04-9e5d-d34346a6191c agent=codex cwd=C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group
+2026-04-08T16:01:02.543+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-08T16:03:09.896+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-08T16:06:44.372+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-08T16:11:57.239+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-08T16:12:15.750+08:00 [plugins] acpx ensureSession probing named session after ensure failure: session=agent:oc_baa6c26e80932344e32cf514de6acde3:acp:52c577ab-8a8d-40af-84af-c63f247a8901 cwd=C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group error=-32603: Failed to spawn agent command: oc_baa6c26e80932344e32cf514de6acde3
+2026-04-08T16:16:15.225+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
