@@ -226049,3 +226049,197 @@ Bind: loopback
 2026-04-08T17:19:49.542+08:00 [ws] ⇄ res ✓ sessions.list 146ms conn=cc9a308b…1e67 id=1abed87f…1b1f
 2026-04-08T17:19:49.559+08:00 [ws] ⇄ res ✓ node.list 186ms conn=cc9a308b…1e67 id=18897287…0a2b
 2026-04-08T17:19:50.140+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T17:21:58.024+08:00 [ws] ⇄ res ✓ sessions.list 160ms conn=cc9a308b…1e67 id=6c3dff51…506c
+2026-04-08T17:22:01.397+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T17:22:02.703+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:22:02.734+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:22:04.688+08:00 [ws] ⇄ res ✓ sessions.list 150ms conn=cc9a308b…1e67 id=6f23d697…6c4a
+2026-04-08T17:22:04.733+08:00 [ws] ⇄ res ✓ node.list 191ms conn=cc9a308b…1e67 id=0f06589f…81a5
+2026-04-08T17:22:19.316+08:00 [ws] ⇄ res ✓ sessions.list 178ms conn=cc9a308b…1e67 id=0b24cf63…bb0c
+2026-04-08T17:22:33.783+08:00 [ws] ⇄ res ✓ sessions.list 184ms conn=cc9a308b…1e67 id=59b5e063…277d
+2026-04-08T17:23:02.661+08:00 [ws] ⇄ res ✓ sessions.list 176ms conn=cc9a308b…1e67 id=50696e19…939a
+2026-04-08T17:23:04.679+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T17:24:32.741+08:00 [ws] ⇄ res ✓ sessions.list 184ms conn=cc9a308b…1e67 id=177ba744…f743
+2026-04-08T17:24:34.264+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:24:34.303+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:24:36.997+08:00 [ws] ⇄ res ✓ sessions.list 234ms conn=cc9a308b…1e67 id=8eb7ad82…4151
+2026-04-08T17:24:43.791+08:00 [ws] ⇄ res ✓ sessions.list 167ms conn=cc9a308b…1e67 id=1c5ef2eb…da80
+2026-04-08T17:25:01.796+08:00 [ws] ⇄ res ✓ sessions.list 263ms conn=cc9a308b…1e67 id=e25e65dd…3c63
+2026-04-08T17:25:27.158+08:00 [ws] ⇄ res ✓ sessions.list 181ms conn=cc9a308b…1e67 id=ce961e91…f65c
+2026-04-08T17:25:46.135+08:00 [ws] ⇄ res ✓ sessions.list 200ms conn=cc9a308b…1e67 id=0f923bc7…fbee
+2026-04-08T17:26:34.745+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T17:26:36.599+08:00 [ws] ⇄ res ✓ sessions.list 190ms conn=cc9a308b…1e67 id=2486225d…2e2d
+2026-04-08T17:26:36.663+08:00 [ws] ⇄ res ✓ chat.history 59ms conn=cc9a308b…1e67 id=e5d23c10…4e7a
+2026-04-08T17:26:51.278+08:00 [ws] ⇄ res ✓ node.list 60ms conn=cc9a308b…1e67 id=306f996a…31cc
+2026-04-08T17:27:07.727+08:00 [ws] ⇄ res ✓ sessions.list 170ms conn=cc9a308b…1e67 id=82f72917…e4dd
+2026-04-08T17:27:10.035+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T17:27:11.378+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:27:11.418+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:27:13.308+08:00 [ws] ⇄ res ✓ sessions.list 154ms conn=cc9a308b…1e67 id=faf874ec…06f7
+2026-04-08T17:27:23.959+08:00 [ws] ⇄ res ✓ sessions.list 270ms conn=cc9a308b…1e67 id=1c15932c…c9fc
+2026-04-08T17:27:42.653+08:00 [ws] ⇄ res ✓ sessions.list 178ms conn=cc9a308b…1e67 id=9935645b…359e
+2026-04-08T17:27:48.358+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T17:27:48.528+08:00 [ws] ⇄ res ✓ sessions.list 162ms conn=cc9a308b…1e67 id=03b2ca9c…0037
+2026-04-08T17:28:38.610+08:00 [ws] ⇄ res ✓ chat.history 120ms conn=cc9a308b…1e67 id=138d9026…5e46
+2026-04-08T17:28:38.928+08:00 [ws] ⇄ res ✓ sessions.list 312ms conn=cc9a308b…1e67 id=c20add4e…6d19
+2026-04-08T17:28:49.571+08:00 [ws] ⇄ res ✓ channels.status 770ms conn=cc9a308b…1e67 id=b0e17732…188b
+2026-04-08T17:28:49.784+08:00 [ws] ⇄ res ✓ sessions.list 177ms conn=cc9a308b…1e67 id=2236a942…9d93
+2026-04-08T17:28:51.495+08:00 [ws] ⇄ res ✓ skills.status 1694ms conn=cc9a308b…1e67 id=62ffd51a…490d
+2026-04-08T17:28:51.597+08:00 [ws] ⇄ res ✓ usage.cost 66ms conn=cc9a308b…1e67 id=11338368…f67a
+2026-04-08T17:28:51.612+08:00 [ws] ⇄ res ✓ models.list 1809ms conn=cc9a308b…1e67 id=0f16d784…23b1
+2026-04-08T17:28:51.622+08:00 [ws] ⇄ res ✓ chat.history 85ms conn=cc9a308b…1e67 id=4b8b9937…4c1d
+2026-04-08T17:28:51.630+08:00 [ws] ⇄ res ✓ cron.status 1843ms conn=cc9a308b…1e67 id=be799f2f…d308
+2026-04-08T17:28:51.639+08:00 [ws] ⇄ res ✓ cron.list 1851ms conn=cc9a308b…1e67 id=32a76547…c815
+2026-04-08T17:28:51.672+08:00 [ws] ⇄ res ✓ status 1880ms conn=cc9a308b…1e67 id=032efad5…5f80
+2026-04-08T17:28:51.747+08:00 [ws] ⇄ res ✓ node.list 203ms conn=cc9a308b…1e67 id=cdd683cf…a230
+2026-04-08T17:28:51.802+08:00 [ws] ⇄ res ✓ logs.tail 265ms conn=cc9a308b…1e67 id=25651f22…2546
+2026-04-08T17:28:52.682+08:00 [ws] ⇄ res ✓ sessions.usage 1182ms conn=cc9a308b…1e67 id=3c599c49…15f5
+2026-04-08T17:28:53.237+08:00 [ws] ⇄ res ✓ chat.history 63ms conn=cc9a308b…1e67 id=a8e9018e…c69c
+2026-04-08T17:28:53.464+08:00 [ws] ⇄ res ✓ sessions.list 219ms conn=cc9a308b…1e67 id=0c1444a2…db38
+2026-04-08T17:28:56.293+08:00 [ws] ⇄ res ✓ sessions.list 204ms conn=cc9a308b…1e67 id=d90382ab…4a13
+2026-04-08T17:28:56.943+08:00 [ws] ⇄ res ✓ node.list 857ms conn=cc9a308b…1e67 id=d08bf643…92a0
+2026-04-08T17:28:56.969+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:28:57.000+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:30:20.002+08:00 [ws] ⇄ res ✓ channels.status 760ms conn=cc9a308b…1e67 id=c2507e51…6a7e
+2026-04-08T17:30:20.972+08:00 [ws] ⇄ res ✓ sessions.list 965ms conn=cc9a308b…1e67 id=d5acb3e0…f9ef
+2026-04-08T17:30:22.004+08:00 [ws] ⇄ res ✓ skills.status 1012ms conn=cc9a308b…1e67 id=328b0e96…a325
+2026-04-08T17:30:22.127+08:00 [ws] ⇄ res ✓ usage.cost 94ms conn=cc9a308b…1e67 id=e446a70d…4237
+2026-04-08T17:30:22.142+08:00 [ws] ⇄ res ✓ models.list 1151ms conn=cc9a308b…1e67 id=947a29b1…84fa
+2026-04-08T17:30:22.152+08:00 [ws] ⇄ res ✓ chat.history 118ms conn=cc9a308b…1e67 id=961fe4f6…ce89
+2026-04-08T17:30:22.160+08:00 [ws] ⇄ res ✓ cron.status 1184ms conn=cc9a308b…1e67 id=126988b5…d2e1
+2026-04-08T17:30:22.165+08:00 [ws] ⇄ res ✓ cron.list 1188ms conn=cc9a308b…1e67 id=8b055e1d…2dce
+2026-04-08T17:30:22.185+08:00 [ws] ⇄ res ✓ status 1208ms conn=cc9a308b…1e67 id=86d86861…526e
+2026-04-08T17:30:22.220+08:00 [ws] ⇄ res ✓ node.list 188ms conn=cc9a308b…1e67 id=fa14284c…2022
+2026-04-08T17:30:22.226+08:00 [ws] ⇄ res ✓ logs.tail 196ms conn=cc9a308b…1e67 id=62bbee5d…a93b
+2026-04-08T17:30:23.388+08:00 [ws] ⇄ res ✓ sessions.usage 1380ms conn=cc9a308b…1e67 id=d26dd30c…d64d
+2026-04-08T17:30:25.707+08:00 [ws] ⇄ res ✓ sessions.list 227ms conn=cc9a308b…1e67 id=1ff2f372…2b7f
+2026-04-08T17:30:25.716+08:00 [ws] ⇄ res ✓ chat.history 300ms conn=cc9a308b…1e67 id=935718dc…9f67
+2026-04-08T17:30:40.831+08:00 [ws] ⇄ res ✓ channels.status 629ms conn=cc9a308b…1e67 id=554bf22f…f8b5
+2026-04-08T17:30:41.055+08:00 [ws] ⇄ res ✓ sessions.list 219ms conn=cc9a308b…1e67 id=5707799e…8ccb
+2026-04-08T17:30:41.886+08:00 [ws] ⇄ res ✓ skills.status 802ms conn=cc9a308b…1e67 id=257ff6f8…c289
+2026-04-08T17:30:41.915+08:00 [ws] ⇄ res ✓ models.list 833ms conn=cc9a308b…1e67 id=04909efb…894f
+2026-04-08T17:30:41.921+08:00 [ws] ⇄ res ✓ cron.status 861ms conn=cc9a308b…1e67 id=236e3ad1…d07a
+2026-04-08T17:30:41.924+08:00 [ws] ⇄ res ✓ cron.list 866ms conn=cc9a308b…1e67 id=e1a73dba…03ca
+2026-04-08T17:30:41.948+08:00 [ws] ⇄ res ✓ status 889ms conn=cc9a308b…1e67 id=cd9fbb45…95a0
+2026-04-08T17:30:42.014+08:00 [ws] ⇄ res ✓ chat.history 61ms conn=cc9a308b…1e67 id=eb38f504…4018
+2026-04-08T17:30:42.051+08:00 [ws] ⇄ res ✓ logs.tail 140ms conn=cc9a308b…1e67 id=e2c0fc1b…21ab
+2026-04-08T17:30:42.942+08:00 [ws] ⇄ res ✓ sessions.usage 1051ms conn=cc9a308b…1e67 id=3bf956cd…b371
+2026-04-08T17:30:43.038+08:00 [ws] ⇄ res ✓ chat.history 60ms conn=cc9a308b…1e67 id=072063e6…b36b
+2026-04-08T17:30:43.298+08:00 [ws] ⇄ res ✓ sessions.list 256ms conn=cc9a308b…1e67 id=9433c573…2401
+2026-04-08T17:31:43.619+08:00 [ws] ⇄ res ✓ sessions.list 279ms conn=cc9a308b…1e67 id=54c47de2…9f76
+2026-04-08T17:31:43.628+08:00 [ws] ⇄ res ✓ chat.history 359ms conn=cc9a308b…1e67 id=3f2c0625…29d7
+2026-04-08T17:35:10.661+08:00 [ws] ⇄ res ✓ channels.status 704ms conn=cc9a308b…1e67 id=7dee5dd6…ae6b
+2026-04-08T17:35:10.889+08:00 [ws] ⇄ res ✓ sessions.list 223ms conn=cc9a308b…1e67 id=0ad01ec0…a39f
+2026-04-08T17:35:11.651+08:00 [ws] ⇄ res ✓ skills.status 737ms conn=cc9a308b…1e67 id=80248f12…9ae8
+2026-04-08T17:35:11.729+08:00 [ws] ⇄ res ✓ usage.cost 55ms conn=cc9a308b…1e67 id=b33ddb69…4664
+2026-04-08T17:35:11.736+08:00 [ws] ⇄ res ✓ models.list 827ms conn=cc9a308b…1e67 id=214d9a63…9921
+2026-04-08T17:35:11.745+08:00 [ws] ⇄ res ✓ chat.history 70ms conn=cc9a308b…1e67 id=cb27f01b…7462
+2026-04-08T17:35:11.751+08:00 [ws] ⇄ res ✓ cron.status 859ms conn=cc9a308b…1e67 id=ffb4ac0a…783b
+2026-04-08T17:35:11.755+08:00 [ws] ⇄ res ✓ cron.list 863ms conn=cc9a308b…1e67 id=846dd9e7…b0f3
+2026-04-08T17:35:11.772+08:00 [ws] ⇄ res ✓ status 880ms conn=cc9a308b…1e67 id=d08b7dce…04c0
+2026-04-08T17:35:11.803+08:00 [ws] ⇄ res ✓ logs.tail 129ms conn=cc9a308b…1e67 id=90f096ec…c67a
+2026-04-08T17:35:12.655+08:00 [ws] ⇄ res ✓ sessions.usage 1001ms conn=cc9a308b…1e67 id=b1374122…36a5
+2026-04-08T17:35:12.978+08:00 [ws] ⇄ res ✓ chat.history 126ms conn=cc9a308b…1e67 id=b662614b…32f9
+2026-04-08T17:35:13.374+08:00 [ws] ⇄ res ✓ sessions.list 377ms conn=cc9a308b…1e67 id=ce0a519d…5b5f
+2026-04-08T17:40:15.250+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T17:40:16.624+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:40:16.700+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:40:18.634+08:00 [ws] ⇄ res ✓ sessions.list 207ms conn=cc9a308b…1e67 id=fbbbadbe…84b3
+2026-04-08T17:40:28.354+08:00 [ws] ⇄ res ✓ sessions.list 175ms conn=cc9a308b…1e67 id=9d577a9a…1a67
+2026-04-08T17:40:30.057+08:00 [browser/chrome] 🦞 openclaw browser started (chrome) profile "openclaw" on 127.0.0.1:18800 (pid 21688)
+2026-04-08T17:40:30.170+08:00 [browser/chrome] 🦞 openclaw browser started (chrome) profile "openclaw" on 127.0.0.1:18800 (pid 17720)
+2026-04-08T17:40:39.748+08:00 [ws] ⇄ res ✓ sessions.list 165ms conn=cc9a308b…1e67 id=0a92f9f6…6395
+2026-04-08T17:42:24.406+08:00 [ws] ⇄ res ✓ channels.status 680ms conn=cc9a308b…1e67 id=d600c1db…0fca
+2026-04-08T17:42:24.623+08:00 [ws] ⇄ res ✓ sessions.list 198ms conn=cc9a308b…1e67 id=08c32511…cbf0
+2026-04-08T17:42:26.545+08:00 [ws] ⇄ res ✓ skills.status 1895ms conn=cc9a308b…1e67 id=8113f002…2fb3
+2026-04-08T17:42:26.602+08:00 [ws] ⇄ res ✓ models.list 1954ms conn=cc9a308b…1e67 id=970b6760…84c3
+2026-04-08T17:42:26.611+08:00 [ws] ⇄ res ✓ cron.status 1983ms conn=cc9a308b…1e67 id=143edd2f…5b99
+2026-04-08T17:42:26.617+08:00 [ws] ⇄ res ✓ cron.list 1990ms conn=cc9a308b…1e67 id=21d7ab1f…11e8
+2026-04-08T17:42:26.647+08:00 [ws] ⇄ res ✓ status 2019ms conn=cc9a308b…1e67 id=2f19af14…3ea4
+2026-04-08T17:42:26.889+08:00 [ws] ⇄ res ✓ sessions.list 166ms conn=cc9a308b…1e67 id=e155466e…ec9d
+2026-04-08T17:42:26.899+08:00 [ws] ⇄ res ✓ chat.history 248ms conn=cc9a308b…1e67 id=bdc43564…38b9
+2026-04-08T17:42:26.988+08:00 [ws] ⇄ res ✓ node.list 395ms conn=cc9a308b…1e67 id=48e5a0b1…5206
+2026-04-08T17:42:27.018+08:00 [ws] ⇄ res ✓ logs.tail 421ms conn=cc9a308b…1e67 id=c4c924c5…5b07
+2026-04-08T17:42:28.103+08:00 [ws] ⇄ res ✓ sessions.usage 1554ms conn=cc9a308b…1e67 id=4ade7a83…bd08
+2026-04-08T17:42:28.779+08:00 [ws] ⇄ res ✓ chat.history 63ms conn=cc9a308b…1e67 id=d1fcd03e…ea87
+2026-04-08T17:42:28.934+08:00 [ws] ⇄ res ✓ sessions.list 151ms conn=cc9a308b…1e67 id=5289254c…da56
+2026-04-08T17:42:49.645+08:00 [ws] ⇄ res ✓ sessions.list 162ms conn=cc9a308b…1e67 id=cccd517d…b0f8
+2026-04-08T17:42:54.824+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T17:42:56.141+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:42:56.179+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:42:58.215+08:00 [ws] ⇄ res ✓ sessions.list 180ms conn=cc9a308b…1e67 id=d4bca59b…b5a6
+2026-04-08T17:43:20.921+08:00 [ws] ⇄ res ✓ sessions.list 143ms conn=cc9a308b…1e67 id=a802c558…3695
+2026-04-08T17:43:23.768+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-08T17:43:23.773+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-08T17:43:23.781+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T17:44:06.381+08:00 [ws] ⇄ res ✓ sessions.list 188ms conn=cc9a308b…1e67 id=d48ad4b3…48af
+2026-04-08T17:44:08.535+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T17:44:09.840+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:44:09.875+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:44:11.478+08:00 [ws] ⇄ res ✓ sessions.list 144ms conn=cc9a308b…1e67 id=4fe18f53…5de1
+2026-04-08T17:44:30.102+08:00 [ws] ⇄ res ✓ sessions.list 186ms conn=cc9a308b…1e67 id=844369e8…ea1e
+2026-04-08T17:44:30.958+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T17:45:12.255+08:00 [ws] ⇄ res ✓ sessions.list 173ms conn=cc9a308b…1e67 id=26f83a26…99a9
+2026-04-08T17:45:14.484+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T17:45:15.809+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:45:15.849+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:45:17.713+08:00 [ws] ⇄ res ✓ sessions.list 165ms conn=cc9a308b…1e67 id=c7ceaa3a…4053
+2026-04-08T17:45:23.540+08:00 [ws] ⇄ res ✓ sessions.list 165ms conn=cc9a308b…1e67 id=2f78b86f…447c
+2026-04-08T17:45:27.201+08:00 [ws] ⇄ res ✓ sessions.list 179ms conn=cc9a308b…1e67 id=b834c510…398b
+2026-04-08T17:45:56.801+08:00 [ws] ⇄ res ✓ sessions.list 154ms conn=cc9a308b…1e67 id=74651382…84ae
+2026-04-08T17:45:56.863+08:00 [ws] ⇄ res ✓ chat.history 57ms conn=cc9a308b…1e67 id=2d5f76d1…49f2
+2026-04-08T17:45:57.577+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T17:51:31.334+08:00 [ws] ⇄ res ✓ sessions.list 205ms conn=cc9a308b…1e67 id=06c6eabf…48d2
+2026-04-08T17:51:31.341+08:00 [ws] ⇄ res ✓ chat.history 307ms conn=cc9a308b…1e67 id=9f70690a…07c0
+2026-04-08T17:51:37.230+08:00 [ws] ⇄ res ✓ sessions.list 184ms conn=cc9a308b…1e67 id=3706a4a2…b1d2
+2026-04-08T17:51:37.238+08:00 [ws] ⇄ res ✓ chat.history 257ms conn=cc9a308b…1e67 id=8057d988…a142
+2026-04-08T17:51:45.586+08:00 [ws] ⇄ res ✓ sessions.list 165ms conn=cc9a308b…1e67 id=d618d615…7fef
+2026-04-08T17:51:45.600+08:00 [ws] ⇄ res ✓ chat.history 311ms conn=cc9a308b…1e67 id=c15cb600…b706
+2026-04-08T17:51:51.958+08:00 [ws] ⇄ res ✓ sessions.list 168ms conn=cc9a308b…1e67 id=94d07295…9f77
+2026-04-08T17:51:51.962+08:00 [ws] ⇄ res ✓ chat.history 199ms conn=cc9a308b…1e67 id=5911e380…c71d
+2026-04-08T17:51:59.413+08:00 [ws] ⇄ res ✓ chat.history 90ms conn=cc9a308b…1e67 id=c565ae05…7450
+2026-04-08T17:51:59.604+08:00 [ws] ⇄ res ✓ sessions.list 182ms conn=cc9a308b…1e67 id=d5b7a17f…a99f
+2026-04-08T17:59:46.331+08:00 [ws] ⇄ res ✓ sessions.list 193ms conn=cc9a308b…1e67 id=68dd3fab…2a99
+2026-04-08T17:59:48.687+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T17:59:50.271+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:59:50.319+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T17:59:52.583+08:00 [ws] ⇄ res ✓ sessions.list 290ms conn=cc9a308b…1e67 id=8ebafbfc…8a46
+2026-04-08T17:59:59.877+08:00 [ws] ⇄ res ✓ sessions.list 150ms conn=cc9a308b…1e67 id=9b02847d…f129
+2026-04-08T18:00:01.849+08:00 [browser/chrome] 🦞 openclaw browser started (chrome) profile "openclaw" on 127.0.0.1:18800 (pid 20668)
+2026-04-08T18:00:11.702+08:00 [ws] ⇄ res ✓ sessions.list 163ms conn=cc9a308b…1e67 id=9bc7a4d2…78be
+2026-04-08T18:00:33.022+08:00 [ws] ⇄ res ✓ sessions.list 272ms conn=cc9a308b…1e67 id=ddef654a…0412
+2026-04-08T18:01:23.870+08:00 [ws] ⇄ res ✓ sessions.list 173ms conn=cc9a308b…1e67 id=3a3e089b…0136
+2026-04-08T18:01:23.944+08:00 [ws] ⇄ res ✓ chat.history 69ms conn=cc9a308b…1e67 id=9e60cd15…d1fe
+2026-04-08T18:01:24.811+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T18:05:21.846+08:00 [ws] ⇄ res ✓ sessions.list 1093ms conn=cc9a308b…1e67 id=958156df…04b5
+2026-04-08T18:05:26.864+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T18:05:28.325+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T18:05:28.359+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T18:05:30.180+08:00 [ws] ⇄ res ✓ sessions.list 168ms conn=cc9a308b…1e67 id=165e8c6c…e5ae
+2026-04-08T18:05:30.191+08:00 [ws] ⇄ res ✓ node.list 182ms conn=cc9a308b…1e67 id=4964973c…093e
+2026-04-08T18:05:36.558+08:00 [ws] ⇄ res ✓ sessions.list 281ms conn=cc9a308b…1e67 id=6584de7c…0f61
+2026-04-08T18:06:06.592+08:00 [ws] ⇄ res ✓ sessions.list 173ms conn=cc9a308b…1e67 id=0bf7b9b1…b7b4
+2026-04-08T18:06:06.677+08:00 [ws] ⇄ res ✓ chat.history 79ms conn=cc9a308b…1e67 id=b1a60d71…1d2d
+2026-04-08T18:06:07.519+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T18:10:13.974+08:00 [ws] ⇄ res ✓ sessions.list 241ms conn=cc9a308b…1e67 id=87788783…e899
+2026-04-08T18:10:15.948+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T18:10:15.986+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T18:10:17.806+08:00 [ws] ⇄ res ✓ sessions.list 187ms conn=cc9a308b…1e67 id=ce369196…c14e
+2026-04-08T18:10:25.674+08:00 [ws] ⇄ res ✓ sessions.list 150ms conn=cc9a308b…1e67 id=57c38033…9fc6
+2026-04-08T18:11:02.524+08:00 [ws] ⇄ res ✓ sessions.list 197ms conn=cc9a308b…1e67 id=2f6e3681…4257
+2026-04-08T18:11:02.605+08:00 [ws] ⇄ res ✓ chat.history 77ms conn=cc9a308b…1e67 id=188c87f6…2fc1
+2026-04-08T18:11:03.255+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T18:11:30.671+08:00 [ws] ⇄ res ✓ sessions.list 172ms conn=cc9a308b…1e67 id=f706646b…66f2
+2026-04-08T18:11:32.073+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T18:11:32.121+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T18:11:33.861+08:00 [ws] ⇄ res ✓ sessions.list 149ms conn=cc9a308b…1e67 id=ccb867d9…75d3
+2026-04-08T18:12:05.436+08:00 [ws] ⇄ res ✓ sessions.list 171ms conn=cc9a308b…1e67 id=e4a105c0…5d5c
+2026-04-08T18:12:13.737+08:00 [ws] ⇄ res ✓ sessions.list 188ms conn=cc9a308b…1e67 id=67007db0…75f1
+2026-04-08T18:12:25.012+08:00 [ws] ⇄ res ✓ sessions.list 190ms conn=cc9a308b…1e67 id=fd101520…552c
+2026-04-08T18:12:38.019+08:00 [ws] ⇄ res ✓ sessions.list 207ms conn=cc9a308b…1e67 id=26760b2a…a1ab
+2026-04-08T18:12:54.100+08:00 [ws] ⇄ res ✓ sessions.list 192ms conn=cc9a308b…1e67 id=6dade714…ccfc
+2026-04-08T18:13:03.662+08:00 [ws] ⇄ res ✓ sessions.list 251ms conn=cc9a308b…1e67 id=d0e08999…e444
+2026-04-08T18:13:24.001+08:00 [ws] ⇄ res ✓ sessions.list 163ms conn=cc9a308b…1e67 id=28a64a8b…568b
+2026-04-08T18:13:24.071+08:00 [ws] ⇄ res ✓ chat.history 63ms conn=cc9a308b…1e67 id=67e9bc49…e981
+2026-04-08T18:13:24.749+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T18:14:39.336+08:00 [ws] ⇄ res ✓ node.list 51ms conn=cc9a308b…1e67 id=5c62f432…8376
