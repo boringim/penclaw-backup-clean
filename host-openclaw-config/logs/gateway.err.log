@@ -3252,3 +3252,36 @@ Current file contents:
 2026-04-08T10:11:18.822+08:00 [diagnostic] lane wait exceeded: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main waitedMs=25256 queueAhead=0
 2026-04-08T10:11:27.388+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-08T11:09:45.167+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-08T11:33:31.339+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-08T11:35:04.230+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"status","profile":"chrome-relay","target":"host","timeoutMs":15000}
+2026-04-08T11:41:42.662+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\75a4ef39-3f8c-462a-9afe-e85833ccd7b7.jsonl.lock (dead-pid)
+2026-04-08T11:42:03.057+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-08T11:42:03.081+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-08T11:42:10.977+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-08T11:42:14.969+08:00 [bonjour] restarting advertiser (service stuck in announcing for 11914ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-08T11:42:43.891+08:00 [bonjour] restarting advertiser (service stuck in probing for 12663ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing))
+2026-04-08T11:46:43.373+08:00 [gateway] parse/handle error: Error: EPERM: operation not permitted, rename 'C:\Users\Administrator\.openclaw\devices\paired.json.a4465a90-09c0-4a46-ab8f-3004ea525cf2.tmp' -> 'C:\Users\Administrator\.openclaw\devices\paired.json'
+2026-04-08T11:46:43.378+08:00 [ws] ✗ parse-error error=Error: EPERM: operation not permitted, rename 'C:\Users\Administrator\.openclaw\devices\paired.json.a4465a90-09c0-4a46-ab8f-3004ea525cf2.tmp' -> 'C:\Users\Administrator\.openclaw\devices\paired.json': code=EPERM conn=182bf89a…178f
+2026-04-08T11:46:43.390+08:00 [ws] closed before connect conn=182bf89a-7073-4159-ad4b-5ca0b543178f remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1000 reason=n/a
+2026-04-08T11:46:43.395+08:00 gateway connect failed: Error: gateway closed (1000): 
+2026-04-08T11:47:11.439+08:00 [agent/embedded] read tool called without path: toolCallId=call_NZUdViU9NL34lxEmKEYU5Cjh argsType=object
+2026-04-08T11:47:11.471+08:00 [agent/embedded] read tool called without path: toolCallId=call_3kGsYGRomhorMU7cOch8s4ZD argsType=object
+2026-04-08T11:47:11.499+08:00 [agent/embedded] read tool called without path: toolCallId=call_XNhW8qUDWeqJvpKS304Venwn argsType=object
+2026-04-08T11:47:21.429+08:00 [agent/embedded] read tool called without path: toolCallId=call_rAev5bIhV63VLIwUlzHLVoy2 argsType=object
+2026-04-08T11:47:21.471+08:00 [agent/embedded] read tool called without path: toolCallId=call_Q1vDDAjxyPT4itUCia2gUNph argsType=object
+2026-04-08T11:48:15.801+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\75a4ef39-3f8c-462a-9afe-e85833ccd7b7.jsonl.lock (dead-pid)
+2026-04-08T11:48:15.809+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\eb2041eb-f0ae-4aae-b8b0-be79ae9423e1.jsonl.lock (dead-pid)
+2026-04-08T11:48:38.408+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-08T11:48:38.422+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-08T11:48:44.875+08:00 [ws] closed before connect conn=1cc5f679-3b78-441e-ba5e-7eeea9b562b9 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1006 reason=n/a
+2026-04-08T11:48:44.888+08:00 [ws] closed before connect conn=55bf2752-7e48-4114-97c0-c93daf0ad1e4 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1006 reason=n/a
+2026-04-08T11:48:47.527+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-08T11:48:50.628+08:00 [ws] closed before connect conn=c78529c1-ae83-497c-b05b-5fcf12b745d9 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1001 reason=n/a
+2026-04-08T11:48:50.666+08:00 [bonjour] restarting advertiser (service stuck in announcing for 12260ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-08T12:00:35.693+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\75a4ef39-3f8c-462a-9afe-e85833ccd7b7.jsonl.lock (dead-pid)
+2026-04-08T12:00:56.499+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-08T12:00:56.529+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-08T12:01:05.574+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-08T12:01:09.022+08:00 [ws] closed before connect conn=7441ec1f-2dca-4bd2-a45a-11f71eb26f19 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1001 reason=n/a
+2026-04-08T12:01:09.067+08:00 [bonjour] restarting advertiser (service stuck in announcing for 12569ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-08T12:10:23.980+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"status","profile":"user","target":"host","timeoutMs":15000}
