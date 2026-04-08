@@ -223906,3 +223906,11 @@ No destructive actions were taken.
 2026-04-08T04:01:40.980+08:00 [ws] ⇄ res ✓ sessions.list 122ms conn=3e20a270…d4ae id=09f34cc5…84ce
 2026-04-08T04:01:54.707+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
 2026-04-08T04:01:54.831+08:00 [ws] ⇄ res ✓ sessions.list 120ms conn=3e20a270…d4ae id=c172bf55…f2f2
+2026-04-08T08:00:00.213+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T08:00:04.802+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T08:00:07.253+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T08:00:07.300+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-08T08:00:09.573+08:00 [ws] ⇄ res ✓ sessions.list 203ms conn=3e20a270…d4ae id=7b91ed0d…83b1
+2026-04-08T08:00:28.937+08:00 [ws] ⇄ res ✓ sessions.list 128ms conn=3e20a270…d4ae id=bb306e98…c358
+2026-04-08T08:00:44.569+08:00 [plugins] memory-lancedb-pro: regex fallback found 1 capturable text(s) for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-08T08:00:44.703+08:00 [ws] ⇄ res ✓ sessions.list 128ms conn=3e20a270…d4ae id=67f9c918…3268
