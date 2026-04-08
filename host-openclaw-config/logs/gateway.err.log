@@ -3251,3 +3251,4 @@ Current file contents:
 2026-04-08T10:10:59.257+08:00 Rerank API timed out (5s), falling back to cosine
 2026-04-08T10:11:18.822+08:00 [diagnostic] lane wait exceeded: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main waitedMs=25256 queueAhead=0
 2026-04-08T10:11:27.388+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-08T11:09:45.167+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
