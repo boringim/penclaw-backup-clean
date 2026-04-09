@@ -3492,3 +3492,20 @@ Call log:
 2026-04-09T18:02:36.089+08:00 [agent/embedded] read tool called without path: toolCallId=call_vAFTi3u3yKE7GlAfzT7i4u9K argsType=object
 2026-04-09T18:02:49.837+08:00 [tools] browser failed: BrowserProfileNotFoundError: Profile "google-auto" not found. Available profiles: chrome-relay, openclaw, user raw_params={"action":"open","profile":"google-auto","target":"host","url":"https://www.amazon.com/CNCOLETECH-II-VI-ZnSe-Focus-Lens/dp/B01DP2HGYM","timeoutMs":120000}
 2026-04-09T18:03:12.669+08:00 [tools] browser failed: Error: Navigation timeout of 10000 ms exceeded raw_params={"action":"open","profile":"user","target":"host","url":"https://www.amazon.com/CNCOLETECH-II-VI-ZnSe-Focus-Lens/dp/B01DP2HGYM","timeoutMs":120000}
+2026-04-09T20:34:31.611+08:00 [agent/embedded] read tool called without path: toolCallId=call_DJqJX5iNoK4Zl928hPkV0fnd argsType=object
+2026-04-09T20:34:31.758+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\skills\web-access-openclaw\references\site-patterns\mp.weixin.qq.com.md' raw_params={"file":"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\\skills\\web-access-openclaw\\references\\site-patterns\\mp.weixin.qq.com.md"}
+2026-04-09T20:37:31.231+08:00 [agent/embedded] read tool called without path: toolCallId=call_wFTovPTqg8hRR0UT67ILPXXR argsType=object
+2026-04-09T20:37:31.251+08:00 [agent/embedded] read tool called without path: toolCallId=call_a108guIUV5EV3ZvwhBjpoPv2 argsType=object
+2026-04-09T20:37:31.270+08:00 [agent/embedded] read tool called without path: toolCallId=call_vRf7S6gEQz058y8K1R2v71V4 argsType=object
+2026-04-09T20:37:31.291+08:00 [agent/embedded] read tool called without path: toolCallId=call_sxo5Y7lhhnOzxlHtaoy4CTGc argsType=object
+2026-04-09T20:39:58.129+08:00 [agent/embedded] read tool called without path: toolCallId=call_oQFoFSy1INSMCPu9fgW7PYtb argsType=object
+2026-04-09T20:39:58.147+08:00 [agent/embedded] read tool called without path: toolCallId=call_W61cspLjlQBmu00UI4rJAH9I argsType=object
+2026-04-09T20:39:58.167+08:00 [agent/embedded] read tool called without path: toolCallId=call_9Vh4bcCgECq7bJFNsBfzJ39H argsType=object
+2026-04-09T20:44:27.764+08:00 [tools] browser failed: Error: Navigation timeout of 10000 ms exceeded raw_params={"action":"open","profile":"user","target":"host","url":"https://mp.weixin.qq.com/s/rps5YVB6TchT9npAaIWKCw","timeoutMs":120000}
+2026-04-09T20:44:38.617+08:00 [agent/embedded] read tool called without path: toolCallId=call_KYQizoEmCM12NIRZT6NlQIT6 argsType=object
+2026-04-09T20:44:38.638+08:00 [agent/embedded] read tool called without path: toolCallId=call_SALpBPtwwvBnPEkjS75f7UPp argsType=object
+2026-04-09T20:44:38.660+08:00 [agent/embedded] read tool called without path: toolCallId=call_YunWBCU3Y30rRaeWMSIrwmD8 argsType=object
+2026-04-09T20:50:27.741+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-09T20:51:45.523+08:00 [agent/embedded] read tool called without path: toolCallId=call_WGoPcvI2nsyL5cjzBx5KcJBU argsType=object
+2026-04-09T20:55:40.904+08:00 [agent/embedded] read tool called without path: toolCallId=call_q9WztxFFc70oNSeyiPcAfu19 argsType=object
+2026-04-09T21:03:15.106+08:00 [agent/embedded] read tool called without path: toolCallId=call_XwNSPSv6vka9TmhaOT7R2l29 argsType=object
