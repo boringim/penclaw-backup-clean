@@ -228609,3 +228609,17 @@ Bind: loopback
 2026-04-10T04:03:55.013+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
 2026-04-10T04:03:55.127+08:00 [ws] ⇄ res ✓ sessions.list 107ms conn=3e910a01…d0a2 id=721ae5da…7e4a
 2026-04-10T04:47:32.563+08:00 [ws] ⇄ res ✓ node.list 51ms conn=3e910a01…d0a2 id=96647284…d2b9
+2026-04-10T07:00:00.491+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T07:00:18.472+08:00 [ws] ⇄ res ✓ node.list 1350ms conn=3e910a01…d0a2 id=f65ea673…ca3f
+2026-04-10T07:00:27.014+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-10T07:00:30.339+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T07:00:30.461+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T07:00:32.143+08:00 [ws] ⇄ res ✓ sessions.list 179ms conn=3e910a01…d0a2 id=4d501c82…34d5
+2026-04-10T07:00:38.869+08:00 [ws] ⇄ res ✓ sessions.list 86ms conn=3e910a01…d0a2 id=b8b3d930…1b91
+2026-04-10T07:00:43.265+08:00 [ws] ⇄ res ✓ sessions.list 88ms conn=3e910a01…d0a2 id=2a3a133a…48da
+2026-04-10T07:00:51.514+08:00 [ws] ⇄ res ✓ sessions.list 89ms conn=3e910a01…d0a2 id=0c1f2fdf…a690
+2026-04-10T07:01:05.260+08:00 [ws] ⇄ res ✓ sessions.list 93ms conn=3e910a01…d0a2 id=9621903f…c2db
+2026-04-10T07:01:14.982+08:00 [ws] ⇄ res ✓ sessions.list 99ms conn=3e910a01…d0a2 id=cf9dede8…3945
+2026-04-10T07:01:20.495+08:00 [ws] ⇄ res ✓ sessions.list 95ms conn=3e910a01…d0a2 id=23e8b172…f8f0
+2026-04-10T07:01:34.126+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-10T07:01:34.220+08:00 [ws] ⇄ res ✓ sessions.list 88ms conn=3e910a01…d0a2 id=bf194c09…178c

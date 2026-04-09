@@ -3540,3 +3540,12 @@ Call log:
 2026-04-10T04:02:50.353+08:00 [agent/embedded] read tool called without path: toolCallId=call_WvBcZJqqaEozaIakrcYtDM7Z argsType=object
 2026-04-10T04:03:09.318+08:00 [agent/embedded] read tool called without path: toolCallId=call_rbSBXAIYgXq5d0Z3RDo3Txgs argsType=object
 2026-04-10T04:03:13.079+08:00 [agent/embedded] read tool called without path: toolCallId=call_0zubhsg6p7xgOBOiupqtQKnL argsType=object
+2026-04-10T07:00:00.168+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-10T07:00:38.701+08:00 [agent/embedded] read tool called without path: toolCallId=call_KoCY3ydOrqZ91pPBIiyN5ePB argsType=object
+2026-04-10T07:00:38.720+08:00 [agent/embedded] read tool called without path: toolCallId=call_ZJoHrZmMBpXiXUxCiEkDCdOu argsType=object
+2026-04-10T07:00:38.740+08:00 [agent/embedded] read tool called without path: toolCallId=call_tbdcFYGv3yHtgySCeowYXwx1 argsType=object
+2026-04-10T07:00:38.763+08:00 [agent/embedded] read tool called without path: toolCallId=call_QTo9jttycYLbiHtg3haZmdRs argsType=object
+2026-04-10T07:01:14.806+08:00 [agent/embedded] read tool called without path: toolCallId=call_sbzXVw3tuWtGVM03oxOW3grW argsType=object
+2026-04-10T07:01:14.828+08:00 [agent/embedded] read tool called without path: toolCallId=call_tgB4WApuL9wqLJbNsh9H8F14 argsType=object
+2026-04-10T07:01:14.849+08:00 [agent/embedded] read tool called without path: toolCallId=call_K6erjttU0Gvsd8cT7BnwgHCT argsType=object
+2026-04-10T07:01:14.869+08:00 [agent/embedded] read tool called without path: toolCallId=call_fVVXiTpxtaP0UemP4wrtEtGs argsType=object
