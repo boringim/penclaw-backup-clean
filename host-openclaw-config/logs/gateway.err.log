@@ -3489,3 +3489,6 @@ Call log:
 2026-04-09T15:48:35.466+08:00 [agent/embedded] read tool called without path: toolCallId=call_fWl0PweDoaMBzTaCG1I2li7a argsType=object
 2026-04-09T16:12:42.805+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-09T16:40:09.593+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-09T18:02:36.089+08:00 [agent/embedded] read tool called without path: toolCallId=call_vAFTi3u3yKE7GlAfzT7i4u9K argsType=object
+2026-04-09T18:02:49.837+08:00 [tools] browser failed: BrowserProfileNotFoundError: Profile "google-auto" not found. Available profiles: chrome-relay, openclaw, user raw_params={"action":"open","profile":"google-auto","target":"host","url":"https://www.amazon.com/CNCOLETECH-II-VI-ZnSe-Focus-Lens/dp/B01DP2HGYM","timeoutMs":120000}
+2026-04-09T18:03:12.669+08:00 [tools] browser failed: Error: Navigation timeout of 10000 ms exceeded raw_params={"action":"open","profile":"user","target":"host","url":"https://www.amazon.com/CNCOLETECH-II-VI-ZnSe-Focus-Lens/dp/B01DP2HGYM","timeoutMs":120000}
