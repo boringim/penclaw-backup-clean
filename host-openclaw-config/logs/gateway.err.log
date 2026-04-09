@@ -3516,3 +3516,6 @@ Call log:
 2026-04-10T00:00:36.417+08:00 [agent/embedded] read tool called without path: toolCallId=call_XHSas77fpjpBN7HYFHGS2D0X argsType=object
 2026-04-10T00:00:36.694+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-10.md' raw_params={"file":"memory/2026-04-10.md"}
 2026-04-10T00:00:45.869+08:00 [agent/embedded] read tool called without path: toolCallId=call_OpuDaktBMwxYJcisEKfJdRib argsType=object
+2026-04-10T01:01:46.315+08:00 [agent/embedded] read tool called without path: toolCallId=call_7BqrMdEJmaUhw0pVcE7qAtan argsType=object
+2026-04-10T01:01:46.335+08:00 [agent/embedded] read tool called without path: toolCallId=call_x06RVCvK2VWH5tWAt328Wr0c argsType=object
+2026-04-10T01:01:46.498+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-10.md' raw_params={"file":"memory/2026-04-10.md"}

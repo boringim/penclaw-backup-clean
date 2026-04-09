@@ -228474,3 +228474,68 @@ Bind: loopback
 2026-04-10T00:00:46.047+08:00 [ws] ⇄ res ✓ sessions.list 93ms conn=3e910a01…d0a2 id=844f0b5e…a9cf
 2026-04-10T00:00:51.345+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-10T00:00:51.440+08:00 [ws] ⇄ res ✓ sessions.list 90ms conn=3e910a01…d0a2 id=54f147ee…dc35
+2026-04-10T00:30:46.196+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 1799920ms conn=e60f905f…56a1 id=5f115e67…887f
+2026-04-10T00:30:51.545+08:00 [ws] ⇄ res ✓ agent 129ms runId=exec-approval-followup:59621dca-d8e6-45d9-8926-0ff97b4ffd9d conn=d4c2e2ea…052e id=75ffb31a…f4d6
+2026-04-10T00:30:51.757+08:00 [ws] ⇄ res ✓ sessions.list 158ms conn=3e910a01…d0a2 id=d1eff2d4…664c
+2026-04-10T00:30:52.486+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T00:31:09.898+08:00 [ws] ⇄ res ✓ node.list 1178ms conn=3e910a01…d0a2 id=d484c7db…d834
+2026-04-10T00:31:15.218+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-10T00:31:16.488+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T00:31:16.513+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T00:31:16.817+08:00 [ws] ⇄ res ✓ sessions.list 102ms conn=3e910a01…d0a2 id=6fc1be9f…d0fd
+2026-04-10T00:31:28.015+08:00 [ws] ⇄ res ✓ sessions.list 78ms conn=3e910a01…d0a2 id=ca469c5b…d1dd
+2026-04-10T00:31:35.087+08:00 [ws] ⇄ res ✓ sessions.list 96ms conn=3e910a01…d0a2 id=9f5e722a…0103
+2026-04-10T00:31:35.192+08:00 上次是 PowerShell 引号炸了。我先用更稳的脚本文件方式继续，不重复刚才那条命令。
+2026-04-10T00:31:35.199+08:00 刚才那次失败不是备份内容的问题，是 PowerShell 内联命令的引号被转义坏了，报的是字符串没有正确结束。
+
+我已经改成更稳的脚本文件方式，避免再次被引号坑到：
+- 备份脚本已写到 `tmp/daily_backup.ps1:1`
+- 还没真正执行新的备份
+- `memory/backup-state.json:1` 目前仍是 `backup_count = 7`，还没有更新
+
+现在还需要你批准下一条很小的检查命令，我先确认 `tar` 可用，再继续跑脚本：
+`/approve 1c161f07 allow-once`
+
+等你一批准，我会继续完成：
+- 健康检查
+- 执行备份
+- 更新 `memory/backup-state.json`
+- 汇报备份文件路径和大小
+2026-04-10T00:31:35.828+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-10T00:31:35.832+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-10T00:31:35.841+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-10T01:01:28.087+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 1799934ms conn=f63976c3…603a id=f88cd39e…4078
+2026-04-10T01:01:34.219+08:00 [ws] ⇄ res ✓ agent 71ms runId=exec-approval-followup:1c161f07-f293-47d7-92eb-c2c7b2b14436 conn=cc22dcf6…020b id=50bffa31…1dae
+2026-04-10T01:01:34.352+08:00 [ws] ⇄ res ✓ sessions.list 104ms conn=3e910a01…d0a2 id=9e015679…19ee
+2026-04-10T01:01:38.245+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-10T01:01:39.496+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T01:01:39.534+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T01:01:39.839+08:00 [ws] ⇄ res ✓ sessions.list 77ms conn=3e910a01…d0a2 id=fbb5b07c…0fdc
+2026-04-10T01:01:46.489+08:00 [ws] ⇄ res ✓ sessions.list 86ms conn=3e910a01…d0a2 id=f6f056ed…bca8
+2026-04-10T01:01:51.799+08:00 [ws] ⇄ res ✓ sessions.list 102ms conn=3e910a01…d0a2 id=197fa2bb…4407
+2026-04-10T01:02:34.108+08:00 exec approval followup dispatch failed (id=1c161f07-f293-47d7-92eb-c2c7b2b14436): Session followup failed: gateway timeout after 60000ms
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: C:\Users\Administrator\.openclaw\openclaw.json
+Bind: loopback
+2026-04-10T01:03:55.890+08:00 [ws] ⇄ res ✓ sessions.list 210ms conn=3e910a01…d0a2 id=02236652…917b
+2026-04-10T01:05:59.624+08:00 [ws] ⇄ res ✓ sessions.list 135ms conn=3e910a01…d0a2 id=6fa450c1…64d8
+2026-04-10T01:08:05.638+08:00 [ws] ⇄ res ✓ sessions.list 122ms conn=3e910a01…d0a2 id=7e1c4980…6a8f
+2026-04-10T01:10:13.319+08:00 [ws] ⇄ res ✓ sessions.list 128ms conn=3e910a01…d0a2 id=b6cc9fb0…36dd
+2026-04-10T01:10:18.536+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-10T01:10:18.641+08:00 [ws] ⇄ res ✓ sessions.list 98ms conn=3e910a01…d0a2 id=c2e289ab…26e9
+2026-04-10T01:10:18.759+08:00 `tar` 正常。我继续执行备份脚本、更新状态文件，再把结果记下来。
+2026-04-10T01:10:18.762+08:00 备份压缩还在跑，我等一段完成结果；这类包有 2GB+，正常会慢一点。
+2026-04-10T01:10:18.764+08:00 还没结束。我先看一下目标目录里新备份文件是否已经生成并增长，确认不是卡死。
+2026-04-10T01:10:18.772+08:00 进度到这里：
+
+- 健康检查已过：`tar.exe` 可用
+- 备份脚本在跑，当前会话是 `keen-summit`
+- 还没拿到完成结果，所以我暂时不能更新 `memory/backup-state.json`
+- 今日记忆文件 `memory/2026-04-10.md` 仍不存在
+
+我想补一个只读检查，确认新备份文件是否已经在目录里生成并持续增长；这能判断它是在正常压缩还是卡住了。需要你再批一次：
+
+`/approve dcd8e38b allow-once`
+
+如果你不想再批，也可以等一会儿直接让我继续查完成结果。
