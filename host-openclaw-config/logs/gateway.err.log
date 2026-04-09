@@ -3480,3 +3480,11 @@ Call log:
 2026-04-09T14:13:29.486+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-09T15:05:12.728+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-09T15:06:32.468+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-09T15:29:01.218+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-09T15:29:22.450+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-09T15:37:42.412+08:00 [tools] browser failed: Error: Navigation timeout of 10000 ms exceeded raw_params={"action":"open","target":"host","profile":"user","url":"https://www.ozon.ru/seller/elidor-3888335/","timeoutMs":30000}
+2026-04-09T15:37:55.501+08:00 [tools] browser failed: BrowserProfileNotFoundError: Profile "google-auto" not found. Available profiles: chrome-relay, openclaw, user raw_params={"action":"open","target":"host","profile":"google-auto","url":"https://www.ozon.ru/seller/elidor-3888335/","timeoutMs":45000}
+2026-04-09T15:38:13.357+08:00 [tools] browser failed: Error: Navigation timeout of 10000 ms exceeded raw_params={"action":"open","target":"host","profile":"user","url":"https://www.ozon.ru/seller/elidor-3888335/","timeoutMs":45000}
+2026-04-09T15:43:34.036+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"snapshot","target":"host","profile":"user","targetId":"15","refs":"aria","snapshotFormat":"ai","timeoutMs":30000}
+2026-04-09T15:48:35.466+08:00 [agent/embedded] read tool called without path: toolCallId=call_fWl0PweDoaMBzTaCG1I2li7a argsType=object
+2026-04-09T16:12:42.805+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]

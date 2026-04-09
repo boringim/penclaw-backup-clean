@@ -228089,3 +228089,99 @@ Bind: loopback
 2026-04-09T15:08:25.336+08:00 [ws] ⇄ res ✓ sessions.list 128ms conn=3e910a01…d0a2 id=44c7a702…f729
 2026-04-09T15:08:26.148+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-09T15:08:27.036+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-09T15:29:08.041+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-09T15:29:08.124+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: • 以后交流做事认真一点，但是说话上要风趣一点，你要记得你的人设是一只懂事乖巧又有点傲娇的小猫
+2026-04-09T15:29:08.469+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-09T15:29:19.831+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T15:29:22.493+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T15:29:22.528+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T15:29:24.686+08:00 [ws] ⇄ res ✓ sessions.list 217ms conn=3e910a01…d0a2 id=d5285a67…6228
+2026-04-09T15:29:24.692+08:00 [ws] ⇄ res ✓ node.list 226ms conn=3e910a01…d0a2 id=56620b6a…e722
+2026-04-09T15:29:37.834+08:00 [ws] ⇄ res ✓ sessions.list 127ms conn=3e910a01…d0a2 id=ca385b7b…b185
+2026-04-09T15:29:39.622+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-09T15:29:40.673+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T15:37:10.639+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-04-09T15:37:10.659+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-04-09T15:37:10.668+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 打开https://www.ozon.ru/seller/elidor-3888335/ 这个网址的店铺，研究他的商品给我一份报告
+2026-04-09T15:37:10.688+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-04-09T15:37:15.657+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T15:37:17.145+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T15:37:17.179+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T15:37:19.553+08:00 [ws] ⇄ res ✓ sessions.list 552ms conn=3e910a01…d0a2 id=4748ee29…6d30
+2026-04-09T15:37:19.606+08:00 [ws] ⇄ res ✓ node.list 610ms conn=3e910a01…d0a2 id=1847a7b0…d54b
+2026-04-09T15:37:30.204+08:00 [ws] ⇄ res ✓ sessions.list 214ms conn=3e910a01…d0a2 id=a600f4f3…4caa
+2026-04-09T15:37:55.938+08:00 [ws] ⇄ res ✓ sessions.list 323ms conn=3e910a01…d0a2 id=17e64f95…f7df
+2026-04-09T15:38:02.949+08:00 [ws] ⇄ res ✓ sessions.list 162ms conn=3e910a01…d0a2 id=d1c726f2…4b34
+2026-04-09T15:38:19.069+08:00 [ws] ⇄ res ✓ sessions.list 208ms conn=3e910a01…d0a2 id=e00780b0…d229
+2026-04-09T15:38:34.600+08:00 [ws] ⇄ res ✓ sessions.list 156ms conn=3e910a01…d0a2 id=5c63c2e9…3962
+2026-04-09T15:38:46.955+08:00 [ws] ⇄ res ✓ sessions.list 171ms conn=3e910a01…d0a2 id=09795c24…9e53
+2026-04-09T15:39:03.847+08:00 [ws] ⇄ res ✓ sessions.list 198ms conn=3e910a01…d0a2 id=5813d886…f4b6
+2026-04-09T15:39:19.720+08:00 [ws] ⇄ res ✓ sessions.list 240ms conn=3e910a01…d0a2 id=6e958d50…dd34
+2026-04-09T15:39:28.095+08:00 [ws] ⇄ res ✓ sessions.list 133ms conn=3e910a01…d0a2 id=f58d1fb0…5e55
+2026-04-09T15:39:45.710+08:00 [ws] ⇄ res ✓ sessions.list 152ms conn=3e910a01…d0a2 id=4a52da10…633b
+2026-04-09T15:39:46.497+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T15:39:55.313+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=8)
+2026-04-09T15:42:44.252+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-04-09T15:42:44.261+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-04-09T15:42:44.269+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 换这个链接https://www.mercadolibre.com.ar/tienda/two-trees?item_id=MLA2398763818&category_id=MLA407134&official_store_id=193830&client=recoview-selleritems&recos_lis
+2026-04-09T15:42:44.289+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-04-09T15:42:50.785+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T15:42:52.341+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T15:42:52.379+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T15:42:54.039+08:00 [ws] ⇄ res ✓ sessions.list 185ms conn=3e910a01…d0a2 id=9c04bcfb…2ccc
+2026-04-09T15:42:54.118+08:00 [ws] ⇄ res ✓ node.list 266ms conn=3e910a01…d0a2 id=6a3d4b88…98ef
+2026-04-09T15:43:01.206+08:00 [ws] ⇄ res ✓ sessions.list 134ms conn=3e910a01…d0a2 id=844da95b…986e
+2026-04-09T15:43:26.441+08:00 [ws] ⇄ res ✓ node.list 247ms conn=3e910a01…d0a2 id=7e0286c8…e6ff
+2026-04-09T15:43:45.819+08:00 [ws] ⇄ res ✓ sessions.list 1382ms conn=3e910a01…d0a2 id=e764235f…9967
+2026-04-09T15:43:58.287+08:00 [ws] ⇄ res ✓ node.list 199ms conn=3e910a01…d0a2 id=c8470a56…2f1b
+2026-04-09T15:43:58.555+08:00 [ws] ⇄ res ✓ sessions.list 224ms conn=3e910a01…d0a2 id=0e44e3d7…0f2c
+2026-04-09T15:44:07.978+08:00 [ws] ⇄ res ✓ sessions.list 235ms conn=3e910a01…d0a2 id=481433d5…d553
+2026-04-09T15:44:34.788+08:00 [ws] ⇄ res ✓ sessions.list 198ms conn=3e910a01…d0a2 id=a6775e79…6ac7
+2026-04-09T15:44:40.898+08:00 [ws] ⇄ res ✓ sessions.list 147ms conn=3e910a01…d0a2 id=2bbdc6d8…628b
+2026-04-09T15:44:53.356+08:00 [ws] ⇄ res ✓ sessions.list 151ms conn=3e910a01…d0a2 id=de3785ab…7b26
+2026-04-09T15:44:53.368+08:00 [ws] ⇄ res ✓ node.list 156ms conn=3e910a01…d0a2 id=4a03b4ba…0805
+2026-04-09T15:45:33.288+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T15:45:33.460+08:00 [ws] ⇄ res ✓ sessions.list 152ms conn=3e910a01…d0a2 id=8320dc50…42a7
+2026-04-09T15:45:33.528+08:00 [ws] ⇄ res ✓ node.list 55ms conn=3e910a01…d0a2 id=106073cd…d57f
+2026-04-09T15:45:40.634+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=6)
+2026-04-09T15:47:22.772+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-04-09T15:47:22.888+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-04-09T15:47:22.922+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 你又忘了吗，要输出飞书文档和多维表格给我
+2026-04-09T15:47:23.079+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-04-09T15:47:31.807+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T15:47:33.906+08:00 [ws] ⇄ res ✓ node.list 52ms conn=3e910a01…d0a2 id=c7547cbc…c906
+2026-04-09T15:47:34.123+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T15:47:35.026+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T15:47:37.697+08:00 [ws] ⇄ res ✓ sessions.list 184ms conn=3e910a01…d0a2 id=9ea27019…48ce
+2026-04-09T15:47:53.504+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T15:47:54.004+08:00 [ws] ⇄ res ✓ sessions.list 493ms conn=3e910a01…d0a2 id=300bd290…97db
+2026-04-09T15:47:55.798+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-09T15:48:14.213+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-04-09T15:48:14.231+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-04-09T15:48:14.245+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 你自己创建啊
+2026-04-09T15:48:14.272+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-04-09T15:48:22.247+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T15:48:23.688+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T15:48:23.715+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T15:48:25.399+08:00 [ws] ⇄ res ✓ sessions.list 171ms conn=3e910a01…d0a2 id=185f8ee0…d0ff
+2026-04-09T15:48:35.650+08:00 [ws] ⇄ res ✓ sessions.list 152ms conn=3e910a01…d0a2 id=aac7ea7e…3a6d
+2026-04-09T15:48:41.255+08:00 [ws] ⇄ res ✓ sessions.list 128ms conn=3e910a01…d0a2 id=75927d92…d9c5
+2026-04-09T15:49:52.599+08:00 [ws] ⇄ res ✓ sessions.list 152ms conn=3e910a01…d0a2 id=4fa9e49e…08b1
+2026-04-09T15:49:54.119+08:00 [plugins] feishu_doc: Converting markdown...
+2026-04-09T15:50:01.975+08:00 [plugins] feishu_doc: Converted to 133 blocks, inserting...
+2026-04-09T15:50:03.399+08:00 [plugins] feishu_doc: Done (133 blocks, 0 images)
+2026-04-09T15:50:32.775+08:00 [ws] ⇄ res ✓ sessions.list 508ms conn=3e910a01…d0a2 id=8d4a09ab…e1aa
+2026-04-09T15:50:51.905+08:00 [ws] ⇄ res ✓ sessions.list 164ms conn=3e910a01…d0a2 id=a47c998a…2653
+2026-04-09T15:50:52.741+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T15:50:58.710+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=5)
+2026-04-09T16:13:05.648+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-09T16:13:05.675+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 我在飞书如何切换大模型
+2026-04-09T16:13:05.738+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-09T16:13:18.182+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T16:13:20.222+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T16:13:20.277+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T16:13:23.540+08:00 [ws] ⇄ res ✓ sessions.list 267ms conn=3e910a01…d0a2 id=e1406dcd…1d2c
+2026-04-09T16:13:23.553+08:00 [ws] ⇄ res ✓ node.list 289ms conn=3e910a01…d0a2 id=784622dc…f60d
+2026-04-09T16:13:49.645+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T16:13:50.290+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-09T16:13:52.301+08:00 [ws] ⇄ res ✓ sessions.list 160ms conn=3e910a01…d0a2 id=8f7fb2a8…62eb
