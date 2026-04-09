@@ -3459,3 +3459,22 @@ Call log:
 2026-04-09T12:00:01.753+08:00 [agent/embedded] read tool called without path: toolCallId=call_XiJW87EmqqOGV5deCM7bhXcs argsType=object
 2026-04-09T12:00:01.783+08:00 [agent/embedded] read tool called without path: toolCallId=call_nX0BfgfgGyztfg2oyORHdqkz argsType=object
 2026-04-09T12:00:01.810+08:00 [agent/embedded] read tool called without path: toolCallId=call_7msaZCpQ5KlupZeXSqwtWUHp argsType=object
+2026-04-09T13:35:19.962+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-09T13:36:09.908+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Request timed out.
+2026-04-09T13:36:40.913+08:00 [agent/embedded] read tool called without path: toolCallId=call_4yDN92bYNtlMbLaqBLFE1EjO argsType=object
+2026-04-09T13:36:41.131+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\skills\content-source-to-markdown\SKILL.md' raw_params={"file":"C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\openclaw\\skills\\content-source-to-markdown\\SKILL.md"}
+2026-04-09T13:36:48.137+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}} raw_params={"query":"https://mp.weixin.qq.com/s/rps5YVB6TchT9npAaIWKCw","count":5}
+2026-04-09T13:37:32.513+08:00 [feishu] feishu[default] final reply failed: AxiosError: timeout of 30000ms exceeded
+2026-04-09T14:03:23.718+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-09T14:05:38.558+08:00 [agent/embedded] read tool called without path: toolCallId=call_z22rNotBirCeq9XHcR5A7zFa argsType=object
+2026-04-09T14:06:21.107+08:00 [agent/embedded] read tool called without path: toolCallId=call_Zp519NRzwWJjQc4DtykR9g7G argsType=object
+2026-04-09T14:06:21.130+08:00 [agent/embedded] read tool called without path: toolCallId=call_XNBqmDJvlet2WZJOr4atNjQg argsType=object
+2026-04-09T14:06:21.365+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\AppData\Local\Temp\web-access-audit\package.json' raw_params={"file":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\web-access-audit\\package.json","limit":250}
+2026-04-09T14:06:45.984+08:00 [agent/embedded] read tool called without path: toolCallId=call_Er2rDNJQIULFWjXIEFbB1HQZ argsType=object
+2026-04-09T14:06:46.005+08:00 [agent/embedded] read tool called without path: toolCallId=call_Qp0M6tE52tuwndXyGyuacSOa argsType=object
+2026-04-09T14:06:46.027+08:00 [agent/embedded] read tool called without path: toolCallId=call_7WMevQoITdPh48Fhzd6Pi8kf argsType=object
+2026-04-09T14:06:46.053+08:00 [agent/embedded] read tool called without path: toolCallId=call_uimRUNrbrfpc8tbiLQxKN02D argsType=object
+2026-04-09T14:06:46.089+08:00 [agent/embedded] read tool called without path: toolCallId=call_zhQs6qHk2abGLbrxXqkKSrx7 argsType=object
+2026-04-09T14:06:46.116+08:00 [agent/embedded] read tool called without path: toolCallId=call_l963NuezDwqgZaIILrnm5fzw argsType=object
+2026-04-09T14:06:57.118+08:00 [agent/embedded] read tool called without path: toolCallId=call_8joeuQDojzuwoJRrSxKu3Gn2 argsType=object
+2026-04-09T14:13:29.486+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]

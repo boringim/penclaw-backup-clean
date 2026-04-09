@@ -227807,3 +227807,204 @@ Bind: loopback
     }
   }
 ]
+2026-04-09T13:35:45.274+08:00 [error]: [
+  [
+    {
+      message: 'timeout of 30000ms exceeded',
+      config: [Object],
+      request: {},
+      response: {}
+    }
+  ]
+]
+2026-04-09T13:35:45.288+08:00 [feishu] failed to resolve sender name for ou_a52097d99b9a152e035c90554ecb5cdc: AxiosError: timeout of 30000ms exceeded
+2026-04-09T13:35:45.291+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-04-09T13:35:45.297+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-04-09T13:35:45.303+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 使用web-access技能读取链接https://mp.weixin.qq.com/s/rps5YVB6TchT9npAaIWKCw，返回给我
+2026-04-09T13:35:45.318+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-04-09T13:36:11.468+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T13:36:11.502+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T13:36:27.634+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T13:36:27.935+08:00 [ws] ⇄ res ✓ sessions.list 230ms conn=3e910a01…d0a2 id=fcdd8182…f849
+2026-04-09T13:36:41.122+08:00 [ws] ⇄ res ✓ sessions.list 151ms conn=3e910a01…d0a2 id=196f6ace…d8f4
+2026-04-09T13:37:02.344+08:00 [ws] ⇄ res ✓ sessions.list 129ms conn=3e910a01…d0a2 id=c10715fc…5801
+2026-04-09T13:37:08.563+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T13:37:11.002+08:00 [error]: [
+  [
+    {
+      message: 'timeout of 30000ms exceeded',
+      config: [Object],
+      request: {},
+      response: {}
+    }
+  ]
+]
+2026-04-09T13:37:32.505+08:00 [error]: [
+  [
+    {
+      message: 'timeout of 30000ms exceeded',
+      config: [Object],
+      request: {},
+      response: {}
+    }
+  ]
+]
+2026-04-09T13:37:32.517+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-09T13:40:28.632+08:00 [error]: [
+  AxiosError: timeout of 10000ms exceeded
+      at RedirectableRequest.handleRequestTimeout (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\@larksuiteoapi\node-sdk\node_modules\axios\lib\adapters\http.js:908:13)
+      at RedirectableRequest.emit (node:events:519:28)
+      at Timeout._onTimeout (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\follow-redirects\index.js:221:12)
+      at listOnTimeout (node:internal/timers:588:17)
+      at processTimers (node:internal/timers:523:7)
+      at Axios.request (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\@larksuiteoapi\node-sdk\node_modules\axios\lib\core\Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ECONNABORTED',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    }
+  }
+]
+2026-04-09T13:53:28.741+08:00 [error]: [
+  AxiosError: timeout of 10000ms exceeded
+      at RedirectableRequest.handleRequestTimeout (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\@larksuiteoapi\node-sdk\node_modules\axios\lib\adapters\http.js:908:13)
+      at RedirectableRequest.emit (node:events:519:28)
+      at Timeout._onTimeout (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\follow-redirects\index.js:221:12)
+      at listOnTimeout (node:internal/timers:588:17)
+      at processTimers (node:internal/timers:523:7)
+      at Axios.request (C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\node_modules\@larksuiteoapi\node-sdk\node_modules\axios\lib\core\Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ECONNABORTED',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [ClientRequest],
+      _currentUrl: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    }
+  }
+]
+2026-04-09T14:00:01.076+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-04-09T14:00:01.085+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-04-09T14:00:01.091+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 使用web-access技能读取链接https://mp.weixin.qq.com/s/rps5YVB6TchT9npAaIWKCw，返回给我
+2026-04-09T14:00:01.108+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-04-09T14:00:05.137+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T14:00:06.514+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T14:00:06.549+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T14:00:08.206+08:00 [ws] ⇄ res ✓ sessions.list 205ms conn=3e910a01…d0a2 id=1adf030c…ce43
+2026-04-09T14:00:16.569+08:00 [ws] ⇄ res ✓ sessions.list 126ms conn=3e910a01…d0a2 id=48fcacd9…7666
+2026-04-09T14:00:17.362+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T14:00:18.372+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-09T14:04:16.258+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-04-09T14:04:16.265+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-04-09T14:04:16.272+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: https://github.com/eze-is/web-access 给自己安装这个功能
+2026-04-09T14:04:16.280+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-04-09T14:04:21.521+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T14:04:22.948+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T14:04:23.037+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T14:04:24.758+08:00 [ws] ⇄ res ✓ node.list 1079ms conn=3e910a01…d0a2 id=60e24541…50da
+2026-04-09T14:04:24.944+08:00 [ws] ⇄ res ✓ sessions.list 178ms conn=3e910a01…d0a2 id=110e6609…e51d
+2026-04-09T14:04:42.013+08:00 [ws] ⇄ res ✓ sessions.list 150ms conn=3e910a01…d0a2 id=1e6b19af…f478
+2026-04-09T14:04:43.474+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T14:04:43.979+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-09T14:05:24.178+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-04-09T14:05:24.183+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-04-09T14:05:24.187+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 继续
+2026-04-09T14:05:24.192+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-04-09T14:05:27.245+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T14:05:28.659+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T14:05:28.688+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T14:05:30.279+08:00 [ws] ⇄ res ✓ sessions.list 146ms conn=3e910a01…d0a2 id=e33cb144…829c
+2026-04-09T14:05:38.827+08:00 [ws] ⇄ res ✓ sessions.list 133ms conn=3e910a01…d0a2 id=f4b9fe78…fd5b
+2026-04-09T14:06:02.864+08:00 [ws] ⇄ res ✓ sessions.list 181ms conn=3e910a01…d0a2 id=1994e8ce…f61f
+2026-04-09T14:06:21.362+08:00 [ws] ⇄ res ✓ sessions.list 154ms conn=3e910a01…d0a2 id=ed78f25f…3a76
+2026-04-09T14:06:46.279+08:00 [ws] ⇄ res ✓ sessions.list 134ms conn=3e910a01…d0a2 id=07b2f482…db7c
+2026-04-09T14:06:57.278+08:00 [ws] ⇄ res ✓ sessions.list 132ms conn=3e910a01…d0a2 id=0d5af299…1d84
+2026-04-09T14:07:20.951+08:00 [ws] ⇄ res ✓ sessions.list 152ms conn=3e910a01…d0a2 id=96122369…6206
+2026-04-09T14:07:22.016+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T14:07:26.302+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=4)
+2026-04-09T14:13:30.119+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_baa6c26e80932344e32cf514de6acde3 (group)
+2026-04-09T14:13:30.137+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_baa6c26e80932344e32cf514de6acde3
+2026-04-09T14:13:30.180+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_baa6c26e80932344e32cf514de6acde3: 直接装，仔细研究
+2026-04-09T14:13:30.204+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_baa6c26e80932344e32cf514de6acde3)
+2026-04-09T14:13:34.621+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T14:13:36.117+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T14:13:36.172+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T14:13:38.288+08:00 [ws] ⇄ res ✓ sessions.list 148ms conn=3e910a01…d0a2 id=f7c57454…859f
+2026-04-09T14:13:50.028+08:00 [ws] ⇄ res ✓ sessions.list 182ms conn=3e910a01…d0a2 id=1c8537fd…a92b
+2026-04-09T14:14:14.344+08:00 [ws] ⇄ res ✓ sessions.list 253ms conn=3e910a01…d0a2 id=187bf635…3261
+2026-04-09T14:14:28.993+08:00 [ws] ⇄ res ✓ sessions.list 148ms conn=3e910a01…d0a2 id=32b57c8d…0c38
+2026-04-09T14:14:42.851+08:00 [ws] ⇄ res ✓ sessions.list 238ms conn=3e910a01…d0a2 id=d1f981df…395c
+2026-04-09T14:14:57.032+08:00 [ws] ⇄ res ✓ sessions.list 163ms conn=3e910a01…d0a2 id=27f776ce…ab83
+2026-04-09T14:15:27.529+08:00 [ws] ⇄ res ✓ sessions.list 244ms conn=3e910a01…d0a2 id=67694c07…e2c5
+2026-04-09T14:15:52.533+08:00 [ws] ⇄ res ✓ sessions.list 134ms conn=3e910a01…d0a2 id=104fd96f…c968
+2026-04-09T14:15:54.084+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T14:15:59.622+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=6)
