@@ -228185,3 +228185,4 @@ Bind: loopback
 2026-04-09T16:13:49.645+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-09T16:13:50.290+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
 2026-04-09T16:13:52.301+08:00 [ws] ⇄ res ✓ sessions.list 160ms conn=3e910a01…d0a2 id=8f7fb2a8…62eb
+2026-04-09T16:56:38.133+08:00 [ws] ⇄ res ✓ node.list 190ms conn=3e910a01…d0a2 id=7f12b411…e44e
