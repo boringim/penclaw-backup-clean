@@ -228539,3 +228539,36 @@ Bind: loopback
 `/approve dcd8e38b allow-once`
 
 如果你不想再批，也可以等一会儿直接让我继续查完成结果。
+2026-04-10T01:40:13.384+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 1799936ms conn=df7caeed…fe49 id=a0c74945…1c83
+2026-04-10T01:40:19.419+08:00 [ws] ⇄ res ✓ agent 106ms runId=exec-approval-followup:dcd8e38b-ee3b-48a6-bf42-ca17ffd89e89 conn=a99e9cd7…8f08 id=1e0b852a…affb
+2026-04-10T01:40:20.217+08:00 [ws] ⇄ res ✓ sessions.list 154ms conn=3e910a01…d0a2 id=d6313212…fb77
+2026-04-10T01:40:25.817+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-10T01:40:27.183+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T01:40:27.216+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T01:40:28.725+08:00 [ws] ⇄ res ✓ sessions.list 100ms conn=3e910a01…d0a2 id=8b17586b…72a9
+2026-04-10T01:40:28.728+08:00 [ws] ⇄ res ✓ node.list 1028ms conn=3e910a01…d0a2 id=b2888745…c1d0
+2026-04-10T01:40:33.493+08:00 [ws] ⇄ res ✓ sessions.list 112ms conn=3e910a01…d0a2 id=c6b5bf18…fd28
+2026-04-10T01:40:48.818+08:00 [ws] ⇄ res ✓ sessions.list 99ms conn=3e910a01…d0a2 id=a4c11bf5…e357
+2026-04-10T01:40:57.201+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-10T01:40:57.281+08:00 [ws] ⇄ res ✓ sessions.list 77ms conn=3e910a01…d0a2 id=66896718…09e5
+2026-04-10T01:40:57.407+08:00 很好，新包已经出来而且大小正常。我现在只需要确认备份进程是否已结束；结束后更新状态文件并补今天记忆。
+2026-04-10T01:40:57.411+08:00 备份已经完成，这次是成功的。
+
+- 健康检查正常：`tar.exe` 可用
+- 备份文件已生成：`C:\Users\Administrator\openclaw-backups\openclaw-2026-04-10_0101.tar.gz`
+- 备份大小约 `2378.25 MB`（原始字节数 `2493775884`）
+- 状态已更新到 `memory/backup-state.json:1`，`backup_count` 现在是 `8`
+- 今日记录已补到 `memory/2026-04-10.md:1`
+
+这次中间有个小坑：
+- 原始 PowerShell 内联命令因为引号转义失败，导致第一次执行报错
+- 我改成脚本文件方式后成功跑完，脚本在 `tmp/daily_backup.ps1:1`
+
+清理提醒这次不用特别提示：
+- 触发前计数是 `7`
+- 成功后变成 `8`
+- 不是 7 的倍数，所以本次不属于“特别提醒手动删旧备份”的轮次
+
+如果你愿意，我下一步可以顺手做两件事：
+1. 把这个备份任务改成固定用脚本文件执行，避免以后再被引号坑
+2. 再加一个“备份后自动校验归档存在与大小写入日志”的小增强
