@@ -3519,3 +3519,24 @@ Call log:
 2026-04-10T01:01:46.315+08:00 [agent/embedded] read tool called without path: toolCallId=call_7BqrMdEJmaUhw0pVcE7qAtan argsType=object
 2026-04-10T01:01:46.335+08:00 [agent/embedded] read tool called without path: toolCallId=call_x06RVCvK2VWH5tWAt328Wr0c argsType=object
 2026-04-10T01:01:46.498+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-10.md' raw_params={"file":"memory/2026-04-10.md"}
+2026-04-10T04:00:33.234+08:00 [agent/embedded] read tool called without path: toolCallId=call_blBngzQCBcCmbRotldFCXJac argsType=object
+2026-04-10T04:00:33.254+08:00 [agent/embedded] read tool called without path: toolCallId=call_5v4vE4ZfloDyzAezgOn5a77Z argsType=object
+2026-04-10T04:00:40.412+08:00 [agent/embedded] read tool called without path: toolCallId=call_vYgkW7q4rCSiJJU8miP5wr3B argsType=object
+2026-04-10T04:00:57.883+08:00 [agent/embedded] read tool called without path: toolCallId=call_K3rjoMQjGHUcPx5Hhz4SRJHd argsType=object
+2026-04-10T04:00:57.891+08:00 [agent/embedded] read tool called without path: toolCallId=call_CtxIZOU6xcZyHqEAFyg8SeZK argsType=object
+2026-04-10T04:01:06.437+08:00 [agent/embedded] read tool called without path: toolCallId=call_4OJujs9C4SQA1bPhnTKEqf4c argsType=object
+2026-04-10T04:01:30.035+08:00 [agent/embedded] read tool called without path: toolCallId=call_KgjjLtM83ddf1gWTGGxM7Pi3 argsType=object
+2026-04-10T04:01:30.046+08:00 [agent/embedded] read tool called without path: toolCallId=call_KTb9n5EkHnSyJtFs8RVbWjc8 argsType=object
+2026-04-10T04:01:30.058+08:00 [agent/embedded] read tool called without path: toolCallId=call_0AOn8qDR97VPWSEIfIq6SL86 argsType=object
+2026-04-10T04:02:17.838+08:00 [agent/embedded] read tool called without path: toolCallId=call_DU6KGUzFqdu5kRZygFBFGDgh argsType=object
+2026-04-10T04:02:17.847+08:00 [agent/embedded] read tool called without path: toolCallId=call_uD08CWAZGMg8QKqoOgJBfMJR argsType=object
+2026-04-10T04:02:17.860+08:00 [agent/embedded] read tool called without path: toolCallId=call_gmduhcKs6hjTgmn5RToYTPAl argsType=object
+2026-04-10T04:02:17.872+08:00 [agent/embedded] read tool called without path: toolCallId=call_IGJ61gKYUQSgglZLhE0mViq3 argsType=object
+2026-04-10T04:02:17.889+08:00 [agent/embedded] read tool called without path: toolCallId=call_AUzEOnCDRy4WtBBnzFdtFE3G argsType=object
+2026-04-10T04:02:18.024+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-10.md' raw_params={"file":"memory/2026-04-10.md"}
+2026-04-10T04:02:18.035+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-09.md' raw_params={"file":"memory/2026-04-09.md"}
+2026-04-10T04:02:50.336+08:00 [agent/embedded] read tool called without path: toolCallId=call_UwmOZxfMWj5lp9MUCBl32iUy argsType=object
+2026-04-10T04:02:50.345+08:00 [agent/embedded] read tool called without path: toolCallId=call_B4V2KCJSxRYOU0i608TUY36R argsType=object
+2026-04-10T04:02:50.353+08:00 [agent/embedded] read tool called without path: toolCallId=call_WvBcZJqqaEozaIakrcYtDM7Z argsType=object
+2026-04-10T04:03:09.318+08:00 [agent/embedded] read tool called without path: toolCallId=call_rbSBXAIYgXq5d0Z3RDo3Txgs argsType=object
+2026-04-10T04:03:13.079+08:00 [agent/embedded] read tool called without path: toolCallId=call_0zubhsg6p7xgOBOiupqtQKnL argsType=object

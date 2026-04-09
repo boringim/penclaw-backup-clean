@@ -228572,3 +228572,39 @@ Bind: loopback
 如果你愿意，我下一步可以顺手做两件事：
 1. 把这个备份任务改成固定用脚本文件执行，避免以后再被引号坑
 2. 再加一个“备份后自动校验归档存在与大小写入日志”的小增强
+2026-04-10T04:00:00.314+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T04:00:18.545+08:00 [ws] ⇄ res ✓ node.list 1359ms conn=3e910a01…d0a2 id=d6e95678…ae56
+2026-04-10T04:00:25.146+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T04:00:25.188+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T04:00:27.856+08:00 [ws] ⇄ res ✓ sessions.list 193ms conn=3e910a01…d0a2 id=f5e9cc0b…45e7
+2026-04-10T04:00:33.516+08:00 [ws] ⇄ res ✓ sessions.list 84ms conn=3e910a01…d0a2 id=bd665bd0…27c7
+2026-04-10T04:00:33.723+08:00 [ws] ⇄ res ✓ sessions.list 83ms conn=e9dcf4ef…8b81 id=a8cc6141…aa96
+2026-04-10T04:00:40.585+08:00 [ws] ⇄ res ✓ sessions.list 90ms conn=3e910a01…d0a2 id=08d38edb…9008
+2026-04-10T04:00:48.384+08:00 [ws] ⇄ res ✓ sessions.list 96ms conn=3e910a01…d0a2 id=e208a975…49b4
+2026-04-10T04:00:52.911+08:00 [ws] ⇄ res ✓ sessions.list 109ms conn=3e910a01…d0a2 id=78fad0c5…85bd
+2026-04-10T04:00:58.002+08:00 [ws] ⇄ res ✓ sessions.list 97ms conn=3e910a01…d0a2 id=afa978db…8974
+2026-04-10T04:01:06.567+08:00 [ws] ⇄ res ✓ sessions.list 91ms conn=3e910a01…d0a2 id=5143a496…9764
+2026-04-10T04:01:17.767+08:00 [ws] ⇄ res ✓ sessions.list 153ms conn=3e910a01…d0a2 id=68cfea1c…b340
+2026-04-10T04:01:23.066+08:00 [ws] ⇄ res ✓ sessions.list 121ms conn=3e910a01…d0a2 id=a0f2e833…c019
+2026-04-10T04:01:30.168+08:00 [ws] ⇄ res ✓ sessions.list 96ms conn=3e910a01…d0a2 id=e762b85b…296c
+2026-04-10T04:01:46.800+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_baa6c26e80932344e32cf514de6acde3
+2026-04-10T04:01:46.916+08:00 [ws] ⇄ res ✓ sessions.list 103ms conn=3e910a01…d0a2 id=fc4831db…38b5
+2026-04-10T04:01:47.049+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T04:02:04.729+08:00 [ws] ⇄ res ✓ node.list 1316ms conn=3e910a01…d0a2 id=ff278a7f…25b6
+2026-04-10T04:02:09.783+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T04:02:09.811+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T04:02:12.230+08:00 [ws] ⇄ res ✓ sessions.list 137ms conn=3e910a01…d0a2 id=7453807e…6763
+2026-04-10T04:02:18.012+08:00 [ws] ⇄ res ✓ sessions.list 96ms conn=3e910a01…d0a2 id=8561361e…0e9e
+2026-04-10T04:02:18.215+08:00 [ws] ⇄ res ✓ sessions.list 101ms conn=03093e4b…b256 id=c2604321…0062
+2026-04-10T04:02:25.452+08:00 [ws] ⇄ res ✓ sessions.list 88ms conn=3e910a01…d0a2 id=fdcf5fd4…4e0f
+2026-04-10T04:02:33.291+08:00 [ws] ⇄ res ✓ sessions.list 83ms conn=3e910a01…d0a2 id=5bb40cc9…ab74
+2026-04-10T04:02:42.487+08:00 [ws] ⇄ res ✓ sessions.list 86ms conn=3e910a01…d0a2 id=185f4c44…7bb0
+2026-04-10T04:02:50.480+08:00 [ws] ⇄ res ✓ sessions.list 116ms conn=3e910a01…d0a2 id=776a7ae9…b568
+2026-04-10T04:02:54.762+08:00 [ws] ⇄ res ✓ sessions.list 90ms conn=3e910a01…d0a2 id=4ee629e2…4c14
+2026-04-10T04:03:02.417+08:00 [ws] ⇄ res ✓ sessions.list 109ms conn=3e910a01…d0a2 id=47760d9b…d9ea
+2026-04-10T04:03:09.413+08:00 [ws] ⇄ res ✓ sessions.list 87ms conn=3e910a01…d0a2 id=dc19bda8…0df5
+2026-04-10T04:03:13.185+08:00 [ws] ⇄ res ✓ sessions.list 99ms conn=3e910a01…d0a2 id=77b852b7…0875
+2026-04-10T04:03:17.607+08:00 [ws] ⇄ res ✓ sessions.list 83ms conn=3e910a01…d0a2 id=9f8854c5…1a67
+2026-04-10T04:03:41.460+08:00 [ws] ⇄ res ✓ sessions.list 105ms conn=3e910a01…d0a2 id=4a1b24c7…7ef2
+2026-04-10T04:03:55.013+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
+2026-04-10T04:03:55.127+08:00 [ws] ⇄ res ✓ sessions.list 107ms conn=3e910a01…d0a2 id=721ae5da…7e4a
