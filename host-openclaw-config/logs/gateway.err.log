@@ -3412,3 +3412,9 @@ Call log:
 2026-04-09T04:02:57.880+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-09.md' raw_params={"file":"memory/2026-04-09.md"}
 2026-04-09T04:02:57.899+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-08.md' raw_params={"file":"memory/2026-04-08.md"}
 2026-04-09T04:02:57.910+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\improvement_log.md' raw_params={"file":"improvement_log.md"}
+2026-04-09T08:00:00.177+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-09T08:00:34.513+08:00 [agent/embedded] read tool called without path: toolCallId=call_GyMCerSkBcsELhRaGGHuAvui argsType=object
+2026-04-09T08:00:34.532+08:00 [agent/embedded] read tool called without path: toolCallId=call_5f87cA4Ws24lPzQpzejcODq0 argsType=object
+2026-04-09T08:00:34.546+08:00 [agent/embedded] read tool called without path: toolCallId=call_OzmRqmRTFxx3DAdRzkbklUvU argsType=object
+2026-04-09T08:00:34.568+08:00 [agent/embedded] read tool called without path: toolCallId=call_2aLW2vObaGJZ3d8wPzfimq7G argsType=object
+2026-04-09T08:00:34.720+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-09.md' raw_params={"file":"memory/2026-04-09.md"}
