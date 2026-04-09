@@ -228450,3 +228450,18 @@ Bind: loopback
 2026-04-09T21:13:57.335+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-09T21:13:57.432+08:00 [ws] ⇄ res ✓ sessions.list 93ms conn=3e910a01…d0a2 id=02e91e90…d67c
 2026-04-09T21:13:58.755+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-04-09T22:48:17.029+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_981e24884af3ed7ed6c16c5730c9bd02 (group)
+2026-04-09T22:48:17.063+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T22:48:17.090+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_981e24884af3ed7ed6c16c5730c9bd02: 继续
+2026-04-09T22:48:17.166+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_981e24884af3ed7ed6c16c5730c9bd02)
+2026-04-09T22:48:24.986+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T22:48:26.257+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T22:48:26.295+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-09T22:48:28.614+08:00 [ws] ⇄ res ✓ sessions.list 250ms conn=3e910a01…d0a2 id=60e9ed91…8298
+2026-04-09T22:48:28.624+08:00 [ws] ⇄ res ✓ node.list 897ms conn=3e910a01…d0a2 id=4bda3fae…a246
+2026-04-09T22:48:41.275+08:00 [ws] ⇄ res ✓ sessions.list 97ms conn=3e910a01…d0a2 id=786b3604…f741
+2026-04-09T22:48:55.912+08:00 [ws] ⇄ res ✓ sessions.list 82ms conn=3e910a01…d0a2 id=338334b4…5f8a
+2026-04-09T22:49:10.769+08:00 [ws] ⇄ res ✓ sessions.list 95ms conn=3e910a01…d0a2 id=51e43f51…c93d
+2026-04-09T22:49:34.913+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-09T22:49:35.034+08:00 [ws] ⇄ res ✓ sessions.list 114ms conn=3e910a01…d0a2 id=db0b7d64…4223
+2026-04-09T22:49:36.348+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
