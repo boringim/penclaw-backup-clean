@@ -3419,3 +3419,36 @@ Call log:
 2026-04-09T08:00:34.568+08:00 [agent/embedded] read tool called without path: toolCallId=call_2aLW2vObaGJZ3d8wPzfimq7G argsType=object
 2026-04-09T08:00:34.720+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-09.md' raw_params={"file":"memory/2026-04-09.md"}
 2026-04-09T08:43:40.398+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-09T10:31:00.167+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-09T10:31:32.182+08:00 [agent/embedded] read tool called without path: toolCallId=call_czrssCEu6kW82sunxpJsQc5I argsType=object
+2026-04-09T10:31:32.213+08:00 [agent/embedded] read tool called without path: toolCallId=call_2F3BlQuUCYUluQDxNMf8MCsv argsType=object
+2026-04-09T10:31:32.245+08:00 [agent/embedded] read tool called without path: toolCallId=call_wCs8kD8PeYXjLaIiUjG9lZWe argsType=object
+2026-04-09T10:31:32.275+08:00 [agent/embedded] read tool called without path: toolCallId=call_pwBmNF4s0xywaumQZ0HLV2H4 argsType=object
+2026-04-09T10:31:32.304+08:00 [agent/embedded] read tool called without path: toolCallId=call_tdyH813zfLtSOsvBEUrKGF80 argsType=object
+2026-04-09T10:32:46.124+08:00 [agent/embedded] read tool called without path: toolCallId=call_hgCP3BZpBYkjiYuA8JNgTRzI argsType=object
+2026-04-09T10:33:01.171+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity) — deferring until 2 operation(s), 1 reply(ies), 1 embedded run(s), 1 task run(s) complete
+2026-04-09T10:36:45.616+08:00 [agent/embedded] read tool called without path: toolCallId=call_3cZyL44GaQoVMUsOg6v54pQV argsType=object
+2026-04-09T10:38:01.227+08:00 [reload] restart timeout after 300050ms with 1 task run(s) still active; restarting anyway
+2026-04-09T10:38:30.109+08:00 [ws] handshake timeout conn=9735dd5b-b16c-44d7-a6b3-077d421e4708 remote=127.0.0.1
+2026-04-09T10:38:30.120+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-09T10:38:30.136+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-09T10:38:32.157+08:00 [ws] closed before connect conn=e2d9c9c0-53bd-45ab-a811-65f0ea8bc9da remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1006 reason=n/a
+2026-04-09T10:38:33.051+08:00 [ws] closed before connect conn=94cc776b-2542-4ed9-a69f-d569e0d86885 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1001 reason=n/a
+2026-04-09T10:38:33.090+08:00 [ws] closed before connect conn=9735dd5b-b16c-44d7-a6b3-077d421e4708 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1005 reason=n/a
+2026-04-09T10:39:16.888+08:00 [tools] browser failed: BrowserProfileNotFoundError: Profile "google-auto" not found. Available profiles: chrome-relay, openclaw, user raw_params={"action":"open","url":"https://github.com/eze-is/web-access","profile":"google-auto","target":"host"}
+2026-04-09T10:39:16.896+08:00 [tools] browser failed: BrowserProfileNotFoundError: Profile "google-auto" not found. Available profiles: chrome-relay, openclaw, user raw_params={"action":"open","url":"https://github.com/eze-is/web-access/tree/main","profile":"google-auto","target":"host"}
+2026-04-09T10:39:17.865+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}} raw_params={"query":"eze-is web-access github web-access-openclaw clawhub","count":5}
+2026-04-09T10:39:38.441+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"open","url":"https://github.com/eze-is/web-access","profile":"user","target":"host"}
+2026-04-09T10:40:29.793+08:00 [agent/embedded] read tool called without path: toolCallId=call_SDbh4PleifyA5C7LipNE4NMw argsType=object
+2026-04-09T10:40:29.825+08:00 [agent/embedded] read tool called without path: toolCallId=call_n5yYBI8c4owll7SE0ynHuAPl argsType=object
+2026-04-09T10:40:29.861+08:00 [agent/embedded] read tool called without path: toolCallId=call_yg7ZJhg4KpjGN1lsFtgOz1WX argsType=object
+2026-04-09T10:40:29.911+08:00 [agent/embedded] read tool called without path: toolCallId=call_VHCuGRFblcWzbQsbOesCRwa9 argsType=object
+2026-04-09T10:43:55.048+08:00 [agent/embedded] read tool called without path: toolCallId=call_kSkwARvARjNm7xodnbzK5V45 argsType=object
+2026-04-09T10:56:31.166+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"open","url":"https://www.uisdc.com/skills-10","profile":"user","target":"host"}
+2026-04-09T10:56:38.500+08:00 [process/supervisor] spawn failed: runId=wild-fjord reason=Error: spawn EPERM
+2026-04-09T10:56:38.512+08:00 [tools] exec failed: spawn EPERM raw_params={"command":"$tmp = Join-Path $env:TEMP ('uisdc-skills10-' + [guid]::NewGuid().ToString() + '.html'); curl.exe -L \"https://www.uisdc.com/skills-10\" -o $tmp; Write-Output $tmp; Get-Content $tmp -TotalCount 220","workdir":"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group","timeout":120,"yieldMs":120000}
+2026-04-09T11:08:12.634+08:00 [agent/embedded] read tool called without path: toolCallId=call_zpWM1sz365T55ohNjdyY1Bhk argsType=object
+2026-04-09T11:08:12.655+08:00 [agent/embedded] read tool called without path: toolCallId=call_4CjkIyYxhYtwnpBsdxKDGusR argsType=object
+2026-04-09T11:10:32.915+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-09T11:11:01.158+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-09T11:17:57.093+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
