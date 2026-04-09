@@ -3,7 +3,7 @@
   "deviceId": "9ae228c0b5a277069199806d0655dff8cacf1df4cf5e08bf117adf0b299de17d",
   "tokens": {
     "operator": {
-      "token": "Uga1i8QcRcM5ZANcrc-SeEEu2kA50-eldde44_7nXsk",
+      "token": "Bm6g8DbwE5xWK1qW4KY85HgFKECLU-HoVdTA26UTRS0",
       "role": "operator",
       "scopes": [
         "operator.admin",
@@ -12,7 +12,7 @@
         "operator.read",
         "operator.write"
       ],
-      "updatedAtMs": 1775717430991
+      "updatedAtMs": 1775750446261
     },
     "node": {
       "token": "FTCKdB71Ye9XKiBk2JHpJTJYYd-l3fPiV32Pr7gGEtQ",

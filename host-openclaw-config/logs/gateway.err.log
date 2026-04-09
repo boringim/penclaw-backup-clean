@@ -3509,3 +3509,10 @@ Call log:
 2026-04-09T20:51:45.523+08:00 [agent/embedded] read tool called without path: toolCallId=call_WGoPcvI2nsyL5cjzBx5KcJBU argsType=object
 2026-04-09T20:55:40.904+08:00 [agent/embedded] read tool called without path: toolCallId=call_q9WztxFFc70oNSeyiPcAfu19 argsType=object
 2026-04-09T21:03:15.106+08:00 [agent/embedded] read tool called without path: toolCallId=call_XwNSPSv6vka9TmhaOT7R2l29 argsType=object
+2026-04-10T00:00:00.203+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-10T00:00:36.362+08:00 [agent/embedded] read tool called without path: toolCallId=call_37X7WSxqMd1VvwjwzeUVud35 argsType=object
+2026-04-10T00:00:36.375+08:00 [agent/embedded] read tool called without path: toolCallId=call_vOOj7alPudiRSwJQEBUs8fys argsType=object
+2026-04-10T00:00:36.389+08:00 [agent/embedded] read tool called without path: toolCallId=call_34JioLwnGmZgvkvuMgGLtF1K argsType=object
+2026-04-10T00:00:36.417+08:00 [agent/embedded] read tool called without path: toolCallId=call_XHSas77fpjpBN7HYFHGS2D0X argsType=object
+2026-04-10T00:00:36.694+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-10.md' raw_params={"file":"memory/2026-04-10.md"}
+2026-04-10T00:00:45.869+08:00 [agent/embedded] read tool called without path: toolCallId=call_OpuDaktBMwxYJcisEKfJdRib argsType=object
