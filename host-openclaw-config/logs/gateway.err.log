@@ -3559,3 +3559,4 @@ Call log:
 2026-04-10T08:00:58.717+08:00 [agent/embedded] read tool called without path: toolCallId=call_pRkXkobJDpved9WEnXdxhzZn argsType=object
 2026-04-10T08:00:58.737+08:00 [agent/embedded] read tool called without path: toolCallId=call_LJvEveVvo6gAsiDjXuGIdXuK argsType=object
 2026-04-10T08:00:58.760+08:00 [agent/embedded] read tool called without path: toolCallId=call_17yWtUyn3IoBopR7PugpSsvf argsType=object
+2026-04-10T09:24:14.860+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
