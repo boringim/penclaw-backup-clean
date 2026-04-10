@@ -392,7 +392,7 @@
       "name": "EntroCamp_Intent_Nightly",
       "enabled": true,
       "createdAtMs": 1775825980020,
-      "updatedAtMs": 1775825980020,
+      "updatedAtMs": 1775833282540,
       "schedule": {
         "kind": "cron",
         "expr": "0 23 * * *",
@@ -413,7 +413,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775833200000
+        "nextRunAtMs": 1775919600000,
+        "lastRunAtMs": 1775833200094,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 82446,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0
       }
     },
     {
@@ -423,7 +430,7 @@
       "name": "EntroCamp_Reasoning_Nightly",
       "enabled": true,
       "createdAtMs": 1775825983015,
-      "updatedAtMs": 1775825983015,
+      "updatedAtMs": 1775834150908,
       "schedule": {
         "kind": "cron",
         "expr": "15 23 * * *",
@@ -444,7 +451,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775834100000
+        "nextRunAtMs": 1775920500000,
+        "lastRunAtMs": 1775834100034,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 50874,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0
       }
     },
     {

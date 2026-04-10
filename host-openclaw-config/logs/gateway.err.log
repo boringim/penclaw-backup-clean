@@ -3606,3 +3606,12 @@ Call log:
 2026-04-10T20:54:54.120+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-10T20:56:41.088+08:00 Rerank API timed out (5s), falling back to cosine
 2026-04-10T21:08:55.490+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T23:00:33.872+08:00 [agent/embedded] read tool called without path: toolCallId=call_FPavbXFzqKkDFCf0W4eNL99U argsType=object
+2026-04-10T23:00:33.893+08:00 [agent/embedded] read tool called without path: toolCallId=call_YJ7rDsdUFdtyNSpwYm51ShGb argsType=object
+2026-04-10T23:00:33.908+08:00 [agent/embedded] read tool called without path: toolCallId=call_zhZc27umgfiXPfMPJbbC4wxI argsType=object
+2026-04-10T23:00:33.931+08:00 [agent/embedded] read tool called without path: toolCallId=call_q0wbC6yu8SFNufqyzhJ1iXvl argsType=object
+2026-04-10T23:00:33.961+08:00 [agent/embedded] read tool called without path: toolCallId=call_F2BFVd3tiLypUuNaMu2aQfzD argsType=object
+2026-04-10T23:00:51.607+08:00 [agent/embedded] read tool called without path: toolCallId=call_r5m5imBLDGmozFyLsf4kr55I argsType=object
+2026-04-10T23:04:18.100+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T23:05:39.018+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T23:07:50.483+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
