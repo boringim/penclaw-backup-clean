@@ -228623,3 +228623,20 @@ Bind: loopback
 2026-04-10T07:01:20.495+08:00 [ws] ⇄ res ✓ sessions.list 95ms conn=3e910a01…d0a2 id=23e8b172…f8f0
 2026-04-10T07:01:34.126+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-10T07:01:34.220+08:00 [ws] ⇄ res ✓ sessions.list 88ms conn=3e910a01…d0a2 id=bf194c09…178c
+2026-04-10T08:00:03.800+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-10T08:00:06.906+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T08:00:06.930+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T08:00:08.386+08:00 [ws] ⇄ res ✓ sessions.list 138ms conn=3e910a01…d0a2 id=76b8f735…326d
+2026-04-10T08:00:08.393+08:00 [ws] ⇄ res ✓ node.list 145ms conn=3e910a01…d0a2 id=bf1c576d…253f
+2026-04-10T08:00:13.869+08:00 [ws] ⇄ res ✓ sessions.list 93ms conn=3e910a01…d0a2 id=1d5f7a92…668e
+2026-04-10T08:00:18.174+08:00 [ws] ⇄ res ✓ sessions.list 100ms conn=3e910a01…d0a2 id=de983353…ada1
+2026-04-10T08:00:28.956+08:00 [ws] ⇄ res ✓ sessions.list 130ms conn=3e910a01…d0a2 id=61d3b8be…cf3f
+2026-04-10T08:00:45.245+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-10T08:00:45.351+08:00 [ws] ⇄ res ✓ sessions.list 98ms conn=3e910a01…d0a2 id=20854113…1d3d
+2026-04-10T08:00:49.549+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-10T08:00:52.494+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T08:00:52.517+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-10T08:00:53.712+08:00 [ws] ⇄ res ✓ sessions.list 91ms conn=3e910a01…d0a2 id=b2b2846f…a1df
+2026-04-10T08:00:58.864+08:00 [ws] ⇄ res ✓ sessions.list 83ms conn=3e910a01…d0a2 id=7d861fbc…a86c
+2026-04-10T08:01:04.221+08:00 [plugins] memory-lancedb-pro: regex fallback found 1 capturable text(s) for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-10T08:01:04.337+08:00 [ws] ⇄ res ✓ sessions.list 78ms conn=3e910a01…d0a2 id=9e51ee25…cad6

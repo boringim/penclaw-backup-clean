@@ -44,7 +44,7 @@
       "name": "Email_Label_Management_Weekly",
       "enabled": true,
       "createdAtMs": 1771345366763,
-      "updatedAtMs": 1775174523756,
+      "updatedAtMs": 1775779246164,
       "schedule": {
         "expr": "0 8 * * 5",
         "tz": "Asia/Shanghai",
@@ -63,10 +63,10 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1775779200000,
-        "lastRunAtMs": 1775174400047,
+        "nextRunAtMs": 1776384000000,
+        "lastRunAtMs": 1775779200058,
         "lastStatus": "ok",
-        "lastDurationMs": 123709,
+        "lastDurationMs": 46106,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "delivered",
@@ -190,7 +190,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1775692847230,
+      "updatedAtMs": 1775779264414,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -209,10 +209,10 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1775779200000,
-        "lastRunAtMs": 1775692800032,
+        "nextRunAtMs": 1775865600000,
+        "lastRunAtMs": 1775779246164,
         "lastStatus": "ok",
-        "lastDurationMs": 47198,
+        "lastDurationMs": 18250,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "not-delivered",
