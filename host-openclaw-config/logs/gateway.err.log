@@ -3651,3 +3651,18 @@ $today = ($schedule.data.schedule | Where-Object { $_.lesson_id -like "${Subject
 2026-04-11T00:21:50.056+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-11T00:22:14.806+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-11T00:26:26.761+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-11T04:00:33.573+08:00 [agent/embedded] read tool called without path: toolCallId=call_iENu9O8SxPRpUmQneqgRR1AM argsType=object
+2026-04-11T04:00:33.584+08:00 [agent/embedded] read tool called without path: toolCallId=call_AaUzBRr9yZV1o7V3e4fXxmpb argsType=object
+2026-04-11T04:00:59.978+08:00 [agent/embedded] read tool called without path: toolCallId=call_Uw3bffxSdNZxPZLIly0mref6 argsType=object
+2026-04-11T04:00:59.987+08:00 [agent/embedded] read tool called without path: toolCallId=call_iOeYuqLvqZhRCzPI50V7Kjjf argsType=object
+2026-04-11T04:01:07.771+08:00 [agent/embedded] read tool called without path: toolCallId=call_RmZQ9vBfG5VdwbODmKxJwzJ4 argsType=object
+2026-04-11T04:01:07.779+08:00 [agent/embedded] read tool called without path: toolCallId=call_ChNc6EJG9ILInjTYKahTUKCG argsType=object
+2026-04-11T04:01:07.786+08:00 [agent/embedded] read tool called without path: toolCallId=call_f0iJ6leKMubzlDlYk61OM5if argsType=object
+2026-04-11T04:01:07.935+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\agents\oc_baa6c26e80932344e32cf514de6acde3\sessions\37564954-ce1a-4ffa-a2db-52d7703df7b5.jsonl' raw_params={"file":"C:\\Users\\Administrator\\.openclaw\\agents\\oc_baa6c26e80932344e32cf514de6acde3\\sessions\\37564954-ce1a-4ffa-a2db-52d7703df7b5.jsonl","offset":23,"limit":200}
+2026-04-11T04:02:24.382+08:00 [agent/embedded] read tool called without path: toolCallId=call_QYR8VixNvCxBXQmmdJVCUMky argsType=object
+2026-04-11T04:02:24.391+08:00 [agent/embedded] read tool called without path: toolCallId=call_aSO5vBkYnAtZ3FyGPptFSSrK argsType=object
+2026-04-11T04:02:58.196+08:00 [agent/embedded] read tool called without path: toolCallId=call_XuLA39gLywwCh7gk7bd2zDa4 argsType=object
+2026-04-11T04:02:58.202+08:00 [agent/embedded] read tool called without path: toolCallId=call_ndMOvAkVZdZGw50FP1XBK3HM argsType=object
+2026-04-11T04:02:58.211+08:00 [agent/embedded] read tool called without path: toolCallId=call_yMqCH9V1SmTSv04q85g1Pcfq argsType=object
+2026-04-11T04:02:58.329+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-10.md' raw_params={"file":"memory/2026-04-10.md"}
+2026-04-11T04:02:58.340+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-11.md' raw_params={"file":"memory/2026-04-11.md"}
