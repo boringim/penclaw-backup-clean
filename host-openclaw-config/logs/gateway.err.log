@@ -3569,3 +3569,21 @@ Call log:
 2026-04-10T17:17:43.900+08:00 [tools] browser failed: tab not found raw_params={"action":"screenshot","target":"host","targetId":"2","type":"png","fullPage":true}
 2026-04-10T17:18:02.201+08:00 [tools] browser failed: tab not found raw_params={"action":"snapshot","target":"host","targetId":"2","fullPage":true,"timeoutMs":60000,"snapshotFormat":"ai"}
 2026-04-10T17:18:14.093+08:00 [tools] browser failed: tab not found raw_params={"action":"snapshot","target":"host","targetId":"2","fullPage":true,"timeoutMs":60000,"snapshotFormat":"aria"}
+2026-04-10T18:30:04.948+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T18:34:49.373+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T18:38:01.524+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T18:38:35.745+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T18:39:31.050+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T18:42:20.679+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T18:43:57.715+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T18:49:21.310+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T18:53:45.116+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T18:56:18.704+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T18:56:37.368+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T18:58:18.441+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-10T18:58:18.558+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-10T18:58:25.815+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-10T18:58:30.304+08:00 [bonjour] restarting advertiser (service stuck in announcing for 11865ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-10T18:59:39.469+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T18:59:56.857+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T19:00:09.291+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
