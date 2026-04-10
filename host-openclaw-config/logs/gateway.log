@@ -228645,3 +228645,4 @@ Bind: loopback
 2026-04-10T09:24:37.824+08:00 [ws] ⇄ res ✓ node.list 57ms conn=3e910a01…d0a2 id=8aa6dff2…31dd
 2026-04-10T09:24:37.887+08:00 [ws] ⇄ res ✓ agents.files.list 78ms conn=3e910a01…d0a2 id=b887bf64…17b5
 2026-04-10T09:29:42.523+08:00 [ws] ⇄ res ✓ node.list 81ms conn=3e910a01…d0a2 id=c9f5f5db…5ff5
+2026-04-10T10:38:07.066+08:00 [gateway] update available (latest): v2026.4.9 (current v2026.4.2). Run: openclaw update
