@@ -116,7 +116,7 @@
       "name": "Daily_Self_Backup_Midnight",
       "enabled": true,
       "createdAtMs": 1771408491288,
-      "updatedAtMs": 1775750451556,
+      "updatedAtMs": 1775837059018,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -136,10 +136,10 @@
         "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02"
       },
       "state": {
-        "nextRunAtMs": 1775836800000,
-        "lastRunAtMs": 1775750400039,
+        "nextRunAtMs": 1775923200000,
+        "lastRunAtMs": 1775836800078,
         "lastStatus": "ok",
-        "lastDurationMs": 51517,
+        "lastDurationMs": 258940,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "not-delivered",
@@ -468,7 +468,7 @@
       "name": "EntroCamp_Safety_Nightly",
       "enabled": true,
       "createdAtMs": 1775825985929,
-      "updatedAtMs": 1775825985929,
+      "updatedAtMs": 1775835045646,
       "schedule": {
         "kind": "cron",
         "expr": "30 23 * * *",
@@ -489,7 +489,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775835000000
+        "nextRunAtMs": 1775921400000,
+        "lastRunAtMs": 1775835000044,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 45602,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0
       }
     }
   ]

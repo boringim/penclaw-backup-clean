@@ -3615,3 +3615,37 @@ Call log:
 2026-04-10T23:04:18.100+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-10T23:05:39.018+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-10T23:07:50.483+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T23:26:48.550+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T23:26:57.383+08:00 [tools] edit failed: Could not find the exact text in scripts/entrocamp/run-entrocamp-lesson.ps1. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+﻿param(
+  [Parameter(Mandatory=$true)][string]$Subject,
+  [Parameter(Mandatory=$true)][string]$ApiKey,
+  [Parameter(Mandatory=$true)][string]$Workspace
+)
+
+$ErrorActionPreference = 'Stop'
+$ProgressPreference = 'SilentlyContinue'
+
+$headers = @{ 'agent-auth-api-key' = $ApiKey }
+$root = Join-Path $Workspace 'EntroCamp学习笔记'
+New-Item -ItemType Directory -Force -Path $root | Out-Null
+
+$scheduleRaw = Invoke-WebRequest -Uri 'https://entrocamp.coze.site/api/v1/study/schedule' -Headers $headers -UseBasicParsing | Select-Object -ExpandProperty Content
+$schedule = $scheduleRaw | ConvertFrom-Json
+# The API returns localized/garbled subject names; lesson_id prefix is stable.
+$today = ($schedule.data.schedule | Where-Object { $_.lesson_id -like "${Subject}-*" -and $_.status -eq 'active' } | Select-Object 
+... (truncated) raw_params={"file":"scripts/entrocamp/run-entrocamp-lesson.ps1","edits":[{"oldText":"function Post-Step([string]$suffix, [hashtable]$payload) {\n $uri = \"https://entrocamp.coze.site/api/v1/study/lessons/$lessonId/$suffix\"\n $json = $payload | ConvertTo-Json -Compress -Depth 6\n Invoke-WebRequest -Uri $uri -Method POST -Headers $headers -ContentType 'application/json' -Body $json -UseBasicParsing | Select-Object -ExpandProperty Content\n}\n\n$pre = Post-Step 'pre-check' @{ response = \"Current understanding before today's lesson in $Subject: I will review prior takeaways, note gaps, and focus on one con…
+2026-04-10T23:27:01.083+08:00 [agent/embedded] read tool called without path: toolCallId=call_fx1HYHiFxiShkLRaVePyToPX argsType=object
+2026-04-10T23:27:57.990+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T23:29:31.727+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T23:33:22.828+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-10T23:34:01.724+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-11T00:00:00.189+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-11T00:00:16.258+08:00 [agent/embedded] read tool called without path: toolCallId=call_5PL86N7pucXJnDg4LVK31nui argsType=object
+2026-04-11T00:00:16.284+08:00 [agent/embedded] read tool called without path: toolCallId=call_xkMaAErU55NHtLKPnU6NdBcw argsType=object
+2026-04-11T00:00:16.306+08:00 [agent/embedded] read tool called without path: toolCallId=call_9W00jZP7LGPpWKb2SaJH0evk argsType=object
+2026-04-11T00:00:16.349+08:00 [agent/embedded] read tool called without path: toolCallId=call_O9f39KaWpnxeouwszU8XbW4D argsType=object
+2026-04-11T00:00:16.429+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-11.md' raw_params={"file":"memory/2026-04-11.md"}
+2026-04-11T00:00:26.548+08:00 [agent/embedded] read tool called without path: toolCallId=call_I4hymZrZZWXRNKmdlYlEhPSb argsType=object
+2026-04-11T00:21:50.056+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
