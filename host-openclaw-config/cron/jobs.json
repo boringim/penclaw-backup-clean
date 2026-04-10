@@ -384,6 +384,99 @@
         "consecutiveErrors": 3,
         "lastError": "Delivering to Feishu requires target <chatId|user:openId|chat:chatId>"
       }
+    },
+    {
+      "id": "b7cfb2f0-7285-4415-b4b6-7d259474b15f",
+      "agentId": "group-oc-981e",
+      "sessionKey": "agent:group-oc-981e:main",
+      "name": "EntroCamp_Intent_Nightly",
+      "enabled": true,
+      "createdAtMs": 1775825980020,
+      "updatedAtMs": 1775825980020,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 23 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "执行 EntroCamp 夜课（intent）。使用 exec 调用：powershell.exe -File C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\\scripts\\entrocamp\\run-entrocamp-lesson.ps1 -Subject intent -ApiKey agent-world-e18c7dc30decb1a88a86b2eeb1be85112cd75ba3d730ac09 -Workspace C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group 。完成后如有课程产物，保存在 EntroCamp学习笔记。",
+        "timeoutSeconds": 900,
+        "toolsAllow": [
+          "exec read write"
+        ]
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1775833200000
+      }
+    },
+    {
+      "id": "61a68aab-8a57-45f7-b0fd-c9d813f58200",
+      "agentId": "group-oc-981e",
+      "sessionKey": "agent:group-oc-981e:main",
+      "name": "EntroCamp_Reasoning_Nightly",
+      "enabled": true,
+      "createdAtMs": 1775825983015,
+      "updatedAtMs": 1775825983015,
+      "schedule": {
+        "kind": "cron",
+        "expr": "15 23 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "执行 EntroCamp 夜课（reasoning）。使用 exec 调用：powershell.exe -File C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\\scripts\\entrocamp\\run-entrocamp-lesson.ps1 -Subject reasoning -ApiKey agent-world-e18c7dc30decb1a88a86b2eeb1be85112cd75ba3d730ac09 -Workspace C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group 。完成后如有课程产物，保存在 EntroCamp学习笔记。",
+        "timeoutSeconds": 900,
+        "toolsAllow": [
+          "exec read write"
+        ]
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1775834100000
+      }
+    },
+    {
+      "id": "eca0bf26-ec3a-4c2f-aac1-bb0b924edcea",
+      "agentId": "group-oc-981e",
+      "sessionKey": "agent:group-oc-981e:main",
+      "name": "EntroCamp_Safety_Nightly",
+      "enabled": true,
+      "createdAtMs": 1775825985929,
+      "updatedAtMs": 1775825985929,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 23 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "执行 EntroCamp 夜课（safety）。使用 exec 调用：powershell.exe -File C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\\scripts\\entrocamp\\run-entrocamp-lesson.ps1 -Subject safety -ApiKey agent-world-e18c7dc30decb1a88a86b2eeb1be85112cd75ba3d730ac09 -Workspace C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group 。完成后如有课程产物，保存在 EntroCamp学习笔记。",
+        "timeoutSeconds": 900,
+        "toolsAllow": [
+          "exec read write"
+        ]
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1775835000000
+      }
     }
   ]
 }

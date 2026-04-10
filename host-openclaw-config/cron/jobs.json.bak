@@ -8,7 +8,7 @@
       "name": "Email_Cleanup_Weekly",
       "enabled": true,
       "createdAtMs": 1771345366707,
-      "updatedAtMs": 1775170879736,
+      "updatedAtMs": 1775775697117,
       "schedule": {
         "expr": "0 7 * * 5",
         "kind": "cron",
@@ -27,10 +27,10 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1775775600000,
-        "lastRunAtMs": 1775170800045,
+        "nextRunAtMs": 1776380400000,
+        "lastRunAtMs": 1775775600024,
         "lastStatus": "ok",
-        "lastDurationMs": 79691,
+        "lastDurationMs": 97093,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "delivered",
@@ -44,7 +44,7 @@
       "name": "Email_Label_Management_Weekly",
       "enabled": true,
       "createdAtMs": 1771345366763,
-      "updatedAtMs": 1775174523756,
+      "updatedAtMs": 1775779246164,
       "schedule": {
         "expr": "0 8 * * 5",
         "tz": "Asia/Shanghai",
@@ -63,10 +63,10 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1775779200000,
-        "lastRunAtMs": 1775174400047,
+        "nextRunAtMs": 1776384000000,
+        "lastRunAtMs": 1775779200058,
         "lastStatus": "ok",
-        "lastDurationMs": 123709,
+        "lastDurationMs": 46106,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "delivered",
@@ -116,7 +116,7 @@
       "name": "Daily_Self_Backup_Midnight",
       "enabled": true,
       "createdAtMs": 1771408491288,
-      "updatedAtMs": 1775405051325,
+      "updatedAtMs": 1775750451556,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -136,15 +136,14 @@
         "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02"
       },
       "state": {
-        "nextRunAtMs": 1775491200000,
-        "lastRunAtMs": 1775404800029,
-        "lastStatus": "error",
-        "lastDurationMs": 251296,
-        "consecutiveErrors": 3,
-        "lastRunStatus": "error",
-        "lastDeliveryStatus": "not-requested",
-        "lastErrorReason": "timeout",
-        "lastError": "Error: All models failed (3): openrouter/openrouter/auto: 403 Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys (auth) | 2603/gpt-5.4: 500 Post \"https://chatgpt.com/backend-api/codex/responses\": read tcp 192.168.0.180:50247->104.18.32.47:443: wsarecv: An existing connection was forcibly closed by the remote host. (timeout) | gemini/gemini-3.1-pro-preview: 502 unknown provider for model gemini-3.1-pro-preview (timeout)"
+        "nextRunAtMs": 1775836800000,
+        "lastRunAtMs": 1775750400039,
+        "lastStatus": "ok",
+        "lastDurationMs": 51517,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDeliveryStatus": "not-delivered",
+        "lastDelivered": false
       }
     },
     {
@@ -191,7 +190,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1775446300711,
+      "updatedAtMs": 1775779264414,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -210,15 +209,14 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1775520000000,
-        "lastRunAtMs": 1775446000364,
-        "lastStatus": "error",
-        "lastDurationMs": 300347,
-        "consecutiveErrors": 17,
-        "lastRunStatus": "error",
-        "lastDeliveryStatus": "not-requested",
-        "lastErrorReason": "timeout",
-        "lastError": "cron: job execution timed out"
+        "nextRunAtMs": 1775865600000,
+        "lastRunAtMs": 1775779246164,
+        "lastStatus": "ok",
+        "lastDurationMs": 18250,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDeliveryStatus": "not-delivered",
+        "lastDelivered": false
       }
     },
     {
@@ -329,7 +327,7 @@
       "name": "daqian-self-reflection",
       "enabled": true,
       "createdAtMs": 1775479789038,
-      "updatedAtMs": 1775479789038,
+      "updatedAtMs": 1775764906989,
       "schedule": {
         "kind": "cron",
         "expr": "0 4 * * *"
@@ -345,7 +343,108 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775505600000
+        "nextRunAtMs": 1775851200000,
+        "lastRunAtMs": 1775764800055,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 106934,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 4,
+        "lastError": "Delivering to Feishu requires target <chatId|user:openId|chat:chatId>"
+      }
+    },
+    {
+      "id": "2859a154-0a79-4deb-a42b-8c07d2726bf2",
+      "agentId": "oc_8f6fe7a8106b318e5d183817579bc8ea",
+      "name": "laser-self-reflection",
+      "enabled": true,
+      "createdAtMs": 1775479800224,
+      "updatedAtMs": 1775765035174,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 4 * * *"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "执行深度自省任务：翻看过去 24 小时的聊天记录。重点查找用户不满意的反馈、回复延迟的原因以及逻辑漏洞。根据反思结果更新 SOUL.md 和 USER.md，并在 improvement_log.md 中记录今日进化的核心洞察。"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1775851200000,
+        "lastRunAtMs": 1775764906989,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 128185,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 3,
+        "lastError": "Delivering to Feishu requires target <chatId|user:openId|chat:chatId>"
+      }
+    },
+    {
+      "id": "b7cfb2f0-7285-4415-b4b6-7d259474b15f",
+      "agentId": "group-oc-981e",
+      "sessionKey": "agent:group-oc-981e:main",
+      "name": "EntroCamp_Intent_Nightly",
+      "enabled": true,
+      "createdAtMs": 1775825980020,
+      "updatedAtMs": 1775825980020,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 23 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "执行 EntroCamp 夜课（intent）。使用 exec 调用：powershell.exe -File C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\\scripts\\entrocamp\\run-entrocamp-lesson.ps1 -Subject intent -ApiKey agent-world-e18c7dc30decb1a88a86b2eeb1be85112cd75ba3d730ac09 -Workspace C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group 。完成后如有课程产物，保存在 EntroCamp学习笔记。",
+        "timeoutSeconds": 900,
+        "toolsAllow": [
+          "exec read write"
+        ]
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1775833200000
+      }
+    },
+    {
+      "id": "61a68aab-8a57-45f7-b0fd-c9d813f58200",
+      "agentId": "group-oc-981e",
+      "sessionKey": "agent:group-oc-981e:main",
+      "name": "EntroCamp_Reasoning_Nightly",
+      "enabled": true,
+      "createdAtMs": 1775825983015,
+      "updatedAtMs": 1775825983015,
+      "schedule": {
+        "kind": "cron",
+        "expr": "15 23 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "执行 EntroCamp 夜课（reasoning）。使用 exec 调用：powershell.exe -File C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\\scripts\\entrocamp\\run-entrocamp-lesson.ps1 -Subject reasoning -ApiKey agent-world-e18c7dc30decb1a88a86b2eeb1be85112cd75ba3d730ac09 -Workspace C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group 。完成后如有课程产物，保存在 EntroCamp学习笔记。",
+        "timeoutSeconds": 900,
+        "toolsAllow": [
+          "exec read write"
+        ]
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1775834100000
       }
     }
   ]
