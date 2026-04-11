@@ -229725,3 +229725,71 @@ Bind: loopback
 2026-04-11T15:15:43.385+08:00 [plugins] acpx runtime backend ready
 2026-04-11T15:15:43.430+08:00 [ws] ⇄ res ✓ node.list 1766ms conn=d18a3961…1662 id=9c5c571a…7329
 2026-04-11T15:16:22.457+08:00 [feishu] feishu[default]: bot open_id recovered via background retry: ou_f1f557cde4bd987782c9a10d363bebed
+2026-04-11T16:56:03.252+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-11T16:56:03.292+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 继续
+2026-04-11T16:56:03.360+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-11T16:56:07.321+08:00 [plugins] memory-lancedb-pro: smart extraction enabled (LLM model: openai/gpt-oss-120b, noise bank: ON)
+2026-04-11T16:56:07.323+08:00 [plugins] memory-lancedb-pro@1.1.0-beta.8: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small, smartExtraction: ON)
+2026-04-11T16:56:07.325+08:00 [plugins] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-04-11T16:56:07.339+08:00 [plugins] session-memory: hook registered for command:new as memory-lancedb-pro-session-memory
+2026-04-11T16:56:07.440+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-11T16:56:07.447+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-11T16:56:07.457+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-11T16:56:07.464+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-11T16:56:07.474+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-11T16:56:07.483+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-11T16:56:29.487+08:00 [ws] ⇄ res ✓ node.list 1916ms conn=d18a3961…1662 id=e2280771…bbe2
+2026-04-11T16:56:37.368+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-11T16:56:41.088+08:00 [plugins] memory-lancedb-pro: smart extraction enabled (LLM model: openai/gpt-oss-120b, noise bank: ON)
+2026-04-11T16:56:41.090+08:00 [plugins] memory-lancedb-pro@1.1.0-beta.8: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small, smartExtraction: ON)
+2026-04-11T16:56:41.093+08:00 [plugins] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-04-11T16:56:41.097+08:00 [plugins] session-memory: hook registered for command:new as memory-lancedb-pro-session-memory
+2026-04-11T16:56:41.165+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-11T16:56:41.169+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-11T16:56:41.171+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-11T16:56:41.175+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-11T16:56:41.180+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-11T16:56:41.222+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-11T16:56:42.222+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-11T16:56:47.053+08:00 [ws] ⇄ res ✓ sessions.list 221ms conn=d18a3961…1662 id=485be18f…a504
+2026-04-11T16:56:50.446+08:00 [ws] ⇄ res ✓ sessions.list 119ms conn=d18a3961…1662 id=a20cf42e…4b3c
+2026-04-11T16:56:54.851+08:00 [ws] ⇄ res ✓ sessions.list 126ms conn=d18a3961…1662 id=7deb7dae…fd76
+2026-04-11T16:57:19.025+08:00 [ws] ⇄ res ✓ sessions.list 128ms conn=d18a3961…1662 id=6df6c38f…c4fe
+2026-04-11T16:57:37.500+08:00 [ws] ⇄ res ✓ channels.status 521ms conn=22b06156…d6ab id=24440b59…6550
+2026-04-11T16:57:52.059+08:00 [ws] ⇄ res ✓ sessions.list 148ms conn=d18a3961…1662 id=f5656c8e…5cbf
+2026-04-11T16:57:59.487+08:00 [browser/service] Browser control service ready (profiles=3)
+2026-04-11T16:57:59.909+08:00 [ws] ⇄ res ✓ sessions.list 321ms conn=d18a3961…1662 id=15ecea8c…0373
+2026-04-11T16:58:06.759+08:00 [ws] ⇄ res ✓ sessions.list 159ms conn=d18a3961…1662 id=286db6d6…78a3
+2026-04-11T16:58:15.388+08:00 [ws] ⇄ res ✓ sessions.list 160ms conn=d18a3961…1662 id=3eba34b8…d30b
+2026-04-11T16:58:26.380+08:00 [ws] ⇄ res ✓ sessions.list 186ms conn=d18a3961…1662 id=d98c0ec2…9a61
+2026-04-11T16:58:32.048+08:00 [ws] ⇄ res ✓ sessions.list 116ms conn=d18a3961…1662 id=fa9b226b…be28
+2026-04-11T16:58:42.006+08:00 [ws] ⇄ res ✓ sessions.list 135ms conn=d18a3961…1662 id=93bcd8f1…26ae
+2026-04-11T16:58:49.233+08:00 [ws] ⇄ res ✓ sessions.list 131ms conn=d18a3961…1662 id=7c7c59d9…ecbb
+2026-04-11T16:58:54.293+08:00 [ws] ⇄ res ✓ sessions.list 164ms conn=d18a3961…1662 id=3c31e107…673f
+2026-04-11T16:59:01.298+08:00 [ws] ⇄ res ✓ sessions.list 128ms conn=d18a3961…1662 id=bc191f82…2fce
+2026-04-11T16:59:09.403+08:00 [ws] ⇄ res ✓ sessions.list 147ms conn=d18a3961…1662 id=8d895b2e…4fb3
+2026-04-11T16:59:16.905+08:00 [ws] ⇄ res ✓ sessions.list 140ms conn=d18a3961…1662 id=f973d367…488a
+2026-04-11T16:59:28.736+08:00 [ws] ⇄ res ✓ sessions.list 126ms conn=d18a3961…1662 id=ed8cd0f7…62f3
+2026-04-11T16:59:34.472+08:00 [ws] ⇄ res ✓ sessions.list 123ms conn=d18a3961…1662 id=b743d98c…267c
+2026-04-11T16:59:42.029+08:00 [ws] ⇄ res ✓ sessions.list 116ms conn=d18a3961…1662 id=08e43c8b…496c
+2026-04-11T17:00:08.037+08:00 [ws] ⇄ res ✓ sessions.list 129ms conn=d18a3961…1662 id=11677bfd…b8aa
+2026-04-11T17:00:13.602+08:00 [ws] ⇄ res ✓ sessions.list 122ms conn=d18a3961…1662 id=1e7d882b…420a
+2026-04-11T17:00:23.839+08:00 [ws] ⇄ res ✓ sessions.list 159ms conn=d18a3961…1662 id=6f9db65e…6d05
+2026-04-11T17:00:26.136+08:00 [ws] ⇄ res ✓ sessions.list 128ms conn=d18a3961…1662 id=2ff87db7…45e8
+2026-04-11T17:00:30.638+08:00 [ws] ⇄ res ✓ sessions.list 127ms conn=d18a3961…1662 id=0c3aaf79…6f87
+2026-04-11T17:00:39.379+08:00 [ws] ⇄ res ✓ sessions.list 145ms conn=d18a3961…1662 id=fed9797d…2f04
+2026-04-11T17:00:48.518+08:00 [ws] ⇄ res ✓ sessions.list 121ms conn=d18a3961…1662 id=d5f85005…9fa2
+2026-04-11T17:00:55.365+08:00 [ws] ⇄ res ✓ sessions.list 133ms conn=d18a3961…1662 id=c2970d1b…b096
+2026-04-11T17:01:07.812+08:00 [ws] ⇄ res ✓ sessions.list 114ms conn=d18a3961…1662 id=8a2842f4…f51a
+2026-04-11T17:01:44.113+08:00 [ws] ⇄ res ✓ sessions.list 156ms conn=d18a3961…1662 id=acd3b2f0…b5c8
+2026-04-11T17:02:14.944+08:00 [ws] ⇄ res ✓ sessions.list 125ms conn=d18a3961…1662 id=9ea78249…9866
+2026-04-11T17:02:48.416+08:00 [ws] ⇄ res ✓ sessions.list 145ms conn=d18a3961…1662 id=eb6beb70…8ce5
+2026-04-11T17:03:56.705+08:00 [ws] ⇄ res ✓ sessions.list 221ms conn=d18a3961…1662 id=8c3a673d…6310
+2026-04-11T17:04:35.991+08:00 [exec] obfuscation detected (gateway): Variable assignment chain with expansion (potential obfuscation)
+2026-04-11T17:04:36.167+08:00 [ws] ⇄ res ✓ sessions.list 137ms conn=d18a3961…1662 id=0f09bb60…f6fd
+2026-04-11T17:04:44.937+08:00 [ws] ⇄ res ✓ sessions.list 154ms conn=d18a3961…1662 id=1be183ab…89e6
+2026-04-11T17:04:58.368+08:00 [ws] ⇄ res ✓ node.list 205ms conn=d18a3961…1662 id=470abbb0…5c2f
+2026-04-11T17:04:59.368+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-11T17:04:59.372+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-11T17:04:59.381+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-11T17:05:05.712+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=11)

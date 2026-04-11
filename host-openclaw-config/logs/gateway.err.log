@@ -3686,3 +3686,11 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-11T15:15:14.631+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
 2026-04-11T15:15:22.078+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
 2026-04-11T15:15:27.126+08:00 [bonjour] restarting advertiser (service stuck in announcing for 12596ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-11T16:55:52.277+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-11T16:56:50.257+08:00 [agent/embedded] read tool called without path: toolCallId=call_N2xthbEEnwyucAj57f8jeoFB argsType=object
+2026-04-11T16:58:01.049+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"status","profile":"user","target":"host","timeoutMs":20000}
+2026-04-11T16:58:49.936+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}} raw_params={"query":"EntroCamp official website login course platform","count":5}
+2026-04-11T17:00:07.869+08:00 [agent/embedded] read tool called without path: toolCallId=call_2lbjj20CO2MHz0NYlaxxIzMh argsType=object
+2026-04-11T17:00:08.056+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\scripts\entrocamp\run-entrocamp-lesson.js' raw_params={"file":"scripts/entrocamp/run-entrocamp-lesson.js"}
+2026-04-11T17:00:23.632+08:00 [agent/embedded] read tool called without path: toolCallId=call_nbEekGWf7bpcwjQT3BbdUJFf argsType=object
+2026-04-11T17:00:25.900+08:00 [agent/embedded] read tool called without path: toolCallId=call_oyPmmbaM7Sr9EvhOL2Dv9NRq argsType=object
