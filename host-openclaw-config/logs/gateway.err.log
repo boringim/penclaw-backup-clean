@@ -3668,3 +3668,9 @@ $today = ($schedule.data.schedule | Where-Object { $_.lesson_id -like "${Subject
 2026-04-11T04:02:58.340+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-11.md' raw_params={"file":"memory/2026-04-11.md"}
 2026-04-11T08:00:00.186+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
 2026-04-11T09:46:52.396+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-11T10:47:08.000+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-11T10:48:32.447+08:00 [agent/embedded] read tool called without path: toolCallId=call_NCTYJvXB77HQ5jN8UhfIavap argsType=object
+2026-04-11T10:48:32.618+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\workspaces\oc-981e-feishu-group\skills\web-access-openclaw\SKILL.md' raw_params={"file":"C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\openclaw\\workspaces\\oc-981e-feishu-group\\skills\\web-access-openclaw\\SKILL.md"}
+2026-04-11T10:48:35.862+08:00 [agent/embedded] read tool called without path: toolCallId=call_vVtTWj03gTHBzG9SIC3qjxZl argsType=object
+2026-04-11T10:48:54.102+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"open","url":"https://entrocamp.com","profile":"user","target":"host","timeoutMs":30000}
+2026-04-11T11:05:21.677+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]

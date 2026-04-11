@@ -229601,3 +229601,17 @@ Bind: loopback
 2026-04-11T09:47:50.010+08:00 [ws] ⇄ res ✓ sessions.list 115ms conn=ac9e9327…c283 id=f05ece35…d164
 2026-04-11T09:47:50.713+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-11T09:47:51.120+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-11T10:48:15.915+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-11T10:48:15.934+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 去EntroCamp把昨天的课上完
+2026-04-11T10:48:15.994+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-11T10:48:23.425+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-11T10:48:24.802+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-11T10:48:24.838+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-11T10:48:26.512+08:00 [ws] ⇄ res ✓ sessions.list 202ms conn=ac9e9327…c283 id=e7ba5138…9a1b
+2026-04-11T10:48:32.608+08:00 [ws] ⇄ res ✓ sessions.list 120ms conn=ac9e9327…c283 id=0854cd18…b4c8
+2026-04-11T10:48:35.997+08:00 [ws] ⇄ res ✓ sessions.list 102ms conn=ac9e9327…c283 id=e1ae3478…3e4e
+2026-04-11T10:48:39.056+08:00 [browser/service] Browser control service ready (profiles=3)
+2026-04-11T10:48:39.193+08:00 [ws] ⇄ res ✓ sessions.list 118ms conn=ac9e9327…c283 id=482e9193…e598
+2026-04-11T10:48:59.428+08:00 [ws] ⇄ res ✓ sessions.list 113ms conn=ac9e9327…c283 id=5d1688d9…4971
+2026-04-11T10:49:00.187+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-11T10:49:01.470+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
