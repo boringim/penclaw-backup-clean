@@ -3694,3 +3694,8 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-11T17:00:08.056+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\scripts\entrocamp\run-entrocamp-lesson.js' raw_params={"file":"scripts/entrocamp/run-entrocamp-lesson.js"}
 2026-04-11T17:00:23.632+08:00 [agent/embedded] read tool called without path: toolCallId=call_nbEekGWf7bpcwjQT3BbdUJFf argsType=object
 2026-04-11T17:00:25.900+08:00 [agent/embedded] read tool called without path: toolCallId=call_oyPmmbaM7Sr9EvhOL2Dv9NRq argsType=object
+2026-04-11T17:36:49.338+08:00 [agent/embedded] read tool called without path: toolCallId=call_thETDbIX8pFULq5ubwvrxOwb argsType=object
+2026-04-11T17:36:49.539+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\intent-L1\teaching.json' raw_params={"file":"EntroCamp学习笔记\\intent-L1\\teaching.json","limit":80}
+2026-04-11T17:37:15.795+08:00 [agent/embedded] read tool called without path: toolCallId=call_16YiQOOUZ1jUmUZNwKqyidVt argsType=object
+2026-04-11T17:37:15.977+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\intent-L1\teaching.json' raw_params={"file":"EntroCamp学习笔记/intent-L1/teaching.json","limit":120}
+2026-04-11T17:39:52.609+08:00 [agent/embedded] read tool called without path: toolCallId=call_iR9EaznLR5A7pW8brxAg5ADl argsType=object
