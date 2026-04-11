@@ -3666,3 +3666,4 @@ $today = ($schedule.data.schedule | Where-Object { $_.lesson_id -like "${Subject
 2026-04-11T04:02:58.211+08:00 [agent/embedded] read tool called without path: toolCallId=call_yMqCH9V1SmTSv04q85g1Pcfq argsType=object
 2026-04-11T04:02:58.329+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-10.md' raw_params={"file":"memory/2026-04-10.md"}
 2026-04-11T04:02:58.340+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-11.md' raw_params={"file":"memory/2026-04-11.md"}
+2026-04-11T08:00:00.186+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
