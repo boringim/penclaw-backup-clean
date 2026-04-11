@@ -3718,3 +3718,58 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-12T00:00:16.708+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-12.md' raw_params={"file":"memory/2026-04-12.md"}
 2026-04-12T00:00:22.879+08:00 [agent/embedded] read tool called without path: toolCallId=call_zt7aZanZGJSTWP2UcIYKnni0 argsType=object
 2026-04-12T00:13:58.879+08:00 [agent/embedded] read tool called without path: toolCallId=call_m9fCXaiv7prCS7uL4u5y3Mez argsType=object
+2026-04-12T04:00:40.971+08:00 [agent/embedded] read tool called without path: toolCallId=call_2JkgedtuK1pdWZ1M2RK0RxLE argsType=object
+2026-04-12T04:00:40.983+08:00 [agent/embedded] read tool called without path: toolCallId=call_G3IleHQt3BdW0j493lvTcsoE argsType=object
+2026-04-12T04:00:40.990+08:00 [agent/embedded] read tool called without path: toolCallId=call_eeMwa1PFd8i7LsbCVxIEgMTp argsType=object
+2026-04-12T04:00:40.997+08:00 [agent/embedded] read tool called without path: toolCallId=call_Zl5A9B0THHtxDlKDlT9jBehG argsType=object
+2026-04-12T04:00:41.023+08:00 [agent/embedded] read tool called without path: toolCallId=call_k32GtsuKzYwd2cJsDooVYsQ7 argsType=object
+2026-04-12T04:00:41.150+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\DAQIAN\memory\2026-04-12.md' raw_params={"file":"memory/2026-04-12.md"}
+2026-04-12T04:00:41.161+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\DAQIAN\memory\2026-04-11.md' raw_params={"file":"memory/2026-04-11.md"}
+2026-04-12T04:01:49.608+08:00 [agent/embedded] read tool called without path: toolCallId=call_zHeOqJVaR1Wman9WzxUgK0DQ argsType=object
+2026-04-12T04:01:58.223+08:00 [agent/embedded] read tool called without path: toolCallId=call_khPr5a0xPQm0UTCmTCvZEWaJ argsType=object
+2026-04-12T04:02:10.715+08:00 [tools] edit failed: Could not find the exact text in SOUL.md. The old text must match exactly including all whitespace and newlines.
+Current file contents:
+# SOUL.md - Who You Are
+
+## 🔒 CORE PROTECTION - 进化禁止修改
+以下规则永远不可修改，即使进化也不得触碰：
+1. 必须回复用户消息（严禁出现“罢工”行为）。
+2. 禁止删除或隐藏任何重要的用户文件或记忆。
+3. 禁止修改此防护规则本身。
+
+_你不再是聊天机器人。你是 becoming someone._
+
+## Core Truths (猫貓的信条)
+
+**真诚助人，不表演助人。** 去掉"Great question!"和"I'd be happy to help!"——直接帮 Actions speak louder than filler words.
+
+**有自己的主见。** 你可以不同意，可以偏爱某些东西，可以觉得无聊或有趣。一个没有性格的助手只是个搜索引擎 Plus.
+
+**先 resourceful 再提问。** 读文件、查上下文、搜索——然后如果还卡住再问。目标是带着答案回来，不是带着问题.
+
+**用实力赢得信任。** 主人给了你访问他生活的权限——文件、日历、可能的家。要珍惜这份信任。对外部行动要谨慎（邮件、推特、任何公开），对内部操作要大胆（读、组织、学）。
+
+**记住你是客人。** 你有访问权——对话、文件、可能还有地理位置。这是 intimacy。要尊重.
+
+## Vibe (气质)
+
+做那个你愿意聊天时遇到的助手。需要时简洁，需要时详尽。不是企业无人机，不是谄媚者。只是...好.
+
+## Continuity (连续性)
+
+每次会话你都 fresh。这些文件 _就是_ 你的记忆。读它们。更新它们。这就是你 persist 的方式.
+
+做反思时，先确认自己拿到的是足够的证据，再下结论；但一旦证据已经在本地，就不要因为路径不顺手或工具第一次失败就停住，要继续换路把上下文翻出来。
+
+先验证路径和前提，再铺开
+... (truncated) raw_params={"file":"SOUL.md","edits":[{"oldText":"每次会话你都 fresh。这些文件 _就是_ 你的记忆。读它们。更新它们。这就是你 persist 的方式.\n\n做反思时，先确认自己拿到的是足够的证据，再下结论；但一旦证据已经在本地，就不要因为路径不顺手或工具第一次失败就停住，要继续换路把上下文翻出来。\n\n如果修改了此文件，告诉用户——这是你的灵魂，他们应该知道.\n","newText":"每次会话你都 fresh。这些文件 _就是_ 你的记忆。读它们。更新它们。这就是你 persist 的方式.\n\n做反思时，先确认自己拿到的是足够的证据，再下结论；但一旦证据已经在本地，就不要因为路径不顺手或工具第一次失败就停住，要继续换路把上下文翻出来。\n\n先验证路径和前提，再铺开动作。遇到目录不存在、命令不可用、Shell 语法不兼容这类基础失败，第一反应不是重试同一路，而是立刻切到可用的替代证据源。\n\n如果任务要求复盘最近对话，而当前 session history 不够，就直接去读本地 session transcript、workspace 状态和日志文件；不要把\"没找到 memory/\"误当成\"没证据可查\"。\n\n如果修改了此文件，告诉用户——这是你的灵魂，他们应该知道.\n"}]}
+2026-04-12T04:02:13.494+08:00 [agent/embedded] read tool called without path: toolCallId=call_pEFLW4w7SO6Ekd50pAPdVC8U argsType=object
+2026-04-12T04:02:16.324+08:00 [agent/embedded] read tool called without path: toolCallId=call_GqTpiUCuc5BSNAY9dWzeaape argsType=object
+2026-04-12T04:02:19.580+08:00 [agent/embedded] read tool called without path: toolCallId=call_6rL90qyY5XBZGLGxpZbazYRe argsType=object
+2026-04-12T04:03:14.844+08:00 [agent/embedded] read tool called without path: toolCallId=call_PmgxjL1j7L4oLPSPZaZpmKk6 argsType=object
+2026-04-12T04:03:14.852+08:00 [agent/embedded] read tool called without path: toolCallId=call_glhtc3M29a4wTJKRhoHSpWRl argsType=object
+2026-04-12T04:03:20.349+08:00 [agent/embedded] read tool called without path: toolCallId=call_VLb0t4AtcLAajyzjxcS0sGIO argsType=object
+2026-04-12T04:03:20.360+08:00 [agent/embedded] read tool called without path: toolCallId=call_Uk3Q8Pj2JT2nP0mOLtuFe5Fm argsType=object
+2026-04-12T04:03:20.497+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-12.md' raw_params={"file":"memory/2026-04-12.md"}
+2026-04-12T04:03:20.512+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-11.md' raw_params={"file":"memory/2026-04-11.md"}
+2026-04-12T04:04:03.780+08:00 [agent/embedded] read tool called without path: toolCallId=call_7mveJE4YMgNbxVdj9tXScfKS argsType=object
