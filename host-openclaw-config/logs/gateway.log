@@ -230043,3 +230043,7 @@ Bind: loopback
 2026-04-12T04:04:31.825+08:00 [ws] ⇄ res ✓ sessions.list 111ms conn=d18a3961…1662 id=7a53346a…1548
 2026-04-12T04:04:40.906+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
 2026-04-12T04:04:41.022+08:00 [ws] ⇄ res ✓ sessions.list 111ms conn=d18a3961…1662 id=befc19d5…0991
+2026-04-12T05:08:21.992+08:00 [ws] ⇄ res ✓ node.list 53ms conn=d18a3961…1662 id=44c4f1bc…2cd8
+2026-04-12T05:12:21.940+08:00 [ws] ⇄ res ✓ node.list 69ms conn=d18a3961…1662 id=775db154…c279
+2026-04-12T05:13:21.953+08:00 [ws] ⇄ res ✓ node.list 83ms conn=d18a3961…1662 id=09944713…5943
+2026-04-12T05:18:21.980+08:00 [ws] ⇄ res ✓ node.list 72ms conn=d18a3961…1662 id=98198ad6…f840
