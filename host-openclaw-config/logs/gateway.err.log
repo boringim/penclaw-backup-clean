@@ -3710,3 +3710,11 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-11T23:15:35.121+08:00 [tools] exec failed: exec denied: allowlist miss raw_params={"command":"rg --files \"EntroCamp学习笔记\"","workdir":"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group","yieldMs":1000,"timeout":30,"pty":false,"ask":"off","security":"allowlist"}
 2026-04-11T23:15:42.909+08:00 [tools] exec failed: exec denied: allowlist miss raw_params={"command":"powershell.exe -Command \"Get-ChildItem -LiteralPath 'C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\\EntroCamp学习笔记' -Recurse -File | Select-Object FullName,Length,LastWriteTime | Format-Table -AutoSize\"","workdir":"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group","yieldMs":1000,"timeout":30,"pty":false,"ask":"off","security":"allowlist"}
 2026-04-11T23:16:10.291+08:00 [agent/embedded] read tool called without path: toolCallId=call_zsGz5S0B1QnZMRfoCtxpomZL argsType=object
+2026-04-12T00:00:00.130+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-12T00:00:16.503+08:00 [agent/embedded] read tool called without path: toolCallId=call_l804uYOZXXvSr4S1LzTgw16y argsType=object
+2026-04-12T00:00:16.520+08:00 [agent/embedded] read tool called without path: toolCallId=call_0A8Xf7rZtH6GjxYz4zZirLWk argsType=object
+2026-04-12T00:00:16.549+08:00 [agent/embedded] read tool called without path: toolCallId=call_hi3pGBtqxy0PmZjfWyuap106 argsType=object
+2026-04-12T00:00:16.580+08:00 [agent/embedded] read tool called without path: toolCallId=call_OIES2m7xl4Oyz8n2agrKnzgQ argsType=object
+2026-04-12T00:00:16.708+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-12.md' raw_params={"file":"memory/2026-04-12.md"}
+2026-04-12T00:00:22.879+08:00 [agent/embedded] read tool called without path: toolCallId=call_zt7aZanZGJSTWP2UcIYKnni0 argsType=object
+2026-04-12T00:13:58.879+08:00 [agent/embedded] read tool called without path: toolCallId=call_m9fCXaiv7prCS7uL4u5y3Mez argsType=object
