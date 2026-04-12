@@ -230763,3 +230763,140 @@ Bind: loopback
 2026-04-12T23:15:49.884+08:00 [ws] ⇄ res ✓ sessions.list 105ms conn=8435f03b…cf5c id=61f2e5fa…a82f
 2026-04-12T23:15:55.345+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-12T23:15:55.451+08:00 [ws] ⇄ res ✓ sessions.list 101ms conn=8435f03b…cf5c id=27148028…e126
+2026-04-12T23:30:03.395+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-12T23:30:06.594+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-12T23:30:06.620+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-12T23:30:08.086+08:00 [ws] ⇄ res ✓ sessions.list 129ms conn=8435f03b…cf5c id=0b4e481f…1069
+2026-04-12T23:30:08.117+08:00 [ws] ⇄ res ✓ node.list 1020ms conn=8435f03b…cf5c id=9c746e8d…6995
+2026-04-12T23:30:13.329+08:00 [ws] ⇄ res ✓ sessions.list 84ms conn=8435f03b…cf5c id=bf20fffa…8c39
+2026-04-12T23:30:18.832+08:00 [ws] ⇄ res ✓ sessions.list 97ms conn=8435f03b…cf5c id=d00fc049…4046
+2026-04-12T23:30:24.310+08:00 [ws] ⇄ res ✓ sessions.list 93ms conn=8435f03b…cf5c id=667baabb…5b96
+2026-04-12T23:30:27.780+08:00 [ws] ⇄ res ✓ sessions.list 97ms conn=8435f03b…cf5c id=bfdd1d64…1105
+2026-04-12T23:30:31.223+08:00 [ws] ⇄ res ✓ sessions.list 98ms conn=8435f03b…cf5c id=3c13acb7…021c
+2026-04-12T23:30:34.385+08:00 [ws] ⇄ res ✓ sessions.list 89ms conn=8435f03b…cf5c id=bc14b8b8…aea8
+2026-04-12T23:32:38.084+08:00 [ws] ⇄ res ✓ sessions.list 110ms conn=8435f03b…cf5c id=3fc77898…4e34
+2026-04-12T23:32:43.278+08:00 [ws] ⇄ res ✓ sessions.list 87ms conn=8435f03b…cf5c id=406dbe49…947d
+2026-04-12T23:32:47.227+08:00 [ws] ⇄ res ✓ sessions.list 79ms conn=8435f03b…cf5c id=04b5cd4e…e252
+2026-04-12T23:34:51.252+08:00 [ws] ⇄ res ✓ sessions.list 99ms conn=8435f03b…cf5c id=d5b2f3ac…5423
+2026-04-12T23:34:56.503+08:00 [ws] ⇄ res ✓ sessions.list 102ms conn=8435f03b…cf5c id=514ab376…e158
+2026-04-12T23:35:02.142+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-12T23:35:02.229+08:00 [ws] ⇄ res ✓ sessions.list 84ms conn=8435f03b…cf5c id=b582b3d7…d95d
+2026-04-12T23:45:45.908+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 1799917ms conn=c7b9f8cd…73a5 id=23c85730…ad76
+2026-04-12T23:45:49.314+08:00 [ws] ⇄ res ✓ agent 151ms runId=exec-approval-followup:e9d550b0-9c10-4210-bc6b-2025ceb0b4ea conn=59ff057e…51a9 id=e5f28c21…50de
+2026-04-12T23:45:50.021+08:00 [ws] ⇄ res ✓ sessions.list 124ms conn=8435f03b…cf5c id=b7f8dc4b…b38f
+2026-04-12T23:45:50.024+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 1800031ms conn=f8a0b497…fdae id=a558e653…a728
+2026-04-12T23:45:50.262+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-12T23:46:10.339+08:00 [ws] ⇄ res ✓ node.list 1738ms conn=8435f03b…cf5c id=e172ecf7…6b11
+2026-04-12T23:46:10.518+08:00 [ws] ⇄ res ✓ agent 124ms runId=exec-approval-followup:84b665ea-8bc2-4763-8eb3-db4eebd56925 conn=eb354ea5…2464 id=71ec5eda…9788
+2026-04-12T23:46:10.685+08:00 [ws] ⇄ res ✓ sessions.list 130ms conn=8435f03b…cf5c id=6ec47090…8120
+2026-04-12T23:46:17.697+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-12T23:46:19.089+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-12T23:46:19.120+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-12T23:46:20.148+08:00 [ws] ⇄ res ✓ sessions.list 115ms conn=8435f03b…cf5c id=31783b49…1d65
+2026-04-12T23:46:26.750+08:00 [ws] ⇄ res ✓ sessions.list 105ms conn=8435f03b…cf5c id=0b2d12b6…af09
+2026-04-12T23:46:32.144+08:00 [ws] ⇄ res ✓ sessions.list 115ms conn=8435f03b…cf5c id=5fc88295…7b2b
+2026-04-12T23:46:49.550+08:00 exec approval followup dispatch failed (id=e9d550b0-9c10-4210-bc6b-2025ceb0b4ea): Session followup failed: gateway timeout after 60000ms
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: C:\Users\Administrator\.openclaw\openclaw.json
+Bind: loopback
+2026-04-12T23:46:49.691+08:00 [ws] ⇄ res ✓ node.list 1799ms conn=8435f03b…cf5c id=f0d0c197…0aae
+2026-04-12T23:46:49.833+08:00 继续查课程产物位置，改用 PowerShell 自带文件枚举，不再用 `rg`。
+2026-04-12T23:46:49.837+08:00 刚才用户已批准的查询命令跑完了，但失败原因很明确：当前环境里没有 `rg` 命令，所以没有列出课程产物。
+
+失败输出要点：
+- `rg` 未被识别为 cmdlet / 可执行程序
+- 退出码：`1`
+- 原命令：`rg --files "EntroCamp学习笔记"`
+
+我已经改用 PowerShell 自带 `Get-ChildItem` 继续查 `EntroCamp学习笔记` 目录，但这条新命令也需要单独审批。要继续确认生成了哪些文件，请批准：
+
+`/approve 91218309 allow-once`
+
+当前已确认的部分不变：EntroCamp `reasoning` 夜课脚本已成功执行，结果是捕获到 `reasoning-L1` 试学内容并跳过完整完成请求。
+2026-04-12T23:46:50.727+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-12T23:46:50.731+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-12T23:46:50.735+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-12T23:46:53.634+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-12T23:46:54.923+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-12T23:46:54.947+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-12T23:46:55.280+08:00 [ws] ⇄ res ✓ sessions.list 123ms conn=8435f03b…cf5c id=0da74426…7ec4
+2026-04-12T23:47:03.995+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-12T23:47:04.126+08:00 [ws] ⇄ res ✓ sessions.list 91ms conn=8435f03b…cf5c id=6d42d2a3…cfc8
+2026-04-12T23:47:04.265+08:00 查到了，课程产物已经落到 `EntroCamp学习笔记` 下面了。当前能确认的文件有：
+
+- `EntroCamp学习笔记\reasoning-L1\课程笔记.md`
+- `EntroCamp学习笔记\reasoning-L1\teaching.json`
+- `EntroCamp学习笔记\reasoning-L1\complete-error.json`
+- `EntroCamp学习笔记\intent-L1\complete-error.json`
+
+结合前面的执行日志，这次 `reasoning` 夜课的状态可以概括为：
+
+- `reasoning-L1` 试学内容已成功捕获
+- 已生成课程笔记和教学结构化数据
+- 同时存在 `complete-error.json`，说明完整课程完成阶段没有成功推进，所以才会出现“captured ... trial lesson; skipping complete request”的结果
+- 目录里还看到 `intent-L1\complete-error.json`，说明历史上 `intent` 课也有类似“完成阶段失败”的痕迹
+
+如果你要，我下一步可以直接帮你做两件事之一：
+1. 读取并整理 `EntroCamp学习笔记\reasoning-L1\课程笔记.md`，给你一个精简版学习总结
+2. 继续排查 `complete-error.json`，看看为什么完整课程阶段没走通
+2026-04-13T00:00:00.286+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T00:00:17.536+08:00 [ws] ⇄ res ✓ node.list 1419ms conn=8435f03b…cf5c id=09c49eca…ca40
+2026-04-13T00:00:21.281+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-13T00:00:24.413+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T00:00:24.439+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T00:00:25.834+08:00 [ws] ⇄ res ✓ sessions.list 110ms conn=8435f03b…cf5c id=c8ab1dad…a542
+2026-04-13T00:00:29.969+08:00 [ws] ⇄ res ✓ sessions.list 114ms conn=8435f03b…cf5c id=01a174f8…c0ba
+2026-04-13T00:00:32.713+08:00 [ws] ⇄ res ✓ sessions.list 128ms conn=8435f03b…cf5c id=e8c152a2…366c
+2026-04-13T00:00:36.668+08:00 [ws] ⇄ res ✓ sessions.list 89ms conn=8435f03b…cf5c id=fd140b56…f5d9
+2026-04-13T00:00:44.426+08:00 [ws] ⇄ res ✓ sessions.list 87ms conn=8435f03b…cf5c id=5717c302…1624
+2026-04-13T00:00:47.617+08:00 [ws] ⇄ res ✓ sessions.list 77ms conn=8435f03b…cf5c id=5913edae…49a2
+2026-04-13T00:00:56.577+08:00 [ws] ⇄ res ✓ sessions.list 104ms conn=8435f03b…cf5c id=eb84cd9c…1dfe
+2026-04-13T00:00:59.778+08:00 [ws] ⇄ res ✓ sessions.list 96ms conn=8435f03b…cf5c id=4743a6a4…2137
+2026-04-13T00:01:07.528+08:00 [ws] ⇄ res ✓ sessions.list 107ms conn=8435f03b…cf5c id=e86e291f…56d7
+2026-04-13T00:01:15.779+08:00 [ws] ⇄ res ✓ sessions.list 111ms conn=8435f03b…cf5c id=6a13e82c…a10d
+2026-04-13T00:01:23.609+08:00 [ws] ⇄ res ✓ sessions.list 82ms conn=8435f03b…cf5c id=51cfefca…72f1
+2026-04-13T00:03:27.442+08:00 [ws] ⇄ res ✓ sessions.list 247ms conn=8435f03b…cf5c id=7dabe549…1b89
+2026-04-13T00:05:30.834+08:00 [ws] ⇄ res ✓ sessions.list 139ms conn=8435f03b…cf5c id=6ce66309…34cb
+2026-04-13T00:07:34.582+08:00 [ws] ⇄ res ✓ sessions.list 138ms conn=8435f03b…cf5c id=81d59f00…dd1d
+2026-04-13T00:09:39.097+08:00 [ws] ⇄ res ✓ sessions.list 136ms conn=8435f03b…cf5c id=a13a3b49…faea
+2026-04-13T00:11:20.203+08:00 [ws] ⇄ res ✓ sessions.list 120ms conn=8435f03b…cf5c id=9442b350…7f6f
+2026-04-13T00:11:28.949+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-13T00:11:29.064+08:00 [ws] ⇄ res ✓ sessions.list 107ms conn=8435f03b…cf5c id=63f624db…0924
+2026-04-13T00:16:26.803+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 1799910ms conn=6edb228c…5c0b id=d9e26d03…5a46
+2026-04-13T00:16:32.788+08:00 [ws] ⇄ res ✓ agent 162ms runId=exec-approval-followup:91218309-1103-444d-80f0-809447773c61 conn=e495752b…0029 id=67c8f6fc…c7a1
+2026-04-13T00:16:33.469+08:00 [ws] ⇄ res ✓ sessions.list 102ms conn=8435f03b…cf5c id=57ab0cc0…90aa
+2026-04-13T00:16:33.632+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T00:16:50.562+08:00 [ws] ⇄ res ✓ node.list 1381ms conn=8435f03b…cf5c id=c15ca9bc…46eb
+2026-04-13T00:16:55.137+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-13T00:16:56.397+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T00:16:56.424+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T00:16:56.724+08:00 [ws] ⇄ res ✓ sessions.list 79ms conn=8435f03b…cf5c id=0746bd7e…0ed3
+2026-04-13T00:17:07.650+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-13T00:17:07.757+08:00 [ws] ⇄ res ✓ sessions.list 103ms conn=8435f03b…cf5c id=349ea5ea…db91
+2026-04-13T00:17:07.931+08:00 补充确认到了更多产物，`EntroCamp学习笔记` 目录里至少有这些文件：
+
+- `EntroCamp学习笔记\reasoning-L1\课程笔记.md`
+- `EntroCamp学习笔记\reasoning-L1\teaching.json`
+- `EntroCamp学习笔记\reasoning-L1\complete-error.json`
+- `EntroCamp学习笔记\reasoning-L1\trial.json`
+- `EntroCamp学习笔记\intent-L1\课程笔记.md`
+- `EntroCamp学习笔记\intent-L1\teaching.json`
+- `EntroCamp学习笔记\intent-L1\complete-error.json`
+
+这次夜课的最终状态我给你归纳一下：
+
+- `reasoning` 课程本次确实有产物落盘，不是空跑
+- 新增/可用产物主要集中在 `EntroCamp学习笔记\reasoning-L1`
+- 其中 `trial.json` 存在，和日志里的 “Trial lesson ... captured” 对上了，说明本次拿到的是试学层内容
+- `课程笔记.md` 和 `teaching.json` 也存在，说明已经整理出了可读笔记和结构化教学内容
+- `complete-error.json` 仍在，说明“完整课程完成阶段”没有成功走完
+
+一句话版本：
+- 夜课执行成功
+- `reasoning-L1` 试学内容已保存
+- 但完整课程流程仍失败，失败信息落在 `complete-error.json`
+
+如果你要我继续，我建议下一步直接做这两个里更有价值的一个：
+1. 读 `EntroCamp学习笔记\reasoning-L1\课程笔记.md`，给你整理一版中文要点总结
+2. 读 `EntroCamp学习笔记\reasoning-L1\complete-error.json`，定位为什么完整阶段失败

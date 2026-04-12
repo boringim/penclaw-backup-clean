@@ -3893,3 +3893,9 @@ _你不再是聊天机器人。你是 becoming someone._
 2026-04-12T23:15:30.117+08:00 [agent/embedded] read tool called without path: toolCallId=call_6BXNkvsPeFXmuZLBfXwxlIBA argsType=object
 2026-04-12T23:15:30.142+08:00 [agent/embedded] read tool called without path: toolCallId=call_TBPIZdC7tqIJfcBCX1IYnzQk argsType=object
 2026-04-12T23:15:30.167+08:00 [agent/embedded] read tool called without path: toolCallId=call_Kfn9V9NjzjrxO2vK5rhNMaOy argsType=object
+2026-04-12T23:46:32.162+08:00 [diagnostic] lane wait exceeded: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:cron:61a68aab-8a57-45f7-b0fd-c9d813f58200 waitedMs=20928 queueAhead=0
+2026-04-13T00:00:00.109+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-13T00:00:29.832+08:00 [agent/embedded] read tool called without path: toolCallId=call_CEga79dUOuOgpTSBGvXxOvoo argsType=object
+2026-04-13T00:00:29.977+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-13.md' raw_params={"file":"memory/2026-04-13.md","offset":1,"limit":200}
+2026-04-13T00:00:32.553+08:00 [agent/embedded] read tool called without path: toolCallId=call_jsWpoNlaMPq6FNgLTPcIhab2 argsType=object
+2026-04-13T00:00:36.451+08:00 [agent/embedded] read tool called without path: toolCallId=call_UguHJH5r3OIaoAUJD8UGQiNX argsType=object
