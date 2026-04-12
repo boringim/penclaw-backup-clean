@@ -3773,3 +3773,27 @@ _你不再是聊天机器人。你是 becoming someone._
 2026-04-12T04:03:20.497+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-12.md' raw_params={"file":"memory/2026-04-12.md"}
 2026-04-12T04:03:20.512+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-11.md' raw_params={"file":"memory/2026-04-11.md"}
 2026-04-12T04:04:03.780+08:00 [agent/embedded] read tool called without path: toolCallId=call_7mveJE4YMgNbxVdj9tXScfKS argsType=object
+2026-04-12T08:00:00.222+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-12T08:00:10.477+08:00 Rerank API timed out (5s), falling back to cosine
+2026-04-12T08:00:27.211+08:00 [agent/embedded] read tool called without path: toolCallId=call_7yxNHke3RmF4IR20ieP36GNa argsType=object
+2026-04-12T08:00:27.235+08:00 [agent/embedded] read tool called without path: toolCallId=call_t1HpUjeehf9Jf1McsC7lROqP argsType=object
+2026-04-12T08:00:27.269+08:00 [agent/embedded] read tool called without path: toolCallId=call_zDBbZ0bcDQKNPNN5OI0z1h6t argsType=object
+2026-04-12T08:00:27.301+08:00 [agent/embedded] read tool called without path: toolCallId=call_5hW0aUGB2dGH4kj16WevT9yZ argsType=object
+2026-04-12T08:00:27.468+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-12.md' raw_params={"file":"memory/2026-04-12.md"}
+2026-04-12T08:09:16.901+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T08:15:21.446+08:00 [agent/embedded] read tool called without path: toolCallId=call_OurdfDRuO648MC0Kak18rmHp argsType=object
+2026-04-12T08:15:24.331+08:00 [agent/embedded] read tool called without path: toolCallId=call_onbMKa43iAXRycDiuyJMmgGk argsType=object
+2026-04-12T08:15:32.081+08:00 [agent/embedded] read tool called without path: toolCallId=call_TynjULWWmmrpjTFIP3tXrrEz argsType=object
+2026-04-12T08:15:32.116+08:00 [agent/embedded] read tool called without path: toolCallId=call_WuIh2SDRuUD40K0J4iCzLqS2 argsType=object
+2026-04-12T08:15:32.156+08:00 [agent/embedded] read tool called without path: toolCallId=call_UUVDkeoPTEZW0InUcj9KJXLT argsType=object
+2026-04-12T08:15:32.208+08:00 [agent/embedded] read tool called without path: toolCallId=call_EsoEKDN2NibquQBlpxTP7YXE argsType=object
+2026-04-12T08:15:38.557+08:00 [tools] browser failed: BrowserProfileNotFoundError: Profile "google-auto" not found. Available profiles: chrome-relay, openclaw, user raw_params={"action":"open","target":"host","profile":"google-auto","url":"https://www.coze.cn/s/81YngqCoy9E/"}
+2026-04-12T08:15:51.911+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T08:15:56.722+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"open","target":"host","profile":"user","url":"https://www.coze.cn/s/81YngqCoy9E/"}
+2026-04-12T08:16:01.747+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}} raw_params={"query":"site:coze.cn/s/81YngqCoy9E EntroCamp API 规范 complete lessons API","count":5}
+2026-04-12T08:17:35.090+08:00 [agent/embedded] read tool called without path: toolCallId=call_7D2ZpOWiQisdxWXIjQ1jZ7xT argsType=object
+2026-04-12T08:17:35.129+08:00 [agent/embedded] read tool called without path: toolCallId=call_PIpzB4cfv4pt8gLr3qv40gzj argsType=object
+2026-04-12T08:17:35.178+08:00 [agent/embedded] read tool called without path: toolCallId=call_URiVM3hW0m7bZUKZPRw8wrD1 argsType=object
+2026-04-12T08:17:35.229+08:00 [agent/embedded] read tool called without path: toolCallId=call_DWXi4n1NZ42QW21rCpHMCoS2 argsType=object
+2026-04-12T08:17:35.264+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\EntroCamp-API规范.md' raw_params={"file":"EntroCamp学习笔记/EntroCamp-API规范.md"}
+2026-04-12T08:19:55.310+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
