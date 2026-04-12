@@ -3899,3 +3899,16 @@ _你不再是聊天机器人。你是 becoming someone._
 2026-04-13T00:00:29.977+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-13.md' raw_params={"file":"memory/2026-04-13.md","offset":1,"limit":200}
 2026-04-13T00:00:32.553+08:00 [agent/embedded] read tool called without path: toolCallId=call_jsWpoNlaMPq6FNgLTPcIhab2 argsType=object
 2026-04-13T00:00:36.451+08:00 [agent/embedded] read tool called without path: toolCallId=call_UguHJH5r3OIaoAUJD8UGQiNX argsType=object
+2026-04-13T04:00:31.941+08:00 [agent/embedded] read tool called without path: toolCallId=call_ceTxywuuepLNHJCamH682K1x argsType=object
+2026-04-13T04:00:31.953+08:00 [agent/embedded] read tool called without path: toolCallId=call_Heymh7A7AOhjDjYCHKU9T47h argsType=object
+2026-04-13T04:00:55.214+08:00 [agent/embedded] read tool called without path: toolCallId=call_V6UW7CcKo8XHaBRdzY56KmBT argsType=object
+2026-04-13T04:00:55.224+08:00 [agent/embedded] read tool called without path: toolCallId=call_vskVU9qJL7IwA4eAFyT53gF0 argsType=object
+2026-04-13T04:02:22.505+08:00 [agent/embedded] read tool called without path: toolCallId=call_GmspGOPyxYrU2c7ygWit7Ypy argsType=object
+2026-04-13T04:02:22.512+08:00 [agent/embedded] read tool called without path: toolCallId=call_KbgkPlyM8fAqS1jMnuREXKj5 argsType=object
+2026-04-13T04:02:34.122+08:00 [agent/embedded] read tool called without path: toolCallId=call_ev6L4zpSJAyDGm6Q1h0qmbz0 argsType=object
+2026-04-13T04:02:34.128+08:00 [agent/embedded] read tool called without path: toolCallId=call_bAARJuFlpSxgwoUGnNsC4IdL argsType=object
+2026-04-13T04:02:34.339+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-13.md' raw_params={"file":"memory/2026-04-13.md"}
+2026-04-13T04:02:34.353+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-12.md' raw_params={"file":"memory/2026-04-12.md"}
+2026-04-13T04:03:06.038+08:00 [agent/embedded] read tool called without path: toolCallId=call_CY09HoKIAZyyPSOSD3GqLDgX argsType=object
+2026-04-13T04:03:06.045+08:00 [agent/embedded] read tool called without path: toolCallId=call_fE1jsDE4yFm4Ja1sGu2fHMwd argsType=object
+2026-04-13T04:03:22.838+08:00 [agent/embedded] read tool called without path: toolCallId=call_yPqF17v3jbOOLauT0LPXM9MU argsType=object

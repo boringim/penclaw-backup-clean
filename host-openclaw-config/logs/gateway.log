@@ -230900,3 +230900,35 @@ Bind: loopback
 如果你要我继续，我建议下一步直接做这两个里更有价值的一个：
 1. 读 `EntroCamp学习笔记\reasoning-L1\课程笔记.md`，给你整理一版中文要点总结
 2. 读 `EntroCamp学习笔记\reasoning-L1\complete-error.json`，定位为什么完整阶段失败
+2026-04-13T04:00:00.243+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T04:00:17.708+08:00 [ws] ⇄ res ✓ node.list 1412ms conn=8435f03b…cf5c id=d58e9975…eed1
+2026-04-13T04:00:23.615+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T04:00:23.655+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T04:00:26.253+08:00 [ws] ⇄ res ✓ sessions.list 161ms conn=8435f03b…cf5c id=8a2022a4…d778
+2026-04-13T04:00:32.210+08:00 [ws] ⇄ res ✓ sessions.list 90ms conn=8435f03b…cf5c id=640ae39e…37f9
+2026-04-13T04:00:40.202+08:00 [ws] ⇄ res ✓ sessions.list 119ms conn=8435f03b…cf5c id=5ae874dd…fd71
+2026-04-13T04:00:50.539+08:00 [ws] ⇄ res ✓ sessions.list 99ms conn=8435f03b…cf5c id=8f6872c3…2415
+2026-04-13T04:00:55.318+08:00 [ws] ⇄ res ✓ sessions.list 87ms conn=8435f03b…cf5c id=9d6b6e38…bdde
+2026-04-13T04:01:06.232+08:00 [ws] ⇄ res ✓ sessions.list 100ms conn=8435f03b…cf5c id=9f25e8c1…cbc3
+2026-04-13T04:01:10.907+08:00 [ws] ⇄ res ✓ sessions.list 150ms conn=8435f03b…cf5c id=784c283d…433e
+2026-04-13T04:01:20.013+08:00 [ws] ⇄ res ✓ sessions.list 98ms conn=8435f03b…cf5c id=aefae8a8…15e7
+2026-04-13T04:01:24.340+08:00 [ws] ⇄ res ✓ sessions.list 104ms conn=8435f03b…cf5c id=48b28d72…6ba8
+2026-04-13T04:01:42.871+08:00 [ws] ⇄ res ✓ sessions.list 115ms conn=8435f03b…cf5c id=09dc30c3…c2bc
+2026-04-13T04:01:51.984+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_baa6c26e80932344e32cf514de6acde3
+2026-04-13T04:01:52.082+08:00 [ws] ⇄ res ✓ sessions.list 92ms conn=8435f03b…cf5c id=4226c528…899d
+2026-04-13T04:01:52.195+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T04:02:09.222+08:00 [ws] ⇄ res ✓ node.list 1340ms conn=8435f03b…cf5c id=b8d9361d…9c5c
+2026-04-13T04:02:13.909+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T04:02:13.940+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T04:02:16.359+08:00 [ws] ⇄ res ✓ sessions.list 108ms conn=8435f03b…cf5c id=c8fa1698…cb49
+2026-04-13T04:02:22.669+08:00 [ws] ⇄ res ✓ sessions.list 81ms conn=8435f03b…cf5c id=e9be4fe0…6df8
+2026-04-13T04:02:34.331+08:00 [ws] ⇄ res ✓ sessions.list 142ms conn=8435f03b…cf5c id=d4a5af95…cada
+2026-04-13T04:02:34.565+08:00 [ws] ⇄ res ✓ sessions.list 90ms conn=8ff7a3bf…1a94 id=162c3c5a…d723
+2026-04-13T04:02:39.829+08:00 [ws] ⇄ res ✓ sessions.list 107ms conn=8435f03b…cf5c id=9e2673b2…d070
+2026-04-13T04:02:48.091+08:00 [ws] ⇄ res ✓ sessions.list 87ms conn=8435f03b…cf5c id=8772bcb2…dbfe
+2026-04-13T04:02:58.100+08:00 [ws] ⇄ res ✓ sessions.list 95ms conn=8435f03b…cf5c id=a98c49f9…cad8
+2026-04-13T04:03:06.173+08:00 [ws] ⇄ res ✓ sessions.list 122ms conn=8435f03b…cf5c id=ab16a384…3853
+2026-04-13T04:03:23.015+08:00 [ws] ⇄ res ✓ sessions.list 149ms conn=8435f03b…cf5c id=28aac325…555e
+2026-04-13T04:03:37.760+08:00 [ws] ⇄ res ✓ sessions.list 134ms conn=8435f03b…cf5c id=1fbb81b4…f88f
+2026-04-13T04:03:54.264+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
+2026-04-13T04:03:54.390+08:00 [ws] ⇄ res ✓ sessions.list 123ms conn=8435f03b…cf5c id=4cbb0055…b917
