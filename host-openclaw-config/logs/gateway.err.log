@@ -3912,3 +3912,5 @@ _你不再是聊天机器人。你是 becoming someone._
 2026-04-13T04:03:06.038+08:00 [agent/embedded] read tool called without path: toolCallId=call_CY09HoKIAZyyPSOSD3GqLDgX argsType=object
 2026-04-13T04:03:06.045+08:00 [agent/embedded] read tool called without path: toolCallId=call_fE1jsDE4yFm4Ja1sGu2fHMwd argsType=object
 2026-04-13T04:03:22.838+08:00 [agent/embedded] read tool called without path: toolCallId=call_yPqF17v3jbOOLauT0LPXM9MU argsType=object
+2026-04-13T05:44:02.226+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T05:52:22.812+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]

@@ -230932,3 +230932,18 @@ Bind: loopback
 2026-04-13T04:03:37.760+08:00 [ws] ⇄ res ✓ sessions.list 134ms conn=8435f03b…cf5c id=1fbb81b4…f88f
 2026-04-13T04:03:54.264+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
 2026-04-13T04:03:54.390+08:00 [ws] ⇄ res ✓ sessions.list 123ms conn=8435f03b…cf5c id=4cbb0055…b917
+2026-04-13T05:44:55.835+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_085f7cd879179bdc644d20f469b48384 (group)
+2026-04-13T05:44:55.879+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_085f7cd879179bdc644d20f469b48384
+2026-04-13T05:44:55.899+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_085f7cd879179bdc644d20f469b48384: 都在线吗，报到一下
+2026-04-13T05:44:55.976+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_085f7cd879179bdc644d20f469b48384)
+2026-04-13T05:44:57.457+08:00 [ws] ⇄ res ✓ node.list 60ms conn=8435f03b…cf5c id=9412e2c7…f1d7
+2026-04-13T05:44:57.701+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T05:45:07.121+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-13T05:45:08.427+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T05:45:08.463+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T05:45:08.913+08:00 [ws] ⇄ res ✓ sessions.list 179ms conn=8435f03b…cf5c id=7dd33e39…8555
+2026-04-13T05:45:12.037+08:00 [ws] ⇄ res ✓ sessions.list 112ms conn=8435f03b…cf5c id=4b0358ef…bdc1
+2026-04-13T05:45:12.784+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-13T05:45:12.867+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-13T05:46:51.693+08:00 [ws] ⇄ res ✓ node.list 75ms conn=8435f03b…cf5c id=342fb1db…66f1
+2026-04-13T05:47:51.693+08:00 [ws] ⇄ res ✓ node.list 75ms conn=8435f03b…cf5c id=b2ab8b2f…3055
