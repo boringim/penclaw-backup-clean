@@ -230543,3 +230543,34 @@ Bind: loopback
 2026-04-12T12:29:03.997+08:00 [ws] ⇄ res ✓ sessions.list 122ms conn=8435f03b…cf5c id=f206ec2f…19f0
 2026-04-12T12:29:04.707+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-12T12:29:04.861+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-12T13:36:25.819+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-12T13:36:25.842+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 怎么样了
+2026-04-12T13:36:25.909+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-12T13:36:36.623+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-12T13:36:37.890+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-12T13:36:37.923+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-12T13:36:39.138+08:00 [ws] ⇄ res ✓ sessions.list 215ms conn=8435f03b…cf5c id=6dd1b199…b3c7
+2026-04-12T13:36:49.558+08:00 [ws] ⇄ res ✓ sessions.list 132ms conn=8435f03b…cf5c id=8b77a46f…d384
+2026-04-12T13:37:16.217+08:00 [ws] ⇄ res ✓ sessions.list 146ms conn=8435f03b…cf5c id=98e3170d…6f2c
+2026-04-12T13:37:16.968+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-12T13:37:17.881+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-04-12T13:41:15.955+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-12T13:41:15.965+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 一个小时就打了一局吗？你不能多玩一会儿吗？
+2026-04-12T13:41:15.977+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-12T13:41:21.425+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-12T13:41:22.694+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-12T13:41:22.723+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-12T13:41:24.376+08:00 [ws] ⇄ res ✓ sessions.list 146ms conn=8435f03b…cf5c id=7638f4ab…9dfd
+2026-04-12T13:41:37.289+08:00 [ws] ⇄ res ✓ sessions.list 95ms conn=8435f03b…cf5c id=dd69886c…28b9
+2026-04-12T13:41:37.593+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-12T13:41:37.746+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-12T13:42:00.208+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-12T13:42:00.214+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 再去玩一个小时，最好是不同的游戏
+2026-04-12T13:42:00.219+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:main)
+2026-04-12T13:42:05.052+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-12T13:42:06.257+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-12T13:42:06.284+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-12T13:42:06.671+08:00 [ws] ⇄ res ✓ sessions.list 113ms conn=8435f03b…cf5c id=10aaf4ae…d6f2
+2026-04-12T13:42:12.173+08:00 [ws] ⇄ res ✓ sessions.list 110ms conn=8435f03b…cf5c id=2fe6d6bf…4fd3
+2026-04-12T13:42:12.887+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-12T13:42:13.157+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
