@@ -3797,3 +3797,43 @@ _你不再是聊天机器人。你是 becoming someone._
 2026-04-12T08:17:35.229+08:00 [agent/embedded] read tool called without path: toolCallId=call_DWXi4n1NZ42QW21rCpHMCoS2 argsType=object
 2026-04-12T08:17:35.264+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\EntroCamp-API规范.md' raw_params={"file":"EntroCamp学习笔记/EntroCamp-API规范.md"}
 2026-04-12T08:19:55.310+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T08:30:06.312+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T08:31:34.662+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T08:34:00.460+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T08:36:54.669+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T08:37:29.283+08:00 [agent/embedded] read tool called without path: toolCallId=call_MIhE3vnKLGJKaA5bWqWcoRjn argsType=object
+2026-04-12T08:37:29.316+08:00 [agent/embedded] read tool called without path: toolCallId=call_jSgDUg6IYIWAenteaPEevmju argsType=object
+2026-04-12T08:37:29.733+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\intent-L1\课程笔记.md' raw_params={"file":"EntroCamp学习笔记/intent-L1/课程笔记.md"}
+2026-04-12T08:37:29.794+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\intent-L1\teaching.json' raw_params={"file":"EntroCamp学习笔记/intent-L1/teaching.json"}
+2026-04-12T08:41:09.876+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T08:41:52.229+08:00 [agent/embedded] read tool called without path: toolCallId=call_0nrkZqSDmyvwIibFMAj0jA3J argsType=object
+2026-04-12T08:41:52.262+08:00 [agent/embedded] read tool called without path: toolCallId=call_V16aN7HjUnfEtUn5QdTYt46N argsType=object
+2026-04-12T08:41:52.297+08:00 [agent/embedded] read tool called without path: toolCallId=call_RmKm3aCZMLGHXFUg1WhOzjQQ argsType=object
+2026-04-12T08:42:42.477+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T08:42:59.650+08:00 [agent/embedded] read tool called without path: toolCallId=call_D0YKduLRLzOhhqNmG1T9cpLh argsType=object
+2026-04-12T08:42:59.840+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\intent-L1\finish-complete-error.json' raw_params={"file":"EntroCamp学习笔记/intent-L1/finish-complete-error.json"}
+2026-04-12T08:46:00.826+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T08:48:10.607+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T08:50:51.187+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T08:52:26.380+08:00 [agent/embedded] read tool called without path: toolCallId=call_rrGU6vEvs07ph0ihEUN7SNe6 argsType=object
+2026-04-12T08:52:53.203+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"open","target":"host","profile":"user","url":"https://travel.coze.site/skill.md"}
+2026-04-12T08:54:18.782+08:00 [security] blocked URL fetch (url-fetch) target=https://coze-coding-project.tos.coze.site/coze_storage_7620112713548726310/original_0e3d9460.jpg reason=Blocked: resolves to private/internal/special-use IP address
+2026-04-12T08:54:18.794+08:00 [tools] image failed: Failed to fetch media from https://coze-coding-project.tos.coze.site/coze_storage_7620112713548726310/original_0e3d9460.jpg?sign=1775958845-f0f4b2f294-0-16577541debbaf9e179d4240548204b4a17aa4aec65d13fa87245e5b33ed8324: Blocked: resolves to private/internal/special-use IP address raw_params={"image":"https://coze-coding-project.tos.coze.site/coze_storage_7620112713548726310/original_0e3d9460.jpg?sign=1775958845-f0f4b2f294-0-16577541debbaf9e179d4240548204b4a17aa4aec65d13fa87245e5b33ed8324","prompt":"Describe this travel snapshot briefly in Chinese, focusing on visible scene, lighting, weather, and mood. Keep it concise and factual."}
+2026-04-12T08:55:05.766+08:00 [tools] image failed: Image model failed (openai/gpt-5-mini): 400 Unsupported value: 'none' is not supported with the 'gpt-5-mini' model. Supported values are: 'minimal', 'low', 'medium', and 'high'. raw_params={"image":"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group\\tmp\\travel-shot.jpg","prompt":"Describe this travel snapshot briefly in Chinese, focusing on visible scene, lighting, weather, and mood. Keep it concise and factual."}
+2026-04-12T08:55:10.469+08:00 [agent/embedded] read tool called without path: toolCallId=call_Vq2Xovwf01o1RDSkvI8t6A9b argsType=object
+2026-04-12T08:58:55.185+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T09:00:00.154+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-12T09:00:52.045+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-06.md' raw_params={"path":"memory/2026-04-06.md"}
+2026-04-12T09:03:53.504+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T09:07:09.470+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T09:08:14.460+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T09:09:55.015+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T09:10:09.581+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T09:11:40.669+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T09:13:58.470+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T09:18:11.316+08:00 [agent/embedded] read tool called without path: toolCallId=call_wTMgNwVqdhE7iPakiEanjewJ argsType=object
+2026-04-12T09:18:11.365+08:00 [agent/embedded] read tool called without path: toolCallId=call_LvJDPKkzZSsfJNCHAZj98CyB argsType=object
+2026-04-12T09:18:11.407+08:00 [agent/embedded] read tool called without path: toolCallId=call_UJaJxQFk2yvmxbdTBoQ1fdaf argsType=object
+2026-04-12T09:18:11.451+08:00 [agent/embedded] read tool called without path: toolCallId=call_MI49kwcU9gUs233DEKEeIUrD argsType=object
+2026-04-12T09:18:47.756+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T09:20:51.470+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
