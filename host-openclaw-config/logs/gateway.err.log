@@ -3859,3 +3859,8 @@ _你不再是聊天机器人。你是 becoming someone._
 2026-04-12T13:36:20.328+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-12T13:40:24.136+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-12T13:41:41.950+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T14:31:35.588+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T15:01:05.821+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T15:02:46.926+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-12T15:03:41.394+08:00 [agent/embedded] read tool called without path: toolCallId=call_6BJ9P8AiILnvKxCP6yuj1yOR argsType=object
+2026-04-12T15:07:02.770+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
