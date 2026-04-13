@@ -233792,3 +233792,42 @@ Bind: loopback
 3. 再继续后续步骤，不让你自己拆命令
 
 如果你只是想知道“好了吗”，答案就是：还没，这次卡在命令解析阶段了。
+2026-04-14T04:00:02.890+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T04:00:29.663+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T04:00:29.694+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T04:00:33.315+08:00 [ws] ⇄ res ✓ sessions.list 346ms conn=0d945a94…e2c1 id=50ee8869…639f
+2026-04-14T04:00:39.968+08:00 [ws] ⇄ res ✓ sessions.list 262ms conn=0d945a94…e2c1 id=defb149e…7a24
+2026-04-14T04:00:44.665+08:00 [ws] ⇄ res ✓ sessions.list 196ms conn=0d945a94…e2c1 id=2d43baee…21fe
+2026-04-14T04:00:52.574+08:00 [ws] ⇄ res ✓ sessions.list 289ms conn=0d945a94…e2c1 id=bda38046…fc5d
+2026-04-14T04:01:02.997+08:00 [ws] ⇄ res ✓ sessions.list 467ms conn=0d945a94…e2c1 id=d1604682…cd86
+2026-04-14T04:01:10.063+08:00 [ws] ⇄ res ✓ sessions.list 228ms conn=0d945a94…e2c1 id=2356cafd…1af4
+2026-04-14T04:01:15.907+08:00 [ws] ⇄ res ✓ sessions.list 207ms conn=0d945a94…e2c1 id=d691ca7f…7593
+2026-04-14T04:01:19.866+08:00 [ws] ⇄ res ✓ sessions.list 191ms conn=0d945a94…e2c1 id=797ee1f9…baf4
+2026-04-14T04:01:24.188+08:00 [ws] ⇄ res ✓ sessions.list 383ms conn=0d945a94…e2c1 id=1bca4b06…6304
+2026-04-14T04:01:32.419+08:00 [ws] ⇄ res ✓ sessions.list 200ms conn=0d945a94…e2c1 id=42f50816…2502
+2026-04-14T04:01:37.122+08:00 [ws] ⇄ res ✓ sessions.list 198ms conn=0d945a94…e2c1 id=5b1b182d…e6f2
+2026-04-14T04:01:44.018+08:00 [ws] ⇄ res ✓ sessions.list 300ms conn=0d945a94…e2c1 id=c09f36df…71d9
+2026-04-14T04:01:47.546+08:00 [ws] ⇄ res ✓ sessions.list 205ms conn=0d945a94…e2c1 id=7e40378f…0afa
+2026-04-14T04:01:52.075+08:00 [ws] ⇄ res ✓ sessions.list 188ms conn=0d945a94…e2c1 id=9f0c6038…413f
+2026-04-14T04:02:03.120+08:00 [ws] ⇄ res ✓ sessions.list 199ms conn=0d945a94…e2c1 id=19ff7c2a…538a
+2026-04-14T04:02:16.238+08:00 [ws] ⇄ res ✓ sessions.list 232ms conn=0d945a94…e2c1 id=cc852e28…4666
+2026-04-14T04:02:19.122+08:00 [ws] ⇄ res ✓ sessions.list 193ms conn=0d945a94…e2c1 id=dc8de1ca…7544
+2026-04-14T04:02:27.247+08:00 [ws] ⇄ res ✓ sessions.list 210ms conn=0d945a94…e2c1 id=7022fb35…7c3d
+2026-04-14T04:02:33.030+08:00 [ws] ⇄ res ✓ sessions.list 237ms conn=0d945a94…e2c1 id=2f4ed75b…58ec
+2026-04-14T04:02:43.454+08:00 [ws] ⇄ res ✓ sessions.list 184ms conn=0d945a94…e2c1 id=c8d6333c…2b98
+2026-04-14T04:02:56.346+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_baa6c26e80932344e32cf514de6acde3
+2026-04-14T04:02:56.557+08:00 [ws] ⇄ res ✓ sessions.list 204ms conn=0d945a94…e2c1 id=f2adac8e…4122
+2026-04-14T04:02:56.739+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T04:03:21.209+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T04:03:21.240+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T04:03:24.063+08:00 [ws] ⇄ res ✓ sessions.list 198ms conn=0d945a94…e2c1 id=c955b7fa…9c8c
+2026-04-14T04:03:30.604+08:00 [ws] ⇄ res ✓ sessions.list 192ms conn=0d945a94…e2c1 id=451c1b11…b14f
+2026-04-14T04:03:31.582+08:00 [ws] ⇄ res ✓ sessions.list 840ms conn=091d18b8…c5bf id=74bbb029…1de7
+2026-04-14T04:03:31.731+08:00 [ws] ⇄ res ✓ sessions.list 61ms conn=113a6a6e…6c1f id=f6659ef6…11b6
+2026-04-14T04:03:36.662+08:00 [ws] ⇄ res ✓ sessions.list 188ms conn=0d945a94…e2c1 id=b2337f6c…6b59
+2026-04-14T04:03:45.133+08:00 [ws] ⇄ res ✓ sessions.list 236ms conn=0d945a94…e2c1 id=056b64b2…bd1b
+2026-04-14T04:03:49.752+08:00 [ws] ⇄ res ✓ sessions.list 204ms conn=0d945a94…e2c1 id=4150d9e4…4b31
+2026-04-14T04:03:59.060+08:00 [ws] ⇄ res ✓ sessions.list 199ms conn=0d945a94…e2c1 id=547744e9…8930
+2026-04-14T04:04:30.943+08:00 [ws] ⇄ res ✓ sessions.list 262ms conn=0d945a94…e2c1 id=d30becfb…586c
+2026-04-14T04:04:38.219+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
+2026-04-14T04:04:38.427+08:00 [ws] ⇄ res ✓ sessions.list 205ms conn=0d945a94…e2c1 id=304df704…9291
