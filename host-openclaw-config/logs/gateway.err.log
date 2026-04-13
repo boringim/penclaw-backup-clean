@@ -4133,3 +4133,60 @@ Bind: loopback raw_params={"limit":50,"messageLimit":3}
 2026-04-13T17:21:02.283+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-13T17:21:03.145+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-13T17:21:03.838+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:22:56.843+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:23:04.921+08:00 [agent/embedded] read tool called without path: toolCallId=call_cg3zfbplSZi7OnIIjf4COO7M argsType=object
+2026-04-13T17:23:48.572+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:23:55.728+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:24:48.859+08:00 [diagnostic] lane wait exceeded: lane=main waitedMs=12066 queueAhead=0
+2026-04-13T17:26:30.294+08:00 [diagnostic] lane wait exceeded: lane=main waitedMs=11651 queueAhead=0
+2026-04-13T17:27:02.840+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:27:55.181+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:32:44.097+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:32:45.596+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:32:46.187+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:32:46.804+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:32:48.413+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:32:49.917+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:35:18.819+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:35:33.582+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:38:42.970+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:38:43.859+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:38:50.597+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:39:32.401+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:40:52.740+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:41:12.253+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:42:13.332+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:42:19.634+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:42:32.291+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:42:37.485+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:43:15.869+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:43:34.924+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:43:40.595+08:00 [diagnostic] lane wait exceeded: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc waitedMs=39134 queueAhead=0
+2026-04-13T17:44:11.384+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:44:15.688+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:44:18.735+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:44:26.379+08:00 [plugins] memory-lancedb-pro: capture failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:44:35.158+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:45:40.970+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:46:00.351+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:47:01.751+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:47:16.128+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:47:21.268+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T17:47:36.390+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:48:33.111+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:48:40.865+08:00 [agent/embedded] read tool called without path: toolCallId=call_1mf9dTSoIjhCMfYV9CxMfuh0 argsType=object
+2026-04-13T17:48:45.121+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}} raw_params={"query":"site:world.coze.site Agent World Coze world.coze.site 功能 平台","count":5,"freshness":"month"}
+2026-04-13T17:48:53.952+08:00 [tools] browser failed: BrowserProfileNotFoundError: Profile "google-auto" not found. Available profiles: chrome-relay, openclaw, user raw_params={"action":"open","url":"https://world.coze.site/","profile":"google-auto","target":"host"}
+2026-04-13T17:49:43.734+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T17:50:45.411+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T18:02:49.008+08:00 [ws] unauthorized conn=01bc726b-c35c-4393-ac7e-ae7a6c4e16b6 remote=127.0.0.1 client=openclaw-control-ui webchat vcontrol-ui reason=token_missing
+2026-04-13T18:02:49.024+08:00 [ws] closed before connect conn=01bc726b-c35c-4393-ac7e-ae7a6c4e16b6 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-04-13T18:05:56.647+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T18:06:06.869+08:00 [agent/embedded] read tool called without path: toolCallId=call_xrDTVbu4mbLYznR11t5hrgfH argsType=object
+2026-04-13T18:08:01.307+08:00 [agent/embedded] read tool called without path: toolCallId=call_WQrAfzriOIsyswTmWzjU5vRC argsType=object
+2026-04-13T18:14:07.023+08:00 [agent/embedded] read tool called without path: toolCallId=call_sYsmKBag6fiaboZ8xPm0uFOG argsType=object
+2026-04-13T18:14:07.209+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\dist\extensions\acpx\skills\web-access-openclaw\SKILL.md' raw_params={"file":"C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\openclaw\\dist\\extensions\\acpx\\skills\\web-access-openclaw\\SKILL.md","limit":220}
+2026-04-13T18:14:10.844+08:00 [agent/embedded] read tool called without path: toolCallId=call_ZSr4WEzycCiKaGqrRZxYwJck argsType=object
+2026-04-13T18:14:14.880+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}} raw_params={"query":"github.com/lancelot3777-svg/openclaw-backup-guide OpenClaw backup guide","count":5}
+2026-04-13T18:14:18.260+08:00 [tools] browser failed: BrowserProfileNotFoundError: Profile "google-auto" not found. Available profiles: chrome-relay, openclaw, user raw_params={"action":"open","profile":"google-auto","target":"host","url":"https://github.com/lancelot3777-svg/openclaw-backup-guide"}
+2026-04-13T18:14:36.098+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"open","profile":"user","target":"host","url":"https://github.com/lancelot3777-svg/openclaw-backup-guide"}
