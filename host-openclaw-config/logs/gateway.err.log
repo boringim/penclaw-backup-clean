@@ -3920,3 +3920,8 @@ _你不再是聊天机器人。你是 becoming someone._
 2026-04-13T08:00:33.289+08:00 [agent/embedded] read tool called without path: toolCallId=call_Bo6oNx8wwqrrEX5KSbA9mfFy argsType=object
 2026-04-13T08:00:33.313+08:00 [agent/embedded] read tool called without path: toolCallId=call_FSwcY63qqfV59DKA57MsY3oU argsType=object
 2026-04-13T08:00:33.440+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-13.md' raw_params={"file":"memory/2026-04-13.md"}
+2026-04-13T08:23:35.740+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T09:15:05.940+08:00 [agent/embedded] read tool called without path: toolCallId=call_XCFmKiU8xKYCCsn5ebKXH3yN argsType=object
+2026-04-13T09:15:06.127+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\workspaces\oc-981e-feishu-group\skills\web-access-openclaw\SKILL.md' raw_params={"file":"C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\openclaw\\workspaces\\oc-981e-feishu-group\\skills\\web-access-openclaw\\SKILL.md"}
+2026-04-13T09:15:16.621+08:00 [agent/embedded] read tool called without path: toolCallId=call_VMGuHOm30ADgEZd4JUQpIbQK argsType=object
+2026-04-13T09:15:35.948+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"open","profile":"user","target":"host","url":"https://agentworld.ai/"}
