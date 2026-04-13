@@ -231424,3 +231424,5 @@ Bind: loopback
 2026-04-13T12:00:14.579+08:00 [plugins] memory-lancedb-pro: auto-captured 1 memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 in scope agent:oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-13T14:04:51.815+08:00 [ws] ⇄ res ✓ node.list 86ms conn=8435f03b…cf5c id=c6906ee2…c896
 2026-04-13T14:05:07.490+08:00 [ws] ⇄ res ✓ node.list 827ms conn=8435f03b…cf5c id=0653945c…505d
+2026-04-13T14:54:06.076+08:00 [ws] webchat disconnected code=1006 reason=n/a conn=8435f03b-8e29-4759-be28-248d7afccf5c
+2026-04-13T14:54:18.315+08:00 [info]: [ '[ws]', 'reconnect' ]
