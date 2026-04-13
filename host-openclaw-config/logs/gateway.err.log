@@ -3914,3 +3914,9 @@ _你不再是聊天机器人。你是 becoming someone._
 2026-04-13T04:03:22.838+08:00 [agent/embedded] read tool called without path: toolCallId=call_yPqF17v3jbOOLauT0LPXM9MU argsType=object
 2026-04-13T05:44:02.226+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-13T05:52:22.812+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T08:00:00.213+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-13T08:00:33.246+08:00 [agent/embedded] read tool called without path: toolCallId=call_F8qNLCdJoeeXm4htivm86CBc argsType=object
+2026-04-13T08:00:33.271+08:00 [agent/embedded] read tool called without path: toolCallId=call_aRdOPaXDSfKyWGY4LDtmpNI9 argsType=object
+2026-04-13T08:00:33.289+08:00 [agent/embedded] read tool called without path: toolCallId=call_Bo6oNx8wwqrrEX5KSbA9mfFy argsType=object
+2026-04-13T08:00:33.313+08:00 [agent/embedded] read tool called without path: toolCallId=call_FSwcY63qqfV59DKA57MsY3oU argsType=object
+2026-04-13T08:00:33.440+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-13.md' raw_params={"file":"memory/2026-04-13.md"}

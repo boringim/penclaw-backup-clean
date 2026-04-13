@@ -230947,3 +230947,12 @@ Bind: loopback
 2026-04-13T05:45:12.867+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
 2026-04-13T05:46:51.693+08:00 [ws] ⇄ res ✓ node.list 75ms conn=8435f03b…cf5c id=342fb1db…66f1
 2026-04-13T05:47:51.693+08:00 [ws] ⇄ res ✓ node.list 75ms conn=8435f03b…cf5c id=b2ab8b2f…3055
+2026-04-13T08:00:18.000+08:00 [ws] ⇄ res ✓ node.list 1426ms conn=8435f03b…cf5c id=7855a8d7…b6ee
+2026-04-13T08:00:23.499+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-13T08:00:26.663+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T08:00:26.698+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-13T08:00:28.277+08:00 [ws] ⇄ res ✓ sessions.list 173ms conn=8435f03b…cf5c id=72a51ba8…eb43
+2026-04-13T08:00:33.431+08:00 [ws] ⇄ res ✓ sessions.list 102ms conn=8435f03b…cf5c id=e62fc4f4…9713
+2026-04-13T08:00:37.895+08:00 [ws] ⇄ res ✓ sessions.list 116ms conn=8435f03b…cf5c id=45cddd75…bdf8
+2026-04-13T08:00:43.552+08:00 [plugins] memory-lancedb-pro: regex fallback found 1 capturable text(s) for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-13T08:00:43.881+08:00 [ws] ⇄ res ✓ sessions.list 93ms conn=8435f03b…cf5c id=b6780797…059a
