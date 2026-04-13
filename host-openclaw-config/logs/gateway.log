@@ -233756,3 +233756,39 @@ Bind: loopback
 2026-04-14T00:00:22.637+08:00 [ws] ⇄ res ✓ sessions.list 193ms conn=0d945a94…e2c1 id=e1a03fdb…9386
 2026-04-14T00:00:32.876+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-14T00:00:33.079+08:00 [ws] ⇄ res ✓ sessions.list 200ms conn=0d945a94…e2c1 id=b12c20d1…5be0
+2026-04-14T00:30:22.783+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 1799909ms conn=d217d148…e9fb id=9c1b6bb0…3ec6
+2026-04-14T00:30:28.605+08:00 [ws] ⇄ res ✓ agent 132ms runId=exec-approval-followup:48eba354-bae3-4ab6-a8f3-ae49d4a6ac1f conn=a47f118f…c014 id=e61f267a…1602
+2026-04-14T00:30:28.899+08:00 [ws] ⇄ res ✓ sessions.list 235ms conn=0d945a94…e2c1 id=2653bc0c…4c9e
+2026-04-14T00:30:30.131+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T00:30:48.792+08:00 [ws] ⇄ res ✓ node.list 1447ms conn=0d945a94…e2c1 id=845cb6f9…3651
+2026-04-14T00:30:56.695+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T00:30:58.049+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T00:30:58.080+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T00:30:58.844+08:00 [ws] ⇄ res ✓ sessions.list 189ms conn=0d945a94…e2c1 id=5b97a57e…6228
+2026-04-14T00:31:07.151+08:00 [ws] ⇄ res ✓ sessions.list 186ms conn=0d945a94…e2c1 id=08813018…eca6
+2026-04-14T00:31:13.886+08:00 [ws] ⇄ res ✓ sessions.list 193ms conn=0d945a94…e2c1 id=0af0b45d…6618
+2026-04-14T00:31:22.000+08:00 [ws] ⇄ res ✓ sessions.list 162ms conn=0d945a94…e2c1 id=463b4e47…116f
+2026-04-14T00:31:28.388+08:00 exec approval followup dispatch failed (id=48eba354-bae3-4ab6-a8f3-ae49d4a6ac1f): Session followup failed: gateway timeout after 60000ms
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: C:\Users\Administrator\.openclaw\openclaw.json
+Bind: loopback
+2026-04-14T00:31:34.752+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T00:31:34.949+08:00 [ws] ⇄ res ✓ sessions.list 189ms conn=0d945a94…e2c1 id=5178fb72…3ef4
+2026-04-14T00:31:35.155+08:00 大哥，这个异步命令是失败结束的，没有真正跑通。
+
+- 报错是 PowerShell 解析错误：`TerminatorExpectedAtEndOfString`
+- 关键信息里出现了乱码：`�ַ���ȱ����ֹ��: "`，本质意思通常是“字符串缺少结束引号”
+- 也就是说，上次你已批准执行的那条命令本身在命令行拼接时引号没闭合，PowerShell 还没进入实际业务逻辑就先报错退出了
+- 退出码是 `1`，所以这次不能当作成功完成
+
+现在我这边没有把那条原始命令内容带出来，所以没法安全地在“不重跑原命令”的前提下继续修补后续步骤。当前可确认的只有：
+- 失败原因不是业务结果失败
+- 而是命令文本本身的 quoting/字符串终止问题
+
+如果你要我继续接手，我建议直接把你当时批准的完整命令贴给我，我来：
+1. 找出是哪一段引号坏了
+2. 改成可执行版本
+3. 再继续后续步骤，不让你自己拆命令
+
+如果你只是想知道“好了吗”，答案就是：还没，这次卡在命令解析阶段了。

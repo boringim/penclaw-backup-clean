@@ -4358,3 +4358,11 @@ Bind: loopback raw_params={"limit":50,"messageLimit":3}
 2026-04-14T00:00:15.342+08:00 [agent/embedded] read tool called without path: toolCallId=call_1LoDx5a1BScMnhNyEKedfKSc argsType=object
 2026-04-14T00:00:15.577+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-14.md' raw_params={"file":"memory/2026-04-14.md"}
 2026-04-14T00:00:22.352+08:00 [agent/embedded] read tool called without path: toolCallId=call_oU9CbwFo7QPfqAZw6ntAsrXg argsType=object
+2026-04-14T00:31:06.677+08:00 [agent/embedded] read tool called without path: toolCallId=call_aFQM7M0C99OfNtDOIElugW1Z argsType=object
+2026-04-14T00:31:06.722+08:00 [agent/embedded] read tool called without path: toolCallId=call_JjWXnxKhgGsQCYDg6qKPBdPT argsType=object
+2026-04-14T00:31:06.806+08:00 [agent/embedded] read tool called without path: toolCallId=call_YPBieVvA62FLq83jlkdSSBSM argsType=object
+2026-04-14T00:31:06.847+08:00 [agent/embedded] read tool called without path: toolCallId=call_i9nSib9vBLlSfDmB0POXVbyO argsType=object
+2026-04-14T00:31:06.907+08:00 [agent/embedded] read tool called without path: toolCallId=call_PIOqRZBwEdkXVSY5jj66hWO7 argsType=object
+2026-04-14T00:31:21.760+08:00 [agent/embedded] read tool called without path: toolCallId=call_djaH7Khv4KW1CzG9hvQimGfX argsType=object
+2026-04-14T00:31:21.795+08:00 [agent/embedded] read tool called without path: toolCallId=call_r89f9V3hvTZPVRnAo6Hfryqh argsType=object
+2026-04-14T00:31:22.005+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-14.md' raw_params={"file":"memory/2026-04-14.md"}
