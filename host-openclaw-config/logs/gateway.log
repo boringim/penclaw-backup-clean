@@ -233831,3 +233831,4 @@ Bind: loopback
 2026-04-14T04:04:30.943+08:00 [ws] ⇄ res ✓ sessions.list 262ms conn=0d945a94…e2c1 id=d30becfb…586c
 2026-04-14T04:04:38.219+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
 2026-04-14T04:04:38.427+08:00 [ws] ⇄ res ✓ sessions.list 205ms conn=0d945a94…e2c1 id=304df704…9291
+2026-04-14T05:36:39.351+08:00 [ws] webchat disconnected code=1001 reason=n/a conn=0d945a94-61b8-4bfe-97b8-1ad65b07e2c1
