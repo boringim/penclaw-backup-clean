@@ -3957,3 +3957,42 @@ _你不再是聊天机器人。你是 becoming someone._
 2026-04-13T11:59:33.635+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
 2026-04-13T11:59:53.440+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
 2026-04-13T12:37:07.091+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T15:50:30.364+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T15:51:29.226+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T15:53:02.223+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"open","profile":"user","target":"host","url":"https://travel.coze.site/skill.md"}
+2026-04-13T15:53:21.802+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T15:54:25.010+08:00 [ws] unauthorized conn=47bd51b7-3c3c-42f5-96ff-b2b082860791 remote=127.0.0.1 client=openclaw-control-ui webchat vcontrol-ui reason=token_missing
+2026-04-13T15:54:25.021+08:00 [ws] closed before connect conn=47bd51b7-3c3c-42f5-96ff-b2b082860791 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=4008 reason=connect failed
+2026-04-13T15:57:41.378+08:00 [ws] unauthorized conn=de308126-9618-4420-8ab3-f8d670b55f34 remote=127.0.0.1 client=openclaw-control-ui webchat vcontrol-ui reason=token_missing
+2026-04-13T15:57:41.384+08:00 [ws] closed before connect conn=de308126-9618-4420-8ab3-f8d670b55f34 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-04-13T15:57:42.842+08:00 [ws] unauthorized conn=931d5238-88e7-4e6e-bfa8-668ad0df965e remote=127.0.0.1 client=openclaw-control-ui webchat vcontrol-ui reason=token_missing
+2026-04-13T15:57:42.848+08:00 [ws] closed before connect conn=931d5238-88e7-4e6e-bfa8-668ad0df965e remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-04-13T15:57:52.673+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T15:59:50.914+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T16:02:22.256+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T16:08:33.600+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T16:09:53.472+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T16:13:26.059+08:00 [tools] edit failed: Found 2 occurrences of edits[2] in C:\Users\Administrator\.openclaw\openclaw.json. Each oldText must be unique. Please provide more context to make it unique. raw_params={"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json","edits":[{"oldText":" \"channels\": {\n \"feishu\": {\n \"appId\": \"cli_a907396545f95cd2\",\n \"appSecret\": \"x3Nvn2j9PwJZFbVEZVWubhyX8V1BlS4S\",\n \"enabled\": true,\n \"requireMention\": false\n }\n },","newText":" \"channels\": {\n \"feishu\": {\n \"appId\": \"cli_a907396545f95cd2\",\n \"appSecret\": \"x3Nvn2j9PwJZFbVEZVWubhyX8V1BlS4S\",\n \"enabled\": true,\n \"requireMention\": false,\n \"threadSession\": true,\n \"accounts\": {\n \"default\": {},\n \"oc_baa6c26e80932344e32cf514de6acde3\": {\n \"appId\": \"cli_a9561f23eae11cb1…
+2026-04-13T16:13:40.447+08:00 [tools] edit failed: Found 2 occurrences of edits[2] in C:\Users\Administrator\.openclaw\openclaw.json. Each oldText must be unique. Please provide more context to make it unique. raw_params={"path":"C:\\Users\\Administrator\\.openclaw\\openclaw.json","edits":[{"oldText":" \"channels\": {\n \"feishu\": {\n \"appId\": \"cli_a907396545f95cd2\",\n \"appSecret\": \"x3Nvn2j9PwJZFbVEZVWubhyX8V1BlS4S\",\n \"enabled\": true,\n \"requireMention\": false\n }\n },","newText":" \"channels\": {\n \"feishu\": {\n \"appId\": \"cli_a907396545f95cd2\",\n \"appSecret\": \"x3Nvn2j9PwJZFbVEZVWubhyX8V1BlS4S\",\n \"enabled\": true,\n \"requireMention\": false,\n \"threadSession\": true,\n \"accounts\": {\n \"default\": {},\n \"oc_baa6c26e80932344e32cf514de6acde3\": {\n \"appId\": \"cli_a9561f23eae11cb1…
+2026-04-13T16:13:56.892+08:00 [reload] config change requires gateway restart (plugins.entries.perplexity) — deferring until 2 operation(s), 1 reply(ies), 1 embedded run(s), 1 task run(s) complete
+2026-04-13T16:17:28.694+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\50238897-c903-467c-a123-b3b325dc425a.jsonl.lock (dead-pid)
+2026-04-13T16:17:50.819+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-13T16:17:50.941+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-13T16:17:58.560+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-13T16:18:05.292+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T16:18:48.726+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T16:18:48.734+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T16:20:05.429+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T16:20:06.514+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T16:20:17.866+08:00 [agent/embedded] read tool called without path: toolCallId=call_a1eCUCehw2bi4VXYxUbeRX9k argsType=object
+2026-04-13T16:20:17.889+08:00 [agent/embedded] read tool called without path: toolCallId=call_hju4PhKINJLdrkcjWQMI287Q argsType=object
+2026-04-13T16:20:17.907+08:00 [agent/embedded] read tool called without path: toolCallId=call_zhlKBmZ5E05AzX8d1FB2SzxB argsType=object
+2026-04-13T16:20:17.939+08:00 [agent/embedded] read tool called without path: toolCallId=call_ebH8AMbuftmdFO742cWINaUa argsType=object
+2026-04-13T16:20:17.972+08:00 [agent/embedded] read tool called without path: toolCallId=call_9JQPdzEuucmmki5UHdg0iweR argsType=object
+2026-04-13T16:20:38.658+08:00 [tools] sessions_list failed: gateway timeout after 10000ms
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: C:\Users\Administrator\.openclaw\openclaw.json
+Bind: loopback raw_params={"limit":50,"messageLimit":1}
+2026-04-13T16:21:24.359+08:00 [agent/embedded] read tool called without path: toolCallId=call_0pjshHpuggOtO0xogYqSquOI argsType=object
+2026-04-13T16:21:24.379+08:00 [agent/embedded] read tool called without path: toolCallId=call_SJtAZ5Crpr9RLIhJC7o6TG6D argsType=object
