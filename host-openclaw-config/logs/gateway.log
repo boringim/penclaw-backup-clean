@@ -231422,3 +231422,5 @@ Bind: loopback
 2026-04-13T12:00:12.060+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
 2026-04-13T12:00:12.065+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-13T12:00:14.579+08:00 [plugins] memory-lancedb-pro: auto-captured 1 memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 in scope agent:oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-13T14:04:51.815+08:00 [ws] ⇄ res ✓ node.list 86ms conn=8435f03b…cf5c id=c6906ee2…c896
+2026-04-13T14:05:07.490+08:00 [ws] ⇄ res ✓ node.list 827ms conn=8435f03b…cf5c id=0653945c…505d
