@@ -116,7 +116,7 @@
       "name": "Daily_Self_Backup_Midnight",
       "enabled": true,
       "createdAtMs": 1771408491288,
-      "updatedAtMs": 1776010289264,
+      "updatedAtMs": 1776096033286,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -136,10 +136,10 @@
         "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02"
       },
       "state": {
-        "nextRunAtMs": 1776096000000,
-        "lastRunAtMs": 1776009600037,
+        "nextRunAtMs": 1776182400000,
+        "lastRunAtMs": 1776096000038,
         "lastStatus": "ok",
-        "lastDurationMs": 689227,
+        "lastDurationMs": 33248,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "not-delivered",
@@ -467,7 +467,7 @@
       "name": "EntroCamp_Safety_Nightly",
       "enabled": true,
       "createdAtMs": 1775825985929,
-      "updatedAtMs": 1776008103024,
+      "updatedAtMs": 1776094362132,
       "schedule": {
         "kind": "cron",
         "expr": "30 23 * * *",
@@ -488,14 +488,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1776094200000,
-        "lastRunAtMs": 1776007800028,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 302996,
-        "lastDelivered": true,
-        "lastDeliveryStatus": "delivered",
-        "consecutiveErrors": 0
+        "nextRunAtMs": 1776180600000,
+        "lastRunAtMs": 1776094200093,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 162039,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "lastError": "Delivering to Feishu requires target <chatId|user:openId|chat:chatId>"
       }
     }
   ]
