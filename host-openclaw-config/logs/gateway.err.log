@@ -3956,3 +3956,4 @@ _你不再是聊天机器人。你是 becoming someone._
 2026-04-13T11:57:37.497+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
 2026-04-13T11:59:33.635+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
 2026-04-13T11:59:53.440+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T12:37:07.091+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
