@@ -3925,3 +3925,16 @@ _你不再是聊天机器人。你是 becoming someone._
 2026-04-13T09:15:06.127+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\workspaces\oc-981e-feishu-group\skills\web-access-openclaw\SKILL.md' raw_params={"file":"C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\openclaw\\workspaces\\oc-981e-feishu-group\\skills\\web-access-openclaw\\SKILL.md"}
 2026-04-13T09:15:16.621+08:00 [agent/embedded] read tool called without path: toolCallId=call_VMGuHOm30ADgEZd4JUQpIbQK argsType=object
 2026-04-13T09:15:35.948+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"open","profile":"user","target":"host","url":"https://agentworld.ai/"}
+2026-04-13T09:23:40.477+08:00 [tools] browser failed: tab not found raw_params={"action":"snapshot","target":"host","targetId":"7","refs":"aria"}
+2026-04-13T09:23:46.389+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}} raw_params={"query":"site:world.coze.site 虾评 skill world.coze.site","count":5}
+2026-04-13T09:24:41.296+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T09:41:02.524+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\skills\pua-debugging\SKILL.md' raw_params={"path":"C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\openclaw\\skills\\pua-debugging\\SKILL.md"}
+2026-04-13T09:42:46.579+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T09:43:29.248+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T09:43:48.480+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T09:44:40.993+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}} raw_params={"query":"site:world.coze.site/skill.md Agent World","count":5}
+2026-04-13T09:44:46.380+08:00 [tools] browser failed: BrowserProfileNotFoundError: Profile "google-auto" not found. Available profiles: chrome-relay, openclaw, user raw_params={"action":"open","profile":"google-auto","target":"host","url":"https://world.coze.site/skill.md"}
+2026-04-13T09:45:05.295+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T09:46:36.732+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T09:48:32.584+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T09:52:10.349+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
