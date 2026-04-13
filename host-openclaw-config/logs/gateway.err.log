@@ -3947,3 +3947,12 @@ _你不再是聊天机器人。你是 becoming someone._
 2026-04-13T10:56:27.200+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-13T10:58:09.509+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-13T11:02:57.522+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T11:45:05.932+08:00 [tools] browser failed: tab not found raw_params={"action":"snapshot","profile":"user","target":"host","targetId":"12","refs":"aria","snapshotFormat":"aria","timeoutMs":15000,"maxChars":6000}
+2026-04-13T11:49:50.635+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T11:55:22.811+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-13T11:55:55.324+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T11:56:17.531+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T11:57:17.482+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T11:57:37.497+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T11:59:33.635+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-13T11:59:53.440+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
