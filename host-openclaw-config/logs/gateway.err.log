@@ -4389,3 +4389,70 @@ Bind: loopback raw_params={"limit":50,"messageLimit":3}
 2026-04-14T08:00:35.299+08:00 [agent/embedded] read tool called without path: toolCallId=call_CeqsUqPAYOXMcppGnnnJq09V argsType=object
 2026-04-14T08:00:35.305+08:00 [agent/embedded] read tool called without path: toolCallId=call_uy81KMet1ykniWaEKwZXSwhp argsType=object
 2026-04-14T08:00:35.317+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-14.md' raw_params={"file":"memory/2026-04-14.md"}
+2026-04-14T08:23:44.762+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T08:33:41.224+08:00 Gateway failed to start: gateway already running (pid 7020); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-14T08:33:41.495+08:00 Port 18789 is already in use.
+2026-04-14T08:33:41.501+08:00 - pid 7020: "C:\Program Files\nodejs\node.exe" --disable-warning=ExperimentalWarning C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\openclaw.mjs gateway --port 18789 (127.0.0.1:18789)
+2026-04-14T08:33:41.505+08:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.
+2026-04-14T08:33:41.576+08:00 Gateway service appears registered. Stop it first.
+2026-04-14T08:33:41.579+08:00 Tip: openclaw gateway stop
+2026-04-14T08:33:41.581+08:00 Or: schtasks /End /TN "OpenClaw Gateway"
+2026-04-14T08:33:49.557+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-14T08:33:49.653+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-14T08:33:56.610+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-14T08:34:01.046+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T08:34:01.655+08:00 [bonjour] restarting advertiser (service stuck in announcing for 12098ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-14T08:36:24.684+08:00 [agent/embedded] read tool called without path: toolCallId=call_pzIMdliLHr3wAndkVPT1ILFx argsType=object
+2026-04-14T08:36:26.912+08:00 [agent/embedded] read tool called without path: toolCallId=call_dcTcYcckUWtC0x1dCwdZdjlv argsType=object
+2026-04-14T08:36:31.798+08:00 [agent/embedded] read tool called without path: toolCallId=call_IOSbxJhe0jm7S6SedzwGjZLU argsType=object
+2026-04-14T08:36:31.823+08:00 [agent/embedded] read tool called without path: toolCallId=call_dx5AtPiaEgRDC5QIuTpWB4hU argsType=object
+2026-04-14T08:36:31.850+08:00 [agent/embedded] read tool called without path: toolCallId=call_MgL8fLbglpeEHDC5pmE9mVkF argsType=object
+2026-04-14T08:36:31.868+08:00 [agent/embedded] read tool called without path: toolCallId=call_Qh3N3kmLi3eqWjnQpmgs71dy argsType=object
+2026-04-14T08:36:31.891+08:00 [agent/embedded] read tool called without path: toolCallId=call_SYKS45KJSuazB41YcW0fzsW2 argsType=object
+2026-04-14T08:36:31.910+08:00 [agent/embedded] read tool called without path: toolCallId=call_NLjQfu0Js14fA79UfcXKa6dc argsType=object
+2026-04-14T08:36:31.937+08:00 [agent/embedded] read tool called without path: toolCallId=call_ladtcidb2rXBfTnVjZPTlRM6 argsType=object
+2026-04-14T08:38:17.852+08:00 [agent/embedded] read tool called without path: toolCallId=call_TmvPpvrvop1fwCtBjb4ONXxe argsType=object
+2026-04-14T08:38:17.883+08:00 [agent/embedded] read tool called without path: toolCallId=call_dVjNtspfjIoP8108S9u3xaeY argsType=object
+2026-04-14T08:38:17.910+08:00 [agent/embedded] read tool called without path: toolCallId=call_M3zFl9jXkWEoHmS4LNwyKhIs argsType=object
+2026-04-14T08:38:17.936+08:00 [agent/embedded] read tool called without path: toolCallId=call_6m6yWL0wM7J9MU7d1nIigC7t argsType=object
+2026-04-14T08:38:33.589+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T08:43:54.406+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T08:48:38.378+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T08:49:44.688+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T08:52:44.262+08:00 [agent/embedded] read tool called without path: toolCallId=call_NnSFS42l31WsE2BQEg7I48fO argsType=object
+2026-04-14T08:52:44.317+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\docs\cron.md' raw_params={"file":"C:/Users/Administrator/AppData/Roaming/npm/node_modules/openclaw/docs/cron.md","limit":200}
+2026-04-14T08:53:08.606+08:00 [agent/embedded] read tool called without path: toolCallId=call_iqON2RjkiA86JQBlrC21qAQ5 argsType=object
+2026-04-14T08:53:08.625+08:00 [agent/embedded] read tool called without path: toolCallId=call_QdB0BPI3x0hsKNCXawV4Y22S argsType=object
+2026-04-14T08:53:42.500+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T08:55:16.059+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T08:58:19.599+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T08:58:44.127+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T09:00:12.085+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T09:00:17.931+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T09:00:26.325+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T09:00:32.193+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T09:00:50.760+08:00 [warn]: [ 'no im.message.recalled_v1 handle' ]
+2026-04-14T09:01:32.662+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T09:01:47.274+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T09:06:50.788+08:00 [agent/embedded] read tool called without path: toolCallId=call_p0hAofvxkKSkcolCL6vIIj69 argsType=object
+2026-04-14T09:06:50.798+08:00 [agent/embedded] read tool called without path: toolCallId=call_PHtgF3LixomZyUXkzJweh5vx argsType=object
+2026-04-14T09:06:56.189+08:00 [agent/embedded] read tool called without path: toolCallId=call_Ti4Fy2BmAleXu8EWwAK5HZcr argsType=object
+2026-04-14T09:06:56.205+08:00 [agent/embedded] read tool called without path: toolCallId=call_KClBl5CpU74FvqyVhd3MREvs argsType=object
+2026-04-14T09:06:56.224+08:00 [agent/embedded] read tool called without path: toolCallId=call_GIRmhDnTqUkt83PW1Ec8cTk3 argsType=object
+2026-04-14T09:06:56.242+08:00 [agent/embedded] read tool called without path: toolCallId=call_NnNFy8kIkPRhj8yYzVZS7vEI argsType=object
+2026-04-14T09:06:56.264+08:00 [agent/embedded] read tool called without path: toolCallId=call_UNxvIyVqQ4tfAmz4REB0PF6X argsType=object
+2026-04-14T09:06:56.286+08:00 [agent/embedded] read tool called without path: toolCallId=call_ZkcCnKrh2kmrOAek42SCj1la argsType=object
+2026-04-14T09:06:56.310+08:00 [agent/embedded] read tool called without path: toolCallId=call_Synl7lRd73NmGP4X8e25PabK argsType=object
+2026-04-14T09:06:56.916+08:00 [agent/embedded] read tool called without path: toolCallId=call_WRg6AWuwPVHYOWJU2QgsEEwj argsType=object
+2026-04-14T09:06:56.923+08:00 [agent/embedded] read tool called without path: toolCallId=call_A55BVQwTXvIgTwTvqWRNMLZV argsType=object
+2026-04-14T09:06:56.943+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-14.md' raw_params={"file":"memory/2026-04-14.md"}
+2026-04-14T09:07:00.349+08:00 [agent/embedded] read tool called without path: toolCallId=call_M13b5JnoBdPV71Hw2V63lhOy argsType=object
+2026-04-14T09:07:00.356+08:00 [agent/embedded] read tool called without path: toolCallId=call_zZktDvlUyvCjnKrxYOBY0HRr argsType=object
+2026-04-14T09:07:00.362+08:00 [agent/embedded] read tool called without path: toolCallId=call_SfubnW6l3po5RhGTV6c65GWp argsType=object
+2026-04-14T09:07:42.963+08:00 [diagnostic] lane wait exceeded: lane=main waitedMs=73650 queueAhead=0
+2026-04-14T09:07:59.324+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\DAQIAN\memory\2026-04-14.md' raw_params={"path":"memory/2026-04-14.md","limit":200}
+2026-04-14T09:08:05.617+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\DAQIAN\memory\2026-04-13.md' raw_params={"path":"memory/2026-04-13.md","limit":200}
+2026-04-14T09:12:02.486+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T09:14:26.336+08:00 [diagnostic] lane wait exceeded: lane=main waitedMs=19799 queueAhead=0
+2026-04-14T09:18:31.175+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
