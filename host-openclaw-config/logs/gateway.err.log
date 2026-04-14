@@ -4510,3 +4510,9 @@ Fix-it keys:
 - tools.elevated.allowFrom.<provider>
 - agents.list[].tools.elevated.enabled
 - agents.list[].tools.elevated.allowFrom.<provider> raw_params={"command":"wsl --install","workdir":"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group","timeout":120,"elevated":true,"ask":"always"}
+2026-04-14T16:05:48.148+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-14T16:06:09.610+08:00 [bonjour] restarting advertiser (service stuck in announcing for 21601ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-14T16:06:10.546+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-14T16:06:10.549+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: bot info probe timed out after 30000ms; continuing startup
+2026-04-14T16:06:14.617+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=unannounced)
+2026-04-14T16:06:24.637+08:00 [bonjour] restarting advertiser (service stuck in unannounced for 10020ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=unannounced))
