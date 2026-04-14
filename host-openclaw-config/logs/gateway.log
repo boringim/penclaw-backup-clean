@@ -235282,3 +235282,4 @@ Bind: loopback
 2026-04-14T16:37:56.361+08:00 [feishu] feishu[default] Started streaming: cardId=7628531390145596616, messageId=om_x100b52eb80f74d1cc4a031bc1281921
 2026-04-14T16:38:00.408+08:00 [feishu] feishu[default] Closed streaming: cardId=7628531390145596616
 2026-04-14T16:38:00.410+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-14T18:18:15.704+08:00 [info]: [ '[ws]', 'reconnect' ]
