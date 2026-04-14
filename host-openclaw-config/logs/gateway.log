@@ -234920,3 +234920,11 @@ Bind: loopback
 2026-04-14T11:42:23.406+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_baa6c26e80932344e32cf514de6acde3 (created=0, merged=0, skipped=0); falling back to regex capture
 2026-04-14T11:42:23.413+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_baa6c26e80932344e32cf514de6acde3
 2026-04-14T11:42:26.122+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: dispatch complete (queuedFinal=true, replies=2)
+2026-04-14T14:19:57.607+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-14T14:19:57.630+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: Hermes agent是什么
+2026-04-14T14:19:57.640+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc)
+2026-04-14T14:20:00.626+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T14:20:11.029+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T14:20:11.077+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T14:20:43.613+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-14T14:20:43.816+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02

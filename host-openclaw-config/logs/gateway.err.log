@@ -4479,3 +4479,7 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-14T11:40:48.775+08:00 [diagnostic] lane wait exceeded: lane=main waitedMs=79780 queueAhead=0
 2026-04-14T11:44:02.003+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-14T11:46:58.902+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T13:33:36.961+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T14:19:34.827+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T14:20:09.727+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-14T14:20:16.083+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
