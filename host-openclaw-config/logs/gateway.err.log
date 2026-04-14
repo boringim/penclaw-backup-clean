@@ -4483,3 +4483,30 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-14T14:19:34.827+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-14T14:20:09.727+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
 2026-04-14T14:20:16.083+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-14T14:22:09.428+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-14T14:22:15.022+08:00 [plugins] memory-lancedb-pro: recall failed: Error: Failed to generate embedding from Jina: Connection error.
+2026-04-14T14:22:21.697+08:00 [agent/embedded] read tool called without path: toolCallId=call_a4ZLE5z2KGohrIiLucSziLy6 argsType=object
+2026-04-14T14:22:31.270+08:00 [agent/embedded] embedded run agent end: runId=b52bc856-cba1-4544-8533-6595c721ac2f isError=true model=gemini-3-flash-preview provider=XAI error=Codex stream error rawError=Codex stream error
+2026-04-14T14:25:47.464+08:00 [ws] unauthorized conn=6e6af4e3-9f6e-4eca-8867-0bb539019e84 remote=127.0.0.1 client=openclaw-control-ui webchat vcontrol-ui reason=token_missing
+2026-04-14T14:25:47.516+08:00 [ws] closed before connect conn=6e6af4e3-9f6e-4eca-8867-0bb539019e84 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-04-14T14:25:48.551+08:00 [ws] unauthorized conn=b0342fbe-7fc3-4751-b33b-8db5143f3605 remote=127.0.0.1 client=openclaw-control-ui webchat vcontrol-ui reason=token_missing
+2026-04-14T14:25:48.556+08:00 [ws] closed before connect conn=b0342fbe-7fc3-4751-b33b-8db5143f3605 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-04-14T14:44:08.784+08:00 [ws] unauthorized conn=9ee3352f-30ae-4e16-aea9-26a815cf2c0e remote=127.0.0.1 client=openclaw-control-ui webchat vcontrol-ui reason=token_missing
+2026-04-14T14:44:08.794+08:00 [ws] closed before connect conn=9ee3352f-30ae-4e16-aea9-26a815cf2c0e remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-04-14T14:45:35.339+08:00 [ws] unauthorized conn=2437dada-a65c-4156-9ab5-4f51709a398e remote=127.0.0.1 client=openclaw-control-ui webchat vcontrol-ui reason=token_missing
+2026-04-14T14:45:35.345+08:00 [ws] closed before connect conn=2437dada-a65c-4156-9ab5-4f51709a398e remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-04-14T14:50:38.021+08:00 [ws] handshake timeout conn=b06975eb-6f79-4cce-92fc-09c8522cf958 remote=127.0.0.1
+2026-04-14T14:50:44.620+08:00 [ws] closed before connect conn=b06975eb-6f79-4cce-92fc-09c8522cf958 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1006 reason=n/a
+2026-04-14T14:54:21.925+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T14:58:43.074+08:00 [agent/embedded] read tool called without path: toolCallId=call_OiHJRw38UXm06gXIPDMCf9mT argsType=object
+2026-04-14T14:58:43.276+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\dist\extensions\acpx\skills\coding-agent\SKILL.md' raw_params={"file":"C:/Users/Administrator/AppData/Roaming/npm/node_modules/openclaw/dist/extensions/acpx/skills/coding-agent/SKILL.md","limit":120}
+2026-04-14T14:58:51.438+08:00 [agent/embedded] read tool called without path: toolCallId=call_aqG8hB2PGWL4Sj5gQrFhTz3U argsType=object
+2026-04-14T14:59:04.199+08:00 [tools] web_search failed: Perplexity API error (403): {"error":{"message":"Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys","code":403}} raw_params={"query":"NousResearch hermes-agent install WSL Windows official repo install.sh README","count":5}
+2026-04-14T15:03:15.498+08:00 [tools] exec failed: elevated is not available right now (runtime=direct).
+Failing gates: allowFrom (tools.elevated.allowFrom.<provider> / agents.list[].tools.elevated.allowFrom.<provider>)
+Context: provider=feishu session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc
+Fix-it keys:
+- tools.elevated.enabled
+- tools.elevated.allowFrom.<provider>
+- agents.list[].tools.elevated.enabled
+- agents.list[].tools.elevated.allowFrom.<provider> raw_params={"command":"wsl --install","workdir":"C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group","timeout":120,"elevated":true,"ask":"always"}
