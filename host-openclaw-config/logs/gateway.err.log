@@ -4380,3 +4380,12 @@ Bind: loopback raw_params={"limit":50,"messageLimit":3}
 2026-04-14T04:03:59.066+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\agents\oc_8f6fe7a8106b318e5d183817579bc8ea\sessions\ac1a1cc0-558d-4821-a4ec-e00800cbac3e.jsonl' raw_params={"file":"C:\\Users\\Administrator\\.openclaw\\agents\\oc_8f6fe7a8106b318e5d183817579bc8ea\\sessions\\ac1a1cc0-558d-4821-a4ec-e00800cbac3e.jsonl","limit":120}
 2026-04-14T04:03:59.076+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\agents\oc_8f6fe7a8106b318e5d183817579bc8ea\sessions\3c10f530-ba4b-4266-b0ec-7233852a1e31.jsonl' raw_params={"file":"C:\\Users\\Administrator\\.openclaw\\agents\\oc_8f6fe7a8106b318e5d183817579bc8ea\\sessions\\3c10f530-ba4b-4266-b0ec-7233852a1e31.jsonl","limit":120}
 2026-04-14T04:03:59.090+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\agents\oc_8f6fe7a8106b318e5d183817579bc8ea\sessions\f9a4e944-d3b8-4d44-a9af-96764bb92e34.jsonl' raw_params={"file":"C:\\Users\\Administrator\\.openclaw\\agents\\oc_8f6fe7a8106b318e5d183817579bc8ea\\sessions\\f9a4e944-d3b8-4d44-a9af-96764bb92e34.jsonl","limit":120}
+2026-04-14T08:00:00.139+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-14T08:00:35.278+08:00 [agent/embedded] read tool called without path: toolCallId=call_Mb62j1FrcUBKhNcVYtSoGp2F argsType=object
+2026-04-14T08:00:35.281+08:00 [agent/embedded] read tool called without path: toolCallId=call_aZfeIjZCIdg0mDU1me9gWevb argsType=object
+2026-04-14T08:00:35.284+08:00 [agent/embedded] read tool called without path: toolCallId=call_jhyQfBJMQ3DtMsdiHBsei7yg argsType=object
+2026-04-14T08:00:35.288+08:00 [agent/embedded] read tool called without path: toolCallId=call_njZN7nH4oE3wp74fRxWT4TMt argsType=object
+2026-04-14T08:00:35.293+08:00 [agent/embedded] read tool called without path: toolCallId=call_emj5vk3Z4v7I9oyf65mlX8lc argsType=object
+2026-04-14T08:00:35.299+08:00 [agent/embedded] read tool called without path: toolCallId=call_CeqsUqPAYOXMcppGnnnJq09V argsType=object
+2026-04-14T08:00:35.305+08:00 [agent/embedded] read tool called without path: toolCallId=call_uy81KMet1ykniWaEKwZXSwhp argsType=object
+2026-04-14T08:00:35.317+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-14.md' raw_params={"file":"memory/2026-04-14.md"}
