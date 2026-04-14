@@ -4475,3 +4475,7 @@ If the gateway is supervised, stop it with: openclaw gateway stop
 2026-04-14T11:13:29.246+08:00 [bonjour] restarting advertiser (service stuck in probing for 22925ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing))
 2026-04-14T11:14:12.845+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: bot info probe timed out after 30000ms; continuing startup
 2026-04-14T11:14:12.858+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: bot identity background retry 1/5 failed; next attempt in 120s
+2026-04-14T11:31:20.443+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T11:40:48.775+08:00 [diagnostic] lane wait exceeded: lane=main waitedMs=79780 queueAhead=0
+2026-04-14T11:44:02.003+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-14T11:46:58.902+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
