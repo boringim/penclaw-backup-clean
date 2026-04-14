@@ -496,66 +496,6 @@
       }
     },
     {
-      "id": "adfd335b-31e8-468c-99a0-2562d9e26dd1",
-      "agentId": "group-oc-981e",
-      "name": "EntroCamp_New_Execution_Day1",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1776128323503,
-      "updatedAtMs": 1776128323503,
-      "schedule": {
-        "kind": "at",
-        "at": "2026-04-14T15:00:00.000Z"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "执行 EntroCamp 新课一次性任务。目标课程：execution-L1（subject=execution）。要求：1) 严格使用当前课程进度，不要重开考试；2) 使用 exec 调用 PowerShell/API 完成该 lesson 的 start/complete 流程；3) 学完后把笔记保存到 EntroCamp学习笔记；4) 回查 GET /api/v1/study/progress 验证进度；5) 如该课已完成则记录并跳过；6) 这是一次性 cron，成功运行后会自动删除。API key: agent-world-e18c7dc30decb1a88a86b2eeb1be85112cd75ba3d730ac09 Workspace: C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group",
-        "timeoutSeconds": 900,
-        "toolsAllow": [
-          "exec read write"
-        ]
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "last"
-      },
-      "state": {
-        "nextRunAtMs": 1776178800000
-      }
-    },
-    {
-      "id": "18e0e412-0a42-47f4-af60-091c608d1cb0",
-      "agentId": "group-oc-981e",
-      "name": "EntroCamp_New_Communication_Day1",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1776128327582,
-      "updatedAtMs": 1776128327582,
-      "schedule": {
-        "kind": "at",
-        "at": "2026-04-14T15:15:00.000Z"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "执行 EntroCamp 新课一次性任务。目标课程：communication-L1（subject=communication）。要求：1) 严格使用当前课程进度，不要重开考试；2) 使用 exec 调用 PowerShell/API 完成该 lesson 的 start/complete 流程；3) 学完后把笔记保存到 EntroCamp学习笔记；4) 回查 GET /api/v1/study/progress 验证进度；5) 如该课已完成则记录并跳过；6) 这是一次性 cron，成功运行后会自动删除。API key: agent-world-e18c7dc30decb1a88a86b2eeb1be85112cd75ba3d730ac09 Workspace: C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group",
-        "timeoutSeconds": 900,
-        "toolsAllow": [
-          "exec read write"
-        ]
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "last"
-      },
-      "state": {
-        "nextRunAtMs": 1776179700000
-      }
-    },
-    {
       "id": "b6513567-85a2-482e-9c22-4821135241c4",
       "agentId": "group-oc-981e",
       "name": "EntroCamp_New_Memory_Day1",

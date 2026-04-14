@@ -235283,3 +235283,59 @@ Bind: loopback
 2026-04-14T16:38:00.408+08:00 [feishu] feishu[default] Closed streaming: cardId=7628531390145596616
 2026-04-14T16:38:00.410+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
 2026-04-14T18:18:15.704+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-14T23:00:24.687+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T23:00:27.647+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T23:00:27.720+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T23:00:29.367+08:00 [ws] ⇄ res ✓ sessions.list 263ms conn=1954fea9…d7a0 id=a72a1865…1722
+2026-04-14T23:00:35.458+08:00 [ws] ⇄ res ✓ sessions.list 226ms conn=1954fea9…d7a0 id=aea105c7…428a
+2026-04-14T23:00:38.987+08:00 [ws] ⇄ res ✓ sessions.list 281ms conn=1954fea9…d7a0 id=82a63e85…2c33
+2026-04-14T23:00:50.697+08:00 [ws] ⇄ res ✓ sessions.list 185ms conn=1954fea9…d7a0 id=fa4c0a9d…e5e7
+2026-04-14T23:01:02.961+08:00 [ws] ⇄ res ✓ sessions.list 148ms conn=1954fea9…d7a0 id=0df805d3…02ce
+2026-04-14T23:01:08.150+08:00 [ws] ⇄ res ✓ sessions.list 136ms conn=1954fea9…d7a0 id=c96b0488…1bb1
+2026-04-14T23:01:11.207+08:00 [ws] ⇄ res ✓ sessions.list 144ms conn=1954fea9…d7a0 id=77bd91d2…ce14
+2026-04-14T23:01:13.303+08:00 [ws] ⇄ res ✓ sessions.list 138ms conn=1954fea9…d7a0 id=c76296bc…b0d1
+2026-04-14T23:01:15.838+08:00 [ws] ⇄ res ✓ sessions.list 183ms conn=1954fea9…d7a0 id=175cfba8…b9b1
+2026-04-14T23:01:19.854+08:00 [ws] ⇄ res ✓ sessions.list 146ms conn=1954fea9…d7a0 id=40df9737…4a17
+2026-04-14T23:01:23.551+08:00 [ws] ⇄ res ✓ sessions.list 149ms conn=1954fea9…d7a0 id=debea2cf…bc86
+2026-04-14T23:01:31.592+08:00 [ws] ⇄ res ✓ sessions.list 134ms conn=1954fea9…d7a0 id=1aaa3c54…be58
+2026-04-14T23:01:35.596+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T23:01:35.772+08:00 [ws] ⇄ res ✓ sessions.list 173ms conn=1954fea9…d7a0 id=3191968a…3a3c
+2026-04-14T23:01:39.131+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T23:01:40.491+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T23:01:40.515+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T23:01:42.927+08:00 [ws] ⇄ res ✓ sessions.list 157ms conn=1954fea9…d7a0 id=3d989adf…4170
+2026-04-14T23:02:11.789+08:00 [ws] ⇄ res ✓ sessions.list 207ms conn=1954fea9…d7a0 id=44136a6c…1a34
+2026-04-14T23:02:49.438+08:00 [ws] ⇄ res ✓ sessions.list 293ms conn=1954fea9…d7a0 id=ff98bfa9…eb9f
+2026-04-14T23:03:24.317+08:00 [ws] ⇄ res ✓ sessions.list 194ms conn=1954fea9…d7a0 id=1a22edec…9f9f
+2026-04-14T23:04:20.257+08:00 [ws] ⇄ res ✓ sessions.list 341ms conn=1954fea9…d7a0 id=82a065cc…e17f
+2026-04-14T23:05:06.681+08:00 [ws] ⇄ res ✓ sessions.list 193ms conn=1954fea9…d7a0 id=12a24f19…c6c0
+2026-04-14T23:05:32.217+08:00 [ws] ⇄ res ✓ sessions.list 165ms conn=1954fea9…d7a0 id=53aa07a6…51a2
+2026-04-14T23:05:42.033+08:00 [ws] ⇄ res ✓ sessions.list 155ms conn=1954fea9…d7a0 id=b3092174…5e5c
+2026-04-14T23:05:54.741+08:00 [ws] ⇄ res ✓ sessions.list 156ms conn=1954fea9…d7a0 id=9d8a6c33…b488
+2026-04-14T23:06:11.954+08:00 [ws] ⇄ res ✓ sessions.list 144ms conn=1954fea9…d7a0 id=f989e74e…6422
+2026-04-14T23:06:27.597+08:00 [ws] ⇄ res ✓ sessions.list 151ms conn=1954fea9…d7a0 id=8385c66b…ae97
+2026-04-14T23:07:07.644+08:00 [ws] ⇄ res ✓ sessions.list 190ms conn=1954fea9…d7a0 id=e200fa1f…0df4
+2026-04-14T23:07:29.684+08:00 [ws] ⇄ res ✓ sessions.list 174ms conn=1954fea9…d7a0 id=ce6c6d29…aabf
+2026-04-14T23:07:49.165+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T23:07:49.324+08:00 [ws] ⇄ res ✓ sessions.list 155ms conn=1954fea9…d7a0 id=4fbb7076…4b83
+2026-04-14T23:15:04.750+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T23:15:08.182+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T23:15:08.232+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T23:15:09.866+08:00 [ws] ⇄ res ✓ sessions.list 185ms conn=1954fea9…d7a0 id=b6d69950…e9f2
+2026-04-14T23:15:13.889+08:00 [ws] ⇄ res ✓ sessions.list 149ms conn=1954fea9…d7a0 id=fefdabb8…4c1f
+2026-04-14T23:15:16.017+08:00 [ws] ⇄ res ✓ sessions.list 180ms conn=1954fea9…d7a0 id=fa21ec1c…4850
+2026-04-14T23:15:18.421+08:00 [ws] ⇄ res ✓ sessions.list 172ms conn=1954fea9…d7a0 id=f4a555de…3a59
+2026-04-14T23:15:22.446+08:00 [ws] ⇄ res ✓ sessions.list 152ms conn=1954fea9…d7a0 id=d48cc718…bd56
+2026-04-14T23:15:26.016+08:00 [ws] ⇄ res ✓ sessions.list 156ms conn=1954fea9…d7a0 id=818a30be…de6b
+2026-04-14T23:15:34.087+08:00 [ws] ⇄ res ✓ sessions.list 153ms conn=1954fea9…d7a0 id=fdfe0813…a740
+2026-04-14T23:15:37.396+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T23:15:37.543+08:00 [ws] ⇄ res ✓ sessions.list 144ms conn=1954fea9…d7a0 id=df040f42…0818
+2026-04-14T23:15:43.104+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T23:15:44.355+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T23:15:44.387+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T23:15:46.700+08:00 [ws] ⇄ res ✓ sessions.list 163ms conn=1954fea9…d7a0 id=fbdeb918…b373
+2026-04-14T23:16:12.283+08:00 [ws] ⇄ res ✓ sessions.list 186ms conn=1954fea9…d7a0 id=13f21383…6082
+2026-04-14T23:16:27.439+08:00 [ws] ⇄ res ✓ sessions.list 275ms conn=1954fea9…d7a0 id=0965fee0…500f
+2026-04-14T23:16:46.472+08:00 [ws] ⇄ res ✓ sessions.list 153ms conn=1954fea9…d7a0 id=5f85fb4c…dbd4
+2026-04-14T23:17:00.408+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T23:17:00.602+08:00 [ws] ⇄ res ✓ sessions.list 190ms conn=1954fea9…d7a0 id=3010fbf6…dfa2
