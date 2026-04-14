@@ -235240,3 +235240,45 @@ Bind: loopback
 2026-04-14T16:21:40.173+08:00 [feishu] feishu[default] Started streaming: cardId=7628527201157156028, messageId=om_x100b52ebdff56c84c37abb9d5cf8062
 2026-04-14T16:21:47.110+08:00 [feishu] feishu[default] Closed streaming: cardId=7628527201157156028
 2026-04-14T16:21:47.149+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-04-14T16:28:53.659+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-14T16:28:53.666+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: PS C:\Users\Administrator> . $PROFILE PS C:\Users\Administrator> Start-Hermes ██╗ ██╗███████╗██████╗ ███╗ ███╗███████╗███████╗ █████╗ ██████╗ ███████╗███╗ ██╗██
+2026-04-14T16:28:53.679+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc)
+2026-04-14T16:29:02.528+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T16:29:03.704+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T16:29:03.743+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T16:29:04.217+08:00 [ws] ⇄ res ✓ sessions.list 158ms conn=1954fea9…d7a0 id=8c1d7403…6553
+2026-04-14T16:29:32.352+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T16:29:32.492+08:00 [ws] ⇄ res ✓ sessions.list 135ms conn=1954fea9…d7a0 id=0caa67a5…2010
+2026-04-14T16:29:35.503+08:00 [feishu] feishu[default] Started streaming: cardId=7628529239759785146, messageId=om_x100b52ebe0200890c32e147fd6b1060
+2026-04-14T16:29:38.903+08:00 [feishu] feishu[default] Closed streaming: cardId=7628529239759785146
+2026-04-14T16:29:38.906+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-14T16:30:25.672+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-14T16:30:25.684+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: ● HERMES_OK Initializing agent... ──────────────────────────────────────── ⚠️ API call failed (attempt 1/3): AuthenticationError [HTTP 401] 🔌 Provider: openrou
+2026-04-14T16:30:25.691+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc)
+2026-04-14T16:30:30.610+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T16:30:31.789+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T16:30:31.814+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T16:30:32.234+08:00 [ws] ⇄ res ✓ sessions.list 141ms conn=1954fea9…d7a0 id=c4cff920…7aa0
+2026-04-14T16:30:45.192+08:00 [ws] ⇄ res ✓ sessions.list 137ms conn=1954fea9…d7a0 id=988e0265…ac3f
+2026-04-14T16:30:55.628+08:00 [ws] ⇄ res ✓ sessions.list 147ms conn=1954fea9…d7a0 id=3e5df953…fc42
+2026-04-14T16:31:09.104+08:00 [ws] ⇄ res ✓ sessions.list 163ms conn=1954fea9…d7a0 id=c9f53e5f…0c04
+2026-04-14T16:31:21.134+08:00 [ws] ⇄ res ✓ sessions.list 326ms conn=1954fea9…d7a0 id=54cb0af6…c36e
+2026-04-14T16:31:54.334+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T16:31:54.478+08:00 [ws] ⇄ res ✓ sessions.list 137ms conn=1954fea9…d7a0 id=37d12c68…9cc0
+2026-04-14T16:31:57.406+08:00 [feishu] feishu[default] Started streaming: cardId=7628529851024100554, messageId=om_x100b52ebf90668a8c3c31e86afb9af2
+2026-04-14T16:32:00.731+08:00 [feishu] feishu[default] Closed streaming: cardId=7628529851024100554
+2026-04-14T16:32:00.754+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-14T16:36:39.119+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-14T16:36:39.129+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: Initializing agent... ──────────────────────────────────────── ⚠️ API call failed (attempt 1/3): APIStatusError [HTTP 402] 🔌 Provider: openai-codex Model: gpt-
+2026-04-14T16:36:39.139+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc)
+2026-04-14T16:36:52.112+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T16:36:53.437+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T16:36:53.484+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T16:36:55.144+08:00 [ws] ⇄ res ✓ sessions.list 151ms conn=1954fea9…d7a0 id=922878bb…f6ad
+2026-04-14T16:37:02.844+08:00 [ws] ⇄ res ✓ sessions.list 262ms conn=1954fea9…d7a0 id=09b0fb32…e3f1
+2026-04-14T16:37:24.303+08:00 [ws] ⇄ res ✓ sessions.list 206ms conn=1954fea9…d7a0 id=ad73c06a…80e6
+2026-04-14T16:37:53.109+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T16:37:53.256+08:00 [ws] ⇄ res ✓ sessions.list 143ms conn=1954fea9…d7a0 id=9079ee1d…39de
+2026-04-14T16:37:56.361+08:00 [feishu] feishu[default] Started streaming: cardId=7628531390145596616, messageId=om_x100b52eb80f74d1cc4a031bc1281921
+2026-04-14T16:38:00.408+08:00 [feishu] feishu[default] Closed streaming: cardId=7628531390145596616
+2026-04-14T16:38:00.410+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
