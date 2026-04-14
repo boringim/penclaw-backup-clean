@@ -234404,3 +234404,45 @@ Bind: loopback
 2026-04-14T09:15:08.281+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: dispatch complete (queuedFinal=true, replies=1)
 2026-04-14T09:15:42.494+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-14T09:15:43.435+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-14T09:24:41.369+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 1799862ms conn=f74b558e…8e99 id=8f080427…cee6
+2026-04-14T09:24:41.649+08:00 [ws] ⇄ res ✓ agent 123ms runId=exec-approval-followup:c498580b-5719-4cc0-bda6-bc24bdaf403a conn=33292464…78e4 id=9ae9d678…6ea3
+2026-04-14T09:24:42.659+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T09:24:50.268+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T09:24:51.827+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T09:24:51.864+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T09:25:01.029+08:00 补充确认一下：这个 `c498580b` 是更早那次审批请求，已经超时被拒绝了；不用管它。
+
+真正成功的是后面那次 `42072f02`，我已经用 `openclaw cron list --json` 验证过，10 个新课一次性任务都在列表里，旧课任务也已禁用。
+
+所以当前状态不受这个超时影响：
+- `c498580b`：旧审批，超时拒绝，无需处理
+- `42072f02`：后续审批成功，任务已创建
+- 新课 cron：已存在并启用
+- 旧课 cron：已禁用
+
+我会继续按已创建的新课 cron 跟进后续实际运行结果。
+2026-04-14T09:25:02.468+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-14T09:25:02.471+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-14T09:25:02.476+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T10:10:42.870+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-14T10:10:42.888+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-14T10:10:42.895+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-14T10:15:52.471+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-14T10:15:52.499+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: https://playlab.coze.site/skill.md 去看看
+2026-04-14T10:15:52.577+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc)
+2026-04-14T10:15:55.911+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T10:16:05.555+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T10:16:07.238+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T10:16:07.298+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T10:16:43.749+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-14T10:16:43.754+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_981e24884af3ed7ed6c16c5730c9bd02 (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-14T10:16:43.759+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T10:16:44.534+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-14T10:17:26.094+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-14T10:17:26.107+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 去吧，玩完告诉我
+2026-04-14T10:17:26.112+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc)
+2026-04-14T10:17:33.586+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T10:17:35.007+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T10:17:35.038+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-14T10:17:44.431+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-14T10:17:45.455+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
