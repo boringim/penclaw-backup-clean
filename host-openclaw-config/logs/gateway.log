@@ -235861,3 +235861,6 @@ Bind: loopback
 2026-04-15T09:19:40.711+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_8f6fe7a8106b318e5d183817579bc8ea (created=0, merged=0, skipped=0); falling back to regex capture
 2026-04-15T09:19:40.718+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
 2026-04-15T09:19:42.309+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: dispatch complete (queuedFinal=true, replies=2)
+2026-04-15T16:05:25.127+08:00 [gateway] update available (latest): v2026.4.14 (current v2026.4.2). Run: openclaw update
+2026-04-15T16:06:16.935+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-15T16:06:16.959+08:00 [info]: [ '[ws]', 'reconnect' ]
