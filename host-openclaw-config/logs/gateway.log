@@ -235864,3 +235864,9 @@ Bind: loopback
 2026-04-15T16:05:25.127+08:00 [gateway] update available (latest): v2026.4.14 (current v2026.4.2). Run: openclaw update
 2026-04-15T16:06:16.935+08:00 [info]: [ '[ws]', 'reconnect' ]
 2026-04-15T16:06:16.959+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-15T17:17:23.946+08:00 [ws] webchat disconnected code=1001 reason=n/a conn=1954fea9-4b16-409e-9c8c-02e974add7a0
+2026-04-15T17:17:53.572+08:00 [ws] webchat connected conn=6dcae07b-2409-44d4-84a1-df175dddb2b5 remote=127.0.0.1 client=openclaw-control-ui webchat vcontrol-ui
+2026-04-15T17:17:54.814+08:00 [ws] ⇄ res ✓ sessions.list 426ms conn=6dcae07b…b2b5 id=603a37a9…1abd
+2026-04-15T17:17:54.847+08:00 [ws] ⇄ res ✓ chat.history 550ms conn=6dcae07b…b2b5 id=69e61da1…7ad0
+2026-04-15T17:17:54.866+08:00 [ws] ⇄ res ✓ node.list 580ms conn=6dcae07b…b2b5 id=636f3c64…cda5
+2026-04-15T17:17:54.874+08:00 [ws] ⇄ res ✓ device.pair.list 585ms conn=6dcae07b…b2b5 id=cad3210f…b6ff
