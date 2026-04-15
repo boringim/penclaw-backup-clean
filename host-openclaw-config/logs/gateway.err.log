@@ -4671,3 +4671,23 @@ Fix-it keys:
 2026-04-15T09:18:38.316+08:00 [agent/embedded] read tool called without path: toolCallId=call_FraeQ5aj2TDbwqaPQ7CiNeWQ argsType=object
 2026-04-15T09:18:38.331+08:00 [agent/embedded] read tool called without path: toolCallId=call_NCnvADqburSTRtqJjwyvFML7 argsType=object
 2026-04-15T14:02:45.085+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-16T00:14:35.769+08:00 [gateway] removed stale session lock: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\2b1399df-ce5b-4159-a6ea-e3be0ebb6e83.jsonl.lock (dead-pid, too-old)
+2026-04-16T00:14:59.186+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-16T00:14:59.299+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-16T00:15:07.182+08:00 [bonjour] restarting advertiser (service stuck in probing for 8004ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing))
+2026-04-16T00:15:09.473+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-16T00:15:34.509+08:00 [bonjour] restarting advertiser (service stuck in probing for 19095ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing))
+2026-04-16T00:15:48.016+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-16T00:15:49.090+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: bot info probe timed out after 30000ms; continuing startup
+2026-04-16T00:15:49.099+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: bot info probe timed out after 30000ms; continuing startup
+2026-04-16T00:15:49.112+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-16T00:16:06.933+08:00 [bonjour] restarting advertiser (service stuck in probing for 17824ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing))
+2026-04-16T00:16:40.039+08:00 [agent/embedded] read tool called without path: toolCallId=call_JnUqLqBpksyYsFDppCblvGVB argsType=object
+2026-04-16T00:16:40.051+08:00 [agent/embedded] read tool called without path: toolCallId=call_3bxojjq3lCYqS0smVLM7yaZ7 argsType=object
+2026-04-16T00:16:40.056+08:00 [agent/embedded] read tool called without path: toolCallId=call_Bw8aLRjXOSTB6ElhDa6stk5v argsType=object
+2026-04-16T00:16:40.060+08:00 [agent/embedded] read tool called without path: toolCallId=call_Wf55pTMzSVHk1w6dzPIrRuFa argsType=object
+2026-04-16T00:16:40.067+08:00 [agent/embedded] read tool called without path: toolCallId=call_2xTCGqpPN9vO9kkYqROJYLCT argsType=object
+2026-04-16T00:16:40.080+08:00 [agent/embedded] read tool called without path: toolCallId=call_V4GkzKxYUDf6RWZtyCGRfwYS argsType=object
+2026-04-16T00:16:40.088+08:00 [agent/embedded] read tool called without path: toolCallId=call_hl8rDDseWuFX0WbShPyJGeM9 argsType=object
+2026-04-16T00:16:40.136+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-16.md' raw_params={"file":"memory/2026-04-16.md"}
+2026-04-16T00:16:47.321+08:00 [agent/embedded] read tool called without path: toolCallId=call_ntRMwtDzaFDoGEV2LzvV8lEC argsType=object

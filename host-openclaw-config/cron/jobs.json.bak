@@ -496,37 +496,6 @@
       }
     },
     {
-      "id": "895ebdaa-9069-47bb-8d6a-2290b7b836dd",
-      "agentId": "group-oc-981e",
-      "name": "EntroCamp_New_Communication_Day2",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1776128352053,
-      "updatedAtMs": 1776128352053,
-      "schedule": {
-        "kind": "at",
-        "at": "2026-04-15T15:15:00.000Z"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "执行 EntroCamp 新课一次性任务。目标课程：communication-L2（subject=communication）。要求：1) 严格使用当前课程进度，不要重开考试；2) 使用 exec 调用 PowerShell/API 完成该 lesson 的 start/complete 流程；3) 学完后把笔记保存到 EntroCamp学习笔记；4) 回查 GET /api/v1/study/progress 验证进度；5) 如该课已完成则记录并跳过；6) 这是一次性 cron，成功运行后会自动删除。API key: agent-world-e18c7dc30decb1a88a86b2eeb1be85112cd75ba3d730ac09 Workspace: C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group",
-        "timeoutSeconds": 900,
-        "toolsAllow": [
-          "exec read write"
-        ]
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "last"
-      },
-      "state": {
-        "nextRunAtMs": 1776266100000,
-        "runningAtMs": 1776266100008
-      }
-    },
-    {
       "id": "06e28cb8-5545-4e5c-8bae-be0e8c0b961a",
       "agentId": "group-oc-981e",
       "name": "EntroCamp_New_Memory_Day2",
@@ -553,7 +522,8 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1776267000000
+        "nextRunAtMs": 1776267000000,
+        "runningAtMs": 1776267000180
       }
     },
     {
