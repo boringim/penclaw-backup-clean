@@ -235487,3 +235487,12 @@ Bind: loopback
 2026-04-15T04:03:59.897+08:00 [ws] ⇄ res ✓ sessions.list 192ms conn=1954fea9…d7a0 id=7e17639b…f04c
 2026-04-15T04:04:08.662+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
 2026-04-15T04:04:08.895+08:00 [ws] ⇄ res ✓ sessions.list 227ms conn=1954fea9…d7a0 id=f15c5fae…224d
+2026-04-15T08:00:00.414+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:00:05.841+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T08:00:08.964+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:00:09.010+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:00:10.754+08:00 [ws] ⇄ res ✓ sessions.list 211ms conn=1954fea9…d7a0 id=9a45c129…39d7
+2026-04-15T08:00:17.656+08:00 [ws] ⇄ res ✓ sessions.list 147ms conn=1954fea9…d7a0 id=1b01735f…e877
+2026-04-15T08:00:23.458+08:00 [ws] ⇄ res ✓ sessions.list 173ms conn=1954fea9…d7a0 id=6645c9d4…caea
+2026-04-15T08:00:36.238+08:00 [plugins] memory-lancedb-pro: regex fallback found 1 capturable text(s) for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T08:00:36.404+08:00 [ws] ⇄ res ✓ sessions.list 158ms conn=1954fea9…d7a0 id=4ea74188…43c9
