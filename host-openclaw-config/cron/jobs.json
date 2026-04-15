@@ -293,7 +293,7 @@
       "name": "Security_Audit_Monthly",
       "enabled": true,
       "createdAtMs": 1773199983907,
-      "updatedAtMs": 1774980000279,
+      "updatedAtMs": 1776276187057,
       "schedule": {
         "kind": "cron",
         "expr": "0 2 */15 * *"
@@ -309,15 +309,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1776276000000,
-        "lastRunAtMs": 1774980000032,
+        "nextRunAtMs": 1777572000000,
+        "lastRunAtMs": 1776276000037,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 247,
+        "lastDurationMs": 187020,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "lastErrorReason": "auth",
-        "lastError": "FailoverError: No API key found for provider \"2603\". Auth store: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent\\auth-profiles.json (agentDir: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+        "consecutiveErrors": 3,
+        "lastError": "Delivering to Feishu requires target <chatId|user:openId|chat:chatId>"
       }
     },
     {
