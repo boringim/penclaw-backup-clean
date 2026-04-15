@@ -4609,3 +4609,64 @@ Fix-it keys:
 2026-04-15T08:00:17.461+08:00 [agent/embedded] read tool called without path: toolCallId=call_XVspaJ63otSg6FwXEzlZzuDK argsType=object
 2026-04-15T08:00:17.483+08:00 [agent/embedded] read tool called without path: toolCallId=call_K8pFixf4SnmYO44RlnicwzxC argsType=object
 2026-04-15T08:00:17.677+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-15.md' raw_params={"file":"memory/2026-04-15.md"}
+2026-04-15T08:32:51.028+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-15T08:33:55.169+08:00 [diagnostic] lane wait exceeded: lane=main waitedMs=12626 queueAhead=0
+2026-04-15T08:47:22.783+08:00 [agent/embedded] read tool called without path: toolCallId=call_Sybvyyckqn2If044O6zjWkVt argsType=object
+2026-04-15T08:47:27.067+08:00 [diagnostic] lane wait exceeded: lane=main waitedMs=19854 queueAhead=0
+2026-04-15T08:47:58.484+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-15T08:49:16.107+08:00 [agent/embedded] read tool called without path: toolCallId=call_MUuCKT5cxmTi9wKLkRl3kKf9 argsType=object
+2026-04-15T08:49:16.148+08:00 [agent/embedded] read tool called without path: toolCallId=call_lx1HOv0bWOG6Ac7hlElgbmcl argsType=object
+2026-04-15T08:49:16.187+08:00 [agent/embedded] read tool called without path: toolCallId=call_hzxtT2htWxnDrgwdz04eqmi5 argsType=object
+2026-04-15T08:49:16.237+08:00 [agent/embedded] read tool called without path: toolCallId=call_9cTZ3piUOzNFn8BpWxowAFug argsType=object
+2026-04-15T08:49:16.377+08:00 [agent/embedded] read tool called without path: toolCallId=call_RSbRFYk2S9a5TvHm6nER6yi3 argsType=object
+2026-04-15T08:50:21.793+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-15T08:50:22.123+08:00 [agent/embedded] read tool called without path: toolCallId=call_NKg9lXbrvMvjCW43P9J4zW48 argsType=object
+2026-04-15T08:50:37.137+08:00 [agent/embedded] read tool called without path: toolCallId=call_fqHM77RhRMqjm3fcoP4LzSog argsType=object
+2026-04-15T08:50:37.181+08:00 [agent/embedded] read tool called without path: toolCallId=call_7gsNhSXpMGHf22KDwTuRUXdq argsType=object
+2026-04-15T08:50:37.226+08:00 [agent/embedded] read tool called without path: toolCallId=call_ll7bvKLIiv7iFFcz4SZlRIs4 argsType=object
+2026-04-15T08:50:37.288+08:00 [agent/embedded] read tool called without path: toolCallId=call_vG2VbxellhP8c9JW6wLCDc1W argsType=object
+2026-04-15T08:50:37.582+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCampѧϰ�ʼ�\intent-L1\complete-error.json' raw_params={"file":"EntroCampѧϰ�ʼ�\\intent-L1\\complete-error.json"}
+2026-04-15T08:50:37.595+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCampѧϰ�ʼ�\reasoning-L1\complete-error.json' raw_params={"file":"EntroCampѧϰ�ʼ�\\reasoning-L1\\complete-error.json"}
+2026-04-15T08:50:37.601+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCampѧϰ�ʼ�\safety-L1\complete-error.json' raw_params={"file":"EntroCampѧϰ�ʼ�\\safety-L1\\complete-error.json"}
+2026-04-15T08:50:55.581+08:00 [agent/embedded] read tool called without path: toolCallId=call_MNTz7Ymrrc8OmxurHxereefj argsType=object
+2026-04-15T08:50:55.637+08:00 [agent/embedded] read tool called without path: toolCallId=call_ec1w78t9hhEbLTiBpvQF52Td argsType=object
+2026-04-15T08:50:55.715+08:00 [agent/embedded] read tool called without path: toolCallId=call_V4bmprVSNF2gqdSxohqkr2Id argsType=object
+2026-04-15T08:50:55.776+08:00 [agent/embedded] read tool called without path: toolCallId=call_BicSDW8h5bTbRfGOPGHI7kYP argsType=object
+2026-04-15T08:50:55.823+08:00 [agent/embedded] read tool called without path: toolCallId=call_oHdK2CDdfV630sSa2JDF9k3p argsType=object
+2026-04-15T08:50:55.867+08:00 [agent/embedded] read tool called without path: toolCallId=call_Oosinwgm3Dps3cbYa46ssUo9 argsType=object
+2026-04-15T08:50:55.914+08:00 [agent/embedded] read tool called without path: toolCallId=call_oCfk98iJrJt7de8e8rTK6rla argsType=object
+2026-04-15T08:50:56.136+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\progress-after-finish-safe.json' raw_params={"file":"EntroCamp学习笔记\\progress-after-finish-safe.json"}
+2026-04-15T08:50:56.181+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\intent-L1\complete.json' raw_params={"file":"EntroCamp学习笔记\\intent-L1\\complete.json"}
+2026-04-15T08:50:56.227+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\reasoning-L1\complete.json' raw_params={"file":"EntroCamp学习笔记\\reasoning-L1\\complete.json"}
+2026-04-15T08:50:56.266+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\safety-L1\complete.json' raw_params={"file":"EntroCamp学习笔记\\safety-L1\\complete.json"}
+2026-04-15T08:50:56.316+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\intent-L1\finish-complete-error.json' raw_params={"file":"EntroCamp学习笔记\\intent-L1\\finish-complete-error.json"}
+2026-04-15T08:50:56.409+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\reasoning-L1\finish-complete-error.json' raw_params={"file":"EntroCamp学习笔记\\reasoning-L1\\finish-complete-error.json"}
+2026-04-15T08:50:56.477+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\safety-L1\finish-complete-error.json' raw_params={"file":"EntroCamp学习笔记\\safety-L1\\finish-complete-error.json"}
+2026-04-15T08:51:59.261+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-15T08:52:32.474+08:00 [agent/embedded] read tool called without path: toolCallId=call_Mgzc6BG1PYPJWEusVx90Jcxw argsType=object
+2026-04-15T08:52:32.760+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\openclaw\workspaces\oc-981e-feishu-group\skills\web-access-openclaw\SKILL.md' raw_params={"file":"C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\openclaw\\workspaces\\oc-981e-feishu-group\\skills\\web-access-openclaw\\SKILL.md"}
+2026-04-15T08:52:35.581+08:00 [agent/embedded] read tool called without path: toolCallId=call_809bQlLsWlGs9aEWnFenYLMf argsType=object
+2026-04-15T08:53:12.304+08:00 [agent/embedded] read tool called without path: toolCallId=call_AOyWCvU2X5Lk8gjUeWoYhdiU argsType=object
+2026-04-15T08:53:12.350+08:00 [agent/embedded] read tool called without path: toolCallId=call_vvtZ7ptonUP9yygvXMQP0S60 argsType=object
+2026-04-15T08:53:12.393+08:00 [agent/embedded] read tool called without path: toolCallId=call_nQmYM8v4M2Sown0ijU5H7rSY argsType=object
+2026-04-15T08:53:12.431+08:00 [agent/embedded] read tool called without path: toolCallId=call_TzN1LKjd58at728PJ9eLMfWn argsType=object
+2026-04-15T08:53:12.627+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\EntroCamp学习笔记\progress-after-finish.json' raw_params={"file":"EntroCamp学习笔记/progress-after-finish.json","offset":1,"limit":260}
+2026-04-15T08:53:50.403+08:00 [agent/embedded] read tool called without path: toolCallId=call_yfYOpwAEPBbCdH1u9YVIW8KY argsType=object
+2026-04-15T08:54:16.775+08:00 [agent/embedded] read tool called without path: toolCallId=call_juvRcBTmegdlsR542FFSuYyV argsType=object
+2026-04-15T08:54:16.820+08:00 [agent/embedded] read tool called without path: toolCallId=call_JKlMd2HhNgzjA5Cutbc0CoPP argsType=object
+2026-04-15T08:54:16.855+08:00 [agent/embedded] read tool called without path: toolCallId=call_HJWUkB6AARlQRqCj1gYE35dY argsType=object
+2026-04-15T08:54:16.895+08:00 [agent/embedded] read tool called without path: toolCallId=call_IiEZcWmiNyJKStY4XpnftAaj argsType=object
+2026-04-15T09:03:27.104+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-15T09:05:20.711+08:00 [agent/embedded] read tool called without path: toolCallId=call_iAjhqgdpw9rdmWGLqaZM23I7 argsType=object
+2026-04-15T09:05:20.747+08:00 [agent/embedded] read tool called without path: toolCallId=call_5VIyQRQLoZt5Uocisge64VE4 argsType=object
+2026-04-15T09:05:20.789+08:00 [agent/embedded] read tool called without path: toolCallId=call_O3U9q9oN2T2nHYWPuwWvlWgQ argsType=object
+2026-04-15T09:13:04.034+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-15T09:17:57.468+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-15T09:18:22.687+08:00 [diagnostic] lane wait exceeded: lane=main waitedMs=23752 queueAhead=0
+2026-04-15T09:18:34.796+08:00 [agent/embedded] read tool called without path: toolCallId=call_0BE7UxRpWddvDaILnZruvGVO argsType=object
+2026-04-15T09:18:34.814+08:00 [agent/embedded] read tool called without path: toolCallId=call_kjCRp4kKGcPNcKPFFiNklhO4 argsType=object
+2026-04-15T09:18:34.828+08:00 [agent/embedded] read tool called without path: toolCallId=call_l7HI6iKXsDcbF35p1mjqiQNl argsType=object
+2026-04-15T09:18:34.848+08:00 [agent/embedded] read tool called without path: toolCallId=call_mviM2rTCrUbjfa2EtwijBiBv argsType=object
+2026-04-15T09:18:38.301+08:00 [agent/embedded] read tool called without path: toolCallId=call_EWjTzEtSO1xDHMJfFz6cGRGC argsType=object
+2026-04-15T09:18:38.316+08:00 [agent/embedded] read tool called without path: toolCallId=call_FraeQ5aj2TDbwqaPQ7CiNeWQ argsType=object
+2026-04-15T09:18:38.331+08:00 [agent/embedded] read tool called without path: toolCallId=call_NCnvADqburSTRtqJjwyvFML7 argsType=object

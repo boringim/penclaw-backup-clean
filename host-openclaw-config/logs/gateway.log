@@ -235496,3 +235496,368 @@ Bind: loopback
 2026-04-15T08:00:23.458+08:00 [ws] ⇄ res ✓ sessions.list 173ms conn=1954fea9…d7a0 id=6645c9d4…caea
 2026-04-15T08:00:36.238+08:00 [plugins] memory-lancedb-pro: regex fallback found 1 capturable text(s) for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-15T08:00:36.404+08:00 [ws] ⇄ res ✓ sessions.list 158ms conn=1954fea9…d7a0 id=4ea74188…43c9
+2026-04-15T08:33:24.072+08:00 [error]: [
+  [
+    {
+      message: 'Request failed with status code 400',
+      config: [Object],
+      request: [Object],
+      response: [Object]
+    },
+    {
+      code: 99991672,
+      msg: 'Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a9561f23eae11cb1/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant',
+      error: [Object],
+      permission_violations: [Array],
+      message: 'Refer to the documentation to fix the error: https://open.feishu.cn/document/uAjLw4CM/ugTN1YjL4UTN24CO1UjN/trouble-shooting/how-to-fix-the-99991672-error',
+      log_id: '20260415083323B813E958CB8FE36C1DD4',
+      troubleshooter: '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20260415083323B813E958CB8FE36C1DD4&code=99991672&method_id=6925375841992245275'
+    }
+  ]
+]
+2026-04-15T08:33:24.083+08:00 [feishu] ignoring stale permission scope error: Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a9561f23eae11cb1/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant
+2026-04-15T08:33:24.087+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: received message from ou_09c53462702301fa911ae824acfbe359 in oc_085f7cd879179bdc644d20f469b48384 (group)
+2026-04-15T08:33:24.117+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: group session scope=group, peer=oc_085f7cd879179bdc644d20f469b48384
+2026-04-15T08:33:24.124+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: Feishu[oc_baa6c26e80932344e32cf514de6acde3] message in group oc_085f7cd879179bdc644d20f469b48384: 昨天有上晚课吗
+2026-04-15T08:33:24.139+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: dispatching to agent (session=agent:oc_baa6c26e80932344e32cf514de6acde3:feishu:group:oc_085f7cd879179bdc644d20f469b48384)
+2026-04-15T08:33:24.235+08:00 [error]: [
+  [
+    {
+      message: 'Request failed with status code 400',
+      config: [Object],
+      request: [Object],
+      response: [Object]
+    },
+    {
+      code: 99991672,
+      msg: 'Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a95616cdceba5cb5/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant',
+      error: [Object],
+      log_id: '202604150833238E2C7FCEB1B6AFAF49A4',
+      troubleshooter: '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202604150833238E2C7FCEB1B6AFAF49A4&code=99991672&method_id=6925375841992245275',
+      permission_violations: [Array],
+      message: 'Refer to the documentation to fix the error: https://open.feishu.cn/document/uAjLw4CM/ugTN1YjL4UTN24CO1UjN/trouble-shooting/how-to-fix-the-99991672-error'
+    }
+  ]
+]
+2026-04-15T08:33:24.240+08:00 [feishu] ignoring stale permission scope error: Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a95616cdceba5cb5/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant
+2026-04-15T08:33:24.245+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: received message from ou_415939d6a0d5ac11b05baa31bc85c20a in oc_085f7cd879179bdc644d20f469b48384 (group)
+2026-04-15T08:33:24.250+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: group session scope=group, peer=oc_085f7cd879179bdc644d20f469b48384
+2026-04-15T08:33:24.255+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: Feishu[oc_8f6fe7a8106b318e5d183817579bc8ea] message in group oc_085f7cd879179bdc644d20f469b48384: 昨天有上晚课吗
+2026-04-15T08:33:24.261+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: dispatching to agent (session=agent:oc_8f6fe7a8106b318e5d183817579bc8ea:feishu:group:oc_085f7cd879179bdc644d20f469b48384)
+2026-04-15T08:33:24.430+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_085f7cd879179bdc644d20f469b48384 (group)
+2026-04-15T08:33:24.434+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_085f7cd879179bdc644d20f469b48384
+2026-04-15T08:33:24.438+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_085f7cd879179bdc644d20f469b48384: 昨天有上晚课吗
+2026-04-15T08:33:24.461+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_085f7cd879179bdc644d20f469b48384)
+2026-04-15T08:33:28.277+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:33:35.956+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:33:46.183+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:33:46.228+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:33:46.658+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:33:46.691+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:33:50.232+08:00 [ws] ⇄ res ✓ sessions.list 217ms conn=1954fea9…d7a0 id=6b2e38e7…b1be
+2026-04-15T08:33:50.551+08:00 [ws] ⇄ res ✓ sessions.list 178ms conn=1954fea9…d7a0 id=9b7c128b…3eb4
+2026-04-15T08:33:55.118+08:00 [ws] ⇄ res ✓ sessions.list 156ms conn=1954fea9…d7a0 id=d82cd36d…c4ce
+2026-04-15T08:33:55.179+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:33:55.478+08:00 [ws] ⇄ res ✓ sessions.list 292ms conn=1954fea9…d7a0 id=a2df0715…6044
+2026-04-15T08:34:01.144+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_baa6c26e80932344e32cf514de6acde3
+2026-04-15T08:34:01.151+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
+2026-04-15T08:34:02.734+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-15T08:34:02.740+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-15T08:34:03.907+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T08:34:05.272+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:34:05.320+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:34:07.107+08:00 [ws] ⇄ res ✓ sessions.list 151ms conn=1954fea9…d7a0 id=77d8614a…40cb
+2026-04-15T08:34:10.568+08:00 [ws] ⇄ res ✓ sessions.list 155ms conn=1954fea9…d7a0 id=961cd497…e337
+2026-04-15T08:34:11.228+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T08:34:12.315+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-15T08:47:05.140+08:00 [error]: [
+  [
+    {
+      message: 'Request failed with status code 400',
+      config: [Object],
+      request: [Object],
+      response: [Object]
+    },
+    {
+      code: 99991672,
+      msg: 'Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a95616cdceba5cb5/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant',
+      error: [Object],
+      message: 'Refer to the documentation to fix the error: https://open.feishu.cn/document/uAjLw4CM/ugTN1YjL4UTN24CO1UjN/trouble-shooting/how-to-fix-the-99991672-error',
+      log_id: '20260415084704E04EC2E3EC19F9DBE89E',
+      troubleshooter: '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20260415084704E04EC2E3EC19F9DBE89E&code=99991672&method_id=6925375841992245275',
+      permission_violations: [Array]
+    }
+  ]
+]
+2026-04-15T08:47:05.145+08:00 [feishu] ignoring stale permission scope error: Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a95616cdceba5cb5/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant
+2026-04-15T08:47:05.147+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: received message from ou_415939d6a0d5ac11b05baa31bc85c20a in oc_085f7cd879179bdc644d20f469b48384 (group)
+2026-04-15T08:47:05.158+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: group session scope=group, peer=oc_085f7cd879179bdc644d20f469b48384
+2026-04-15T08:47:05.163+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: Feishu[oc_8f6fe7a8106b318e5d183817579bc8ea] message in group oc_085f7cd879179bdc644d20f469b48384: 总结一下昨天晚上上的课，给我笔记
+2026-04-15T08:47:05.173+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: dispatching to agent (session=agent:oc_8f6fe7a8106b318e5d183817579bc8ea:feishu:group:oc_085f7cd879179bdc644d20f469b48384)
+2026-04-15T08:47:05.197+08:00 [error]: [
+  [
+    {
+      message: 'Request failed with status code 400',
+      config: [Object],
+      request: [Object],
+      response: [Object]
+    },
+    {
+      code: 99991672,
+      msg: 'Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a9561f23eae11cb1/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant',
+      error: [Object],
+      message: 'Refer to the documentation to fix the error: https://open.feishu.cn/document/uAjLw4CM/ugTN1YjL4UTN24CO1UjN/trouble-shooting/how-to-fix-the-99991672-error',
+      log_id: '2026041508470488A98BDCD46EF0EF9AC1',
+      troubleshooter: '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2026041508470488A98BDCD46EF0EF9AC1&code=99991672&method_id=6925375841992245275',
+      permission_violations: [Array]
+    }
+  ]
+]
+2026-04-15T08:47:05.204+08:00 [feishu] ignoring stale permission scope error: Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a9561f23eae11cb1/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant
+2026-04-15T08:47:05.207+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: received message from ou_09c53462702301fa911ae824acfbe359 in oc_085f7cd879179bdc644d20f469b48384 (group)
+2026-04-15T08:47:05.210+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: group session scope=group, peer=oc_085f7cd879179bdc644d20f469b48384
+2026-04-15T08:47:05.213+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: Feishu[oc_baa6c26e80932344e32cf514de6acde3] message in group oc_085f7cd879179bdc644d20f469b48384: 总结一下昨天晚上上的课，给我笔记
+2026-04-15T08:47:05.218+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: dispatching to agent (session=agent:oc_baa6c26e80932344e32cf514de6acde3:feishu:group:oc_085f7cd879179bdc644d20f469b48384)
+2026-04-15T08:47:05.333+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_085f7cd879179bdc644d20f469b48384 (group)
+2026-04-15T08:47:05.339+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_085f7cd879179bdc644d20f469b48384
+2026-04-15T08:47:05.343+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_085f7cd879179bdc644d20f469b48384: 总结一下昨天晚上上的课，给我笔记
+2026-04-15T08:47:05.347+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_085f7cd879179bdc644d20f469b48384)
+2026-04-15T08:47:06.151+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:47:06.761+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:47:11.894+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:47:11.954+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:47:12.928+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:47:12.966+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:47:18.097+08:00 [ws] ⇄ res ✓ sessions.list 207ms conn=1954fea9…d7a0 id=78faa2d0…0abc
+2026-04-15T08:47:18.646+08:00 [ws] ⇄ res ✓ sessions.list 175ms conn=1954fea9…d7a0 id=bf56b76d…24ce
+2026-04-15T08:47:22.985+08:00 [ws] ⇄ res ✓ sessions.list 182ms conn=1954fea9…d7a0 id=9e3cb29a…1d42
+2026-04-15T08:47:27.090+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:47:27.567+08:00 [ws] ⇄ res ✓ sessions.list 203ms conn=1954fea9…d7a0 id=e1c35c49…60dd
+2026-04-15T08:47:28.124+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-15T08:47:28.526+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-15T08:47:28.531+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_8f6fe7a8106b318e5d183817579bc8ea (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-15T08:47:28.535+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
+2026-04-15T08:47:36.349+08:00 [ws] ⇄ res ✓ sessions.list 193ms conn=1954fea9…d7a0 id=0e81e23a…8bf0
+2026-04-15T08:47:36.816+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T08:47:38.234+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:47:38.263+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:47:39.557+08:00 [ws] ⇄ res ✓ sessions.list 183ms conn=1954fea9…d7a0 id=5ba5d17f…f37a
+2026-04-15T08:47:44.096+08:00 [ws] ⇄ res ✓ sessions.list 204ms conn=1954fea9…d7a0 id=6de202b8…ee8e
+2026-04-15T08:47:46.489+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T08:47:46.947+08:00 [ws] ⇄ res ✓ sessions.list 173ms conn=1954fea9…d7a0 id=42458e5c…5899
+2026-04-15T08:47:47.893+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-15T08:47:56.994+08:00 [ws] ⇄ res ✓ sessions.list 239ms conn=1954fea9…d7a0 id=9cc7ab56…2d90
+2026-04-15T08:48:04.954+08:00 [ws] ⇄ res ✓ sessions.list 336ms conn=1954fea9…d7a0 id=ceb9f8e0…f68a
+2026-04-15T08:48:22.851+08:00 [ws] ⇄ res ✓ sessions.list 312ms conn=1954fea9…d7a0 id=d85a38ab…01ca
+2026-04-15T08:48:42.818+08:00 [ws] ⇄ res ✓ sessions.list 363ms conn=1954fea9…d7a0 id=9c55fd29…9d56
+2026-04-15T08:48:47.241+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-15T08:48:47.273+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 昨天定时的EntroCamp课程有完成吗
+2026-04-15T08:48:47.281+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc)
+2026-04-15T08:49:02.722+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T08:49:07.393+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:49:07.431+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:49:08.169+08:00 [ws] ⇄ res ✓ sessions.list 456ms conn=1954fea9…d7a0 id=7f2fb2a4…8b79
+2026-04-15T08:49:12.313+08:00 [ws] ⇄ res ✓ sessions.list 218ms conn=1954fea9…d7a0 id=085d46e7…2c55
+2026-04-15T08:49:13.001+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_baa6c26e80932344e32cf514de6acde3
+2026-04-15T08:49:14.393+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: dispatch complete (queuedFinal=true, replies=2)
+2026-04-15T08:49:16.587+08:00 [ws] ⇄ res ✓ sessions.list 169ms conn=1954fea9…d7a0 id=f1754a1a…22e0
+2026-04-15T08:49:23.371+08:00 [ws] ⇄ res ✓ sessions.list 330ms conn=1954fea9…d7a0 id=91656e70…1f03
+2026-04-15T08:49:35.622+08:00 [ws] ⇄ res ✓ sessions.list 430ms conn=1954fea9…d7a0 id=aaa02f12…9646
+2026-04-15T08:49:48.540+08:00 [ws] ⇄ res ✓ sessions.list 295ms conn=1954fea9…d7a0 id=d41eb0ad…e6ce
+2026-04-15T08:50:01.609+08:00 [ws] ⇄ res ✓ sessions.list 158ms conn=1954fea9…d7a0 id=d9910736…dbc3
+2026-04-15T08:50:08.168+08:00 [ws] ⇄ res ✓ sessions.list 326ms conn=1954fea9…d7a0 id=cf8b9bb7…1bfa
+2026-04-15T08:50:22.916+08:00 [ws] ⇄ res ✓ sessions.list 252ms conn=1954fea9…d7a0 id=a57f407f…b9a4
+2026-04-15T08:50:37.574+08:00 [ws] ⇄ res ✓ sessions.list 203ms conn=1954fea9…d7a0 id=69e44f49…570e
+2026-04-15T08:50:43.102+08:00 [ws] ⇄ res ✓ sessions.list 234ms conn=1954fea9…d7a0 id=045aba74…d5d4
+2026-04-15T08:50:56.133+08:00 [ws] ⇄ res ✓ sessions.list 174ms conn=1954fea9…d7a0 id=85b28743…4008
+2026-04-15T08:51:00.972+08:00 [ws] ⇄ res ✓ sessions.list 367ms conn=1954fea9…d7a0 id=2e9bec40…3305
+2026-04-15T08:51:09.012+08:00 [ws] ⇄ res ✓ sessions.list 178ms conn=1954fea9…d7a0 id=45487eb7…7b97
+2026-04-15T08:51:16.768+08:00 [ws] ⇄ res ✓ sessions.list 190ms conn=1954fea9…d7a0 id=659e6c05…592c
+2026-04-15T08:51:27.692+08:00 [ws] ⇄ res ✓ sessions.list 221ms conn=1954fea9…d7a0 id=19251813…ebc2
+2026-04-15T08:51:37.246+08:00 [ws] ⇄ res ✓ sessions.list 204ms conn=1954fea9…d7a0 id=cbb454b7…bee3
+2026-04-15T08:51:40.570+08:00 [ws] ⇄ res ✓ sessions.list 251ms conn=1954fea9…d7a0 id=aacb2da4…1aa0
+2026-04-15T08:51:55.009+08:00 [ws] ⇄ res ✓ sessions.list 217ms conn=1954fea9…d7a0 id=0fee4876…6f91
+2026-04-15T08:51:55.698+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T08:51:56.922+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-15T08:52:18.068+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-15T08:52:18.073+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 继续
+2026-04-15T08:52:18.082+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc)
+2026-04-15T08:52:24.456+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T08:52:25.866+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:52:25.897+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:52:27.673+08:00 [ws] ⇄ res ✓ sessions.list 201ms conn=1954fea9…d7a0 id=97e1cf11…c0b1
+2026-04-15T08:52:32.756+08:00 [ws] ⇄ res ✓ sessions.list 224ms conn=1954fea9…d7a0 id=b721f809…be55
+2026-04-15T08:52:35.809+08:00 [ws] ⇄ res ✓ sessions.list 187ms conn=1954fea9…d7a0 id=c0771dba…f268
+2026-04-15T08:52:41.528+08:00 [ws] ⇄ res ✓ sessions.list 338ms conn=1954fea9…d7a0 id=b6b0534d…c704
+2026-04-15T08:52:49.803+08:00 [ws] ⇄ res ✓ sessions.list 205ms conn=1954fea9…d7a0 id=cf66f41a…8822
+2026-04-15T08:53:02.846+08:00 [ws] ⇄ res ✓ sessions.list 223ms conn=1954fea9…d7a0 id=443f2e4b…a196
+2026-04-15T08:53:12.620+08:00 [ws] ⇄ res ✓ sessions.list 156ms conn=1954fea9…d7a0 id=82de3c76…08b1
+2026-04-15T08:53:19.645+08:00 [ws] ⇄ res ✓ sessions.list 231ms conn=1954fea9…d7a0 id=83c6f3e8…b9e9
+2026-04-15T08:53:29.308+08:00 [ws] ⇄ res ✓ sessions.list 197ms conn=1954fea9…d7a0 id=39fdb68b…ed6b
+2026-04-15T08:53:44.568+08:00 [ws] ⇄ res ✓ sessions.list 174ms conn=1954fea9…d7a0 id=b185e1ef…03a1
+2026-04-15T08:53:50.773+08:00 [ws] ⇄ res ✓ sessions.list 306ms conn=1954fea9…d7a0 id=de9ec27f…12aa
+2026-04-15T08:53:54.930+08:00 [ws] ⇄ res ✓ sessions.list 176ms conn=1954fea9…d7a0 id=e2af9e21…07b6
+2026-04-15T08:54:09.434+08:00 [ws] ⇄ res ✓ sessions.list 201ms conn=1954fea9…d7a0 id=e8ab5bf9…c78d
+2026-04-15T08:54:17.133+08:00 [ws] ⇄ res ✓ sessions.list 190ms conn=1954fea9…d7a0 id=d416fd5d…4861
+2026-04-15T08:54:22.683+08:00 [ws] ⇄ res ✓ sessions.list 172ms conn=1954fea9…d7a0 id=813a8f9d…c423
+2026-04-15T08:54:34.509+08:00 [ws] ⇄ res ✓ sessions.list 210ms conn=1954fea9…d7a0 id=f0504086…fd33
+2026-04-15T08:54:39.930+08:00 [ws] ⇄ res ✓ sessions.list 268ms conn=1954fea9…d7a0 id=ea6e664c…7b1a
+2026-04-15T08:54:59.992+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T08:55:00.255+08:00 [ws] ⇄ res ✓ sessions.list 245ms conn=1954fea9…d7a0 id=bc516e08…826a
+2026-04-15T08:55:05.329+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=4)
+2026-04-15T08:57:19.177+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-15T08:57:19.213+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 继续直到完成，把旧的删除
+2026-04-15T08:57:19.226+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc)
+2026-04-15T08:57:29.370+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T08:57:30.777+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:57:30.808+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T08:57:32.622+08:00 [ws] ⇄ res ✓ sessions.list 214ms conn=1954fea9…d7a0 id=99bb2cd7…4953
+2026-04-15T08:57:39.085+08:00 [ws] ⇄ res ✓ sessions.list 180ms conn=1954fea9…d7a0 id=b9da20d4…1ada
+2026-04-15T08:58:20.466+08:00 [ws] ⇄ res ✓ sessions.list 317ms conn=1954fea9…d7a0 id=f38bbee2…68ea
+2026-04-15T08:58:24.613+08:00 [ws] ⇄ res ✓ sessions.list 158ms conn=1954fea9…d7a0 id=c7482d69…cef2
+2026-04-15T08:58:38.024+08:00 [ws] ⇄ res ✓ sessions.list 169ms conn=1954fea9…d7a0 id=176031bf…38d2
+2026-04-15T08:58:45.971+08:00 [ws] ⇄ res ✓ sessions.list 312ms conn=1954fea9…d7a0 id=c00a95ee…fb8d
+2026-04-15T08:58:52.407+08:00 [ws] ⇄ res ✓ sessions.list 243ms conn=1954fea9…d7a0 id=f212898d…81c3
+2026-04-15T08:59:04.610+08:00 [ws] ⇄ res ✓ sessions.list 181ms conn=1954fea9…d7a0 id=11cd223f…6217
+2026-04-15T08:59:08.036+08:00 [ws] ⇄ res ✓ sessions.list 198ms conn=1954fea9…d7a0 id=ceec7843…b885
+2026-04-15T08:59:45.946+08:00 [ws] ⇄ res ✓ sessions.list 166ms conn=1954fea9…d7a0 id=d867ff0b…b8aa
+2026-04-15T08:59:52.759+08:00 [ws] ⇄ res ✓ sessions.list 357ms conn=1954fea9…d7a0 id=e4d07388…b2f4
+2026-04-15T09:00:31.928+08:00 [ws] ⇄ res ✓ sessions.list 325ms conn=1954fea9…d7a0 id=f2baa7ad…37d9
+2026-04-15T09:00:35.613+08:00 [ws] ⇄ res ✓ sessions.list 174ms conn=1954fea9…d7a0 id=7e331d88…31bc
+2026-04-15T09:00:50.343+08:00 [ws] ⇄ res ✓ sessions.list 292ms conn=1954fea9…d7a0 id=3d374301…0d97
+2026-04-15T09:01:26.246+08:00 [ws] ⇄ res ✓ sessions.list 199ms conn=1954fea9…d7a0 id=c27960d7…daf6
+2026-04-15T09:01:29.700+08:00 [ws] ⇄ res ✓ sessions.list 187ms conn=1954fea9…d7a0 id=4f2e3d35…e418
+2026-04-15T09:01:45.983+08:00 [ws] ⇄ res ✓ sessions.list 187ms conn=1954fea9…d7a0 id=7f96843c…9670
+2026-04-15T09:01:55.205+08:00 [ws] ⇄ res ✓ sessions.list 189ms conn=1954fea9…d7a0 id=5c2be1ae…64d5
+2026-04-15T09:02:09.494+08:00 [ws] ⇄ res ✓ sessions.list 211ms conn=1954fea9…d7a0 id=1618e4e2…cf80
+2026-04-15T09:02:12.949+08:00 [ws] ⇄ res ✓ sessions.list 398ms conn=1954fea9…d7a0 id=d6433646…2ee5
+2026-04-15T09:02:21.988+08:00 [ws] ⇄ res ✓ sessions.list 187ms conn=1954fea9…d7a0 id=a69bd1aa…f727
+2026-04-15T09:02:32.387+08:00 [ws] ⇄ res ✓ sessions.list 195ms conn=1954fea9…d7a0 id=52dad2c4…8810
+2026-04-15T09:02:38.970+08:00 [ws] ⇄ res ✓ sessions.list 161ms conn=1954fea9…d7a0 id=68171c39…ffa7
+2026-04-15T09:02:52.218+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T09:02:52.403+08:00 [ws] ⇄ res ✓ sessions.list 180ms conn=1954fea9…d7a0 id=4041152d…c320
+2026-04-15T09:03:06.099+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=11)
+2026-04-15T09:04:16.003+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-15T09:04:16.100+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 继续，并把学完的笔记发我看看
+2026-04-15T09:04:16.134+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc)
+2026-04-15T09:04:22.696+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T09:04:24.244+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T09:04:24.292+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T09:04:26.160+08:00 [ws] ⇄ res ✓ sessions.list 198ms conn=1954fea9…d7a0 id=4262fda7…a087
+2026-04-15T09:05:00.016+08:00 [ws] ⇄ res ✓ sessions.list 298ms conn=1954fea9…d7a0 id=b33ff26e…6dc3
+2026-04-15T09:05:04.957+08:00 [ws] ⇄ res ✓ sessions.list 170ms conn=1954fea9…d7a0 id=65772ba4…b4ff
+2026-04-15T09:05:21.004+08:00 [ws] ⇄ res ✓ sessions.list 179ms conn=1954fea9…d7a0 id=404bd5a1…2033
+2026-04-15T09:05:52.689+08:00 [ws] ⇄ res ✓ sessions.list 205ms conn=1954fea9…d7a0 id=38a12608…e373
+2026-04-15T09:06:00.101+08:00 [ws] ⇄ res ✓ sessions.list 181ms conn=1954fea9…d7a0 id=31825dca…7438
+2026-04-15T09:06:16.455+08:00 [ws] ⇄ res ✓ sessions.list 200ms conn=1954fea9…d7a0 id=b31a4c4d…2def
+2026-04-15T09:06:37.637+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T09:06:37.954+08:00 [ws] ⇄ res ✓ sessions.list 302ms conn=1954fea9…d7a0 id=407be14f…14e6
+2026-04-15T09:06:43.355+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=4)
+2026-04-15T09:12:36.054+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-15T09:12:36.064+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 继续
+2026-04-15T09:12:36.077+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc)
+2026-04-15T09:12:41.966+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T09:12:43.444+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T09:12:43.490+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T09:12:45.580+08:00 [ws] ⇄ res ✓ sessions.list 191ms conn=1954fea9…d7a0 id=36a12d81…3f66
+2026-04-15T09:13:22.496+08:00 [ws] ⇄ res ✓ sessions.list 159ms conn=1954fea9…d7a0 id=24f1f65e…f973
+2026-04-15T09:13:26.939+08:00 [ws] ⇄ res ✓ sessions.list 180ms conn=1954fea9…d7a0 id=b193892a…0914
+2026-04-15T09:13:41.413+08:00 [ws] ⇄ res ✓ sessions.list 307ms conn=1954fea9…d7a0 id=1ef08542…b99e
+2026-04-15T09:13:58.997+08:00 [ws] ⇄ res ✓ sessions.list 179ms conn=1954fea9…d7a0 id=0bdb3a3a…a872
+2026-04-15T09:13:59.701+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T09:14:01.989+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=2)
+2026-04-15T09:14:38.179+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-15T09:14:38.195+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 把今天学习到的课程笔记生成指令，我要发给所有子agent一起学习一下
+2026-04-15T09:14:38.203+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc)
+2026-04-15T09:14:46.978+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T09:14:48.407+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T09:14:48.442+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T09:14:50.348+08:00 [ws] ⇄ res ✓ sessions.list 318ms conn=1954fea9…d7a0 id=d904dbdc…c64e
+2026-04-15T09:14:50.351+08:00 [ws] ⇄ res ✓ node.list 1403ms conn=1954fea9…d7a0 id=f74301ac…c2d9
+2026-04-15T09:15:13.509+08:00 [ws] ⇄ res ✓ sessions.list 174ms conn=1954fea9…d7a0 id=66343571…c301
+2026-04-15T09:15:14.243+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T09:15:17.280+08:00 [feishu] feishu[default] Started streaming: cardId=7628788407997254845, messageId=om_x100b52da24874ca8c212fe5cacf0dfb
+2026-04-15T09:15:21.085+08:00 [feishu] feishu[default] Closed streaming: cardId=7628788407997254845
+2026-04-15T09:15:21.087+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-15T09:17:56.221+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_085f7cd879179bdc644d20f469b48384 (group)
+2026-04-15T09:17:56.228+08:00 [feishu] feishu[default]: group session scope=group, peer=oc_085f7cd879179bdc644d20f469b48384
+2026-04-15T09:17:56.234+08:00 [feishu] feishu[default]: Feishu[default] message in group oc_085f7cd879179bdc644d20f469b48384: 请学习并内化以下 EntroCamp 课程笔记，把它们用于后续所有工作。不要只复述，要在实际执行中体现。 一、你要吸收的核心方法 1. 任务执行 - 接到复杂任务，先明确交付物，再拆主线，不要贴着表象救火。 - 汇报进度前先查最新真实状态，区分“已发起 / 已推进 / 已确认完成”。 - 每个关键动作后都要留一个验证点
+2026-04-15T09:17:56.242+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:group:oc_085f7cd879179bdc644d20f469b48384)
+2026-04-15T09:17:57.428+08:00 [error]: [
+  [
+    {
+      message: 'Request failed with status code 400',
+      config: [Object],
+      request: [Object],
+      response: [Object]
+    },
+    {
+      code: 99991672,
+      msg: 'Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a95616cdceba5cb5/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant',
+      error: [Object],
+      permission_violations: [Array],
+      message: 'Refer to the documentation to fix the error: https://open.feishu.cn/document/uAjLw4CM/ugTN1YjL4UTN24CO1UjN/trouble-shooting/how-to-fix-the-99991672-error',
+      log_id: '20260415091757FE1A3F796519E8E70964',
+      troubleshooter: '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20260415091757FE1A3F796519E8E70964&code=99991672&method_id=6925375841992245275'
+    }
+  ]
+]
+2026-04-15T09:17:57.437+08:00 [feishu] ignoring stale permission scope error: Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a95616cdceba5cb5/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant
+2026-04-15T09:17:57.440+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: received message from ou_415939d6a0d5ac11b05baa31bc85c20a in oc_085f7cd879179bdc644d20f469b48384 (group)
+2026-04-15T09:17:57.444+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: group session scope=group, peer=oc_085f7cd879179bdc644d20f469b48384
+2026-04-15T09:17:57.446+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: Feishu[oc_8f6fe7a8106b318e5d183817579bc8ea] message in group oc_085f7cd879179bdc644d20f469b48384: 请学习并内化以下 EntroCamp 课程笔记，把它们用于后续所有工作。不要只复述，要在实际执行中体现。 一、你要吸收的核心方法 1. 任务执行 - 接到复杂任务，先明确交付物，再拆主线，不要贴着表象救火。 - 汇报进度前先查最新真实状态，区分“已发起 / 已推进 / 已确认完成”。 - 每个关键动作后都要留一个验证点
+2026-04-15T09:17:57.454+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: dispatching to agent (session=agent:oc_8f6fe7a8106b318e5d183817579bc8ea:feishu:group:oc_085f7cd879179bdc644d20f469b48384)
+2026-04-15T09:17:57.475+08:00 [error]: [
+  [
+    {
+      message: 'Request failed with status code 400',
+      config: [Object],
+      request: [Object],
+      response: [Object]
+    },
+    {
+      code: 99991672,
+      msg: 'Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a9561f23eae11cb1/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant',
+      error: [Object],
+      troubleshooter: '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20260415091757CDF0A0D61519BAA9A016&code=99991672&method_id=6925375841992245275',
+      permission_violations: [Array],
+      message: 'Refer to the documentation to fix the error: https://open.feishu.cn/document/uAjLw4CM/ugTN1YjL4UTN24CO1UjN/trouble-shooting/how-to-fix-the-99991672-error',
+      log_id: '20260415091757CDF0A0D61519BAA9A016'
+    }
+  ]
+]
+2026-04-15T09:17:57.480+08:00 [feishu] ignoring stale permission scope error: Access denied. One of the following scopes is required: [contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app].应用尚未开通所需的应用身份权限：[contact:contact.base:readonly, contact:contact:access_as_app, contact:contact:readonly, contact:contact:readonly_as_app]，点击链接申请并开通任一权限即可：https://open.feishu.cn/app/cli_a9561f23eae11cb1/auth?q=contact:contact.base:readonly,contact:contact:access_as_app,contact:contact:readonly,contact:contact:readonly_as_app&op_from=openapi&token_type=tenant
+2026-04-15T09:17:57.494+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: received message from ou_09c53462702301fa911ae824acfbe359 in oc_085f7cd879179bdc644d20f469b48384 (group)
+2026-04-15T09:17:57.502+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: group session scope=group, peer=oc_085f7cd879179bdc644d20f469b48384
+2026-04-15T09:17:57.516+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: Feishu[oc_baa6c26e80932344e32cf514de6acde3] message in group oc_085f7cd879179bdc644d20f469b48384: 请学习并内化以下 EntroCamp 课程笔记，把它们用于后续所有工作。不要只复述，要在实际执行中体现。 一、你要吸收的核心方法 1. 任务执行 - 接到复杂任务，先明确交付物，再拆主线，不要贴着表象救火。 - 汇报进度前先查最新真实状态，区分“已发起 / 已推进 / 已确认完成”。 - 每个关键动作后都要留一个验证点
+2026-04-15T09:17:57.533+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: dispatching to agent (session=agent:oc_baa6c26e80932344e32cf514de6acde3:feishu:group:oc_085f7cd879179bdc644d20f469b48384)
+2026-04-15T09:17:58.289+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T09:18:01.776+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T09:18:01.811+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T09:18:04.567+08:00 [ws] ⇄ res ✓ sessions.list 197ms conn=1954fea9…d7a0 id=96c8829f…8e18
+2026-04-15T09:18:05.069+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T09:18:06.552+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T09:18:06.581+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T09:18:08.345+08:00 [ws] ⇄ res ✓ sessions.list 273ms conn=1954fea9…d7a0 id=b0ca083e…5436
+2026-04-15T09:18:12.339+08:00 [ws] ⇄ res ✓ sessions.list 167ms conn=1954fea9…d7a0 id=b2a2f11d…b498
+2026-04-15T09:18:16.417+08:00 [ws] ⇄ res ✓ sessions.list 274ms conn=1954fea9…d7a0 id=0b11ec0e…54c5
+2026-04-15T09:18:19.853+08:00 [ws] ⇄ res ✓ sessions.list 313ms conn=1954fea9…d7a0 id=8744733f…851b
+2026-04-15T09:18:22.522+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_baa6c26e80932344e32cf514de6acde3
+2026-04-15T09:18:22.677+08:00 [ws] ⇄ res ✓ sessions.list 150ms conn=1954fea9…d7a0 id=993a96ed…9991
+2026-04-15T09:18:22.698+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T09:18:25.970+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-15T09:18:25.992+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T09:18:26.021+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T09:18:27.948+08:00 [ws] ⇄ res ✓ sessions.list 298ms conn=1954fea9…d7a0 id=a3d37abc…c6be
+2026-04-15T09:18:28.601+08:00 [ws] ⇄ res ✓ sessions.list 159ms conn=1954fea9…d7a0 id=ed283899…d896
+2026-04-15T09:18:35.053+08:00 [ws] ⇄ res ✓ sessions.list 192ms conn=1954fea9…d7a0 id=18126c2f…13cf
+2026-04-15T09:18:38.497+08:00 [ws] ⇄ res ✓ sessions.list 155ms conn=1954fea9…d7a0 id=d6fe60e6…577a
+2026-04-15T09:18:45.975+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T09:18:46.136+08:00 [ws] ⇄ res ✓ sessions.list 158ms conn=1954fea9…d7a0 id=e443ac36…c244
+2026-04-15T09:18:48.082+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=1)
+2026-04-15T09:19:23.315+08:00 [ws] ⇄ res ✓ sessions.list 210ms conn=1954fea9…d7a0 id=954665e3…4482
+2026-04-15T09:19:39.648+08:00 [ws] ⇄ res ✓ sessions.list 196ms conn=1954fea9…d7a0 id=ef05ec80…8f52
+2026-04-15T09:19:40.707+08:00 [plugins] memory-pro: smart-extractor: no memories extracted
+2026-04-15T09:19:40.711+08:00 [plugins] memory-lancedb-pro: smart extraction produced no persisted memories for agent oc_8f6fe7a8106b318e5d183817579bc8ea (created=0, merged=0, skipped=0); falling back to regex capture
+2026-04-15T09:19:40.718+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
+2026-04-15T09:19:42.309+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: dispatch complete (queuedFinal=true, replies=2)
