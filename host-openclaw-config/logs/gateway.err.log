@@ -4670,3 +4670,4 @@ Fix-it keys:
 2026-04-15T09:18:38.301+08:00 [agent/embedded] read tool called without path: toolCallId=call_EWjTzEtSO1xDHMJfFz6cGRGC argsType=object
 2026-04-15T09:18:38.316+08:00 [agent/embedded] read tool called without path: toolCallId=call_FraeQ5aj2TDbwqaPQ7CiNeWQ argsType=object
 2026-04-15T09:18:38.331+08:00 [agent/embedded] read tool called without path: toolCallId=call_NCnvADqburSTRtqJjwyvFML7 argsType=object
+2026-04-15T14:02:45.085+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
