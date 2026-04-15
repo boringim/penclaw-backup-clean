@@ -235870,3 +235870,28 @@ Bind: loopback
 2026-04-15T17:17:54.847+08:00 [ws] ⇄ res ✓ chat.history 550ms conn=6dcae07b…b2b5 id=69e61da1…7ad0
 2026-04-15T17:17:54.866+08:00 [ws] ⇄ res ✓ node.list 580ms conn=6dcae07b…b2b5 id=636f3c64…cda5
 2026-04-15T17:17:54.874+08:00 [ws] ⇄ res ✓ device.pair.list 585ms conn=6dcae07b…b2b5 id=cad3210f…b6ff
+2026-04-15T17:27:31.378+08:00 [feishu] feishu[default]: received message from ou_a52097d99b9a152e035c90554ecb5cdc in oc_76eb0c08af7eef469470b56bf6352dca (p2p)
+2026-04-15T17:27:31.406+08:00 [feishu] feishu[default]: Feishu[default] DM from ou_a52097d99b9a152e035c90554ecb5cdc: 根据HermesAgent官方文档和以下指令，修复一下： 先在 Windows PowerShell 里执行： ```powershell wsl --status wsl --list --verbose wsl --list --online ``` 如果显示没有安装发行版，就执行： ```powershell w
+2026-04-15T17:27:31.476+08:00 [feishu] feishu[default]: dispatching to agent (session=agent:oc_981e24884af3ed7ed6c16c5730c9bd02:feishu:default:direct:ou_a52097d99b9a152e035c90554ecb5cdc)
+2026-04-15T17:27:33.413+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T17:27:38.692+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T17:27:40.134+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T17:27:40.203+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-15T17:27:42.012+08:00 [ws] ⇄ res ✓ sessions.list 196ms conn=6dcae07b…b2b5 id=9c2f7aa8…85fe
+2026-04-15T17:27:50.638+08:00 [ws] ⇄ res ✓ sessions.list 162ms conn=6dcae07b…b2b5 id=26029094…6da5
+2026-04-15T17:28:07.759+08:00 [ws] ⇄ res ✓ sessions.list 173ms conn=6dcae07b…b2b5 id=731bc28c…ec97
+2026-04-15T17:28:19.070+08:00 [ws] ⇄ res ✓ sessions.list 188ms conn=6dcae07b…b2b5 id=6c17c15a…dcba
+2026-04-15T17:28:27.877+08:00 [ws] ⇄ res ✓ sessions.list 176ms conn=6dcae07b…b2b5 id=b8d539b1…0230
+2026-04-15T17:28:31.581+08:00 [ws] ⇄ res ✓ sessions.list 157ms conn=6dcae07b…b2b5 id=1e921704…d953
+2026-04-15T17:28:40.744+08:00 [ws] ⇄ res ✓ sessions.list 173ms conn=6dcae07b…b2b5 id=a735923d…c55b
+2026-04-15T17:28:50.885+08:00 [ws] ⇄ res ✓ sessions.list 164ms conn=6dcae07b…b2b5 id=bf61d464…51ca
+2026-04-15T17:28:58.004+08:00 [ws] ⇄ res ✓ sessions.list 251ms conn=6dcae07b…b2b5 id=77e01764…2de4
+2026-04-15T17:29:01.386+08:00 [ws] ⇄ res ✓ sessions.list 227ms conn=6dcae07b…b2b5 id=c84da899…b03b
+2026-04-15T17:29:37.962+08:00 [ws] ⇄ res ✓ sessions.list 212ms conn=6dcae07b…b2b5 id=4aded11b…4034
+2026-04-15T17:29:42.541+08:00 [ws] ⇄ res ✓ sessions.list 176ms conn=6dcae07b…b2b5 id=c516486b…1b78
+2026-04-15T17:29:58.348+08:00 [ws] ⇄ res ✓ sessions.list 165ms conn=6dcae07b…b2b5 id=351113c0…2263
+2026-04-15T17:30:41.609+08:00 [ws] ⇄ res ✓ sessions.list 228ms conn=6dcae07b…b2b5 id=c39e1f65…214f
+2026-04-15T17:30:56.204+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-15T17:30:56.382+08:00 [ws] ⇄ res ✓ sessions.list 173ms conn=6dcae07b…b2b5 id=a786a620…d997
+2026-04-15T17:31:06.677+08:00 [feishu] feishu[default]: dispatch complete (queuedFinal=true, replies=7)
+2026-04-15T17:31:55.183+08:00 [ws] webchat disconnected code=1006 reason=n/a conn=6dcae07b-2409-44d4-84a1-df175dddb2b5
