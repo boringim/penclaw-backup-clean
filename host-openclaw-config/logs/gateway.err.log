@@ -4740,3 +4740,19 @@ Fix-it keys:
 2026-04-16T23:35:24.413+08:00 [model-fallback/decision] model fallback decision: decision=candidate_succeeded requested=xai/gemini-3-flash-preview candidate=wellapi/gpt-5.4-nano reason=unknown next=none
 2026-04-17T00:00:00.096+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
 2026-04-17T00:00:18.635+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-17.md' raw_params={"path":"memory/2026-04-17.md"}
+2026-04-17T04:00:35.712+08:00 [agent/embedded] read tool called without path: toolCallId=call_S5PGm2UYfxSdHhnyf4dd6JEG argsType=object
+2026-04-17T04:00:35.721+08:00 [agent/embedded] read tool called without path: toolCallId=call_GAWnPEyVoTbNx0RUZMXdYmVu argsType=object
+2026-04-17T04:00:58.560+08:00 [agent/embedded] read tool called without path: toolCallId=call_fI46g7XYm3VfKg0vt7hdVsqt argsType=object
+2026-04-17T04:00:58.569+08:00 [agent/embedded] read tool called without path: toolCallId=call_OGkDHoXcAXdWX8eHxnK5jj7R argsType=object
+2026-04-17T04:00:58.578+08:00 [agent/embedded] read tool called without path: toolCallId=call_dnoCL9wgzVtxS7I3fdeSy6My argsType=object
+2026-04-17T04:00:58.587+08:00 [agent/embedded] read tool called without path: toolCallId=call_RDMRcwubNxZp0KCCd9sgXveF argsType=object
+2026-04-17T04:00:58.597+08:00 [agent/embedded] read tool called without path: toolCallId=call_7xr6KijzJNiDIRVh8WwWOVbX argsType=object
+2026-04-17T04:01:18.472+08:00 [agent/embedded] read tool called without path: toolCallId=call_jJxGkP2Q5xsrtFUZZqjI3LbV argsType=object
+2026-04-17T04:02:19.292+08:00 [agent/embedded] read tool called without path: toolCallId=call_UI9JNyBTQm5BrJaHMDoOi6gJ argsType=object
+2026-04-17T04:02:19.300+08:00 [agent/embedded] read tool called without path: toolCallId=call_oW9HHa5aBsqfMErX30UU7z0M argsType=object
+2026-04-17T04:02:24.050+08:00 [agent/embedded] read tool called without path: toolCallId=call_lyollQcQw6MUBOq0jKwvsLvD argsType=object
+2026-04-17T04:02:24.113+08:00 [agent/embedded] read tool called without path: toolCallId=call_FfwuLArsGiAv0FbSA5QaKnok argsType=object
+2026-04-17T04:02:24.153+08:00 [agent/embedded] read tool called without path: toolCallId=call_WpDfPb8a1QyuihurQYDohH9n argsType=object
+2026-04-17T04:02:24.378+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-16.md' raw_params={"file":"memory/2026-04-16.md"}
+2026-04-17T04:02:24.390+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\LASER\memory\2026-04-17.md' raw_params={"file":"memory/2026-04-17.md"}
+2026-04-17T04:02:36.658+08:00 [agent/embedded] read tool called without path: toolCallId=call_5SNniZ493Rdqkdew0H0RLdzt argsType=object
