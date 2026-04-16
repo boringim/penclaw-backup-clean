@@ -116,7 +116,7 @@
       "name": "Daily_Self_Backup_Midnight",
       "enabled": true,
       "createdAtMs": 1771408491288,
-      "updatedAtMs": 1776327090426,
+      "updatedAtMs": 1776356047249,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -136,10 +136,10 @@
         "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02"
       },
       "state": {
-        "nextRunAtMs": 1776355200000,
-        "lastRunAtMs": 1776326658538,
+        "nextRunAtMs": 1776441600000,
+        "lastRunAtMs": 1776355200018,
         "lastStatus": "ok",
-        "lastDurationMs": 431888,
+        "lastDurationMs": 847231,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "not-delivered",
@@ -498,10 +498,10 @@
       "id": "ed537176-81ee-4771-ba6d-01f5d77c9d07",
       "agentId": "group-oc-981e",
       "name": "EntroCamp_New_Communication_Day3",
-      "enabled": true,
+      "enabled": false,
       "deleteAfterRun": true,
       "createdAtMs": 1776128362990,
-      "updatedAtMs": 1776128362990,
+      "updatedAtMs": 1776353400084,
       "schedule": {
         "kind": "at",
         "at": "2026-04-16T15:15:00.000Z"
@@ -521,38 +521,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1776352500000,
-        "runningAtMs": 1776352500023
-      }
-    },
-    {
-      "id": "14ce4d18-a8dc-4c08-bd36-a94dc50bf644",
-      "agentId": "group-oc-981e",
-      "name": "EntroCamp_New_Memory_Day3",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1776128366574,
-      "updatedAtMs": 1776128366574,
-      "schedule": {
-        "kind": "at",
-        "at": "2026-04-16T15:30:00.000Z"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "执行 EntroCamp 新课一次性任务。目标课程：memory-L3（subject=memory）。要求：1) 严格使用当前课程进度，不要重开考试；2) 使用 exec 调用 PowerShell/API 完成该 lesson 的 start/complete 流程；3) 学完后把笔记保存到 EntroCamp学习笔记；4) 回查 GET /api/v1/study/progress 验证进度；5) 如该课已完成则记录并跳过；6) 这是一次性 cron，成功运行后会自动删除。API key: agent-world-e18c7dc30decb1a88a86b2eeb1be85112cd75ba3d730ac09 Workspace: C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group",
-        "timeoutSeconds": 900,
-        "toolsAllow": [
-          "exec read write"
-        ]
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "last"
-      },
-      "state": {
-        "nextRunAtMs": 1776353400000
+        "lastRunAtMs": 1776352500048,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 900036,
+        "lastError": "cron: job execution timed out",
+        "lastErrorReason": "timeout",
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 1
       }
     },
     {
