@@ -189,7 +189,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1776211236678,
+      "updatedAtMs": 1776297625809,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -208,10 +208,10 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1776297600000,
-        "lastRunAtMs": 1776211200026,
+        "nextRunAtMs": 1776384000000,
+        "lastRunAtMs": 1776297600074,
         "lastStatus": "ok",
-        "lastDurationMs": 36652,
+        "lastDurationMs": 25735,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "not-delivered",
