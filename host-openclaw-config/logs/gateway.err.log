@@ -4691,3 +4691,13 @@ Fix-it keys:
 2026-04-16T00:16:40.088+08:00 [agent/embedded] read tool called without path: toolCallId=call_hl8rDDseWuFX0WbShPyJGeM9 argsType=object
 2026-04-16T00:16:40.136+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-16.md' raw_params={"file":"memory/2026-04-16.md"}
 2026-04-16T00:16:47.321+08:00 [agent/embedded] read tool called without path: toolCallId=call_ntRMwtDzaFDoGEV2LzvV8lEC argsType=object
+2026-04-16T16:04:40.797+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing)
+2026-04-16T16:04:40.823+08:00 [ws] handshake timeout conn=1cd573ef-bbf2-45c8-a608-392e8b19ef7c remote=127.0.0.1
+2026-04-16T16:04:40.842+08:00 [model-pricing] pricing bootstrap failed: TimeoutError: The operation was aborted due to timeout
+2026-04-16T16:04:47.998+08:00 [feishu] feishu[default]: bot info probe timed out after 30000ms; continuing startup
+2026-04-16T16:04:48.072+08:00 [ws] closed before connect conn=1cd573ef-bbf2-45c8-a608-392e8b19ef7c remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 code=1000 reason=n/a
+2026-04-16T16:04:52.656+08:00 [bonjour] restarting advertiser (service stuck in announcing for 11861ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=announcing))
+2026-04-16T16:05:23.384+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-16T16:05:24.442+08:00 [feishu] feishu[oc_8f6fe7a8106b318e5d183817579bc8ea]: bot info probe timed out after 30000ms; continuing startup
+2026-04-16T16:05:24.455+08:00 [feishu] feishu[oc_baa6c26e80932344e32cf514de6acde3]: bot info probe timed out after 30000ms; continuing startup
+2026-04-16T16:05:24.473+08:00 [bonjour] restarting advertiser (service stuck in probing for 14749ms (gateway fqdn=0BIICGDI-QXJ0TH (OpenClaw)._openclaw-gw._tcp.local. host=openclaw.local. port=18789 state=probing))

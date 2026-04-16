@@ -116,7 +116,7 @@
       "name": "Daily_Self_Backup_Midnight",
       "enabled": true,
       "createdAtMs": 1771408491288,
-      "updatedAtMs": 1776183227442,
+      "updatedAtMs": 1776327090426,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -137,9 +137,9 @@
       },
       "state": {
         "nextRunAtMs": 1776355200000,
-        "lastRunAtMs": 1776182400018,
+        "lastRunAtMs": 1776326658538,
         "lastStatus": "ok",
-        "lastDurationMs": 827424,
+        "lastDurationMs": 431888,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "not-delivered",
