@@ -236718,3 +236718,11 @@ $item = Get-Item $backupFile
 2026-04-17T04:03:02.356+08:00 [ws] ⇄ res ✓ sessions.list 227ms conn=6db2dd49…7883 id=dfe398ad…f51f
 2026-04-17T04:03:11.072+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
 2026-04-17T04:03:11.240+08:00 [ws] ⇄ res ✓ sessions.list 164ms conn=6db2dd49…7883 id=6931f67e…8269
+2026-04-17T07:00:00.274+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-17T07:00:04.356+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-17T07:00:08.791+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-17T07:00:08.841+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-17T07:00:11.169+08:00 [ws] ⇄ res ✓ sessions.list 270ms conn=6db2dd49…7883 id=fb9976c1…f4b9
+2026-04-17T07:00:17.127+08:00 [ws] ⇄ res ✓ sessions.list 177ms conn=6db2dd49…7883 id=111bb509…85a0
+2026-04-17T07:00:24.104+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-17T07:00:24.402+08:00 [ws] ⇄ res ✓ sessions.list 293ms conn=6db2dd49…7883 id=c1ccf2bf…42cc
