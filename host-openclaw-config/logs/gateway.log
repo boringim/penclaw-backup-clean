@@ -236373,3 +236373,48 @@ Bind: loopback
 2026-04-16T16:11:21.327+08:00 [ws] ⇄ res ✓ sessions.list 421ms conn=6db2dd49…7883 id=fa267acb…ca45
 2026-04-16T16:11:29.343+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-16T16:11:33.855+08:00 [ws] ⇄ res ✓ sessions.list 237ms conn=6db2dd49…7883 id=a6da6354…91c9
+2026-04-16T16:41:16.674+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 1799650ms conn=9bee8e4a…5104 id=94106b14…9a7e
+2026-04-16T16:41:17.351+08:00 [ws] ⇄ res ✓ agent 226ms runId=exec-approval-followup:821d3d68-8583-418a-bf2f-d85bb58675ea conn=8ed5f245…9f67 id=3ba84b67…4c59
+2026-04-16T16:41:17.682+08:00 [ws] ⇄ res ✓ sessions.list 266ms conn=6db2dd49…7883 id=29611151…4f29
+2026-04-16T16:41:18.567+08:00 [plugins] memory-lancedb-pro: smart extraction enabled (LLM model: openai/gpt-oss-120b, noise bank: ON)
+2026-04-16T16:41:18.569+08:00 [plugins] memory-lancedb-pro@1.1.0-beta.8: plugin registered (db: C:\Users\Administrator\.openclaw\memory\lancedb-pro, model: jina-embeddings-v5-text-small, smartExtraction: ON)
+2026-04-16T16:41:18.572+08:00 [plugins] memory-lancedb-pro: diagnostic build tag loaded (memory-lancedb-pro-diag-20260308-0058)
+2026-04-16T16:41:18.577+08:00 [plugins] session-memory: hook registered for command:new as memory-lancedb-pro-session-memory
+2026-04-16T16:41:18.620+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-16T16:41:18.624+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-16T16:41:18.629+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-16T16:41:18.634+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-16T16:41:18.638+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-16T16:41:18.643+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-16T16:41:42.156+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-16T16:41:47.296+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-16T16:41:47.354+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-16T16:41:50.110+08:00 [ws] ⇄ res ✓ sessions.list 183ms conn=6db2dd49…7883 id=577c4ca2…1d47
+2026-04-16T16:41:59.417+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-16T16:41:59.594+08:00 [ws] ⇄ res ✓ sessions.list 172ms conn=6db2dd49…7883 id=aaf59c19…fb27
+2026-04-16T16:41:59.807+08:00 备份这步没有执行成功。
+
+- 失败原因是审批阶段被网关拦截了：`approval-timeout (obfuscation-detected)`
+- 被拦的是这条命令：`python -c "import base64; ... utf-16le ..."`，因为它把一段 PowerShell 脚本做了 base64 编码，审批系统把这种“混淆后再执行”的形式判成高风险，所以没有放行
+- 这不是 `tar` 或备份逻辑本身报错，而是命令提交方式被拒了，所以当前没有生成可确认的新备份结果
+
+如果你要我继续，我建议改成透明的、可直接审批的明文命令来跑，同样功能但不会再走混淆包装。比如直接执行这种：
+
+```powershell
+$ErrorActionPreference='Stop'
+$backupDir = 'C:\Users\Administrator\openclaw-backups'
+$timestamp = Get-Date -Format 'yyyy-MM-dd_HHmm'
+$backupFile = Join-Path $backupDir ('openclaw-' + $timestamp + '.tar.gz')
+New-Item -ItemType Directory -Force -Path $backupDir | Out-Null
+tar -czf $backupFile --exclude='completions' --exclude='*.log' -C 'C:\Users\Administrator' .openclaw
+$item = Get-Item $backupFile
+[pscustomobject]@{
+  FullName = $item.FullName
+  Length = $item.Length
+  LastWriteTime = $item.LastWriteTime.ToString('o')
+} | ConvertTo-Json -Compress
+```
+
+你如果愿意，我下一步就直接用这种明文版本重新发起备份。
+2026-04-16T16:47:23.361+08:00 [ws] ⇄ res ✓ chat.history 151ms conn=6db2dd49…7883 id=316c9969…15b7
+2026-04-16T16:47:24.020+08:00 [ws] ⇄ res ✓ sessions.list 655ms conn=6db2dd49…7883 id=63e51a41…88fb
