@@ -116,7 +116,7 @@
       "name": "Daily_Self_Backup_Midnight",
       "enabled": true,
       "createdAtMs": 1771408491288,
-      "updatedAtMs": 1776183227442,
+      "updatedAtMs": 1776327090426,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -136,10 +136,10 @@
         "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02"
       },
       "state": {
-        "nextRunAtMs": 1776268800000,
-        "lastRunAtMs": 1776182400018,
+        "nextRunAtMs": 1776355200000,
+        "lastRunAtMs": 1776326658538,
         "lastStatus": "ok",
-        "lastDurationMs": 827424,
+        "lastDurationMs": 431888,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "not-delivered",
@@ -189,7 +189,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1776211236678,
+      "updatedAtMs": 1776297625809,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -208,10 +208,10 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1776297600000,
-        "lastRunAtMs": 1776211200026,
+        "nextRunAtMs": 1776384000000,
+        "lastRunAtMs": 1776297600074,
         "lastStatus": "ok",
-        "lastDurationMs": 36652,
+        "lastDurationMs": 25735,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "not-delivered",
@@ -293,7 +293,7 @@
       "name": "Security_Audit_Monthly",
       "enabled": true,
       "createdAtMs": 1773199983907,
-      "updatedAtMs": 1774980000279,
+      "updatedAtMs": 1776276187057,
       "schedule": {
         "kind": "cron",
         "expr": "0 2 */15 * *"
@@ -309,15 +309,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1776276000000,
-        "lastRunAtMs": 1774980000032,
+        "nextRunAtMs": 1777572000000,
+        "lastRunAtMs": 1776276000037,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 247,
+        "lastDurationMs": 187020,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "lastErrorReason": "auth",
-        "lastError": "FailoverError: No API key found for provider \"2603\". Auth store: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent\\auth-profiles.json (agentDir: C:\\Users\\Administrator\\.openclaw\\agents\\oc_981e24884af3ed7ed6c16c5730c9bd02\\agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+        "consecutiveErrors": 3,
+        "lastError": "Delivering to Feishu requires target <chatId|user:openId|chat:chatId>"
       }
     },
     {
@@ -326,7 +325,7 @@
       "name": "daqian-self-reflection",
       "enabled": true,
       "createdAtMs": 1775479789038,
-      "updatedAtMs": 1776196961107,
+      "updatedAtMs": 1776283338143,
       "schedule": {
         "kind": "cron",
         "expr": "0 4 * * *"
@@ -342,13 +341,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1776283200000,
-        "lastRunAtMs": 1776196800022,
+        "nextRunAtMs": 1776369600000,
+        "lastRunAtMs": 1776283200028,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 161085,
+        "lastDurationMs": 138115,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 9,
+        "consecutiveErrors": 10,
         "lastError": "Delivering to Feishu requires target <chatId|user:openId|chat:chatId>"
       }
     },
@@ -358,7 +357,7 @@
       "name": "laser-self-reflection",
       "enabled": true,
       "createdAtMs": 1775479800224,
-      "updatedAtMs": 1776197048998,
+      "updatedAtMs": 1776283421467,
       "schedule": {
         "kind": "cron",
         "expr": "0 4 * * *"
@@ -374,13 +373,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1776283200000,
-        "lastRunAtMs": 1776196961107,
+        "nextRunAtMs": 1776369600000,
+        "lastRunAtMs": 1776283338143,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 87891,
+        "lastDurationMs": 83324,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 8,
+        "consecutiveErrors": 9,
         "lastError": "Delivering to Feishu requires target <chatId|user:openId|chat:chatId>"
       }
     },
@@ -496,37 +495,6 @@
       }
     },
     {
-      "id": "06e28cb8-5545-4e5c-8bae-be0e8c0b961a",
-      "agentId": "group-oc-981e",
-      "name": "EntroCamp_New_Memory_Day2",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1776128355685,
-      "updatedAtMs": 1776128355685,
-      "schedule": {
-        "kind": "at",
-        "at": "2026-04-15T15:30:00.000Z"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "执行 EntroCamp 新课一次性任务。目标课程：memory-L2（subject=memory）。要求：1) 严格使用当前课程进度，不要重开考试；2) 使用 exec 调用 PowerShell/API 完成该 lesson 的 start/complete 流程；3) 学完后把笔记保存到 EntroCamp学习笔记；4) 回查 GET /api/v1/study/progress 验证进度；5) 如该课已完成则记录并跳过；6) 这是一次性 cron，成功运行后会自动删除。API key: agent-world-e18c7dc30decb1a88a86b2eeb1be85112cd75ba3d730ac09 Workspace: C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group",
-        "timeoutSeconds": 900,
-        "toolsAllow": [
-          "exec read write"
-        ]
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "last"
-      },
-      "state": {
-        "nextRunAtMs": 1776267000000,
-        "runningAtMs": 1776267000180
-      }
-    },
-    {
       "id": "60793d74-37f8-4f1d-be7c-3cc18ba24886",
       "agentId": "group-oc-981e",
       "name": "EntroCamp_New_Execution_Day3",
@@ -553,7 +521,8 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1776351600000
+        "nextRunAtMs": 1776351600000,
+        "runningAtMs": 1776351600018
       }
     },
     {
