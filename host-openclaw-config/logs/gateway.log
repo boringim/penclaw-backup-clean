@@ -236726,3 +236726,24 @@ $item = Get-Item $backupFile
 2026-04-17T07:00:17.127+08:00 [ws] ⇄ res ✓ sessions.list 177ms conn=6db2dd49…7883 id=111bb509…85a0
 2026-04-17T07:00:24.104+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-17T07:00:24.402+08:00 [ws] ⇄ res ✓ sessions.list 293ms conn=6db2dd49…7883 id=c1ccf2bf…42cc
+2026-04-17T07:46:22.526+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-17T08:00:06.831+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-17T08:00:11.484+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-17T08:00:11.626+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-17T08:00:14.778+08:00 [ws] ⇄ res ✓ sessions.list 416ms conn=6db2dd49…7883 id=98e3cbf5…fd8d
+2026-04-17T08:00:21.189+08:00 [ws] ⇄ res ✓ sessions.list 309ms conn=6db2dd49…7883 id=841cb472…1c81
+2026-04-17T08:00:24.758+08:00 [ws] ⇄ res ✓ sessions.list 162ms conn=6db2dd49…7883 id=f59ce8f1…01f1
+2026-04-17T08:00:33.573+08:00 [ws] ⇄ res ✓ sessions.list 162ms conn=6db2dd49…7883 id=e42c6ef2…4c4d
+2026-04-17T08:00:47.405+08:00 [ws] ⇄ res ✓ sessions.list 165ms conn=6db2dd49…7883 id=471ebde6…016e
+2026-04-17T08:00:52.544+08:00 [ws] ⇄ res ✓ sessions.list 183ms conn=6db2dd49…7883 id=88b3ae39…f5c0
+2026-04-17T08:01:03.658+08:00 [ws] ⇄ res ✓ sessions.list 184ms conn=6db2dd49…7883 id=7ccd7bcd…14fb
+2026-04-17T08:01:11.572+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-17T08:01:11.739+08:00 [ws] ⇄ res ✓ sessions.list 164ms conn=6db2dd49…7883 id=45b7ce41…756c
+2026-04-17T08:01:17.880+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-17T08:01:21.124+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-17T08:01:21.154+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-17T08:01:22.725+08:00 [ws] ⇄ res ✓ sessions.list 184ms conn=6db2dd49…7883 id=635db6cb…466e
+2026-04-17T08:01:28.050+08:00 [ws] ⇄ res ✓ sessions.list 174ms conn=6db2dd49…7883 id=a5200a70…1e02
+2026-04-17T08:01:33.762+08:00 [ws] ⇄ res ✓ sessions.list 222ms conn=6db2dd49…7883 id=c54fb768…17da
+2026-04-17T08:01:39.384+08:00 [plugins] memory-lancedb-pro: regex fallback found 1 capturable text(s) for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-17T08:01:39.568+08:00 [ws] ⇄ res ✓ sessions.list 174ms conn=6db2dd49…7883 id=ac1c8700…4a54

@@ -4765,3 +4765,14 @@ Fix-it keys:
 2026-04-17T07:00:16.896+08:00 [agent/embedded] read tool called without path: toolCallId=call_GzOBFn8pJVfK2A7sUxCzV0y8 argsType=object
 2026-04-17T07:00:16.925+08:00 [agent/embedded] read tool called without path: toolCallId=call_mrlVODv6MxwzncueHz99ohbW argsType=object
 2026-04-17T07:00:17.131+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-17.md' raw_params={"file":"memory/2026-04-17.md"}
+2026-04-17T08:00:00.104+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-17T08:00:21.196+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-17.md' raw_params={"path":"memory/2026-04-17.md"}
+2026-04-17T08:01:14.344+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-17T08:01:27.694+08:00 [agent/embedded] read tool called without path: toolCallId=call_6GZWjBAONVOkzRqm4ZkKeevq argsType=object
+2026-04-17T08:01:27.716+08:00 [agent/embedded] read tool called without path: toolCallId=call_oAjwQMywQwX0KNMRJtgdfbEO argsType=object
+2026-04-17T08:01:27.736+08:00 [agent/embedded] read tool called without path: toolCallId=call_4fEtlQJCjlihoao9En6GRSZM argsType=object
+2026-04-17T08:01:27.767+08:00 [agent/embedded] read tool called without path: toolCallId=call_ESrhaOP984UHLT7JKp59vDH8 argsType=object
+2026-04-17T08:01:27.789+08:00 [agent/embedded] read tool called without path: toolCallId=call_I9sMztHL8tYyhfk5S2nAxmab argsType=object
+2026-04-17T08:01:27.816+08:00 [agent/embedded] read tool called without path: toolCallId=call_l8hHXt1Wa0rIC30407poLSO8 argsType=object
+2026-04-17T08:01:27.845+08:00 [agent/embedded] read tool called without path: toolCallId=call_hMtbYZBdl51Sal1PopRWPc0P argsType=object
+2026-04-17T08:01:28.053+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-17.md' raw_params={"file":"memory/2026-04-17.md"}
