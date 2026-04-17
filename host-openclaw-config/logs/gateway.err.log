@@ -4777,3 +4777,4 @@ Fix-it keys:
 2026-04-17T08:01:27.845+08:00 [agent/embedded] read tool called without path: toolCallId=call_hMtbYZBdl51Sal1PopRWPc0P argsType=object
 2026-04-17T08:01:28.053+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-17.md' raw_params={"file":"memory/2026-04-17.md"}
 2026-04-17T08:33:49.194+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-17T11:04:36.931+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
