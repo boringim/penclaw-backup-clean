@@ -236750,3 +236750,36 @@ $item = Get-Item $backupFile
 2026-04-17T15:54:11.875+08:00 [info]: [ '[ws]', 'reconnect' ]
 2026-04-17T16:04:19.368+08:00 [gateway] update available (latest): v2026.4.15 (current v2026.4.2). Run: openclaw update
 2026-04-17T16:06:05.175+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-17T21:09:27.314+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-17T21:09:28.677+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-17T21:09:37.464+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-04-17T21:09:37.479+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-04-17T21:09:38.667+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-17T21:09:45.648+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-04-17T21:09:45.653+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-04-17T21:09:58.199+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-04-17T21:09:58.244+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-04-17T21:11:12.531+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-04-17T21:11:12.542+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-04-17T21:11:20.679+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-04-17T21:11:20.686+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-04-17T21:11:33.306+08:00 [error]: [
+  '[ws]',
+  'Client network socket disconnected before secure TLS connection was established'
+]
+2026-04-17T21:11:33.310+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
