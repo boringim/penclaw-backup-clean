@@ -4778,3 +4778,19 @@ Fix-it keys:
 2026-04-17T08:01:28.053+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-17.md' raw_params={"file":"memory/2026-04-17.md"}
 2026-04-17T08:33:49.194+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
 2026-04-17T11:04:36.931+08:00 [warn]: [ 'no im.chat.access_event.bot_p2p_chat_entered_v1 handle' ]
+2026-04-17T23:30:08.904+08:00 Rerank API timed out (5s), falling back to cosine
+2026-04-18T00:00:00.090+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-18T00:00:14.366+08:00 [agent/embedded] read tool called without path: toolCallId=call_9U3HmLpFJTZ2R6ebBmM8BgvL argsType=object
+2026-04-18T00:00:14.392+08:00 [agent/embedded] read tool called without path: toolCallId=call_oYIZGcAAaUXqAwVK9ZAKZ5j3 argsType=object
+2026-04-18T00:00:14.416+08:00 [agent/embedded] read tool called without path: toolCallId=call_yleSlnwKpM1tkjzhL3pOKzIE argsType=object
+2026-04-18T00:00:14.438+08:00 [agent/embedded] read tool called without path: toolCallId=call_e3xwjT96vKz27BJZ1In4E12a argsType=object
+2026-04-18T00:00:14.468+08:00 [agent/embedded] read tool called without path: toolCallId=call_WQrSAytgqx8c387LYQzytljH argsType=object
+2026-04-18T00:00:14.495+08:00 [agent/embedded] read tool called without path: toolCallId=call_yKiWpwHixa9AgdZ9dQtODUYW argsType=object
+2026-04-18T00:00:14.523+08:00 [agent/embedded] read tool called without path: toolCallId=call_lssWxyDMWksJ0IKxD4dCAWky argsType=object
+2026-04-18T00:00:14.861+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-18.md' raw_params={"file":"memory/2026-04-18.md"}
+2026-04-18T00:00:41.240+08:00 [agent/embedded] read tool called without path: toolCallId=call_vPRyAZH5ndT6ntXzKcSUFJX9 argsType=object
+2026-04-18T00:15:30.157+08:00 [agent/embedded] embedded run failover decision: runId=43134ed3-37b0-45fe-bdfd-d054be4afaac stage=assistant decision=fallback_model reason=timeout provider=XAI/gemini-3-flash-preview profile=-
+2026-04-18T00:15:30.160+08:00 [diagnostic] lane task error: lane=nested durationMs=929904 error="FailoverError: LLM request timed out."
+2026-04-18T00:15:30.163+08:00 [diagnostic] lane task error: lane=session:agent:oc_981e24884af3ed7ed6c16c5730c9bd02:cron:7ba0d0d4-9451-4427-83a9-6e2f135300f6 durationMs=929912 error="FailoverError: LLM request timed out."
+2026-04-18T00:15:30.178+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=xai/gemini-3-flash-preview candidate=xai/gemini-3-flash-preview reason=unknown next=wellapi/gpt-5.4-nano
+2026-04-18T00:15:30.184+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=xai/gemini-3-flash-preview candidate=wellapi/gpt-5.4-nano reason=timeout next=none

@@ -236783,3 +236783,38 @@ $item = Get-Item $backupFile
   'Client network socket disconnected before secure TLS connection was established'
 ]
 2026-04-17T21:11:33.310+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-04-17T23:30:11.550+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-17T23:30:15.845+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-17T23:30:15.903+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-17T23:30:17.964+08:00 [ws] ⇄ res ✓ sessions.list 333ms conn=6db2dd49…7883 id=1b829d1f…166f
+2026-04-17T23:30:21.308+08:00 [ws] ⇄ res ✓ sessions.list 196ms conn=6db2dd49…7883 id=413340aa…b023
+2026-04-17T23:30:25.217+08:00 [ws] ⇄ res ✓ sessions.list 162ms conn=6db2dd49…7883 id=7836a2ce…3bf5
+2026-04-17T23:30:30.662+08:00 [ws] ⇄ res ✓ sessions.list 174ms conn=6db2dd49…7883 id=5e3e8a2f…1dee
+2026-04-17T23:30:36.952+08:00 [ws] ⇄ res ✓ sessions.list 177ms conn=6db2dd49…7883 id=e07855da…1efb
+2026-04-17T23:30:49.604+08:00 [ws] ⇄ res ✓ sessions.list 226ms conn=6db2dd49…7883 id=8d48d8e8…1534
+2026-04-17T23:30:57.065+08:00 [ws] ⇄ res ✓ sessions.list 169ms conn=6db2dd49…7883 id=d166223c…be9b
+2026-04-17T23:31:12.907+08:00 [ws] ⇄ res ✓ sessions.list 326ms conn=6db2dd49…7883 id=8c392bc4…c3b1
+2026-04-17T23:31:20.216+08:00 [ws] ⇄ res ✓ sessions.list 511ms conn=6db2dd49…7883 id=665e7dba…86f7
+2026-04-17T23:31:31.879+08:00 [ws] ⇄ res ✓ sessions.list 201ms conn=6db2dd49…7883 id=80d74f9c…f3ec
+2026-04-17T23:31:37.157+08:00 [ws] ⇄ res ✓ sessions.list 194ms conn=6db2dd49…7883 id=0203fa86…8073
+2026-04-17T23:31:58.869+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-17T23:31:59.076+08:00 [ws] ⇄ res ✓ sessions.list 197ms conn=6db2dd49…7883 id=2e2071f7…c199
+2026-04-18T00:00:04.081+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-18T00:00:07.497+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-18T00:00:07.670+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-18T00:00:09.365+08:00 [ws] ⇄ res ✓ sessions.list 176ms conn=6db2dd49…7883 id=512ae4aa…09ed
+2026-04-18T00:00:14.855+08:00 [ws] ⇄ res ✓ sessions.list 306ms conn=6db2dd49…7883 id=2958d9cd…2096
+2026-04-18T00:00:18.728+08:00 [ws] ⇄ res ✓ sessions.list 195ms conn=6db2dd49…7883 id=9266d6f2…0452
+2026-04-18T00:00:31.764+08:00 [ws] ⇄ res ✓ sessions.list 225ms conn=6db2dd49…7883 id=944c0282…617a
+2026-04-18T00:00:41.612+08:00 [ws] ⇄ res ✓ sessions.list 296ms conn=6db2dd49…7883 id=8f44fc5d…f987
+2026-04-18T00:00:49.688+08:00 [ws] ⇄ res ✓ sessions.list 267ms conn=6db2dd49…7883 id=2dbc972f…d57c
+2026-04-18T00:00:52.941+08:00 [ws] ⇄ res ✓ sessions.list 204ms conn=6db2dd49…7883 id=f5bc6615…7fac
+2026-04-18T00:01:04.416+08:00 [ws] ⇄ res ✓ sessions.list 304ms conn=6db2dd49…7883 id=e19f109a…601e
+2026-04-18T00:01:07.521+08:00 [ws] ⇄ res ✓ sessions.list 222ms conn=6db2dd49…7883 id=3c95723e…a85a
+2026-04-18T00:01:14.430+08:00 [ws] ⇄ res ✓ sessions.list 156ms conn=6db2dd49…7883 id=9d54947f…db15
+2026-04-18T00:03:18.609+08:00 [ws] ⇄ res ✓ sessions.list 208ms conn=6db2dd49…7883 id=356df49f…05e6
+2026-04-18T00:05:21.946+08:00 [ws] ⇄ res ✓ sessions.list 269ms conn=6db2dd49…7883 id=9956c04b…64b1
+2026-04-18T00:07:26.629+08:00 [ws] ⇄ res ✓ sessions.list 427ms conn=6db2dd49…7883 id=3a5b8daf…e206
+2026-04-18T00:09:30.179+08:00 [ws] ⇄ res ✓ sessions.list 197ms conn=6db2dd49…7883 id=8d712640…83b0
+2026-04-18T00:11:36.589+08:00 [ws] ⇄ res ✓ sessions.list 286ms conn=6db2dd49…7883 id=da535730…d36b
+2026-04-18T00:13:40.130+08:00 [ws] ⇄ res ✓ sessions.list 359ms conn=6db2dd49…7883 id=7efa5012…64d1

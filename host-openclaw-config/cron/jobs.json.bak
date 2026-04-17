@@ -8,7 +8,7 @@
       "name": "Email_Cleanup_Weekly",
       "enabled": true,
       "createdAtMs": 1771345366707,
-      "updatedAtMs": 1775775697117,
+      "updatedAtMs": 1776380425976,
       "schedule": {
         "expr": "0 7 * * 5",
         "kind": "cron",
@@ -27,10 +27,10 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1776380400000,
-        "lastRunAtMs": 1775775600024,
+        "nextRunAtMs": 1776985200000,
+        "lastRunAtMs": 1776380400013,
         "lastStatus": "ok",
-        "lastDurationMs": 97093,
+        "lastDurationMs": 25963,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "delivered",
@@ -44,7 +44,7 @@
       "name": "Email_Label_Management_Weekly",
       "enabled": true,
       "createdAtMs": 1771345366763,
-      "updatedAtMs": 1775779246164,
+      "updatedAtMs": 1776384074306,
       "schedule": {
         "expr": "0 8 * * 5",
         "tz": "Asia/Shanghai",
@@ -63,10 +63,10 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1776384000000,
-        "lastRunAtMs": 1775779200058,
+        "nextRunAtMs": 1776988800000,
+        "lastRunAtMs": 1776384000030,
         "lastStatus": "ok",
-        "lastDurationMs": 46106,
+        "lastDurationMs": 74276,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "delivered",
@@ -116,7 +116,7 @@
       "name": "Daily_Self_Backup_Midnight",
       "enabled": true,
       "createdAtMs": 1771408491288,
-      "updatedAtMs": 1776327090426,
+      "updatedAtMs": 1776356047249,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -136,10 +136,10 @@
         "to": "chat:oc_981e24884af3ed7ed6c16c5730c9bd02"
       },
       "state": {
-        "nextRunAtMs": 1776355200000,
-        "lastRunAtMs": 1776326658538,
+        "nextRunAtMs": 1776441600000,
+        "lastRunAtMs": 1776355200018,
         "lastStatus": "ok",
-        "lastDurationMs": 431888,
+        "lastDurationMs": 847231,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "not-delivered",
@@ -189,7 +189,7 @@
       "name": "Daily_Memory_Create",
       "enabled": true,
       "createdAtMs": 1771478726019,
-      "updatedAtMs": 1776297625809,
+      "updatedAtMs": 1776384099809,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -208,10 +208,10 @@
         "channel": "feishu"
       },
       "state": {
-        "nextRunAtMs": 1776384000000,
-        "lastRunAtMs": 1776297600074,
+        "nextRunAtMs": 1776470400000,
+        "lastRunAtMs": 1776384074306,
         "lastStatus": "ok",
-        "lastDurationMs": 25735,
+        "lastDurationMs": 25503,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "not-delivered",
@@ -325,7 +325,7 @@
       "name": "daqian-self-reflection",
       "enabled": true,
       "createdAtMs": 1775479789038,
-      "updatedAtMs": 1776283338143,
+      "updatedAtMs": 1776369708599,
       "schedule": {
         "kind": "cron",
         "expr": "0 4 * * *"
@@ -341,13 +341,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1776369600000,
-        "lastRunAtMs": 1776283200028,
+        "nextRunAtMs": 1776456000000,
+        "lastRunAtMs": 1776369600036,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 138115,
+        "lastDurationMs": 108563,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 10,
+        "consecutiveErrors": 11,
         "lastError": "Delivering to Feishu requires target <chatId|user:openId|chat:chatId>"
       }
     },
@@ -357,7 +357,7 @@
       "name": "laser-self-reflection",
       "enabled": true,
       "createdAtMs": 1775479800224,
-      "updatedAtMs": 1776283421467,
+      "updatedAtMs": 1776369791303,
       "schedule": {
         "kind": "cron",
         "expr": "0 4 * * *"
@@ -373,13 +373,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1776369600000,
-        "lastRunAtMs": 1776283338143,
+        "nextRunAtMs": 1776456000000,
+        "lastRunAtMs": 1776369708599,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 83324,
+        "lastDurationMs": 82704,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 9,
+        "consecutiveErrors": 10,
         "lastError": "Delivering to Feishu requires target <chatId|user:openId|chat:chatId>"
       }
     },
@@ -532,37 +532,6 @@
       }
     },
     {
-      "id": "14ce4d18-a8dc-4c08-bd36-a94dc50bf644",
-      "agentId": "group-oc-981e",
-      "name": "EntroCamp_New_Memory_Day3",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1776128366574,
-      "updatedAtMs": 1776128366574,
-      "schedule": {
-        "kind": "at",
-        "at": "2026-04-16T15:30:00.000Z"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "执行 EntroCamp 新课一次性任务。目标课程：memory-L3（subject=memory）。要求：1) 严格使用当前课程进度，不要重开考试；2) 使用 exec 调用 PowerShell/API 完成该 lesson 的 start/complete 流程；3) 学完后把笔记保存到 EntroCamp学习笔记；4) 回查 GET /api/v1/study/progress 验证进度；5) 如该课已完成则记录并跳过；6) 这是一次性 cron，成功运行后会自动删除。API key: agent-world-e18c7dc30decb1a88a86b2eeb1be85112cd75ba3d730ac09 Workspace: C:\\Users\\Administrator\\.openclaw\\workspaces\\oc-981e-feishu-group",
-        "timeoutSeconds": 900,
-        "toolsAllow": [
-          "exec read write"
-        ]
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "last"
-      },
-      "state": {
-        "nextRunAtMs": 1776353400000,
-        "runningAtMs": 1776353402726
-      }
-    },
-    {
       "id": "b99f2aef-aa3c-45df-a3b2-522923c82cc3",
       "agentId": "group-oc-981e",
       "name": "EntroCamp_New_Memory_Day4",
@@ -589,7 +558,8 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1776439800000
+        "nextRunAtMs": 1776439800000,
+        "runningAtMs": 1776439800015
       }
     }
   ]
