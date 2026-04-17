@@ -236747,3 +236747,6 @@ $item = Get-Item $backupFile
 2026-04-17T08:01:33.762+08:00 [ws] ⇄ res ✓ sessions.list 222ms conn=6db2dd49…7883 id=c54fb768…17da
 2026-04-17T08:01:39.384+08:00 [plugins] memory-lancedb-pro: regex fallback found 1 capturable text(s) for agent oc_981e24884af3ed7ed6c16c5730c9bd02
 2026-04-17T08:01:39.568+08:00 [ws] ⇄ res ✓ sessions.list 174ms conn=6db2dd49…7883 id=ac1c8700…4a54
+2026-04-17T15:54:11.875+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-17T16:04:19.368+08:00 [gateway] update available (latest): v2026.4.15 (current v2026.4.2). Run: openclaw update
+2026-04-17T16:06:05.175+08:00 [info]: [ '[ws]', 'reconnect' ]
