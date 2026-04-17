@@ -236858,3 +236858,6 @@ $item = Get-Item $backupFile
 2026-04-18T04:03:55.865+08:00 [ws] ⇄ res ✓ sessions.list 197ms conn=6db2dd49…7883 id=f8f6fec4…05f9
 2026-04-18T04:04:06.136+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_8f6fe7a8106b318e5d183817579bc8ea
 2026-04-18T04:04:06.368+08:00 [ws] ⇄ res ✓ sessions.list 228ms conn=6db2dd49…7883 id=d1d1b65d…9e16
+2026-04-18T04:47:00.060+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-18T05:15:03.588+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-18T05:17:17.447+08:00 [info]: [ '[ws]', 'reconnect' ]
