@@ -236876,3 +236876,21 @@ $item = Get-Item $backupFile
 2026-04-18T13:36:25.218+08:00 [info]: [ '[ws]', 'reconnect' ]
 2026-04-18T13:56:09.515+08:00 [info]: [ '[ws]', 'reconnect' ]
 2026-04-18T21:29:21.928+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-19T00:00:06.274+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-19T00:00:10.751+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-19T00:00:10.814+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-19T00:00:13.404+08:00 [ws] ⇄ res ✓ sessions.list 520ms conn=6db2dd49…7883 id=8517bb6f…b827
+2026-04-19T00:00:20.672+08:00 [ws] ⇄ res ✓ sessions.list 175ms conn=6db2dd49…7883 id=718356e1…e535
+2026-04-19T00:00:23.213+08:00 [ws] ⇄ res ✓ sessions.list 178ms conn=6db2dd49…7883 id=18735adb…5601
+2026-04-19T00:00:32.820+08:00 [ws] ⇄ res ✓ sessions.list 172ms conn=6db2dd49…7883 id=c968318f…ba58
+2026-04-19T00:00:44.568+08:00 [ws] ⇄ res ✓ sessions.list 265ms conn=6db2dd49…7883 id=0effb1c2…c467
+2026-04-19T00:00:48.513+08:00 [ws] ⇄ res ✓ sessions.list 162ms conn=6db2dd49…7883 id=ecdabf69…c807
+2026-04-19T00:00:59.689+08:00 [ws] ⇄ res ✓ sessions.list 195ms conn=6db2dd49…7883 id=8c272b1a…17f2
+2026-04-19T00:01:05.355+08:00 [ws] ⇄ res ✓ sessions.list 351ms conn=6db2dd49…7883 id=ffaf0210…edfc
+2026-04-19T00:01:10.289+08:00 [ws] ⇄ res ✓ sessions.list 224ms conn=6db2dd49…7883 id=5a8b9803…7331
+2026-04-19T00:03:14.303+08:00 [ws] ⇄ res ✓ sessions.list 187ms conn=6db2dd49…7883 id=747c0856…822a
+2026-04-19T00:05:18.734+08:00 [ws] ⇄ res ✓ sessions.list 229ms conn=6db2dd49…7883 id=13a741f1…cd22
+2026-04-19T00:06:01.143+08:00 [ws] ⇄ res ✓ sessions.list 188ms conn=6db2dd49…7883 id=d31ab2f4…d7ae
+2026-04-19T00:06:06.071+08:00 [ws] ⇄ res ✓ sessions.list 221ms conn=6db2dd49…7883 id=68d1edf4…5a71
+2026-04-19T00:06:34.810+08:00 [plugins] memory-lancedb-pro: regex fallback found 0 capturable texts for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-19T00:06:35.000+08:00 [ws] ⇄ res ✓ sessions.list 180ms conn=6db2dd49…7883 id=53a1b457…1af3
