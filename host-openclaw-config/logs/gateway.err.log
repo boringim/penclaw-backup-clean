@@ -4832,3 +4832,15 @@ Current file contents:
 2026-04-19T00:06:37.248+08:00 [sessions/store] atomic write failed after 5 attempts: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\sessions.json
 2026-04-19T00:11:38.696+08:00 [sessions/store] atomic write failed after 5 attempts: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\sessions.json
 2026-04-19T00:16:40.861+08:00 [sessions/store] atomic write failed after 5 attempts: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\sessions.json
+2026-04-19T02:00:03.041+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-19T02:00:19.098+08:00 [agent/embedded] read tool called without path: toolCallId=call_bpa3YDLJ6mCjnRfyPdWA1jgI argsType=object
+2026-04-19T02:00:19.124+08:00 [agent/embedded] read tool called without path: toolCallId=call_w6mUufplb0oZUSdiHvCizQ1r argsType=object
+2026-04-19T02:00:19.153+08:00 [agent/embedded] read tool called without path: toolCallId=call_g6rTx5Wpc6p5gBgskbJEKXXU argsType=object
+2026-04-19T02:00:19.177+08:00 [agent/embedded] read tool called without path: toolCallId=call_IXoMAQRYJ2Qa8ZlbHc2phtpE argsType=object
+2026-04-19T02:00:19.201+08:00 [agent/embedded] read tool called without path: toolCallId=call_3CcTw3xCKSdHnAArH6YZNG5Y argsType=object
+2026-04-19T02:00:19.225+08:00 [agent/embedded] read tool called without path: toolCallId=call_ExKVYo7e2Nx7t7IlUbpmNdsk argsType=object
+2026-04-19T02:00:19.253+08:00 [agent/embedded] read tool called without path: toolCallId=call_JfIMKh3XCOfdiSsdaYgwMx0c argsType=object
+2026-04-19T02:00:19.523+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-19.md' raw_params={"file":"memory/2026-04-19.md"}
+2026-04-19T02:00:27.911+08:00 [agent/embedded] read tool called without path: toolCallId=call_IU8pMhQzM4JxjfMIaXDnSJrg argsType=object
+2026-04-19T02:05:12.996+08:00 [sessions/store] atomic write failed after 5 attempts: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\sessions.json
+2026-04-19T02:05:13.640+08:00 [sessions/store] atomic write failed after 5 attempts: C:\Users\Administrator\.openclaw\agents\oc_981e24884af3ed7ed6c16c5730c9bd02\sessions\sessions.json
