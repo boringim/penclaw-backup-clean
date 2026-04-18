@@ -236861,3 +236861,12 @@ $item = Get-Item $backupFile
 2026-04-18T04:47:00.060+08:00 [info]: [ '[ws]', 'reconnect' ]
 2026-04-18T05:15:03.588+08:00 [info]: [ '[ws]', 'reconnect' ]
 2026-04-18T05:17:17.447+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-18T08:00:00.388+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-18T08:00:08.365+08:00 [plugins] memory-lancedb-pro: injecting 3 memories into context for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-18T08:00:13.948+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-18T08:00:14.008+08:00 [plugins] hook runner initialized with 1 registered hooks
+2026-04-18T08:00:16.922+08:00 [ws] ⇄ res ✓ sessions.list 577ms conn=6db2dd49…7883 id=c7f6d1ce…bdfd
+2026-04-18T08:00:22.299+08:00 [ws] ⇄ res ✓ sessions.list 180ms conn=6db2dd49…7883 id=52772271…b09a
+2026-04-18T08:00:26.788+08:00 [ws] ⇄ res ✓ sessions.list 171ms conn=6db2dd49…7883 id=50a13e42…813e
+2026-04-18T08:00:32.640+08:00 [plugins] memory-lancedb-pro: regex fallback found 1 capturable text(s) for agent oc_981e24884af3ed7ed6c16c5730c9bd02
+2026-04-18T08:00:32.808+08:00 [ws] ⇄ res ✓ sessions.list 162ms conn=6db2dd49…7883 id=47939005…3a3c

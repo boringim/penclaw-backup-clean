@@ -4814,3 +4814,12 @@ Current file contents:
 2026-04-18T04:03:12.505+08:00 [agent/embedded] read tool called without path: toolCallId=call_AKKaeMS1f21RT68VJkHenLgR argsType=object
 2026-04-18T04:03:18.475+08:00 [agent/embedded] read tool called without path: toolCallId=call_nf28uHYnepY9Bpk6UiSGcYor argsType=object
 2026-04-18T04:03:18.713+08:00 [tools] read failed: Offset 201 is beyond end of file (21 lines total) raw_params={"file":"C:\\Users\\Administrator\\.openclaw\\agents\\oc_8f6fe7a8106b318e5d183817579bc8ea\\sessions\\0f31355a-5dc6-4c67-a783-8ed1bcd2404d.jsonl","offset":201,"limit":200}
+2026-04-18T08:00:00.117+08:00 [cron] payload.model 'siliconflow/Qwen/Qwen3-30B-A3B-Instruct-2507' not allowed, falling back to agent defaults
+2026-04-18T08:00:21.938+08:00 [agent/embedded] read tool called without path: toolCallId=call_SUkmL28Q8B8NXWVe0Mqm5dap argsType=object
+2026-04-18T08:00:21.962+08:00 [agent/embedded] read tool called without path: toolCallId=call_2UU28MLwgPOkXHRbMtvBouCz argsType=object
+2026-04-18T08:00:21.983+08:00 [agent/embedded] read tool called without path: toolCallId=call_gTHZ4P9IW13PAGzEQhRozkPp argsType=object
+2026-04-18T08:00:22.005+08:00 [agent/embedded] read tool called without path: toolCallId=call_50nUs3NVQZxqN27rx3iLZAOO argsType=object
+2026-04-18T08:00:22.034+08:00 [agent/embedded] read tool called without path: toolCallId=call_mn6QkKlBSAJ0AponP5JhbSgP argsType=object
+2026-04-18T08:00:22.064+08:00 [agent/embedded] read tool called without path: toolCallId=call_NczH0Fp0LtrMfzXthpDKDRZ1 argsType=object
+2026-04-18T08:00:22.094+08:00 [agent/embedded] read tool called without path: toolCallId=call_XdD1yODfLzDfHz0vLAYnqeZR argsType=object
+2026-04-18T08:00:22.304+08:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\Administrator\.openclaw\workspaces\oc-981e-feishu-group\memory\2026-04-18.md' raw_params={"file":"memory/2026-04-18.md"}
